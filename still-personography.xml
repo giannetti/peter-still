@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listPerson xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <person xml:id="charity_still">
+        <persName>Still, Cidney (Charity)</persName>
+        <state type="relationship">
+            <label>relationship</label>
+            <desc>mother of Peter Still</desc>
+        </state>
+    </person>
+    <person xml:id="levin_still_sr">
+        <persName>Still, Levin</persName>
+        <state type="relationship">
+            <label>relationship</label>
+            <desc>father of Peter Still</desc>
+        </state>
+    </person>
+    <person xml:id="levin_still_jr">
+        <persName>Still, Levin</persName>
+        <birth when="1799-02-26"/>
+        <death when="1831"/>
+        <state type="relationship">
+            <label>relationship</label>
+            <desc>Peter's older brother</desc>
+        </state>
+    </person>
+    <person xml:id="peter_still">
+        <persName>Still, Peter</persName>
+        <birth when="1801-02-22">
+            <placeName>Saunders Griffin plantation [?], Eastern Shore of Maryland</placeName>
+        </birth>
+    </person>
+    <person xml:id="kitty_still">
+        <persName>Still, Kitturah</persName>
+        <birth when="1805-01-20"/>
+    </person>
+    <person xml:id="samuel_still">
+        <persName>Still, Samuel</persName>
+        <birth when="1807-02-26"/>
+    </person>
+    <person xml:id="mary_still">
+        <persName>Still, Mary</persName>
+        <birth when="1808-08-31"/>
+    </person>
+    <person xml:id="hannah_still">
+        <persName>Still, Hannah</persName>
+        <birth when="1810-07-31"/>
+    </person>
+    <person xml:id="john_still">
+        <persName>Still, John P.</persName>
+        <birth when="1815-01-08"/>
+    </person>
+    <person xml:id="james_still">
+        <persName>Still, James</persName>
+        <birth when="1812-04-09"/>
+    </person>
+    <person xml:id="mahala_still">
+        <persName>Still, Mahala</persName>
+        <birth when="1803-12-30"/>
+    </person>
+    <person xml:id="charles_still">
+        <persName>Still, Charles</persName>
+        <birth when="1817-03-01"/>
+    </person>
+    <person xml:id="joseph_still">
+        <persName>Still, Joseph</persName>
+        <birth when="1819-11-24"/>
+    </person>
+    <person xml:id="nancy_still">
+        <persName>Still, Nancy</persName>
+    </person>
+    <person xml:id="william_still">
+        <persName>Still, William</persName>
+        <birth when="1821-10-07" />
+        <death when="1902-07-14" />   
+    </person>
+    <person xml:id="letitia_george">
+        <persName>Still, Letitia George</persName> 
+        <birth when="1821"/>
+        <death when="1906"/>
+        <state type="relationship">
+            <desc>Wife of William Still</desc>
+        </state>
+    </person> 
+    <person xml:id="caroline_still"> 
+        <persName>Still, Caroline Virginia Matilda</persName> 
+        <birth when="1848"/> 
+        <death when="1919"/> 
+        <state type="relationship">
+            <label>relationship</label>
+            <desc>daughter of Letitia and William Still</desc>
+        </state>
+    </person>
+    <person xml:id="vina_still">
+        <persName>Still, Lavinia</persName>
+        <state type="relationship">
+            <desc>wife of Peter Still</desc>
+        </state>
+    </person>
+    <person xml:id="mckiernan_bernard">
+        <persName>McKiernan, Bernard</persName>
+        <residence>
+            <placeName>South Florence, AL</placeName>
+        </residence>
+    </person>
+    <person xml:id="hargraves">
+        <persName>Hargraves, Dr.</persName>
+    </person>
+    <person xml:id="weakley">
+        <persName>Weakley, Judge</persName>
+    </person>
+    <person xml:id="pickard_d_l">
+        <persName>Pickard, D[arwin]. L.</persName>
+        <state type="relationship">
+            <label>marital status</label>
+            <desc>husband of Kate E. R. Pickard</desc>
+        </state>
+    </person>
+    <person xml:id="pickard_kate">
+        <persName>Pickard, Kate E. Reynolds</persName>
+        <birth when="1824-08-13"/>
+        <death when="1864-09-24"/>
+        <state type="relationship">
+            <label>marital status</label>
+            <desc>married to D. L. Pickard</desc>
+        </state>
+        <occupation evidence="The Boston Daily Atlas (Boston, Massachusetts), issue of 06-12-1856">Teacher, Female Seminary in Tuscumbia, Alabama</occupation>
+        <residence><placeName>Tuscumbia, AL</placeName></residence>
+        <residence><placeName>Camillus, NY</placeName></residence>
+    </person>
+    <person xml:id="marvin_julia">
+        <persName>Marvin, Julia Reynolds</persName>
+        <birth when="1827"/>
+        <death when="1889"/>
+        <state type="relationship">
+            <desc>sister of Kate E. R. Pickard</desc>
+        </state>
+    </person>
+    <person xml:id="willie">
+        <persName>Pickard, Darwin Willie </persName>
+        <birth when="1851"/>
+        <death when="1873"/>
+        <state type="relationship">
+            <label>relationship</label>
+            <desc>son of Kate E. R. Pickard</desc>
+        </state>
+    </person>
+    <person xml:id="thornton_lewis">
+        <persName>Thornton, Lewis B.</persName>
+        <residence>
+            <placeName>Tuscumbia, AL</placeName>
+        </residence>
+    </person>
+    <person xml:id="ely_h_n">
+        <persName>Ely, H. N.</persName>
+        <residence>
+            <placeName>Medford, NJ</placeName>
+        </residence>
+    </person>
+    <person xml:id="samuel_may">
+        <persName>May, Rev. Samuel J.</persName>
+        <birth when="1797-09-12">
+            <placeName>Boston, MA</placeName>
+        </birth>
+        <death when="1871-07-01">
+            <placeName>Syracuse, NY</placeName>
+        </death>
+    </person>
+    <person xml:id="seth_conklin">
+        <persName>Conklin, Seth</persName>
+    </person>
+    <person xml:id="joseph_parrish">
+        <persName>Parrish, Joseph</persName>
+    </person>
+    <person xml:id="garrison">
+        <persName>Garrison, William Lloyd</persName>
+    </person>
+    <person xml:id="furness">
+        <persName>Furness, William Henry</persName>
+        <birth when="1802"/>
+        <death when="1896"/>
+    </person>
+</listPerson>
+           
