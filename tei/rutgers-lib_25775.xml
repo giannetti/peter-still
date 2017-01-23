@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Still, W[illia]m, letter, 31 North Fifth Street, Philadelphia, August 7, 1850, to [James O? Cousins, Cincinnati, Ohio]</title>
+                <author>
+                    <persName>Still, William, 1821-1902</persName>
+                </author>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="FG"> Francesca Giannetti </name>
+                </respStmt>
+            </titleStmt>
+            <extent>3 p.</extent>
+            <publicationStmt>
+                <publisher>Rutgers Community Repository (RUcore)</publisher>
+                <availability>
+                    <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                        Non-commercial Share-alike</ref>.</ab>
+                </availability>
+                <idno xml:id="DOI">10.7282/T36110JV</idno>
+                <idno xml:id="WMA">rutgers-lib:25775</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Peter Still Papers, 1850-1875</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Rutgers Community Repository (RUcore)</publisher>
+                        <pubPlace>Rutgers University Libraries</pubPlace>
+                        <address>
+                            <addrLine>Alexander Library</addrLine>
+                            <addrLine>169 College Ave.</addrLine>
+                            <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+                        </address>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Special Collections and University Archives</settlement>
+                        <repository>Rutgers University Libraries</repository>
+                        <idno>MC 1392</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+                            Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+                            Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+                            and Still family record (1798-1821). Persons and places represented include William Lloyd 
+                            Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+                            N.J., and Philadelphia, Pa. 57 items.</p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+                    transcription. The layout of the page has been preserved whenever possible. 
+                    Abbreviations and spellings have been maintained within the transcriptions, 
+                    and the full word and corrected or modern spellings have been provided. Images 
+                    of the original letters have been provided in order to show the original page 
+                    layout and other markings that are not the author's. Words or phrases that 
+                    are deemed indecipherable have been noted as "unclear."
+                </p>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed.</p>
+                </hyphenation>
+            </editorialDecl>
+            <projectDesc>
+                <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2015-2016.</p>
+            </projectDesc>
+            <tagsDecl>
+                <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+                <rendition xml:id="b" n="tiebp:bold" scheme="css">
+                    font-weight:bold;
+                </rendition> 
+                <rendition xml:id="i" n="tiebp:italic" scheme="css">
+                    font-style:italic;
+                </rendition> 
+                <rendition xml:id="u" n="tiebp:underline" scheme="css">
+                    text-decoration:underline;
+                </rendition> 
+                <rendition xml:id="n" n="teibp:normal" scheme="css">
+                    font-weight:normal;
+                    text-decoration:none;
+                    font-style:normal;
+                </rendition>
+                <!-- Indentation -->
+                <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+                    text-indent:4em;
+                    /* The above method of describing an indentation for, say, a paragraph is 
+                    preferred. The method being used is in response to a bug in some browsers 
+                    whereby a block element, like a paragraph, is erroneously re-indented 
+                    after interruption by another block element (like a list, which is valid,
+                    in TEI, inside a paragraph). */
+                    content:"\A0\A0\A0\A0\A0\A0";
+                </rendition>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent2" scheme="css">
+                    display:block;
+                    padding-left:6em;
+                    text-indent:-2em;
+                </rendition>
+                <rendition xml:id="indent3" scheme="css">
+                    display:block;
+                    padding-left:10em;
+                    text-indent:-2em;
+                </rendition>
+                <rendition xml:id="center" n="tiebp:center-block" scheme="css">
+                    display:block;
+                    text-align:center;
+                    margin-left:auto;
+                    margin-right:auto;
+                </rendition>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>Library of Congress Subject Headings</bibl>
+                </taxonomy>
+            </classDecl>
+            <listPrefixDef>
+                <prefixDef ident="psn"
+                    matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+                    replacementPattern="still-personography.xml#$1">
+                    <p> In the context of this project, private URIs with the prefix
+                        "psn" point to <gi>person</gi> elements in the project's
+                        still-personography.xml file.
+                    </p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>William Still</persName>
+                    <placeName>Philadelphia, PA</placeName>
+                    <date when="1850-08-07">August 7th, 1850</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName cert="high">Peter Still</persName>
+                    <placeName cert="medium">Cincinnati, Ohio</placeName>
+                    <date>unknown</date>
+                </correspAction>
+                <correspAction type="deliveredTo">
+                    <persName>James O. Cousins</persName>
+                    <placeName>Cincinnati, Ohio</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <term>Slavery--United States--History--19th century.</term>
+                    <term>African Americans--Biography.</term>
+                    <term type="person">Still, Peter, 1801-1868</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" facs="../images/25775_1.png"/>
+            <div type="correspondence-action">
+                <ab style="writing-mode: vertical-lr" rendition="#center">
+                    <name type="person" ref="psn:peter_still">Peter Freedman</name>
+                </ab>
+                <ab rendition="#center">
+                    <handShift medium="pencil"/><name>James O. Cousins</name> <placeName><hi rendition="#u">Cincinnati Ohio</hi></placeName><lb/>
+                    Mailed by <name type="person">A. J. Gorden</name> of <placeName>Philadelphia<lb/>
+                    <hi rendition="#u">Pa</hi></placeName>
+                </ab>
+            </div>
+            <pb n="2" facs="../images/25775_2.png"/>
+            <div>
+              <opener>
+                <dateline rendition="#indent3">
+                    <handShift medium="black-ink"/>
+                    <placeName>Philadelphia</placeName>
+                    <date when="1850-08-07">August 7th, 1850</date>
+                </dateline>
+              </opener>
+            </div>
+            <div>
+                <p>
+                    Last Friday afternoon, <name type="person" ref="psn:peter_still">Peter Freedman</name><lb/>
+                    was brought to this office by a man<lb/>
+                    whom I was <choice><sic>partialy</sic><corr>partially</corr></choice> acquainted with,<lb/>
+                    <add place="above">the</add> object of Peter was to see if he could<lb/>
+                    gain some instruction how he might<lb/>
+                    find his parents &amp; relatives, <choice><sic>whome</sic><corr>whom</corr></choice><lb/>
+                    he had been sold away from for<lb/>
+                    43 years. The remarks made by the<lb/> 
+                    stranger much surprised me and I<lb/>
+                    soon began to make <choice><sic>inquirery</sic><corr>inquiry</corr></choice><lb/>
+                    as to his parents and their names,<lb/>
+                    He <del rend="strikethrough">an</del> immediately gave the names<lb/>
+                    of his father, mother, and the brother<lb/>
+                    who was also sold with him at<lb/>
+                    the same time. By this time I<lb/>
+                    perceived that a wonderful development<lb/> was about to be made.<lb/>
+                    My feelings became <del rend="strikethrough">unt</del> unutterable,<lb/> although I endeavored to <choice><sic>surpress</sic><corr>suppress</corr></choice><lb/>
+                    them with much effort, but the<lb/>
+                    fact that this Peter was one of<lb/>
+                    my long absent brothers stared me<lb/>
+                    too full in the face to gainsay<lb/>
+                    or dispute the evidence for one<lb/>
+                    moment. Thus a brother whom<lb/>
+                    <pb n="3" facs="../images/25775_3.png"/>
+                    whom I had never before seen<lb/>
+                    was introduced to me in this most<lb/>
+                    wonderful manner. It would<lb/>
+                    afford me much pleasure to<lb/>
+                    make fuller statement concerning<lb/>
+                    this matter but for want of time<lb/>
+                    I must <choice><sic>forbare</sic><corr>forbear</corr></choice> at present<lb/>
+                    Suffice it to say that Peter<lb/>
+                    found his mother, 5 brothers &amp;<lb/>
+                    3 sisters situated <choice><sic>comfort<add place="above">a</add>ly</sic><corr>comfortably</corr></choice> in life<lb/>
+                </p>
+                
+                <closer>
+                    <salute>From Peter S <choice><sic>younges</sic><corr>youngest</corr></choice> brother,</salute>
+                    <signed><name ref="psn:william_still">Wm Still.</name></signed>
+                    <placeName>no 31 North fifth St.</placeName>
+                    <placeName>Philadelphia Pa</placeName>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>May, Sam[ue]l J., letter, Syracuse, [N.Y.], November 2, 1853, to [William Still]</title>
+        <author>
+          <persName>May, Samuel J.</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription by</resp>
+          <name xml:id="ZS"> Zachary Sinkiewicz </name>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding by</resp>
+          <name> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>3 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+            Non-commercial Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3KP828Q</idno>
+        <idno xml:id="WMA">rutgers-lib:26842</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+              and Still family record (1798-1821). Persons and places represented include William Lloyd 
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+              N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout and other markings that are not the author's. Words or phrases that 
+        are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+          font-weight:bold;
+        </rendition> 
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+          font-style:italic;
+        </rendition> 
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+          text-decoration:underline;
+        </rendition> 
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+          font-weight:normal;
+          text-decoration:none;
+          font-style:normal;
+        </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+          text-indent:4em;
+          /* The above method of describing an indentation for, say, a paragraph is 
+          preferred. The method being used is in response to a bug in some browsers 
+          whereby a block element, like a paragraph, is erroneously re-indented 
+          after interruption by another block element (like a list, which is valid,
+          in TEI, inside a paragraph). */
+          content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        <rendition xml:id="indent1" scheme="css">
+          display:block;
+          padding-left:4em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent2" scheme="css">
+          display:block;
+          padding-left:7em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent3" scheme="css">
+          display:block;
+          padding-left:10em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="center" scheme="css">
+          display:block;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          text-align: center;
+        </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn"
+          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix
+            "psn" point to <gi>person</gi> elements in the
+            still-personography.xml file.
+          </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Samuel J. May</persName>
+          <placeName>Syracuse, NY</placeName>
+          <date when="1853-11-02">November 2, 1853</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>William Still</persName>
+          <placeName>Unknown</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26842_1.png" />
+      <div>
+        <opener>
+          <dateline>
+            <placeName>Syracuse</placeName><lb />
+            <date when="1853-11-02">Nov. 2. 1853</date> 
+          </dateline>
+          <salute>Dear <persName ref="psn:william_still">Sir</persName></salute>
+        </opener>
+      </div>
+      
+      <div>
+        <p rendition="#indent">
+          I received last<lb />
+          evening your <unclear>letter</unclear> of<lb />
+          29th. Please send me<lb />
+          immediately the resources<lb /> 
+          of Uncle Peter's wife<lb /> 
+          and children - the name of<lb />
+          the town where they live -<lb />
+          of the person who dares<lb />
+          to hold them as his property -<lb />
+          and the names of<lb /> 
+          such persons in the neighborhood<lb />
+          as you know<lb /> 
+          would be friendly to our<lb />
+          attempt to obtain<lb /> 
+          the liberty of your brother’s family.<lb />
+        </p>
+        
+        <p rendition="#indent">
+          I fear it will be difficult<lb /> 
+          for <choice><corr>anyone</corr><sic>any one</sic></choice> to make<lb /> 
+          any proposal to purchase<lb />
+
+          <pb n="2" facs="../images/26842_2.png" />
+
+          them without awakening<lb />
+          the suspicion of their<lb />
+          master that they are to<lb /> 
+          be bought for <persName ref="psn:peter_still">Peter Still</persName> in<lb />
+          which case he will demand<lb />
+          $5,000 for them - as so<lb />
+          long as he has any hope<lb /> 
+          of getting that exhorbitant<lb />
+          price for them<lb />
+          from Peter and his<lb />
+          friends - he will not<lb />
+          let <choice><corr>anybody</corr><sic>any body</sic></choice> else have<lb /> 
+          them for less money.<lb />
+        </p>
+        
+        <p rendition="#indent">
+          Will it not be necessary<lb />
+          for Peter to abandon<lb />
+          the intention of purchasing<lb />
+          them at $5000 and<lb />
+          let the master <unclear>hear</unclear><lb />
+          that he has abandoned<lb />
+          it.<lb />
+        </p>
+          
+        <closer>
+          <salute>Yours truly</salute>
+          <signed><persName ref="samuel_may">Sam. J. May</persName></signed>
+        </closer>
+
+        <pb n="3" facs="../images/26842_3.png" />
+
+      	<postscript>
+      		<p rendition="#indent">
+            I shall write immediately<lb />
+            to my <unclear>kinsman</unclear> in<lb />
+            <placeName>Boston</placeName> - and, if he consents<lb />
+            to undertake the<lb />
+            business I wish to be<lb />
+            <unclear>in readiness</unclear> to furnish<lb />
+            him with all the information<lb />
+            he may need.<lb />
+      		</p>
+
+          <p rendition="#indent">
+            You know I have<lb />
+            two hundred dollars in<lb /> 
+            my care belonging to<lb /> 
+            Peter Still. It is drawing<lb />
+            7 per cent interest -<lb />
+            and therefore had better<lb />
+            be left here until he<lb />
+            needs it -<lb />
+          </p>
+      	</postscript>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Marvin, Julia E.R., letter, October 11, 1854, to Dr. Jno. [John] C. Lord, [Buffalo, N.Y.]</title>
+        <author>
+          <persName>Marvin, Julia E. R.</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>3 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+            Non-commercial Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T35M65TZ</idno>
+        <idno xml:id="WMA">rutgers-lib:26912</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+              and Still family record (1798-1821). Persons and places represented include William Lloyd 
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+              N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout and other markings that are not the author's. Words or phrases that 
+        are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+          font-weight:bold;
+        </rendition> 
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+          font-style:italic;
+        </rendition> 
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+          text-decoration:underline;
+        </rendition> 
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+          font-weight:normal;
+          text-decoration:none;
+          font-style:normal;
+        </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+          text-indent:4em;
+          /* The above method of describing an indentation for, say, a paragraph is 
+          preferred. The method being used is in response to a bug in some browsers 
+          whereby a block element, like a paragraph, is erroneously re-indented 
+          after interruption by another block element (like a list, which is valid,
+          in TEI, inside a paragraph). */
+          content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        <rendition xml:id="indent1" scheme="css">
+          display:block;
+          padding-left:4em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent2" scheme="css">
+          display:block;
+          padding-left:7em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent3" scheme="css">
+          display:block;
+          padding-left:10em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="center" scheme="css">
+          display:block;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          text-align: center;
+        </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn"
+          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix
+            "psn" point to <gi>person</gi> elements in the
+            still-personography.xml file.
+          </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Julia E. R. Marvin</persName>
+          <placeName>Unknown</placeName>
+          <date when="1854-10-11">October 11, 1854</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>John C. Lord</persName>
+          <placeName>Buffalo, N.Y.</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26912_1.png" />
+      <div>
+        <opener>
+          <persName>Dr. <choice><expan>John</expan><abbr>Jn<hi rend="superscript">o</hi></abbr></choice> C. Lord</persName>,
+          <salute>My Dear Pastor,</salute>
+        </opener>
+      </div>
+      
+      <div>
+        <p rendition="#indent">
+          The bearer of this<lb />
+          is <persName ref="psn:peter_still">Peter Still</persName>, a freeman, seeking aid, to obtain<lb />
+          possession of his wife + children, slaves<lb />
+          in <placeName>Alabama</placeName>. He himself was kidnapped<lb />
+          when six years of age, taken from <placeName>N.J.</placeName> to<lb />
+          <placeName>Kentucky</placeName> + there sold as a slave. From Ky.<lb />
+          he was taken to Ala. There, after having worked<lb /> 
+          faithfully 44 years, he, by the aid of a<lb />
+          Jew, found means to buy himself. The<lb />
+          hope of once more finding his home +<lb />
+          friends had ever been most warmly, though<lb />
+          secretly, cherished. By a series of most wonderful<lb />
+          Providences, he found them, his mother<lb />
+          + many brothers + sisters. He, then returned<lb />
+          to Ala. on a pass from his Jew master (he<lb />
+          being, in the South, supposed to be a slave)<lb />
+          told his wife + children of his success +<lb />
+          that he should now work for them.<lb />
+          
+          <pb n="2" facs="../images/26912_2.png" />
+          
+          He went again to N.J. + there for more<lb />
+          than a year worked sometimes at the rate of<lb />
+          $10 pr. month, some of the time at $15 with<lb />
+          the hope of earning enough to free his family.<lb />
+          Some friends advised him to try to raise it<lb />
+          by contributions. (The sum demanded is $5000)<lb />
+          He did try + has succeeded in raising the<lb />
+          entire sum. Now he needs $200 to bear their<lb />
+          expenses here.<lb />
+        </p>
+        
+        <p>
+          During any residence in the South I knew him<lb />
+          well + always knew him as honest, faithful +<lb />
+          industrious. I know him to be strictly truthful<lb />
+          one upon whose word you may rely implicitly.<lb />
+          You will, if you have time, be much interested<lb />
+          in his simple story.<lb />
+        </p>
+        
+        <p>
+          You will see from a letter in his possession<lb />
+          the necessity that seems to exist for his<lb />
+          remaining as quiet as possible, this will<lb />
+          account to you for his going so with letters<lb />
+          of introduction to different individuals, rather<lb />
+          than appearing in public.<lb />
+        </p>
+        
+        <p>
+          I know, my dear pastor, that your heart is ever<lb />
+          
+          <pb n="3" facs="../images/26912_3.png" />
+          
+          touched with the sorrows of the afflicted<lb />
+          + of the lowly, that your ear is ever open to a<lb />
+          tale of suffering. For this reason I command<lb />
+          him to you, hoping that you may be able<lb />
+          to assist him.<lb />
+        </p>
+        
+        <p>
+          From a recent accident, the dislocation of my<lb />
+          ankle, I am closely confined at present but<lb />
+          were it not so, my acquaintance in <placeName>Buffalo</placeName><lb />
+          is too limited to enable me to do him all<lb />
+          the good I would.<lb />
+        </p>
+          
+        <closer>
+          <salute>Most truly Yours,</salute>
+          <signed>..... <persName ref="marvin_julia">Julia E.R. Marvin</persName>.</signed>
+          <date when="1854-10-11">Wed. Morn. Oct. 11<hi rend="superscript">th</hi> 1854</date>.
+        </closer>
+
+      </div>
+    </body>
+  </text>
+</TEI>

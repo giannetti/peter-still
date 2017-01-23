@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], January 22, 1855, to &quot;Uncle Peter&quot; [Peter Still]:</title>
+                <author>
+                    <persName>Pickard, Kate E. R.</persName>
+                </author>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="ZS"> Zachary Sinkiewicz </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name xml:id="FG"> Francesca Giannetti</name>
+                </respStmt>
+            </titleStmt>
+            <extent>2 p.</extent>
+            <publicationStmt>
+                <publisher>Rutgers Community Repository (RUcore)</publisher>
+                <availability>
+                    <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                        Non-commercial Share-alike</ref>.</ab>
+                </availability>
+                <idno xml:id="DOI">doi:10.7282/T30V8CZV</idno>
+                <idno xml:id="WMA">rutgers-lib:26580</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Peter Still Papers, 1850-1875</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Rutgers Community Repository (RUcore)</publisher>
+                        <pubPlace>Rutgers University Libraries</pubPlace>
+                        <address>
+                            <addrLine>Alexander Library</addrLine>
+                            <addrLine>169 College Ave.</addrLine>
+                            <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+                        </address>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Special Collections and University Archives</settlement>
+                        <repository>Rutgers University Libraries</repository>
+                        <idno>MC 1392</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+                            Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+                            Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+                            and Still family record (1798-1821). Persons and places represented include William Lloyd 
+                            Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+                            N.J., and Philadelphia, Pa. 57 items.</p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+                    transcription. The layout of the page has been preserved whenever possible. 
+                    Abbreviations and spellings have been maintained within the transcriptions, 
+                    and the full word and corrected or modern spellings have been provided. Images 
+                    of the original letters have been provided in order to show the original page 
+                    layout and other markings that are not the author's. Words or phrases that 
+                    are deemed indecipherable have been noted as "unclear."
+                </p>
+                <hyphenation eol="none">
+                    <p>Any dashes occurring in line breaks have been removed.</p>
+                </hyphenation>
+            </editorialDecl>
+            <projectDesc>
+                <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2015-2016.</p>
+            </projectDesc>
+            <tagsDecl>
+                <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+                <rendition xml:id="b" n="tiebp:bold" scheme="css">
+                    font-weight:bold;
+                </rendition> 
+                <rendition xml:id="i" n="tiebp:italic" scheme="css">
+                    font-style:italic;
+                </rendition> 
+                <rendition xml:id="u" n="tiebp:underline" scheme="css">
+                    text-decoration:underline;
+                </rendition> 
+                <rendition xml:id="n" n="teibp:normal" scheme="css">
+                    font-weight:normal;
+                    text-decoration:none;
+                    font-style:normal;
+                </rendition>
+                <!-- Indentation -->
+                <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+                    text-indent:4em;
+                    /* The above method of describing an indentation for, say, a paragraph is 
+                    preferred. The method being used is in response to a bug in some browsers 
+                    whereby a block element, like a paragraph, is erroneously re-indented 
+                    after interruption by another block element (like a list, which is valid,
+                    in TEI, inside a paragraph). */
+                    content:"\A0\A0\A0\A0\A0\A0";
+                </rendition>
+                <rendition xml:id="indent1" scheme="css">margin-left: 1.5em;</rendition>
+                <rendition xml:id="indent2" scheme="css">
+                    display:block;
+                    padding-left:6em;
+                    text-indent:-2em;
+                </rendition>
+                <rendition xml:id="indent3" scheme="css">
+                    display:block;
+                    padding-left:10em;
+                    text-indent:-2em;
+                </rendition>
+                <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>Library of Congress Subject Headings</bibl>
+                </taxonomy>
+            </classDecl>
+            <listPrefixDef>
+                <prefixDef ident="psn"
+                    matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+                    replacementPattern="still-personography.xml#$1">
+                    <p> In the context of this project, private URIs with the prefix
+                        "psn" point to <gi>person</gi> elements in the
+                        still-personography.xml file.
+                    </p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Kate E. R. Pickard</persName>
+                    <placeName>Camillus, NY</placeName>
+                    <date when="1855-01-22">January 22, 1855</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Peter Still</persName>
+                    <placeName>Unknown</placeName>
+                    <date>Unknown</date>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <term>Slavery--United States--History--19th century.</term>
+                    <term>African Americans--Biography.</term>
+                    <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" facs="../images/26580_1.png" />
+            <div>
+                <opener>
+                    <dateline rendition="#indent3">
+                        <placeName>Camillus</placeName>
+                        <date when="1855-01-22">Jan 22<hi rend="superscript">d</hi> 1855</date>.
+                    </dateline>
+                    <salute>Dear Uncle Peter</salute>
+                </opener>                
+            </div>
+            <div>
+                <p rendition="#indent">
+                    Your letter of the <date when="1855-01-12" cert="high">12th</date> was most welcome. <lb />
+                    I had been for some weeks wondering that <lb />
+                    you did not write to let me know what you were <lb />
+                    doing, scarcely daring to hope that your great joy was<lb />
+                    so near its accomplishment. I need not tell you how I <lb />
+                    rejoice in your happiness, indeed I could not if I<lb />
+                    would.
+                </p>
+                <p rendition="#indent">
+                    God has been very kind to you Peter. let us give<lb />
+                    him all the thanks, and let your future life be <lb />
+                    spent in his loving service. How many thousands<lb />
+                    groan in hopeless bondage that would enjoy their<lb />
+                    liberty as well as you and those you love so dearly!<lb />
+                    We cannot tell <hi rendition="#u" resp="#FG">why</hi> He has singled <hi rendition="#u" resp="#FG">you</hi> out to<lb />
+                    make you so happy, but I cannot help thinking<lb />
+                    that you will so improve all your advantages as to honor<lb />
+                    Him.
+                </p>
+                <p rendition="#indent">
+                    I am glad you are determined to have all your family<lb />
+                    settled at work this winter. How I would like to see<lb />
+                    them all! Write again when you are all settled.<lb />
+                    I shall want to know where they are. Tell the <lb />
+                    boys and your girl too that they are young and<lb />
+                    if they try hard they can all get a good education<lb />
+                    They must learn to read and write this winter.<lb />
+                    The long evenings will give them plenty of time. Your<lb />
+                    <pb n="2" facs="../images/26580_2.png" />
+                    daughter will have to learn to do housework and a<lb />
+                    great many other things that the overseer did not<lb />
+                    teach at the quarter.
+                </p>
+                <p rendition="#indent">
+                    What a happy time it was when you and <persName ref="vina_still">Aunt<lb />
+                        Vina</persName> met in <placeName>Cincinnati</placeName>. We were talking of you<lb />
+                    that very morning here at home. <persName ref="psn:marvin_julia">Sister Julia</persName> and<lb />
+                    Mr. Marvin were with us and we were all wishing <lb />
+                    we could hear whether there was any prospect of<lb />
+                    your getting them this winter.
+                </p>
+                <p rendition="#indent">
+                    Sister Julia has been in poor health ever since<lb />
+                    you saw her, but was much better when she left<lb />
+                    here on <date when="1855-01-02" resp="#FG">the second of this month</date>. She heard<lb />
+                    of your meeting in <placeName resp="#FG">Cincinnati</placeName> before we did. an<lb />
+                    account came in their paper and she cut it out<lb />
+                    and sent it to mother.
+                </p>
+                <p rendition="#indent">
+                    I am sorry to think of that poor little baby left<lb />
+                    behind. I do think <persName ref="psn:mckiernan_bernard" resp="#FG">Mr. McKiernan</persName> might have given<lb />
+                    that up. What will you do about it? Do you think<lb />
+                    of trying to get it? If you do that will delay<lb />
+                    the publishing of your narrative.
+                </p>
+                <p rendition="#indent">
+                    <persName ref="psn:willie">Little Willie</persName> has just kissed this paper<lb />
+                    he says he put a kiss on it for Uncle Peter. He remembers <lb />
+                    you very well and will not be afraid of you when <lb />
+                    you come again. <persName ref="psn:pickard_d_l">Mr. Pickard</persName> is quite unwell -<lb />
+                    one of his bad turns. he will be better I trust in<lb />
+                    a day or two. The other members of our family are<lb />
+                    well. Give my love to all your family and my best<lb />
+                    wishes for their prosperity. I hope they will be an honor<lb />
+                    <pb n="3" facs="../images/26580_3.png" />
+                    to you and themselves. Tell your children <lb />
+                    I say they ought to be the  best children<lb />
+                    to their father that can be found in the<lb />
+                    whole country. I hope they will prove as<lb />
+                    their father has done, that <hi rendition="#u" resp="#FG">niggers</hi> are<lb />
+                    able to take care of themselves.
+                </p>
+                <p rendition="#indent">
+                    Now Good bye - Let me hear from <lb />
+                    you soon again.
+                </p>
+                <closer>
+                    <salute rendition="#indent2">I remain your true friend</salute>
+                    <signed rendition="#indent3">Kate E.R Pickard</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

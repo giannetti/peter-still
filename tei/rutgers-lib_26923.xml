@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>May, Samuel J., letter, Syracuse, [N.Y.], February 28, 1861, to "Uncle Peter" [Peter Still]</title>
+        <author>
+          <persName>May, Samuel J.</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>4 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+            Non-commercial Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3KW5G58</idno>
+        <idno xml:id="WMA">rutgers-lib:26923</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+              and Still family record (1798-1821). Persons and places represented include William Lloyd 
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+              N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout and other markings that are not the author's. Words or phrases that 
+        are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+          font-weight:bold;
+        </rendition> 
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+          font-style:italic;
+        </rendition> 
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+          text-decoration:underline;
+        </rendition> 
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+          font-weight:normal;
+          text-decoration:none;
+          font-style:normal;
+        </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+          text-indent:4em;
+          /* The above method of describing an indentation for, say, a paragraph is 
+          preferred. The method being used is in response to a bug in some browsers 
+          whereby a block element, like a paragraph, is erroneously re-indented 
+          after interruption by another block element (like a list, which is valid,
+          in TEI, inside a paragraph). */
+          content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        <rendition xml:id="indent1" scheme="css">
+          display:block;
+          padding-left:4em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent2" scheme="css">
+          display:block;
+          padding-left:7em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent3" scheme="css">
+          display:block;
+          padding-left:10em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="center" scheme="css">
+          display:block;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          text-align: center;
+        </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn"
+          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix
+            "psn" point to <gi>person</gi> elements in the
+            still-personography.xml file.
+          </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Samuel J. May</persName>
+          <placeName>Syracuse, NY</placeName>
+          <date when="1861-02-28">February 28, 1861</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Peter Still</persName>
+          <placeName>Unknown</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26923_1.png" />
+      <div>
+        <opener>
+          <dateline>
+            <placeName>Syracuse</placeName>
+            <date when="1861-02-28">Feb. 20 <lb />1861.</date> 
+          </dateline>
+          <salute>Dear <persName ref="psn:peter_still">Uncle Peter</persName>,</salute>
+        </opener>
+      </div>
+      
+      <div>
+        <p rendition="#indent">
+      		Since my return, I have inquired<lb />
+      		carefully into the sale of the <choice><corr>copyright</corr><sic>copy right</sic></choice><lb />
+      		and stereotype plates of your books, and<lb />
+      		believe I can now explain the matter, so as<lb />
+      		to satisfy you, that no intended wrong<lb />
+      		was done you, however unfortunate<lb />
+      		for you the sale of those things may have<lb />
+      		proved to you.<lb />
+        </p>
+        
+        <p rendition="#indent">
+      		You understand, I presume, that the<lb />
+      		<choice><corr>copyright</corr><sic>copy right</sic></choice> and the stereotype plates belonged<lb />
+      		at first to the publisher._ Where he failed<lb />
+      		in business, and it became necessary that<lb />
+      		those things should be sold, with the rest of<lb />
+      		his effects, to somebody._ I am told they<lb />
+      		were offered first to you_ and offered<lb />
+      		to you at a price much less than they<lb />
+      		cost. <persName>Mr Hamilton</persName> assures me, they were<lb />
+      		sold to <persName>Mr Parish</persName> as your friend, and<lb />
+      		that it was supposed you were to be<lb />
+      		benefitted by the sale of them to him_<lb />
+      		and would sooner or later become the<lb />
+      		owner of them.<lb />
+        </p>
+        
+        <p rendition="#indent">
+      		I hear that Mr Parish first offered<lb />
+      		them to you for what they cost him, i.e.<lb />
+      		$250._ and that where he found you<lb />
+          
+          <pb n="2" facs="../images/26923_2.png" />
+      		
+          indisposed or unable to take them<lb />
+      		off his hands_ that, he then offered<lb />
+      		to let you have an edition of your<lb />
+      		book printed from the plates, before<lb />
+      		he should sell them to <choice><corr>anybody</corr><sic>any body</sic></choice><lb />
+      		else.<lb />
+        </p>
+
+        <p rendition="#indent">
+      		Now if this statement is true, you<lb />
+      		certainly have no reason to complain<lb />
+      		of the publisher or of Mr Parish_<lb />
+      		though you might complain of your<lb />
+      		hard fate in being unable to pay for<lb /> 
+      		the copy right and the plates._<lb />
+        </p>
+        
+        <p rendition="#indent">
+      		I wrote to <persName ref="psn:pickard_kate">Mrs Pickard</persName> from <placeName>Brooklyn</placeName>,<lb />
+      		the day after I saw you_ but<lb />
+      		as I have not heard from her, I fear<lb />
+      		she did not receive my letter. So<lb />
+      		I wrote to her again yesterday_ and<lb /> 
+      		when I hear from her_ if she gives<lb />
+      		me any different account of the<lb />
+      		matter, I will write to you again.<lb />
+      		But, from all I can learn from<lb />
+      		others, she has certainly done you no<lb />
+      		wrong. You have no reason whatever<lb />
+      		to blame her for the sale of the copy<lb />
+      		right and the plates - for it was<lb />
+      		a loss to herself to have them sold<lb />
+      		to <choice><corr>anybody</corr><sic>any body</sic></choice> but yourself- or to<lb />
+      		some friend of yours for your benefit.<lb />
+
+        <pb n="3" facs="../images/26923_3.png" />
+
+      		I have heard that after consulting, you<lb />
+      		Mr Parish did sell the <choice><corr>copyright</corr><sic>copy right</sic></choice> and<lb />
+      		the stereotype plates of your book to a<lb />
+      		<persName>Mr Jones</persName> of <placeName>London</placeName>. But even there<lb />
+      		they are not beyond your reach.<lb />
+      		Printing is done, I believe, more cheaply<lb />
+      		in London than in <placeName>New York</placeName>, so<lb /> 
+      		that, whenever you are ready to<lb />
+      		buy them, I presume you can have<lb />
+      		an edition of three or five hundred<lb />
+      		copies printed for you in London<lb />
+      		and delivered to you in <placeName>Burlington</placeName><lb />
+      		for about the same price you<lb />
+      		would have to pay for them, if<lb />
+      		they should be printed for you in<lb /> 
+      		New York._ If you wish, I will<lb />
+      		write to Mr Jones and as certain how<lb />
+      		much he will charge you for them.<lb />
+      	</p>
+
+        <!-- not quite sure if this is its own paragraph -->
+        <p rendition="#indent">
+          But, Uncle Peter, I am quite as much<lb />
+      		worried about your difficulty with<lb />
+      		<persName>Mr Smith</persName> respecting the price of your<lb />
+      		house and land. I hope it will soon<lb />
+      		be settled_ and without a lawsuit.<lb />
+      		Suppose you and Mr Smith agree<lb />
+      		upon three good men, to whom you<lb />
+      		will refer the whole matter, and<lb />
+      		let them decide how the difficulty<lb />
+      		shall be settled.<lb />
+        </p>
+
+        <pb n="4" facs="../images/26923_4.png" />
+
+        <p>
+      		Let those three men come together<lb />
+      		at some convenient time and place<lb />
+      		then let Mr Smith state the facts of<lb />
+      		the case as he believes to be true_<lb />
+      		then you make your statement of<lb /> 
+      		the facts as you understand them_<lb />
+      		and each of you bring forward<lb />
+      		whatever <unclear>writer</unclear> or other evidence<lb />
+      		you may have to suppose your<lb />
+      		several statements_ and let the<lb />
+      		three references decide <choice><corr>between</corr><sic>be tween</sic> you.<lb />
+      		Then_ whatever may be their decision,<lb />
+      		do you and Mr Smith abide by<lb />
+      		it. This is the best way to settle._<lb />
+      		I hope soon to hear you have done<lb /> 
+      		so._ Give my very kind regards<lb />
+      		to your wife and son_ and<lb />
+      		believe me<lb />
+        </p>
+          
+        <closer>
+          <salute>Truly your friend</salute>
+          <signed><persName ref="samuel_may">Samuel J. May</persName>.</signed>
+        </closer>
+
+	<postscript>
+		<p>
+			P.S. Last Friday- I rode out to<lb /> 
+			Onondaga Academy to see <persName>Catherine</persName>.<lb />
+			She seemed to be in very good health,<lb />
+			and was glad to hear from home.<lb />
+			She is not satisfied with her situation_<lb />
+			thinks she does not receive as<lb />
+			much instruction as she ought to._<lb />
+			I think she will not stay there long._<lb />
+		</p>
+	</postscript>
+
+      </div>
+    </body>
+  </text>
+</TEI>

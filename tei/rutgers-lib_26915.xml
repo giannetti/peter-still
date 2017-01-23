@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pickard, Kate E.R., letter, Buffalo, [N.Y.], June 24, 1855, to "Uncle Peter" [Peter Still]</title>
+        <author>
+          <persName>Pickard, Kate E. R.</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>3 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+            Non-commercial Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3JW8F1W</idno>
+        <idno xml:id="WMA">rutgers-lib:26915</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+              and Still family record (1798-1821). Persons and places represented include William Lloyd 
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+              N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout and other markings that are not the author's. Words or phrases that 
+        are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+          font-weight:bold;
+        </rendition> 
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+          font-style:italic;
+        </rendition> 
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+          text-decoration:underline;
+        </rendition> 
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+          font-weight:normal;
+          text-decoration:none;
+          font-style:normal;
+        </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+          text-indent:4em;
+          /* The above method of describing an indentation for, say, a paragraph is 
+          preferred. The method being used is in response to a bug in some browsers 
+          whereby a block element, like a paragraph, is erroneously re-indented 
+          after interruption by another block element (like a list, which is valid,
+          in TEI, inside a paragraph). */
+          content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        <rendition xml:id="indent1" scheme="css">
+          display:block;
+          padding-left:4em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent2" scheme="css">
+          display:block;
+          padding-left:7em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent3" scheme="css">
+          display:block;
+          padding-left:10em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="center" scheme="css">
+          display:block;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          text-align: center;
+        </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn"
+          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix
+            "psn" point to <gi>person</gi> elements in the
+            still-personography.xml file.
+          </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Kate E. R. Pickard</persName>
+          <placeName>Buffalo, NY</placeName>
+          <date when="1855-06-24">June 24, 1855</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Peter Still</persName>
+          <placeName>Unknown</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26915_1.png" />
+      <div>
+        <opener>
+          <dateline>
+            <placeName>Buffalo</placeName>
+            <date when="1855-06-24">June 24th 1855</date>
+          </dateline>
+          <salute><persName ref="psn:peter_still">Dear Uncle Peter</persName></salute>
+        </opener>
+      </div>
+      
+      <div>
+        <p rendition="#indent">
+          Why have you not written me<lb />
+          how you are prospering all this long time?<lb />
+          I have not heard a word from you, except<lb />
+          that your brother <persName ref="psn:william_still">William</persName> said in his letter<lb />
+          that you and your family were well. I would<lb />
+          like to know where you are and what you are<lb />
+          doing, and how my dear <persName ref="psn:vina_still">Aunt Vina</persName> gets along.<lb />
+          By the way, Uncle Peter, I think from your<lb />
+          brother's letter that you did not understand<lb />
+          my object in asking the questions which he<lb />
+          refuses to answer. I had no intention<lb />
+          of publishing any thing that could in any way<lb />
+          injure your brother's family. I merely wished<lb />
+          <hi rendition="#u">to</hi> <hi rendition="#u">know</hi> <hi rendition="#u">the</hi> <hi rendition="#u">facts</hi> that I might have an idea<lb />
+          in my own mind of the circumstances + characteristics<lb />
+          of your parents <del rend="strikethrough">so th</del> and so<lb />
+          be able to make the description of them more<lb />
+          interesting than I can do with so few facts<lb />
+          before me. There I thought that those questions<lb />
+          might elicit from your mother some<lb />
+          little circumstances, trifling in themselves<lb />
+          
+          <pb n="2" facs="../images/26915_2.png" />
+          
+          that would so manifest the affection or<lb />
+          energy of your parents as be worthy of a place<lb />
+          in the "<hi rendition="#u">Narrative</hi>." <del rend="strikethrough">while</del> <del rend="strikethrough">they</del> I am sorry your<lb />
+          friends have so little confidence in me as to<lb /> 
+          suppose that I would by any means risk<lb />
+          their safety or happiness.<lb />
+        </p>
+        
+        <p rendition="#indent">
+          I came here about two weeks ago, for<lb />
+          the sake of being free from household cares<lb />
+          so that I might spend all my time in<lb /> 
+          writing. I have at last succeeded in<lb /> 
+          getting a good girl - <hi rendition="#u">that</hi> you will be glad<lb /> 
+          to know. My mother is <del rend="strikethrough"><unclear>ta</unclear></del> keeping house<lb /> 
+          for me in my absence, and I have <persName ref="psn:willie">Willie</persName><lb />
+          with me here.
+        </p>
+        
+        <p rendition="#indent">
+          Our family are all in usual health-<lb /> 
+          I have just received a letter from home<lb />
+          mailed <date when="1855-05-22" cert="medium">22nd</date>. <persName ref="psn:pickard_d_l">Mr. Pickard</persName> is not yet well,<lb />
+          though he is rather more comfortable than<lb /> 
+          he was when you were at our house.
+        </p>
+        
+        <p rendition="#indent">
+          Grandpa and grandma are very well this<lb />
+          summer, and tell Aunt Vina Mrs. Lyon and<lb />
+          that dear little Mary are doing first rate.
+        </p>
+        
+        <p rendition="#indent">
+          <persName ref="psn:marvin_julia">Sister Julia</persName> is very pleasantly situated<lb />
+          and enjoys house keeping exceedingly. I<lb /> 
+          think you would enjoy <del rend="strikethrough">seeing</del> visiting her<lb />
+          now, and I know she would like to see you.<lb />
+          I saw a friend of yours here a day or two<lb />
+          
+          <pb n="3" facs="../images/26915_3.png" />
+          
+          since, a Mrs. Williams that took a deep<lb />
+          interest in your cause when you visited <placeName>Buffalo</placeName>.<lb />
+          She inquired kindly of your welfare and<lb /> 
+          that of your family, and expressed great anxiety<lb />
+          on the subject of getting Peter's child.<lb />
+          Have you heard any thing from the little boy?<lb />
+          Do you intend to try to get it this summer?<lb />
+          I do hope that little fellow may be rescued<lb />
+          from a life of slavery.
+        </p>
+          
+        <p rendition="#indent">
+          I shall probably remain here three<lb />
+          or four weeks longer unless some thing<lb />
+          unexpected should occur to call me home.<lb />
+          But if you write to me, and I hope<lb />
+          you will, direct to <placeName>Camillus</placeName> - Mr. Pickard<lb />
+          is writing to me every two or three days +<lb />
+          he will forward the letter. I want very<lb />
+          much to hear from you.
+        </p>
+          
+        <p rendition="#indent">
+          Give very much love from me to that<lb />
+          good Aunt Vina, and tell her that not<lb /> 
+          one of our family has forgot to love her.<lb />
+          Take good care of her Uncle Peter, and<lb /> 
+          also of yourself. I hope your children are<lb />
+          all thriving. Tell them they must remind<lb />
+          her that their friends expect great things<lb />
+          of them. They are anxious that they should<lb />
+          show the world that freedom is better than<lb />
+          slavery.
+        </p>
+          
+          <closer>
+            <salute>Your true friend</salute>
+            <signed>
+              <persName ref="psn:pickard_kate">
+                Kate E. R. Pickard
+              </persName>
+            </signed>
+          </closer>
+          
+      </div>
+    </body>
+  </text>
+</TEI>

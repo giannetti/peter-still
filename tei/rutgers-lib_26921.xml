@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], May 9, 1856, to "Uncle Peter" [Peter Still]</title>
+        <author>
+          <persName>Pickard, Kate E. R.</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>4 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+            Non-commercial Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3BC3ZN7</idno>
+        <idno xml:id="WMA">rutgers-lib:26921</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+              and Still family record (1798-1821). Persons and places represented include William Lloyd 
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+              N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout and other markings that are not the author's. Words or phrases that 
+        are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+          font-weight:bold;
+        </rendition> 
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+          font-style:italic;
+        </rendition> 
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+          text-decoration:underline;
+        </rendition> 
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+          font-weight:normal;
+          text-decoration:none;
+          font-style:normal;
+        </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+          text-indent:4em;
+          /* The above method of describing an indentation for, say, a paragraph is 
+          preferred. The method being used is in response to a bug in some browsers 
+          whereby a block element, like a paragraph, is erroneously re-indented 
+          after interruption by another block element (like a list, which is valid,
+          in TEI, inside a paragraph). */
+          content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        <rendition xml:id="indent1" scheme="css">
+          display:block;
+          padding-left:4em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent2" scheme="css">
+          display:block;
+          padding-left:7em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent3" scheme="css">
+          display:block;
+          padding-left:10em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="center" scheme="css">
+          display:block;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          text-align: center;
+        </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn"
+          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix
+            "psn" point to <gi>person</gi> elements in the
+            still-personography.xml file.
+          </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Kate E. R. Pickard</persName>
+          <placeName>Camillus, NY</placeName>
+          <date when="1856-05-09">May 9, 1856</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Peter Still</persName>
+          <placeName>Unknown</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26921_1.png" />
+      <div>
+        <opener>
+          <dateline>
+            <placeName>Camillus</placeName>
+            <date when="1856-05-09">May 9th 1856</date>
+          </dateline>
+          <salute>Dear <persName ref="psn:peter_still">Uncle Peter</persName></salute>
+        </opener>
+      </div>
+      
+      <div>
+        <p rendition="#indent">
+          It is a very long time since I<lb />
+          heard from you - I hope you + <persName ref="psn:vina_still">Aunt Vina</persName><lb />
+          have been comfortable in your own house <add place="above">through</add> all<lb />
+          the past cold winter. How glad you must<lb />
+          have been to see the Spring!
+        </p>
+        
+        <p rendition="#indent">
+          <hi rendition="#u">The</hi> <hi rendition="#u">book</hi> <hi rendition="#u">is</hi> <hi rendition="#u">almost</hi> <hi rendition="#u">ready</hi>. <persName ref="psn:pickard_d_l">Mr. Pickard</persName><lb />
+          sa<subst><del>y</del><add>w</add></subst> Mr. Hamilton, the publisher, yesterday. He<lb />
+          said that he had the promise of having <choice><corr>the</corr><sic>be</sic></choice> book<lb />
+          ready to issue on the <date when="1856-05-15">15th</date> of this month. I<lb />
+          think however it may possibly be delayed a few<lb />
+          days longer. Mr. Hamilton has taken as<lb />
+          partner in this business the Firm of Miller,<lb />
+          Orton, + Mulligan, of Auburn - one of the<lb />
+          best publishing houses in the state. They<lb />
+          published <abbr>Fred.</abbr> <choice><corr>Douglass'</corr><sic>Douglas'</sic></choice> book last year,<lb />
+          and have published several other works<lb />
+          on Slavery. I think the arrangement will<lb />
+          be a great help to the circulation of the book.<lb />
+          <hi rendition="#u">You</hi> <hi rendition="#u">+</hi> <hi rendition="#u">I</hi> <hi rendition="#u">must</hi> <hi rendition="#u">begin</hi> <hi rendition="#u">to</hi> <hi rendition="#u">plan</hi> <hi rendition="#u">what</hi> <hi rendition="#u">to</hi> <hi rendition="#u">do</hi><lb />
+          <hi rendition="#u">with</hi> <hi rendition="#u">our</hi> <hi rendition="#u">money</hi>.
+        </p>
+        
+        <p rendition="#indent">
+          Mr Hamilton showed me the proof of<lb />
+          the pictures the last time I saw him.<lb />
+          <pb n="2" facs="../images/26921_2.png" />
+          They all suited me very well except the<lb />
+          portraits of yourself and family - and they<lb />
+          looked no more like you <add place="above">all</add> than if they had<lb />
+          been made entirely by guess. I sent your<lb />
+          daguerreotypes to the Engraver, but somehow<lb />
+          or other he blundered sadly. You never<lb />
+          saw a meaner looking set of "<hi rendition="#u">darkies</hi>" than<lb />
+          he made you out to be. He had you seated<lb />
+          in front with your head down, looking as <choice><corr>though</corr><sic>thoug</sic></choice><lb />
+          you had just taken a "<hi rendition="#u">cutting</hi> <hi rendition="#u">up</hi>" + expected<lb />
+          soon to receive another. Aunt Vina they<lb />
+          had standing before you - a big woman - about<lb />
+          like our big Sally - looking no more like herself<lb />
+          than she looks like me - except the<lb />
+          color - and the children standing in the background<lb />
+          looked no better.
+        </p>
+        
+        <p rendition="#indent">
+          I told Mr. Hamilton I should object<lb />
+          to publishing such a thing as that for<lb />
+          your family - it would be an insult to<lb /> 
+          you + to your friends. He thought so too<lb />
+          - he had never seen you, he said, but from<lb />
+          what he had heard of you, he thought you<lb />
+          must be different looking people from <unclear>this</unclear>.<lb />
+          So, as it was so late that preparing another<lb />
+          plate would hinder the work, we concluded<lb />
+          that it would be best to leave that<lb />
+          picture out, of this edition at least.
+        </p>
+        
+        <p rendition="#indent">
+          Your <persName ref="psn:charity_still">mother's</persName> face, I think, is very good -<lb />
+          <pb n="3" facs="../images/26921_3.png" />
+          that was just copied from the daguerreotype<lb />
+          without attempting to give her figure.<lb />
+          The engraver had not of course had a<lb /> 
+          chance to read the story - he had the daguerreotypes<lb /> 
+          + knew it was a family of ransomed<lb />
+          slaves - so I suppose he thought he must<lb />
+          make them look slavish. Well, I should<lb />
+          rather people would guess from my story how<lb />
+          I looked, than to have them see such an<lb />
+          ugly picture called by my name.
+        </p>
+          
+        <p rendition="#indent">
+          I think your family will all be pleased<lb />
+          with the Dedication - I believe I sent you<lb />
+          a copy of that in the winter.
+        </p>
+          
+        <p rendition="#indent">
+          I know you are very impatient to see<lb />
+          the book - I am myself - and it has been<lb />
+          so long in the works, it is no wonder. I<lb /> 
+          don't know as I am sorry it was not out in<lb />
+          the fall, for there was then such a rush of<lb />
+          books of the same class that it might have<lb />
+          stood a poorer chance.
+        </p>
+
+        <p rendition="#indent">
+          Are any of your children able to read<lb />
+          well? Write + let me know how you all<lb />
+          get along. Much love to Aunt Vina -<lb />
+          we would all like to see her kind pleasant<lb />
+          face once more.
+        </p>
+
+        <p rendition="#indent">
+          Our family are all in usual health.<lb />
+          Tell Aunt Vina Mrs. Lyon's baby is the greatest<lb />
+          beauty + the sweetest child in the country.
+        </p>
+          
+        <closer>
+          <salute>Ever your friend</salute>
+          <signed>Kate E. R. Pickard</signed>
+        </closer>
+
+        <pb n="4" facs="../images/26921_4.png" />
+
+        <postscript>
+          <p>P.S. The daguerreotypes are all safe. I will<lb />
+          keep them till you come, unless you wish them<lb />
+          sent to you. I am very sorry those portraits<lb />
+          are a failure. I would rather have<lb />
+          them <hi rendition="#u">good</hi> than to have all the other pictures<lb />
+          in the book. You will see they have<lb /> 
+          changed your <choice><corr>mother's</corr><sic>mothers</sic></choice> plain neat cap to a<lb />
+          turban - that was not done by my direction.<lb />
+          I requested that Aunt Vina might have on<lb />
+          a turban because that looks so much more<lb />
+          natural, as she always wears one, but I<lb /> 
+          suggested no alterations in your mother's dress. If<lb />
+          I could have seen the engraver himself, and<lb />
+          talked to him about you all, so that he would<lb />
+          have <del rend="strikethrough">had an idea</del> known what sort of folks<lb /> 
+          you <del rend="strikethrough">all</del> are, he would have done better. If<lb />
+          this edition sells well perhaps we can get up a<lb /> 
+          steel plate for the next - and I think it <hi rendition="#u">will</hi><lb />
+          go off finely - Mr. Hamilton is in fine spirits<lb />
+          concerning it. K. E. R. Pickard</p>
+        </postscript>
+
+      </div>
+    </body>
+  </text>
+</TEI>

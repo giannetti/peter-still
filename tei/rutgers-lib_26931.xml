@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Garrison, W[illia]m Lloyd, letter, Roxbury, [Mass.], April 7, 1872, to William Still.</title>
+        <author>
+          <persName>Garrison, William Lloyd</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>4 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+            Non-commercial Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T32R3PPP</idno>
+        <idno xml:id="WMA">rutgers-lib:26931</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+              and Still family record (1798-1821). Persons and places represented include William Lloyd 
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+              N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout and other markings that are not the author's. Words or phrases that 
+        are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+          font-weight:bold;
+        </rendition> 
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+          font-style:italic;
+        </rendition> 
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+          text-decoration:underline;
+        </rendition> 
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+          font-weight:normal;
+          text-decoration:none;
+          font-style:normal;
+        </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+          text-indent:4em;
+          /* The above method of describing an indentation for, say, a paragraph is 
+          preferred. The method being used is in response to a bug in some browsers 
+          whereby a block element, like a paragraph, is erroneously re-indented 
+          after interruption by another block element (like a list, which is valid,
+          in TEI, inside a paragraph). */
+          content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        <rendition xml:id="indent1" scheme="css">
+          display:block;
+          padding-left:4em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent2" scheme="css">
+          display:block;
+          padding-left:7em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent3" scheme="css">
+          display:block;
+          padding-left:10em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="center" scheme="css">
+          display:block;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          text-align: center;
+        </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn"
+          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix
+            "psn" point to <gi>person</gi> elements in the
+            still-personography.xml file.
+          </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>William Lloyd Garrison</persName>
+          <placeName>Roxbury, MA</placeName>
+          <date when="1872-04-07">April 7, 1872</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>William Still</persName>
+          <placeName>Unknown</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26931_1.png" />
+      <div>
+        <opener>
+          <dateline>
+            <placeName>Roxbury</placeName>,
+            <date when="1872-04-07">April 7, 1872</date>.
+          </dateline>
+          <salute>Dear <persName ref="psn:william_still">Mr. Still</persName>:</salute>
+        </opener>
+      </div>
+      
+      <div>
+        <p rendition="#indent">
+          I have already delayed too<lb />
+          long in thanking you for your presentation<lb />
+          to me of your voluminous<lb />
+          and well-executed work, “The<lb />
+          Underground Railroad.” I have<lb />
+          examined it with a deep and thrilling<lb />
+          interest. It is a most important<lb />
+          portion of Anti-Slavery History, which<lb />
+          but for your industry, research, and<lb />
+          personal experience and knowledge,<lb />
+          might nearly all have been<lb />
+          lost to posterity. Its reliableness,<lb />
+          moreover, cannot be called in question-<lb />
+          It is, therefore, not “fiction <unclear>formed</unclear><lb />
+          upon fact,” and embellished by a<lb />
+          lively imagination, but fact without<lb />
+          a particle of fiction, <del>and</del> narrated<lb />
+
+          <pb n="2" facs="../images/26931_2.png" />
+          
+          in a simple, ingenuous, straightforward<lb />
+          manner, and needing no<lb />
+          coloring whatever. What a revelation<lb />
+          it makes of the barbarities of the<lb />
+          slave system - of the formidable obstacles<lb />
+          which interposed to prevent a<lb />
+          successful exodus from the house of<lb />
+          bondage - of the terrible exposures and<lb />
+          sufferings to which the fugitive slaves<lb />
+          were subjected in their attempts to be<lb />
+          free - of the daring and heroism required<lb />
+          to run the risk of betrayal, recapture,<lb />
+          starvation in the swamp and<lb />
+          drowning in the river, suffocation in<lb />
+          trunk or box, seizure by two-legged<lb />
+          and four-legged bloodhounds in<lb />
+          hot pursuit, and a thousand other<lb />
+          perils! How it illustrates, too,<lb />
+          the object subservience of the nation<lb />
+          to the Slave Power, so that even<lb />
+          in Boston the atrocious Fugitive<lb />
+          
+          <pb n="3" facs="../images/26931_3.png" />
+          
+          Slave Law was as effectually enforced<lb />
+          as it could have been in New<lb />
+          Orleans; and in all our broad domains<lb />
+          none <add place="above">could</add> give shelter or assistance<lb />
+          to the hunted and famishing<lb />
+          victim, except at the peril of [unclear]<lb />
+          imprisonment! And yet, numerous<lb />
+          as are the instances you have recorded,<lb />
+          they are <add place="above">only</add> samples of thousands<lb />
+          of others which can never be chronicled,<lb />
+          running through six generations.<lb />
+          May we trust our senses that<lb />
+          there is an end of all this wickedness -<lb />
+          that a final and marvelous<lb />
+          deliverance has been wrought for<lb />
+          all in bondage? Yes, it is true: and<lb />
+          there has been the same divine interposition<lb />
+          as of old. “And the Lord said,<lb />
+          I have surely seen the affliction of<lb /> 
+          my people which are in Egypt, and<lb />
+          have heard their cry by reason of their<lb />
+          
+          <pb n="4" facs="../images/26931_4.png" />
+          
+          taskmasters; for I know their sorrows,<lb />
+          and I am come down to deliver<lb />
+          them out of the hand of the Egyptians.”<lb />
+          … “Thy right hand, O Lord,<lb /> 
+          is become glorious in power: thy<lb />
+          right hand, O Lord, hath dashed in<lb />
+          pieces the enemy!”<lb />
+        </p>
+        
+        <p rendition="#indent">
+          I hope that the sale of your<lb />
+          work will be widely extended, not<lb />
+          only that the large expense incurred<lb />
+          in its preparation and printing may<lb />
+          be liberally covered, but for the<lb />
+          enlightenment of the rising generations<lb />
+          to the inherent cruelty of the defunct<lb />
+          slave system, and to perpetuate<lb />
+          such an abhorrence of it as to<lb />
+          prevent all further injustice towards<lb />
+          the colored population of our land.<lb />
+          It is a book for every household.<lb />
+        </p>
+          
+        <closer>
+          <salute>Yours, with best wishes,</salute>
+          <signed>W<add place="above">m</add> Lloyd Garrison.</signed>
+        </closer>
+        
+        <postscript><p>William Still.</p></postscript>
+          
+      </div>
+    </body>
+  </text>
+</TEI>
