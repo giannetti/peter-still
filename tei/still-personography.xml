@@ -70,8 +70,16 @@
     </person>
     <person xml:id="william_still">
         <persName>Still, William</persName>
-        <birth when="1821-10-07" />
-        <death when="1902-07-14" />   
+        <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, NJ</placeName>
+        </birth>
+        <death when="1902-07-14">
+            <placeName>Philadelphia, PA</placeName>
+        </death>
+        <state type="relationship">
+            <label>relationship</label>
+            <desc>Youngest brother of Peter Still</desc>
+        </state>
     </person>
     <person xml:id="letitia_george">
         <persName>Still, Letitia George</persName> 
