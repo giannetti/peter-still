@@ -109,19 +109,33 @@
         <persName>Weakley, Judge</persName>
     </person>
     <person xml:id="pickard_d_l">
-        <persName>Pickard, D[arwin]. L.</persName>
-        <state type="relationship">
+        <persName>Pickard, Darwin L.</persName>
+        <birth when="1820-05-20">
+            <placeName>Camillus, NY</placeName>
+        </birth>
+        <death when="1897-01-09">
+            <placeName>Syracuse, NY</placeName>
+        </death>
+        <event when="1846">
             <label>marital status</label>
-            <desc>husband of Kate E. R. Pickard</desc>
-        </state>
+            <desc>Married Kate E. Reynolds</desc>
+        </event>
     </person>
     <person xml:id="pickard_kate">
-        <persName>Pickard, Kate E. Reynolds</persName>
-        <birth when="1824-08-13"/>
-        <death when="1864-09-24"/>
-        <state type="relationship">
+        <persName>Pickard, Katherine Emily Reynolds</persName>
+        <birth when="1824-08-13">
+            <placeName>Saratoga, NY</placeName>
+        </birth>
+        <death when="1864-09-24">
+            <placeName>Camillus, NY</placeName>
+        </death>
+        <event when="1846">
             <label>marital status</label>
-            <desc>married to D. L. Pickard</desc>
+            <desc>Married D. L. Pickard</desc>
+        </event>
+        <state type="relationship">
+            <label>role in Still family</label>
+            <desc>Peter Still's biographer</desc>
         </state>
         <occupation evidence="The Boston Daily Atlas (Boston, Massachusetts), issue of 06-12-1856">Teacher, Female Seminary in Tuscumbia, Alabama</occupation>
         <residence><placeName>Tuscumbia, AL</placeName></residence>
@@ -137,8 +151,8 @@
     </person>
     <person xml:id="willie">
         <persName>Pickard, Darwin Willie </persName>
-        <birth when="1851"/>
-        <death when="1873"/>
+        <birth when="1851-08-21"/>
+        <death when="1873-08-04"/>
         <state type="relationship">
             <label>relationship</label>
             <desc>son of Kate E. R. Pickard</desc>
