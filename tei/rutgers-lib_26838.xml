@@ -10,12 +10,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Pickard, Kate E.R., letter, Buffalo, [N.Y.], June 24, 1855, to "Uncle Peter" [Peter Still]</title>
+        <title>May, Samuel J., letter, Syracuse, [N.Y.], July 15, 1853, to one or more unnamed residents of Syracuse</title>
         <author>
-          <persName>Pickard, Kate E. R.</persName>
+          <persName>May, Samuel J.</persName>
         </author>
         <respStmt>
-          <resp>Transcription and encoding by</resp>
+          <resp>Transcription by</resp>
+          <name xml:id="ZS"> Zachary Sinkiewicz </name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding by</resp>
           <name xml:id="MH"> Michelle Hwang </name>
         </respStmt>
         <respStmt>
@@ -30,8 +34,8 @@
           <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
             Non-commercial Share-alike</ref>.</ab>
         </availability>
-        <idno xml:id="DOI">doi:10.7282/T3JW8F1W</idno>
-        <idno xml:id="WMA">rutgers-lib:26915</idno>
+        <idno xml:id="DOI">doi:10.7282/T32R3RT9</idno>
+        <idno xml:id="WMA">rutgers-lib:26838</idno>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -150,13 +154,13 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Kate E. R. Pickard</persName>
-          <placeName ref="#buffalo">Buffalo, NY</placeName>
-          <date when="1855-06-24">June 24, 1855</date>
+          <persName>Samuel J. May</persName>
+          <placeName ref="#syracuse">Syracuse, NY</placeName>
+          <date when="1853-07-15">July 15, 1853</date>
         </correspAction>
         <correspAction type="received">
-          <persName>Peter Still</persName>
-          <placeName>Unknown</placeName>
+          <persName>Unknown</persName>
+          <placeName>Syracuse</placeName>
           <date>Unknown</date>
         </correspAction>
       </correspDesc>
@@ -171,129 +175,117 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26915_1.png" />
-      <div>
-        <opener>
-          <dateline>
-            <placeName key="Buffalo, NY, United States">Buffalo</placeName>
-            <date when="1855-06-24">June 24th 1855</date>
-          </dateline>
-          <salute><persName ref="psn:peter_still">Dear Uncle Peter</persName></salute>
-        </opener>
-      </div>
-      
+      <pb n="1" facs="../images/26838_1.png" />
+
       <div>
         <p rendition="#indent">
-          Why have you not written me<lb />
-          how you are prospering all this long time?<lb />
-          I have not heard a word from you, except<lb />
-          that your brother <persName ref="psn:william_still">William</persName> said in his letter<lb />
-          that you and your family were well. I would<lb />
-          like to know where you are and what you are<lb />
-          doing, and how my dear <persName ref="psn:vina_still">Aunt Vina</persName> gets along.<lb />
-          By the way, Uncle Peter, I think from your<lb />
-          brother's letter that you did not understand<lb />
-          my object in asking the questions which he<lb />
-          refuses to answer. I had no intention<lb />
-          of publishing any thing that could in any way<lb />
-          injure your mother's family. I merely wished<lb />
-          <hi rendition="#u">to</hi> <hi rendition="#u">know</hi> <hi rendition="#u">the</hi> <hi rendition="#u">facts</hi> that I might have an idea<lb />
-          in my own mind of the circumstances &amp; characteristics<lb />
-          of your parents <del rend="strikethrough">so th</del> and so<lb />
-          be able to make the description of them more<lb />
-          interesting than I can do with so few facts<lb />
-          before me. Then I thought that those questions<lb />
-          might elicit from your mother some<lb />
-          little circumstances, trifling in themselves<lb />
-          
-          <pb n="2" facs="../images/26915_2.png" />
-          
-          that would so manifest the affection or<lb />
-          energy of your parents as be worthy of a place<lb />
-          in the "<hi rendition="#u">Narrative</hi>." <del rend="strikethrough">while</del> <del rend="strikethrough">they</del> I am sorry your<lb />
-          friends have so little confidence in me as to<lb /> 
-          suppose that I would by any means risk<lb />
-          their safety or happiness.<lb />
+          The bearer of this is <persName ref="psn:peter_still">Peter Still</persName>.<lb />
+          His story is a remarkable one, but well<lb />
+          authenticated. I have examined all his<lb />
+          papers, and have received letters testifying<lb />
+          to his excellent character from<lb /> 
+          persons who knew him in <placeName key="AL, United States">Alabama</placeName>.<lb />
         </p>
-        
+
         <p rendition="#indent">
-          I came here about two weeks ago, for<lb />
-          the sake of being free from household cares<lb />
-          so that I might spend all my time in<lb /> 
-          writing. I have at last succeeded in<lb /> 
-          getting a good girl - <hi rendition="#u">that</hi> you will be glad<lb /> 
-          to know. My mother is <del rend="strikethrough"><unclear>ta</unclear></del> keeping house<lb /> 
-          for me in my absence, and I have <persName ref="psn:willie">Willie</persName><lb />
-          with me here.
+          He was stolen from the banks of<lb />
+          the <placeName key="Delaware River">Delaware River</placeName>, when a child of<lb />
+          five or six years of age; and sold<lb /> 
+          into slavery in <placeName key="KY, United States">Kentucky</placeName>. There he<lb /> 
+          lived thirteen years; and was then<lb />
+          sold and carried to Alabama and<lb />
+          kept in slavery thirty one years longer.<lb />
+          By extraordinary exertion and the<lb />
+          greatest carefulness, he succeeded in<lb />
+          accumulating <measure type="currency" quantity="500">five hundred dollars</measure>,<lb />
+          which he paid to his master, and was set<lb />
+          free.<lb />
         </p>
-        
+
         <p rendition="#indent">
-          Our family are all in usual health-<lb /> 
-          I have just received a letter from home<lb />
-          mailed <date when="1855-06-22" cert="medium">22nd</date>. <persName ref="psn:pickard_d_l">Mr. Pickard</persName> is not yet well,<lb />
-          though he is rather more comfortable than<lb /> 
-          he was when you were at our house.
+          He came to the North, and by a most<lb /> 
+          singular providence, he found brothers<lb /> 
+          and sisters living in <placeName key="Philadelphia, PA, United States">Philadelphia</placeName>, and<lb />
+          his aged mother still alive in <placeName key="NJ, United States">New Jersey</placeName>,<lb />
+          where he had left her when he was<lb /> 
+          stolen.<lb /> 
         </p>
-        
+
         <p rendition="#indent">
-          Grandpa and grandma are very well this<lb />
-          summer, and tell Aunt Vina Mrs. Lyon and<lb />
-          that dear little Mary are doing first rate.
+          Having recovered his own liberty, he is<lb /> 
+          now eager to procure the freedom of his<lb />
+          
+          <pb n="2" facs="../images/26838_2.png" />
+
+          <persName ref="psn:vina_still">wife</persName> and children, two sons and a daughter.<lb />
+          It is hoped that their liberation may<lb />
+          be obtained for <measure type="currency" quantity="3500">$3,500</measure>. This may seem to<lb />
+          many a large sum; but what is it in comparison<lb /> 
+          with the gift of liberty to four<lb />
+          human beings? If every one who has heard<lb /> 
+          or may hear Peter Still's story, will only<lb /> 
+          give him what he or she can well afford,<lb />
+          the sum will soon be raised.<lb />
         </p>
-        
+
         <p rendition="#indent">
-          <persName ref="psn:marvin_julia">Sister Julia</persName> is very pleasantly situated<lb />
-          and enjoys house keeping exceedingly. I<lb /> 
-          think you would enjoy <del rend="strikethrough">seeing</del> visiting her<lb />
-          now, and I know she would like to see you.<lb />
-          I saw a friend of yours here a day or two<lb />
-          
-          <pb n="3" facs="../images/26915_3.png" />
-          
-          since, a Mrs. Williams that took a deep<lb />
-          interest in your cause when you visited <placeName key="Buffalo, NY, United States">Buffalo</placeName>.<lb />
-          She inquired kindly of your welfare and<lb /> 
-          that of your family, and expressed great anxiety<lb />
-          on the subject of getting Peter's child.<lb />
-          Have you heard any thing from the little boy?<lb />
-          Do you intend to try to get it this summer?<lb />
-          I do hope that little fellow may be rescued<lb />
-          from a life of slavery.
+          About <measure type="currency" quantity="1500">fifteen hundred dollars</measure> have<lb />
+          already been collected, and Peter Still<lb />
+          has now come to <placeName key="Syracuse, NY, United States">Syracuse</placeName>, to ask assistance<lb />
+          from the benevolent of this thriving<lb /> 
+          city.<lb />
         </p>
-          
+
         <p rendition="#indent">
-          I shall probably remain here three<lb />
-          or four weeks longer unless some thing<lb />
-          unexpected should occur to call me home.<lb />
-          But if you write to me, and I hope<lb />
-          you will, direct to <placeName key="Camillus, NY, United States">Camillus</placeName> - Mr. Pickard<lb />
-          is writing to me every two or three days &amp;<lb />
-          he will forward the letter. I want very<lb />
-          much to hear from you.
+          We the undersigned promise to pay<lb />
+          this sum set against our names<lb /> 
+          Peter Still, on his order, to be appropriated<lb />
+          to the payment of the price demanded<lb />
+          for the liberation of his wife<lb />
+          sons, and daughter.<lb />
         </p>
+
+         <p rendition="#indent3">
+           <placeName>Syracuse</placeName> <date when="1853-07-15">July 15, 1853</date>
+         </p>
+
+        <table rows="3" cols="2">
+          <row>
+            <cell>
+              Amount of collection taken <date when="1853-07-17">July 17</date>
+              in the Unitarian Church
+            </cell>
+            <cell role="amount"><measure type="currency" quantity="33.66">$33.66</measure></cell>
+         </row>
+         <row>
+            <cell role="patron"><persName ref="psn:samuel_may">Samuel J. May</persName></cell>
+            <cell role="amount">5.00</cell>
+         </row>
+         <row>
+            <cell role="patron">Sundry persons by S.J.M.</cell>
+           <cell role="amount"><measure type="currency">5.00</measure></cell>
+         </row>
+        </table>
           
-        <p rendition="#indent">
-          Give very much love from me to that<lb />
-          good Aunt Vina, and tell her that not<lb /> 
-          one of our family has forgot to love her.<lb />
-          Take good care of her Uncle Peter, and<lb /> 
-          also of yourself. I hope your children are<lb />
-          all thriving. Tell them they must remember<lb />
-          that their friends expect great things<lb />
-          of them. They are anxious that they should<lb />
-          show the world that freedom is better than<lb />
-          slavery.
+        <pb n="3" facs="../images/26838_3.png" />
+
+        <p>
+          Sundry others in Syracuse have<lb /> 
+          subscribed and paid Peter Still<lb />
+          to the amount of <measure type="currency" quantity="110">one hundred<lb />
+            and ten dollars</measure> &#8211; See his Book &#8211; <lb />
         </p>
-          
-          <closer>
-            <salute>Your true friend</salute>
-            <signed>
-              <persName ref="psn:pickard_kate">
-                Kate E. R. Pickard
-              </persName>
-            </signed>
-          </closer>
-          
+
+        <p>
+          He leaves us today and I cordially<lb />
+          commend him to the benevolent<lb />
+          everywhere.<lb />
+        </p>
+
+        <closer>
+          <date when="1853-07-27">July 27, 1853</date>, <signed>Samuel J. May</signed>          
+        </closer>
+
       </div>
     </body>
   </text>

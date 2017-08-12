@@ -10,28 +10,28 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Pickard, Kate E.R., letter, Buffalo, [N.Y.], June 24, 1855, to "Uncle Peter" [Peter Still]</title>
+        <title>Still, William, letter, Anti Slavery Office, Philadelphia, April 29, 1853, to E. Gray Loring, Esq.</title>
         <author>
-          <persName>Pickard, Kate E. R.</persName>
+          <persName>Still, William</persName>
         </author>
         <respStmt>
-          <resp>Transcription and encoding by</resp>
+          <resp>Encoding by</resp>
           <name xml:id="MH"> Michelle Hwang </name>
         </respStmt>
         <respStmt>
-          <resp>Edited by</resp>
+          <resp>Transcription and editing by</resp>
           <name xml:id="FG"> Francesca Giannetti </name>
         </respStmt>
       </titleStmt>
-      <extent>3 p.</extent>
+      <extent>2 p.</extent>
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
           <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
             Non-commercial Share-alike</ref>.</ab>
         </availability>
-        <idno xml:id="DOI">doi:10.7282/T3JW8F1W</idno>
-        <idno xml:id="WMA">rutgers-lib:26915</idno>
+        <idno xml:id="DOI">doi:10.7282/T3MC904P</idno>
+        <idno xml:id="WMA">rutgers-lib:26734</idno>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -150,12 +150,12 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Kate E. R. Pickard</persName>
-          <placeName ref="#buffalo">Buffalo, NY</placeName>
-          <date when="1855-06-24">June 24, 1855</date>
+          <persName>William Still</persName>
+          <placeName ref="#anti-slavery_office">Anti Slavery Office, Philadelphia, PA</placeName>
+          <date when="1853-04-29">April 29, 1853</date>
         </correspAction>
         <correspAction type="received">
-          <persName>Peter Still</persName>
+          <persName>Ellis Gray Loring</persName>
           <placeName>Unknown</placeName>
           <date>Unknown</date>
         </correspAction>
@@ -171,129 +171,104 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26915_1.png" />
+      <pb n="1" facs="../images/26734_1.png" />
       <div>
         <opener>
           <dateline>
-            <placeName key="Buffalo, NY, United States">Buffalo</placeName>
-            <date when="1855-06-24">June 24th 1855</date>
+            <placeName>Philadelphia</placeName>
+            <date when="1853-04-29">April 29<hi rend="superscript">th</hi> 1853</date><lb />
+            <placeName>Anti Slavery Office</placeName>
           </dateline>
-          <salute><persName ref="psn:peter_still">Dear Uncle Peter</persName></salute>
+          <persName>E Gray Loring, Esq.</persName>
+          <salute>Dear Sir.</salute>
         </opener>
       </div>
-      
+
       <div>
         <p rendition="#indent">
-          Why have you not written me<lb />
-          how you are prospering all this long time?<lb />
-          I have not heard a word from you, except<lb />
-          that your brother <persName ref="psn:william_still">William</persName> said in his letter<lb />
-          that you and your family were well. I would<lb />
-          like to know where you are and what you are<lb />
-          doing, and how my dear <persName ref="psn:vina_still">Aunt Vina</persName> gets along.<lb />
-          By the way, Uncle Peter, I think from your<lb />
-          brother's letter that you did not understand<lb />
-          my object in asking the questions which he<lb />
-          refuses to answer. I had no intention<lb />
-          of publishing any thing that could in any way<lb />
-          injure your mother's family. I merely wished<lb />
-          <hi rendition="#u">to</hi> <hi rendition="#u">know</hi> <hi rendition="#u">the</hi> <hi rendition="#u">facts</hi> that I might have an idea<lb />
-          in my own mind of the circumstances &amp; characteristics<lb />
-          of your parents <del rend="strikethrough">so th</del> and so<lb />
-          be able to make the description of them more<lb />
-          interesting than I can do with so few facts<lb />
-          before me. Then I thought that those questions<lb />
-          might elicit from your mother some<lb />
-          little circumstances, trifling in themselves<lb />
-          
-          <pb n="2" facs="../images/26915_2.png" />
-          
-          that would so manifest the affection or<lb />
-          energy of your parents as be worthy of a place<lb />
-          in the "<hi rendition="#u">Narrative</hi>." <del rend="strikethrough">while</del> <del rend="strikethrough">they</del> I am sorry your<lb />
-          friends have so little confidence in me as to<lb /> 
-          suppose that I would by any means risk<lb />
-          their safety or happiness.<lb />
+          Through the <choice><sic>advise</sic><corr>advice</corr></choice><lb />
+          of W<hi rend="superscript">m</hi> <unclear>I.</unclear> Bowditch, Esq. of <placeName key="Boston, MA, United States">Boston</placeName>, I take the<lb />
+          liberty of addressing you a few lines in relation<lb />
+          to my <abbr>Bro.</abbr> <persName ref="psn:peter_still">Peter</persName>.<lb />
         </p>
         
         <p rendition="#indent">
-          I came here about two weeks ago, for<lb />
-          the sake of being free from household cares<lb />
-          so that I might spend all my time in<lb /> 
-          writing. I have at last succeeded in<lb /> 
-          getting a good girl - <hi rendition="#u">that</hi> you will be glad<lb /> 
-          to know. My mother is <del rend="strikethrough"><unclear>ta</unclear></del> keeping house<lb /> 
-          for me in my absence, and I have <persName ref="psn:willie">Willie</persName><lb />
-          with me here.
+          I am exceedingly desirous<lb />
+          to learn for the satisfaction of many of Peter's<lb />
+          friends as well as may own, how he is succeeding<lb /> 
+          in raising money: The amount he has collected;<lb /> 
+          his propects, plans, etc., etc., would afford us much<lb />
+          satisfaction to know something about them.<lb />
         </p>
-        
+
         <p rendition="#indent">
-          Our family are all in usual health-<lb /> 
-          I have just received a letter from home<lb />
-          mailed <date when="1855-06-22" cert="medium">22nd</date>. <persName ref="psn:pickard_d_l">Mr. Pickard</persName> is not yet well,<lb />
-          though he is rather more comfortable than<lb /> 
-          he was when you were at our house.
+          Please tell Peter to write to me<lb />
+          at once, as it may be of much importance to him.<lb />
         </p>
-        
+
         <p rendition="#indent">
-          Grandpa and grandma are very well this<lb />
-          summer, and tell Aunt Vina Mrs. Lyon and<lb />
-          that dear little Mary are doing first rate.
+          <persName ref="psn:furness">Rev. W<hi rend="superscript">m</hi> H. Furness</persName> has been kind<lb />
+          enough to write out the Narrative of <persName ref="psn:seth_conklin">Seth Conklin</persName><lb />
+          whose life was sa<hi rendition="#u">crifi</hi>ced in striving to secure<lb />
+          the liberation of Peter's family. The narrative, of<lb />
+          course, <choice><sic>imbraced</sic><corr>embraced</corr></choice> the particulars connected with<lb /> 
+          the escape &amp; capture of Peter's family &#8211; hence it<lb />
+          will <emph>not</emph> do to publish it until P.'s  family are<lb />
+          redeemed. It is exceedingly thrilling &amp; interesting.<lb />
+          <persName ref="psn:james_mckim">Mr J. M. M<hi rend="superscript">c</hi>Kim</persName> embarks for England<lb />
+          tomorrow, taking a <abbr>mss.</abbr> copy of the narrative<lb />
+          
+          <pb n="2" facs="../images/26734_2.png" />
+
+          along with him where it is to be hoped he<lb /> 
+          will be able to do much <add place="above">for</add> P. by presenting his case &amp;c.<lb />
         </p>
-        
+
         <p rendition="#indent">
-          <persName ref="psn:marvin_julia">Sister Julia</persName> is very pleasantly situated<lb />
-          and enjoys house keeping exceedingly. I<lb /> 
-          think you would enjoy <del rend="strikethrough">seeing</del> visiting her<lb />
-          now, and I know she would like to see you.<lb />
-          I saw a friend of yours here a day or two<lb />
-          
-          <pb n="3" facs="../images/26915_3.png" />
-          
-          since, a Mrs. Williams that took a deep<lb />
-          interest in your cause when you visited <placeName key="Buffalo, NY, United States">Buffalo</placeName>.<lb />
-          She inquired kindly of your welfare and<lb /> 
-          that of your family, and expressed great anxiety<lb />
-          on the subject of getting Peter's child.<lb />
-          Have you heard any thing from the little boy?<lb />
-          Do you intend to try to get it this summer?<lb />
-          I do hope that little fellow may be rescued<lb />
-          from a life of slavery.
+          I will say, briefly, that we are now under<lb />
+          the impression that P.'s family can be had for<lb />
+          <measure type="currency">$3000</measure> &#8211; instead of <measure type="currency">$5000</measure> &#8211; as demanded by their<lb />
+          inhuman owner. The plan is to get a man<lb /> 
+          in the South to purchase them, <hi rendition="#u">at</hi> th<hi rendition="#u">ei</hi>r o<hi rendition="#u">rdin</hi>ary<lb />
+          m<hi rendition="#u">ar</hi>ket p<hi rendition="#u">ri</hi>ce. In this hope we have been quite<lb />
+          encour<del rend="strikethrough">r</del>aged, having already succeeded in finding<lb />
+          a gentleman, in this City, who has an agent in<lb />
+          the very County wherein P.'s family live. This gentleman<lb />
+          (Mr. <persName>D. B. Bi<del rend="strikethrough">r</del>rney</persName>, son of <persName>James G. Birney</persName>) is very<lb />
+          sanguine that the object can be very readily accomplished,<lb />
+          and without any charge on his part, or his agent<lb />
+          all <add place="above">that</add> is needed is <hi rendition="#u">the</hi> m<hi rendition="#u">on</hi>ey, to pu<hi rendition="#u">rch</hi>ase them.<lb />
         </p>
-          
+
         <p rendition="#indent">
-          I shall probably remain here three<lb />
-          or four weeks longer unless some thing<lb />
-          unexpected should occur to call me home.<lb />
-          But if you write to me, and I hope<lb />
-          you will, direct to <placeName key="Camillus, NY, United States">Camillus</placeName> - Mr. Pickard<lb />
-          is writing to me every two or three days &amp;<lb />
-          he will forward the letter. I want very<lb />
-          much to hear from you.
+          Mr. Birney is connected with "Goodridge &amp; Co's<lb />
+          Law, <choice><sic>Merchantile</sic><corr>Mercantile</corr></choice>, and Collecting Agency's"<lb /> 
+          office in this city; consequently we feel it to be<lb />
+          almost <hi rendition="#u">p</hi>rovidential that we come <choice><corr>across</corr><sic>a cross</sic></choice> him.<lb /> <!-- the p in providential is underlined twice -->
         </p>
-          
+
         <p rendition="#indent">
-          Give very much love from me to that<lb />
-          good Aunt Vina, and tell her that not<lb /> 
-          one of our family has forgot to love her.<lb />
-          Take good care of her Uncle Peter, and<lb /> 
-          also of yourself. I hope your children are<lb />
-          all thriving. Tell them they must remember<lb />
-          that their friends expect great things<lb />
-          of them. They are anxious that they should<lb />
-          show the world that freedom is better than<lb />
-          slavery.
+          Please do me the favour to write<lb /> 
+          soon, as I am under an obligation to Mr. M Kim<lb />
+          to send him any information that I may receive<lb />
+          from you, <choice><sic>tuching</sic><corr>touching</corr></choice> my <abbr>Bro.</abbr> &amp;e.<lb />
         </p>
-          
-          <closer>
-            <salute>Your true friend</salute>
-            <signed>
-              <persName ref="psn:pickard_kate">
-                Kate E. R. Pickard
-              </persName>
-            </signed>
-          </closer>
-          
+
+        <closer>
+          <salute>Your Obedient Servant</salute>
+          <signed><persName ref="psn:william_still">W<hi rend="superscript">m</hi> Still</persName></signed>
+        </closer>
+
+        <pb n="3" facs="../images/26734_3.png" />
+
+        <postscript>
+          <ab style="writing-mode: vertical-lr"> <!-- will come out in the correct order online -->
+            April 29.<lb />
+            William Still<lb />
+            <date when="1853">1853</date><lb />
+          </ab>
+        </postscript>
+
       </div>
     </body>
   </text>
