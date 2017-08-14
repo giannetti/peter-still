@@ -109,7 +109,7 @@
         </xd:desc>
     </xd:doc>
     <xsl:template match="del[@rend='strikethrough']">
-        <span style="text-decoration: line-through;"><xsl:apply-templates/></span>
+        <span style="display: inline; text-decoration: line-through;"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
