@@ -109,7 +109,7 @@
         </xd:desc>
     </xd:doc>
     <xsl:template match="del[@rend='strikethrough']">
-        <span style="display: inline; text-decoration: line-through;"><xsl:apply-templates/></span>
+        <span style="text-decoration: line-through;"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
@@ -128,6 +128,14 @@
     </xd:doc>
     <xsl:template match="hi[@rend='superscript']">
         <sup><xsl:apply-templates/></sup>
+    </xsl:template>
+    
+    <xsl:template match="ab[@rendition='#indent3']/add">
+        <br><span style="display:block; padding-left:10em; text-indent:-2em;" class="add">⟨<xsl:apply-templates/>⟩</span></br>
+    </xsl:template>
+    
+    <xsl:template match="postscript">
+        ⟨<xsl:apply-templates/>⟩
     </xsl:template>
     
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
