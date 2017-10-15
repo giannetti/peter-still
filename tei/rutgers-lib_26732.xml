@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], March 21, 1853, to "Uncle Peter [Peter Still], [Boston]</title>
+        <author>
+          <persName>Pickard, Kate E. R.</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription by</resp>
+          <name xml:id="ZS"> Zachary Sinkiewicz </name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>4 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+            Non-commercial Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3BV7GR4</idno>
+        <idno xml:id="WMA">rutgers-lib:26732</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+              and Still family record (1798-1821). Persons and places represented include William Lloyd 
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+              N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout and other markings that are not the author's. Words or phrases that 
+        are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+          font-weight:bold;
+        </rendition> 
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+          font-style:italic;
+        </rendition> 
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+          text-decoration:underline;
+        </rendition> 
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+          font-weight:normal;
+          text-decoration:none;
+          font-style:normal;
+        </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+          text-indent:4em;
+          /* The above method of describing an indentation for, say, a paragraph is 
+          preferred. The method being used is in response to a bug in some browsers 
+          whereby a block element, like a paragraph, is erroneously re-indented 
+          after interruption by another block element (like a list, which is valid,
+          in TEI, inside a paragraph). */
+          content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        <rendition xml:id="indent1" scheme="css">
+          display:block;
+          padding-left:4em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent2" scheme="css">
+          display:block;
+          padding-left:7em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent3" scheme="css">
+          display:block;
+          padding-left:10em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="center" scheme="css">
+          display:block;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          text-align: center;
+        </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn"
+          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix
+            "psn" point to <gi>person</gi> elements in the
+            still-personography.xml file.
+          </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Kate E. R. Pickard</persName>
+          <placeName>Camillus, NY</placeName>
+          <date when="1853-03-21">March 21, 1853</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Peter Still</persName>
+          <placeName>Boston, MA</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26732_1.png" />
+      <div>
+        <opener>
+          <dateline rendition="#indent3">
+            <placeName>Camillus</placeName>
+            <date when="1853-03-21">March 21, 1853.</date>
+          </dateline>
+          <salute>Dear <persName ref="psn:peter_still">Uncle Peter</persName></salute>
+        </opener>
+      </div>
+
+      <div>
+        <p rendition="#indent">
+          I was very glad to receive your<lb />
+          letter of the <date>14th</date> <abbr>ult.</abbr> and have waited till<lb />
+          now for good news to write you in reply. But<lb /> 
+          alas! I have little to say that will give you<lb />
+          hope of a <hi rendition="#u">speedy</hi> union with those dear<lb />
+          ones, that your heart so yearns to meet.<lb />
+        </p>
+        
+        <p rendition="#indent">
+          I received a letter from <persName ref="psn:marvin_julia">sister Julia</persName><lb />
+          last night in which she says – <lb />
+        </p>
+        
+        <p rendition="#indent">
+          "I received your letter about a week ago, and<lb />
+          the day after it reached me the Doctor was here.<lb />
+          So I read him his part about Uncle Peter. He<lb />
+          told me he saw Peter's <persName ref="psn:vina_still">wife</persName> and children only<lb />
+          a little while ago, and that they were very well.<lb />
+          He is trying to get <persName ref="psn:mckiernan_bernard">Maj. Mc'Kiernan's</persName> consent to<lb />
+          part with them but is obliged to go cautiously<lb /> 
+          to work. Maj. Mc'K. is the Dr. says, a grasping<lb />
+          avaricious man, and if he were to find out that<lb />
+          any people were so much interested in Peter's<lb /> 
+          behalf in the North, it would only incite him<lb />
+          to demand more and more for the wife and<lb /> 
+          children here. The Doctor is very much<lb />
+          interested for Peter, and wishes most earnestly<lb />
+          that he might regain his wife and children,<lb /> 
+          but he says he has very little hope that it will<lb />
+          ever be accomplished."
+        </p>
+
+        <pb n="2" facs="../images/26732_2.png" />
+
+        <p>
+          Now I am very sorry my poor friend that I<lb />
+          cannot write you more encouragement but I<lb />
+          think I ought not to try to flatter you with<lb />
+          unreasonable hopes. Still, while there is a<lb />
+          God in Heaven, we ought not to despair. Don't give<lb /> 
+          up your hope in God, Peter - he often hides his<lb />
+          mercies for a time behind the gloomiest clouds.<lb />
+          We cannot tell what he has in store for us. Even<lb /> 
+          if he denies us our fondest wishes, and suffers<lb />
+          the wicked to triumph over us, he will after<lb />
+          all make good come out of it, if we trust<lb /> 
+          in Him, and in our hearts resign ourselves to<lb />  <!-- added transcription for this line -->
+          his will. Poor Uncle Tom never got back<lb />
+          to his wife and children, but how good and how<lb />
+          holy his sorrows made him because he received<lb />
+          them in faith and patience. O if you can<lb /> 
+          only have such trust in God, how happy you<lb />
+          will be, uncle Peter.<lb />
+        </p>
+
+        <p rendition="#indent">
+          I do not yet feel discouraged about this<lb />
+          matter- I still hope that some influence will<lb />
+          be brought to bear on Maj. Mc Kiernan's mind<lb />
+          that will seduce him to part with those treasures<lb />
+          so precious to your heart.<lb />
+        </p>
+
+        <p rendition="#indent">
+          Sister Julia sends me some <placeName>Tuscumbia</placeName><lb />
+          news – She says <persName>Mrs. Armisted Barton</persName> died of<lb /> 
+          typhoid fever about the same that that <persName>Col Moon</persName><lb /> 
+          died of cancer – That was in December, I believe.<lb />
+          <persName>Col. Meredith</persName>, too is dead. Mr. &amp; Mrs. <persName>Towns</persName> have<lb />
+          
+          <pb n="3" facs="../images/26732_3.png" />
+
+          removed out of town to their plantation. Uncle<lb />
+          <persName>Billy Winston</persName> lives in the Barton house now, but<lb />
+          intends to go to <placeName>Texas</placeName> before long where he can find<lb />
+          a wild country again. His daughter <persName>Mrs. Mary</persName> was married<lb /> 
+          a short time since to <persName>Mr. Cooper</persName>, but very<lb />
+          much against her father's will. They were married<lb />
+          in the Methodist Church. They board at Mrs.<lb /> 
+          <persName>Col. Christian's</persName>. <persName>Mrs. Lewis</persName>, Mrs. Christian's<lb /> 
+          mother, is dead, and so is <persName>Mrs. Charles Cooper</persName>,<lb />
+          Mr. John Christian's mother. Mr. John Christian<lb /> 
+          has given up his store and is now on a boat.<lb />
+          <persName>Mr. Penland</persName> has left <placeName>Tuscumbia</placeName> and has settled<lb />
+          in <placeName>Tennessee</placeName>. <persName>Tom Walker</persName> has lost all his<lb />
+          property, is even in debt, and lounges about the streets<lb />
+          as usual.<lb />
+        </p>
+
+        <p rendition="#indent">
+          That is all the <placeName>Tuscumbia</placeName> news she gives me<lb />
+          I know you will like to hear of some of those<lb />
+          people that you will not be likely ever to see again.<lb />
+          You will probably be leaving <placeName>Boston</placeName> soon. You<lb />
+          must let me hear from you often. I cannot<lb />
+          tell how deep an interest I feel in your welfare<lb />
+          or how happy it would make me if I could aid in<lb />
+          restoring your family to you. <hi rendition="#u">We</hi> <hi rendition="#u">must</hi> <hi rendition="#u">do</hi> <hi rendition="#u">all</hi><lb /> 
+          <hi rendition="#u">in</hi> <hi rendition="#u">our</hi> <hi rendition="#u">power</hi> and have the result to that Friend<lb /> 
+          above whose ear is ever open to the cry of the helpless<lb />
+          if they put their trust in him.<lb />
+        </p>
+
+        <p rendition="#indent">
+          Our family all remember you with much<lb />
+
+          <pb n="4" facs="../images/26732_4.png" />
+
+          interest. We talk of you often and hope to<lb /> 
+          see you again and to see you happy too.<lb />
+        </p>
+
+        <closer>
+          <salute>Your true friend,</salute>
+          <signed><persName ref="psn:pickard_kate">Kate E. R. Pickard</persName></signed>
+        </closer>
+
+        <postscript>
+          <p rendition="indent">
+            Don't neglect to inform me where you go when<lb />
+            you leave <placeName>Boston</placeName> so that I can write if I have<lb />
+            good news for you. We expect Sister Julia<lb /> 
+            early in June.<lb />
+          </p>
+        </postscript>
+
+      </div>
+    </body>
+  </text>
+</TEI>

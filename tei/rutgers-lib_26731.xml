@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stowe, H[arriet] B[eecher], note, [December 25, 1852]</title>
+        <author>
+          <persName>Stowe, Harriet Beecher</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription by</resp>
+          <name xml:id="ZS"> Zachary Sinkiewicz </name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>2 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+            Non-commercial Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3736R2K</idno>
+        <idno xml:id="WMA">rutgers-lib:26731</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+              and Still family record (1798-1821). Persons and places represented include William Lloyd 
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+              N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout and other markings that are not the author's. Words or phrases that 
+        are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+          font-weight:bold;
+        </rendition> 
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+          font-style:italic;
+        </rendition> 
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+          text-decoration:underline;
+        </rendition> 
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+          font-weight:normal;
+          text-decoration:none;
+          font-style:normal;
+        </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+          text-indent:4em;
+          /* The above method of describing an indentation for, say, a paragraph is 
+          preferred. The method being used is in response to a bug in some browsers 
+          whereby a block element, like a paragraph, is erroneously re-indented 
+          after interruption by another block element (like a list, which is valid,
+          in TEI, inside a paragraph). */
+          content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        <rendition xml:id="indent1" scheme="css">
+          display:block;
+          padding-left:4em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent2" scheme="css">
+          display:block;
+          padding-left:7em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent3" scheme="css">
+          display:block;
+          padding-left:10em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="center" scheme="css">
+          display:block;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          text-align: center;
+        </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn"
+          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix
+            "psn" point to <gi>person</gi> elements in the
+            still-personography.xml file.
+          </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Harriet Beecher Stowe</persName>
+          <placeName>Unknown</placeName>
+          <date when="1852-12-25">December 25, 1852</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Unknown</persName>
+          <placeName>Unknown</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+      <handNotes>
+        <handNote xml:id="HS" scribe="HarrietStowe" script="handwritten" medium="pen" scope="major">
+          <p>the document's main hand, Harriet Stowe</p>
+        </handNote>
+        <handNote xml:id="WB" scribe="W.B.Brown" script="handwritten" medium="pencil" scope="minor">
+          <p>written support for the main author's recommendation of Peter Still</p>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26731_1.png" />
+
+      <div rendition="#center">
+        <ab>
+          <persName ref="psn:harriet_stowe">Mrs. Stowe</persName><lb />
+          <date when="1852-12-25">Dec 25<hi rend="superscript">th</hi> '52</date>
+        </ab>
+      </div>
+
+      <pb n="2" facs="../images/26731_2.png" />
+
+      <div>
+        <p rendition="#indent">
+          Having examined the claims of this unfortunate<lb />
+          man I am satisfied that his is a case that<lb />
+          calls for compassion &amp; aid<lb />
+        </p>
+        
+        <p rendition="#indent">
+          <choice><sic>Tho</sic><corr>Though</corr></choice> the sum demanded is so large as to look<lb /> 
+          hopeless, yet if every man who is so happy as<lb /> 
+          to be free, &amp; have his own wife &amp; children <hi rendition="#u">for</hi><lb /> 
+          <hi rendition="#u">his own</hi>, would give even twenty five cents, the<lb />
+          sum might soon be raised.<lb />
+        </p>
+
+        <p rendition="#indent">
+          "As ye would that men should do for<lb />
+          you - do ye even so for them"<lb />
+        </p>
+
+        <closer>
+          <signed>H.B. Stowe <measure type="currency">10.00</measure></signed>
+        </closer>
+
+        <postscript>
+          <ab>
+            <add hand="#WB">
+              I have carefully examined the papers of Mr<lb />
+              <persName ref="psn:peter_still">Peter Still</persName> &amp; fully concur in the above<lb /> 
+              recommendation of Mrs Stowe<lb />
+  
+              <placeName>Andover</placeName>
+              <date when="1852-12-25">Dec. 25<hi rend="superscript"><hi rendition="#u">th</hi></hi> 52</date>
+              <persName>W<hi rend="superscript"><hi rendition="#u">m</hi></hi> B Brown.</persName> 
+           </add>
+          </ab>
+        </postscript>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

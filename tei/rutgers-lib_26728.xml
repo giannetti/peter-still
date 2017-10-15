@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- the line above declares that you are creating an XML document -->
+<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be transformed by "teibp.xsl" -->
+<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<!-- the line above is a processing instruction that asks that -->
+<!-- this file be styled by "tiny_TEI_template.css" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Boudinot, E.E., letter, Burlington, [N.J.], November 6, 1852</title>
+        <author>
+          <persName>Boudinot, Elias E.</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription by</resp>
+          <name xml:id="ZS"> Zachary Sinkiewicz </name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>2 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+            Non-commercial Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3TX3FH3</idno>
+        <idno xml:id="WMA">rutgers-lib:26728</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
+              and Still family record (1798-1821). Persons and places represented include William Lloyd 
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+              N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout and other markings that are not the author's. Words or phrases that 
+        are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css">
+          font-weight:bold;
+        </rendition> 
+        <rendition xml:id="i" n="tiebp:italic" scheme="css">
+          font-style:italic;
+        </rendition> 
+        <rendition xml:id="u" n="tiebp:underline" scheme="css">
+          text-decoration:underline;
+        </rendition> 
+        <rendition xml:id="n" n="teibp:normal" scheme="css">
+          font-weight:normal;
+          text-decoration:none;
+          font-style:normal;
+        </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+          text-indent:4em;
+          /* The above method of describing an indentation for, say, a paragraph is 
+          preferred. The method being used is in response to a bug in some browsers 
+          whereby a block element, like a paragraph, is erroneously re-indented 
+          after interruption by another block element (like a list, which is valid,
+          in TEI, inside a paragraph). */
+          content:"\A0\A0\A0\A0\A0\A0";
+        </rendition>
+        <rendition xml:id="indent1" scheme="css">
+          display:block;
+          padding-left:4em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent2" scheme="css">
+          display:block;
+          padding-left:7em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="indent3" scheme="css">
+          display:block;
+          padding-left:10em;
+          text-indent:-2em;
+        </rendition>
+        <rendition xml:id="center" scheme="css">
+          display:block;
+          text-align:center;
+          margin-left:auto;
+          margin-right:auto;
+          text-align: center;
+        </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn"
+          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix
+            "psn" point to <gi>person</gi> elements in the
+            still-personography.xml file.
+          </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Boudinot, Elias E.</persName>
+          <placeName>Burlington, NJ</placeName>
+          <date when="1852-11-06">November 6, 1852</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Unknown</persName>
+          <placeName>Unknown</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+      <handNotes>
+        <handNote xml:id="EB" scribe="EliasBoudinot" script="handwritten" medium="pen" scope="major">
+          <p>the document's main hand, Elias E. Boudinot</p>
+        </handNote>
+        <handNote xml:id="MB" scribe="MaryBuckman" script="handwritten" medium="pen" scope="minor">
+          <p>one of the document's secondary authors, Mary A. Buckman</p>
+        </handNote>
+        <handNote xml:id="CVR" scribe="CortlandtVanRensselaer" script="handwritten" medium="pen" scope="minor">
+          <p>one of the document's secondary authors, Cortlandt Van Rensselaer</p>
+        </handNote>
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26728_1.png" />
+      <div>
+        <opener>
+          <dateline>
+            <placeName>Burlington</placeName>
+            <date when="1852-11-06">Nov. 6 1852</date>
+          </dateline>
+        </opener>
+      </div>
+
+      <div>
+        <p>
+          <persName ref="psn:peter_still">Peter Stills</persName> (a co<del rend="strikethrough">h</del>loured man), has lived in<lb />
+          my employ for some months past, but<lb />
+          have known him for two years.<lb /> 
+        </p>
+        
+        <p>
+          It affords me much pleasure in being able<lb />
+          to <choice><sic>reccommend</sic><corr>recommend</corr></choice> him, as an honest sober,<lb /> 
+          industrious &amp; capable man, perfectly trustworthy<lb />
+          &amp; ever willing to make himself generally<lb />
+          <choice><sic>usefull</sic><corr>useful</corr></choice> either about the house<lb />
+          or stable, I part with him reluctantly,<lb />
+          he leaves me, to make an effort to redeem<lb />
+          his <persName ref="psn:vina_still">wife</persName> &amp; children from slavery<lb />
+        </p>
+
+        <closer>
+          <signed><persName ref="psn:elias_boudinot">E. E. Boudinot</persName></signed>
+        </closer>
+      </div>
+
+      <postscript>
+        <ab>
+          <add hand="#MB">
+            The above named Peter Still was in my<lb /> 
+            employ ten months, during which time he<lb />
+            fully sustained the character given him by<lb />
+            M<hi rend="superscript">r</hi> Boudinot. It gives me pleasure to add<lb />
+            my name to this recommmendation.<lb />
+            
+            <persName rendition="#indent3">Mary A. Buckman</persName><lb/>
+            
+          </add>          
+        </ab>
+      </postscript>
+
+      <postscript>
+        <ab>
+          <add hand="#CVR">
+            Judge Boudinot is one of our principal citizens, &amp; I have entire<lb />
+            confidence in his recommendation of Peter Still.<lb />
+
+            <placeName>Burlington, N.J., </placeName> <date when="1852-11-06">Nov. 6/52</date><!-- floats left -->
+            <persName>Cortlandt Van Rensselaer</persName> <!-- floats right -->
+          </add>
+        </ab>
+      </postscript>
+
+      <pb n="2" facs="../images/26728_2.png" />
+
+      <postscript style="transform:rotateZ(-90deg)" rendition="#center">
+          <ab hand="#EB">
+            <persName>Judge Boudinot</persName><lb />
+            &amp;<lb />
+            <persName>Mrs. Buckman</persName><lb />
+          </ab>
+      </postscript>  
+      
+
+    </body>
+  </text>
+</TEI>
