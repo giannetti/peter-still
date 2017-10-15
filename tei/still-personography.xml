@@ -1,205 +1,400 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listPerson xmlns:tei="http://www.tei-c.org/ns/1.0">
-    <person xml:id="charity_still">
-        <persName>Still, Cidney (Charity)</persName>
-        <state type="relationship">
-            <label>relationship</label>
-            <desc>mother of Peter Still</desc>
-        </state>
-    </person>
-    <person xml:id="levin_still_sr">
-        <persName>Still, Levin</persName>
-        <state type="relationship">
-            <label>relationship</label>
-            <desc>father of Peter Still</desc>
-        </state>
-    </person>
-    <person xml:id="levin_still_jr">
-        <persName>Still, Levin</persName>
-        <birth when="1799-02-26"/>
-        <death when="1831"/>
-        <state type="relationship">
-            <label>relationship</label>
-            <desc>Peter's older brother</desc>
-        </state>
-    </person>
-    <person xml:id="peter_still">
-        <persName>Still, Peter</persName>
-        <birth when="1801-02-22">
-            <placeName>Saunders Griffin plantation [?], Eastern Shore of Maryland</placeName>
-        </birth>
-    </person>
-    <person xml:id="kitty_still">
-        <persName>Still, Kitturah</persName>
-        <birth when="1805-01-20"/>
-    </person>
-    <person xml:id="samuel_still">
-        <persName>Still, Samuel</persName>
-        <birth when="1807-02-26"/>
-    </person>
-    <person xml:id="mary_still">
-        <persName>Still, Mary</persName>
-        <birth when="1808-08-31"/>
-    </person>
-    <person xml:id="hannah_still">
-        <persName>Still, Hannah</persName>
-        <birth when="1810-07-31"/>
-    </person>
-    <person xml:id="john_still">
-        <persName>Still, John P.</persName>
-        <birth when="1815-01-08"/>
-    </person>
-    <person xml:id="james_still">
-        <persName>Still, James</persName>
-        <birth when="1812-04-09"/>
-    </person>
-    <person xml:id="mahala_still">
-        <persName>Still, Mahala</persName>
-        <birth when="1803-12-30"/>
-    </person>
-    <person xml:id="charles_still">
-        <persName>Still, Charles</persName>
-        <birth when="1817-03-01"/>
-    </person>
-    <person xml:id="joseph_still">
-        <persName>Still, Joseph</persName>
-        <birth when="1819-11-24"/>
-    </person>
-    <person xml:id="nancy_still">
-        <persName>Still, Nancy</persName>
-    </person>
-    <person xml:id="william_still">
-        <persName>Still, William</persName>
-        <birth notBefore="1821-10-07" notAfter="1821-11-17">
-            <placeName>Burlington, NJ</placeName>
-        </birth>
-        <death when="1902-07-14">
-            <placeName>Philadelphia, PA</placeName>
-        </death>
-        <state type="relationship">
-            <label>relationship</label>
-            <desc>Youngest brother of Peter Still</desc>
-        </state>
-    </person>
-    <person xml:id="letitia_george">
-        <persName>Still, Letitia George</persName> 
-        <birth when="1821"/>
-        <death when="1906"/>
-        <state type="relationship">
-            <desc>Wife of William Still</desc>
-        </state>
-    </person> 
-    <person xml:id="caroline_still"> 
-        <persName>Still, Caroline Virginia Matilda</persName> 
-        <birth when="1848"/> 
-        <death when="1919"/> 
-        <state type="relationship">
-            <label>relationship</label>
-            <desc>daughter of Letitia and William Still</desc>
-        </state>
-    </person>
-    <person xml:id="vina_still">
-        <persName>Still, Lavinia</persName>
-        <state type="relationship">
-            <desc>wife of Peter Still</desc>
-        </state>
-    </person>
-    <person xml:id="mckiernan_bernard">
-        <persName>McKiernan, Bernard</persName>
-        <residence>
-            <placeName>South Florence, AL</placeName>
-        </residence>
-    </person>
-    <person xml:id="hargraves">
-        <persName>Hargraves, Dr.</persName>
-    </person>
-    <person xml:id="weakley">
-        <persName>Weakley, Judge</persName>
-    </person>
-    <person xml:id="pickard_d_l">
-        <persName>Pickard, Darwin L.</persName>
-        <birth when="1820-05-20">
-            <placeName>Camillus, NY</placeName>
-        </birth>
-        <death when="1897-01-09">
-            <placeName>Syracuse, NY</placeName>
-        </death>
-        <event when="1846">
-            <label>marital status</label>
-            <desc>Married Kate E. Reynolds</desc>
-        </event>
-    </person>
-    <person xml:id="pickard_kate">
-        <persName>Pickard, Katherine Emily Reynolds</persName>
-        <birth when="1824-08-13">
-            <placeName>Saratoga, NY</placeName>
-        </birth>
-        <death when="1864-09-24">
-            <placeName>Camillus, NY</placeName>
-        </death>
-        <event when="1846">
-            <label>marital status</label>
-            <desc>Married D. L. Pickard</desc>
-        </event>
-        <state type="relationship">
-            <label>role in Still family</label>
-            <desc>Peter Still's biographer</desc>
-        </state>
-        <occupation evidence="The Boston Daily Atlas (Boston, Massachusetts), issue of 06-12-1856">Teacher, Female Seminary in Tuscumbia, Alabama</occupation>
-        <residence><placeName>Tuscumbia, AL</placeName></residence>
-        <residence><placeName>Camillus, NY</placeName></residence>
-    </person>
-    <person xml:id="marvin_julia">
-        <persName>Marvin, Julia Reynolds</persName>
-        <birth when="1827"/>
-        <death when="1889"/>
-        <state type="relationship">
-            <desc>sister of Kate E. R. Pickard</desc>
-        </state>
-    </person>
-    <person xml:id="willie">
-        <persName>Pickard, Darwin Willie </persName>
-        <birth when="1851-08-21"/>
-        <death when="1873-08-04"/>
-        <state type="relationship">
-            <label>relationship</label>
-            <desc>son of Kate E. R. Pickard</desc>
-        </state>
-    </person>
-    <person xml:id="thornton_lewis">
-        <persName>Thornton, Lewis B.</persName>
-        <residence>
-            <placeName>Tuscumbia, AL</placeName>
-        </residence>
-    </person>
-    <person xml:id="ely_h_n">
-        <persName>Ely, H. N.</persName>
-        <residence>
-            <placeName>Medford, NJ</placeName>
-        </residence>
-    </person>
-    <person xml:id="samuel_may">
-        <persName>May, Rev. Samuel J.</persName>
-        <birth when="1797-09-12">
-            <placeName>Boston, MA</placeName>
-        </birth>
-        <death when="1871-07-01">
-            <placeName>Syracuse, NY</placeName>
-        </death>
-    </person>
-    <person xml:id="seth_conklin">
-        <persName>Conklin, Seth</persName>
-    </person>
-    <person xml:id="joseph_parrish">
-        <persName>Parrish, Joseph</persName>
-    </person>
-    <person xml:id="garrison">
-        <persName>Garrison, William Lloyd</persName>
-    </person>
-    <person xml:id="furness">
-        <persName>Furness, William Henry</persName>
-        <birth when="1802"/>
-        <death when="1896"/>
-    </person>
-</listPerson>
-           
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Peter Still Prosopography</title>
+                <author> Francesca Giannetti and Michelle Hwang </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Rutgers University Libraries</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/"> This work is
+                        licensed under a Creative Commons Attribution 3.0 Unported
+                        License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="charity_still">
+                    <persName>Still, Cidney (Charity)</persName>
+                    <birth when="1772">
+                        <!-- Family Search, US Census 1850 -->
+                        <placeName>NJ</placeName>
+                    </birth>
+                    <state type="relationship">
+                        <label>relationship</label>
+                        <desc>mother of Peter Still</desc>
+                    </state>
+                </person>
+                <person xml:id="levin_still_sr">
+                    <persName>Still, Levin</persName>
+                    <state type="relationship">
+                        <label>relationship</label>
+                        <desc>father of Peter Still</desc>
+                    </state>
+                </person>
+                <person xml:id="levin_still_jr">
+                    <persName>Still, Levin</persName>
+                    <birth when="1799-02-26"/>
+                    <death when="1831"/>
+                    <state type="relationship">
+                        <label>relationship</label>
+                        <desc>Peter's older brother</desc>
+                    </state>
+                </person>
+                <person xml:id="peter_still">
+                    <persName>Still, Peter</persName>
+                    <birth when="1801-02-22">
+                        <placeName>Saunders Griffin plantation [?], Eastern Shore of
+                            Maryland</placeName>
+                    </birth>
+                    <death when="1868"/>
+                    <!-- http://stillfamily.library.temple.edu/timeline/william-still -->
+                    <residence><placeName>Burlington, NJ</placeName></residence>
+                </person>
+                <person xml:id="ann_still">
+                    <!-- rutgers-lib_26930 -->
+                    <persName>Still, Ann</persName>
+                    <birth when="1798-01"/>
+                </person>
+                <person xml:id="kitty_still">
+                    <persName>Still, Kitturah</persName>
+                    <birth when="1805-01-20"/>
+                </person>
+                <person xml:id="samuel_still">
+                    <persName>Still, Samuel</persName>
+                    <birth when="1807-02-26"/>
+                </person>
+                <person xml:id="mary_still">
+                    <persName>Still, Mary</persName>
+                    <birth when="1808-08-31"/>
+                </person>
+                <person xml:id="hannah_still">
+                    <persName>Still, Hannah</persName>
+                    <birth when="1810-07-31"/>
+                </person>
+                <person xml:id="john_still">
+                    <persName>Still, John N.</persName>
+                    <!-- this is an N, rutgers-lib_26930 compare with NJ at bottom -->
+                    <birth when="1815-01-08"/>
+                </person>
+                <person xml:id="james_still">
+                    <persName>Still, James</persName>
+                    <birth when="1812-04-09">
+                        <placeName>Indian Mills, NJ</placeName>
+                        <!-- Family Search, Find A Grave -->
+                    </birth>
+                    <death when="1882-03-09">
+                        <placeName>Medford, NJ</placeName>
+                    </death>
+                    <occupation>Herbalist</occupation>
+                    <!-- http://www.medfordhistory.org/drstillcenter/index.php -->
+                </person>
+                <person xml:id="mahala_still">
+                    <persName>Still, Mahala</persName>
+                    <birth when="1803-12-30"/>
+                </person>
+                <person xml:id="charles_still">
+                    <persName>Still, Charles</persName>
+                    <birth when="1817-03-01"/>
+                </person>
+                <person xml:id="joseph_still">
+                    <persName>Still, Joseph</persName>
+                    <birth when="1819-11-24"/>
+                </person>
+                <person xml:id="nancy_still">
+                    <persName>Still, Nancy</persName>
+                </person>
+                <person xml:id="william_still">
+                    <persName>Still, William</persName>
+                    <birth notBefore="1821-10-07" notAfter="1821-11-17">
+                        <placeName>Burlington, NJ</placeName>
+                    </birth>
+                    <death when="1902-07-14">
+                        <placeName>Philadelphia, PA</placeName>
+                    </death>
+                    <state type="relationship">
+                        <label>relationship</label>
+                        <desc>Youngest brother of Peter Still</desc>
+                    </state>
+                </person>
+                <person xml:id="letitia_george">
+                    <persName>Still, Letitia George</persName>
+                    <birth when="1821"/>
+                    <death when="1906"/>
+                    <state type="relationship">
+                        <desc>Wife of William Still</desc>
+                    </state>
+                </person>
+                <person xml:id="caroline_still">
+                    <persName>Still, Caroline Virginia Matilda</persName>
+                    <birth when="1848"/>
+                    <death when="1919"/>
+                    <state type="relationship">
+                        <label>relationship</label>
+                        <desc>daughter of Letitia and William Still</desc>
+                    </state>
+                </person>
+                <person xml:id="vina_still">
+                    <persName>Still, Lavinia</persName>
+                    <birth when="1810">
+                        <!-- Family Search, US Census 1860 -->
+                        <placeName>NC</placeName>
+                    </birth>
+                    <state type="relationship">
+                        <desc>wife of Peter Still</desc>
+                    </state>
+                    <residence><placeName>Burlington, NJ</placeName></residence>
+                </person>
+                <person xml:id="catharine_still">
+                    <persName>Still, Catharine</persName>
+                    <birth notBefore="1837" notAfter="1838">
+                        <!-- Family Search, US Census 1860 -->
+                        <placeName>AL</placeName>
+                    </birth>
+                    <state type="relationship">
+                        <desc>daughter of Peter and Lavinia Still</desc>
+                        <!-- rutgers-lib_26928 -->
+                    </state>
+                    <residence><placeName>Onondaga Valley, NY</placeName></residence>
+                </person>
+                <person xml:id="sophia">
+                    <persName>Still, Sophia</persName>
+                    <!-- mentioned in rutgers-lib_26727 -->
+                    <birth when="1813"/>
+                    <!-- Family Search, US Census 1850-->
+                    <state type="relationship">
+                        <desc>Unknown</desc>
+                    </state>
+                    <residence>Medford, NJ</residence>
+                </person>
+                <person xml:id="mckiernan_bernard">
+                    <persName>McKiernan, Bernard</persName>
+                    <residence>
+                        <placeName>South Florence, AL</placeName>
+                    </residence>
+                </person>
+                <person xml:id="hargraves">
+                    <persName>Hargraves, Dr.</persName>
+                </person>
+                <person xml:id="weakley">
+                    <persName>Weakley, Judge</persName>
+                </person>
+                <person xml:id="pickard_d_l">
+                    <persName>Pickard, Darwin L.</persName>
+                    <birth when="1820-05-20">
+                        <placeName>Camillus, NY</placeName>
+                    </birth>
+                    <death when="1897-01-09">
+                        <placeName>Syracuse, NY</placeName>
+                    </death>
+                    <event when="1846">
+                        <label>marital status</label>
+                        <desc>Married Kate E. Reynolds</desc>
+                    </event>
+                </person>
+                <person xml:id="pickard_kate">
+                    <persName>Pickard, Katherine Emily Reynolds</persName>
+                    <birth when="1824-08-13">
+                        <placeName>Saratoga, NY</placeName>
+                    </birth>
+                    <death when="1864-09-24">
+                        <placeName>Camillus, NY</placeName>
+                    </death>
+                    <event when="1846">
+                        <label>marital status</label>
+                        <desc>Married D. L. Pickard</desc>
+                    </event>
+                    <state type="relationship">
+                        <label>role in Still family</label>
+                        <desc>Peter Still's biographer</desc>
+                    </state>
+                    <occupation
+                        evidence="The Boston Daily Atlas (Boston, Massachusetts), issue of 06-12-1856"
+                        >Teacher, Female Seminary in Tuscumbia, Alabama</occupation>
+                    <residence><placeName>Tuscumbia, AL</placeName></residence>
+                    <residence><placeName>Camillus, NY</placeName></residence>
+                </person>
+                <person xml:id="marvin_julia">
+                    <persName>Marvin, Julia Reynolds</persName>
+                    <birth when="1827-08-23">
+                        <!-- Family Search, Find A Grave -->
+                        <placeName>Saratoga, NY</placeName>
+                    </birth>
+                    <death when="1889-02-03">
+                        <placeName>Washington, D.C.</placeName>
+                    </death>
+                    <state type="relationship">
+                        <desc>sister of Kate E. R. Pickard</desc>
+                    </state>
+                    <event when="1853">
+                        <!-- rutgers-lib_26847 -->
+                        <label>marital status</label>
+                        <desc>Married Mr. LeGrand Marvin</desc>
+                    </event>
+                </person>
+                <person xml:id="willie">
+                    <persName>Pickard, Darwin Willie </persName>
+                    <birth when="1851-08-21">
+                        <placeName>Camillus, NY</placeName>
+                        <!-- Family Search, Find A Grave -->
+                    </birth>
+                    <death when="1873-08-04">
+                        <placeName>Syracuse, NY</placeName>
+                    </death>
+                    <state type="relationship">
+                        <label>relationship</label>
+                        <desc>son of Kate E. R. Pickard</desc>
+                    </state>
+                </person>
+                <person xml:id="thornton_lewis">
+                    <persName>Thornton, Lewis B.</persName>
+                    <residence>
+                        <placeName>Tuscumbia, AL</placeName>
+                    </residence>
+                </person>
+                <person xml:id="ely_h_n">
+                    <persName>Ely, H. N.</persName>
+                    <residence>
+                        <placeName>Medford, NJ</placeName>
+                    </residence>
+                </person>
+                <person xml:id="samuel_may">
+                    <persName>May, Rev. Samuel Joseph</persName>
+                    <birth when="1797-09-12">
+                        <placeName>Boston, MA</placeName>
+                    </birth>
+                    <death when="1871-07-01">
+                        <placeName>Syracuse, NY</placeName>
+                    </death>
+                    <occupation>Minister and abolitionist</occupation>
+                </person>
+                <person xml:id="seth_conklin">
+                    <persName>Conklin, Seth</persName>
+                    <birth when="1802-02-03">
+                        <!-- The Life of Seth Conkling by William Henry Furness -->
+                        <placeName>Sandy Hill, N.Y.</placeName>
+                    </birth>
+                    <death when="1851"/>
+                    <!-- The Saga of Peter Still by Spencer Crew -->
+                    <occupation>Former soldier and abolitionist</occupation>
+                </person>
+                <person xml:id="joseph_parrish">
+                    <persName>Parrish, Dr. Joseph</persName>
+                    <birth notBefore="1815" notAfter="1819">
+                        <!-- Family Search -->
+                        <placeName>PA</placeName>
+                    </birth>
+                    <death notBefore="1890" notAfter="1891">
+                        <placeName>NJ</placeName>
+                    </death>
+                    <occupation>Physician</occupation>
+                    <residence>
+                        <placeName>Burlington, NJ</placeName>
+                    </residence>
+                </person>
+                <person xml:id="garrison">
+                    <persName>Garrison, William Lloyd</persName>
+                    <birth when="1838">
+                        <!-- Family Search -->
+                        <placeName>Boston, MA</placeName>
+                    </birth>
+                    <death when="1909-09-13">
+                        <placeName>Lexington, MA</placeName>
+                    </death>
+                </person>
+                <person xml:id="furness">
+                    <persName>Furness, William Henry</persName>
+                    <birth when="1802-04-20">
+                        <!-- Family Search, Find A Grave -->
+                        <placeName>Boston, MA</placeName>
+                    </birth>
+                    <death when="1896-01-30">
+                        <placeName>Philadelphia, PA</placeName>
+                    </death>
+                    <occupation>Minister and abolitionist</occupation>
+                </person>
+                <person xml:id="james_mckim">
+                    <persName>McKim, James Miller</persName>
+                    <!-- http://archives.dickinson.edu/people/james-miller-mckim-1810-1874 -->
+                    <birth when="1810-11-10">
+                        <placeName>Carlisle, PA</placeName>
+                    </birth>
+                    <death when="1874-06-13">
+                        <placeName>West Orange, NJ</placeName>
+                    </death>
+                    <occupation>Minister, abolitionist, founder of <emph>The Nation</emph>
+                        newspaper</occupation>
+                </person>
+                <person xml:id="ellis_loring">
+                    <persName>Loring, Ellis Gray</persName>
+                    <birth notBefore="1800" notAfter="1803">
+                        <!-- Family Search, http://oasis.lib.harvard.edu/oasis/deliver/~sch00099-->
+                        <placeName>Boston, MA</placeName>
+                    </birth>
+                    <death when="1858-05-24">
+                        <placeName>Boston, MA</placeName>
+                    </death>
+                    <occupation>Lawyer, abolitionist, founder of the New England Anti-Slavery
+                        Society</occupation>
+                    <!-- Harvard University OASIS (see URL above) -->
+                </person>
+                <person xml:id="harriet_stowe">
+                    <!-- rutgers-lib_26731 -->
+                    <persName>Stowe, Harriet Beecher</persName>
+                </person>
+                <person xml:id="elias_boudinot">
+                    <!-- rutgers-lib_26728 -->
+                    <persName>Boudinot, Elias E.</persName>
+                </person>
+                <person xml:id="thomas_king">
+                    <!-- rutgers-lib_26733 -->
+                    <persName>King, Thomas Starr</persName>
+                </person>
+                <person xml:id="dillwyn_smith">
+                    <!-- rutgers-lib_26837 -->
+                    <persName>Smith, Dillwyn</persName>
+                </person>
+                <person xml:id="rollin_neale">
+                    <!-- rutgers-lib_26840 -->
+                    <persName>Neale, Rollin Heber</persName>
+                </person>
+                <person xml:id="nathan_durfee">
+                    <!-- rutgers-lib_26845 -->
+                    <persName>Durfee, Nathan</persName>
+                </person>
+                <person xml:id="john_simpson">
+                    <!-- rutgers-lib_26846 -->
+                    <persName>Simpson, John</persName>
+                </person>
+                <person xml:id="horace_greeley">
+                    <!-- rutgers-lib_26848 -->
+                    <persName>Greeley, Horace</persName>
+                </person>
+                <person xml:id="joseph_friedman">
+                    <persName>Friedman, Joseph</persName>
+                </person>
+                <person xml:id="john_hogun">
+                    <persName>Hogun, John H.</persName>
+                </person>
+                <person xml:id="levi_gist">
+                    <persName>Gist, Levi</persName>
+                </person>
+
+                <relation mutual="#pickard_kate #marvin_julia" name="sibling"/>
+                <relation mutual="#pickard_kate #pickard_d_l" name="spouse"/>
+                <relation name="parent" active="#pickard_kate #pickard_d_l" passive="#willie"/>
+                <relation name="parent" active="#charity_still #levin_still_sr"
+                    passive="#peter_still"/>
+                <relation name="slave-owner" active="#john_hogun #joseph_friedman #levi_gist" passive="#peter_still"/>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
