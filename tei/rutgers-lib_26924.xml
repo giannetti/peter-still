@@ -167,6 +167,11 @@
           <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
         </keywords>
       </textClass>
+      <handNotes>
+        <handNote xml:id="archivist" medium="pencil" scope="minor">
+          <p>Pencil annotation, probably added by archivist.</p>
+        </handNote>
+      </handNotes>
     </profileDesc>
   </teiHeader>
   <text>
@@ -174,11 +179,13 @@
       <pb n="1" facs="../images/26924_1.png" />
       
       <div>
+        <ab rendition="#indent3"><add hand="#archivist" place="top">[1885]</add></ab>
+        <ab rendition="#indent3"><add hand="#archivist" place="top">[May?]</add></ab>
         <p rendition="#indent">
           There are certain points in the history of <persName ref="psn:peter_still">Peter's</persName><lb />
           <persName ref="psn:levin_still_sr">father</persName> and <persName ref="psn:charity_still">mother</persName> a knowledge of which is<lb />
           necessary to the complete narrative of the story<lb />
-          She probably remembers them - If she does, will<lb />
+          She probably remembers them. If she does, will<lb />
           some of the friends please send me in writing<lb />
           answers to the following questions<lb />
         </p>
@@ -206,7 +213,7 @@
         <p rendition="#indent">
           How long after receiving his free papers did<lb />
           he remain in the neighborhood of his former master?<lb />
-          What time in the year did he + his<lb /> 
+          What time in the year did he &amp; his<lb /> 
           wife first flee.<lb />
         </p>
           
@@ -228,7 +235,7 @@
 
           <pb n="2" facs="../images/26924_2.png" />
           
-          Where was the father when she + the children<lb />
+          Where was the father when she &amp; the children<lb />
           were <subst><del rend="strikethrough">found</del> <add>taken</add></subst>?<lb />
         </p>
 
@@ -269,7 +276,7 @@
         </p>
         
         <p rendition="#indent">
-          Did Peter's mother in her second flights<lb />
+          Did Peter's mother in her second flight<lb />
           take the same road as at first?<lb />        
         </p>
 
