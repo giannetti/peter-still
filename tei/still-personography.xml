@@ -3,8 +3,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>A Peter Still Prosopography</title>
-                <author> Francesca Giannetti and Michelle Hwang </author>
+                <title>A Peter Still Personography</title>
+            <respStmt>
+                <resp>Compiled and edited by</resp>
+                <persName ref="#FG"> Francesca Giannetti </persName>
+                <persName ref="#MH"> Michelle Hwang </persName>
+            </respStmt>
             </titleStmt>
             <publicationStmt>
                 <publisher>Rutgers University Libraries</publisher>
@@ -23,41 +27,70 @@
         <body>
             <listPerson>
                 <person xml:id="charity_still">
-                    <persName>Still, Cidney (Charity)</persName>
+                    <persName>
+                        <surname type="married">Still</surname>
+                        <forename type="given">Cidney</forename>
+                        <addName type="adopted">Charity</addName>
+                    </persName>
                     <birth when="1772">
-                        <!-- Family Search, US Census 1850 -->
-                        <placeName>NJ</placeName>
+                        <placeName>New Jersey</placeName>
                     </birth>
-                    <state type="relationship">
-                        <label>relationship</label>
-                        <desc>mother of Peter Still</desc>
-                    </state>
+                    <bibl>
+                        <title>United States Census, 1850</title>
+                        <ref target="https://familysearch.org/ark:/61903/3:1:S3HT-65X3-DKV"/>
+                    </bibl>
                 </person>
                 <person xml:id="levin_still_sr">
-                    <persName>Still, Levin</persName>
-                    <state type="relationship">
-                        <label>relationship</label>
-                        <desc>father of Peter Still</desc>
-                    </state>
+                    <persName>
+                        <surname>Steel</surname>
+                        <surname type="adopted">Still</surname>
+                        <forename>Levin</forename>
+                    </persName>
+                    <death when="1842-12-24"/>
+                        <bibl>
+                            <title>William Still: His Life and Work to This Time.</title>
+                            <author>James P. Boyd</author>
+                        </bibl>
                 </person>
                 <person xml:id="levin_still_jr">
                     <persName>Still, Levin</persName>
                     <birth when="1799-02-26"/>
                     <death when="1831"/>
-                    <state type="relationship">
-                        <label>relationship</label>
-                        <desc>Peter's older brother</desc>
-                    </state>
                 </person>
                 <person xml:id="peter_still">
-                    <persName>Still, Peter</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Peter</forename>
+                    </persName>
                     <birth when="1801-02-22">
                         <placeName>Saunders Griffin plantation [?], Eastern Shore of
                             Maryland</placeName>
                     </birth>
                     <death when="1868"/>
-                    <!-- http://stillfamily.library.temple.edu/timeline/william-still -->
                     <residence><placeName>Burlington, NJ</placeName></residence>
+                    <event when="1826-06-25">
+                        <label>Marriage</label>
+                        <desc>Married Lavinia (Vina) Sisson in <placeName>Alabama</placeName> (Pickard, p. 375-76).</desc>
+                    </event>
+                    <event when="1850-04-16">
+                        <label>Manumission</label>
+                        <desc>Bought his own freedom for $500.00 (Pickard, p. 231-32).</desc>
+                    </event>
+                    <event when="1850-07-26">
+                        <label>Freedom</label>
+                        <desc>Reached freedom of <placeName>Cincinnati, Ohio</placeName> (Pickard, p. 237).</desc>
+                    </event>
+                    <listBibl>
+                        <bibl>
+                            <author ref="#pickard_kate">Pickard, Kate E. R.</author>
+                            <title>The Kidnapped and the Ransomed; Being the Personal Recollections of Peter Still and His Wife “Vina,” after Forty Years of Slavery</title>
+                            <ref target="http://hdl.handle.net/2027/yale.39002006718895"/>
+                        </bibl>
+                        <bibl>
+                            <title>Timeline: The Life and Times of William Still (1821-1902)</title>
+                            <ref target="http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still/timeline/timeline--the-life-and-times-o"/>
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="ann_still">
                     <!-- rutgers-lib_26930 -->
@@ -86,16 +119,21 @@
                     <birth when="1815-01-08"/>
                 </person>
                 <person xml:id="james_still">
-                    <persName>Still, James</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>James</forename>
+                    </persName>
                     <birth when="1812-04-09">
-                        <placeName>Indian Mills, NJ</placeName>
+                        <placeName>Indian Mills, New Jersey</placeName>
                         <!-- Family Search, Find A Grave -->
                     </birth>
                     <death when="1882-03-09">
-                        <placeName>Medford, NJ</placeName>
+                        <placeName>Medford, New Jersey</placeName>
                     </death>
                     <occupation>Herbalist</occupation>
-                    <!-- http://www.medfordhistory.org/drstillcenter/index.php -->
+                    <bibl>
+                            <ptr target="http://www.medfordhistory.org/drstillcenter/index.php"/>
+                    </bibl>
                 </person>
                 <person xml:id="mahala_still">
                     <persName>Still, Mahala</persName>
@@ -115,65 +153,107 @@
                 <person xml:id="william_still">
                     <persName>Still, William</persName>
                     <birth notBefore="1821-10-07" notAfter="1821-11-17">
-                        <placeName>Burlington, NJ</placeName>
+                        <placeName>Burlington, New Jersey</placeName>
                     </birth>
                     <death when="1902-07-14">
-                        <placeName>Philadelphia, PA</placeName>
+                        <placeName>Philadelphia, Pennsylvania</placeName>
                     </death>
-                    <state type="relationship">
-                        <label>relationship</label>
-                        <desc>Youngest brother of Peter Still</desc>
-                    </state>
+                    <event when="1844">
+                        <label>Removal to Philadelphia</label>
+                        <desc>"...he left New Jersey, in the spring of 1844, and came to Philadelphia."</desc>
+                    </event>
+                    <event when="1847">
+                        <label>Anti-Slavery Office</label>
+                        <desc>William Still applied to <persName ref="#james_mckim">J. Miller McKim</persName> for the position of clerk at the Anti-Slavery Office.</desc>
+                    </event>
+                    <event when="1847">
+                        <label>Marriage</label>
+                        <desc>William Still married Laetitia George and set up house with her on Washington Street.</desc>
+                    </event>
+                    <listBibl>
+                        <bibl>
+                            <title>William Still: His Life and Work to This Time.</title>
+                            <author>James P. Boyd</author>
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="letitia_george">
-                    <persName>Still, Letitia George</persName>
+                    <persName>
+                        <surname type="married">Still</surname>
+                        <surname>George</surname>
+                        <forename>Letitia</forename>
+                    </persName>
                     <birth when="1821"/>
                     <death when="1906"/>
-                    <state type="relationship">
-                        <desc>Wife of William Still</desc>
-                    </state>
                 </person>
                 <person xml:id="caroline_still">
-                    <persName>Still, Caroline Virginia Matilda</persName>
-                    <birth when="1848"/>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Caroline</forename>
+                        <forename>Virginia</forename>
+                        <forename>Matilda</forename>
+                    </persName>
+                    <birth notBefore="1847-11-01" notAfter="1848"/>
                     <death when="1919"/>
-                    <state type="relationship">
-                        <label>relationship</label>
-                        <desc>daughter of Letitia and William Still</desc>
-                    </state>
+                    <event when="1868">
+                        <label>Graduation</label>
+                        <desc>Graduated from Oberlin College, Ohio.</desc>
+                    </event>
+                    <event>
+                        <label>Graduation</label>
+                        <desc>Female Medical College of Philadelphia</desc>
+                    </event>
+                    <listBibl>
+                        <bibl>
+                            <title>William Still: His Life and Work to This Time.</title>
+                            <author>James P. Boyd</author>
+                        </bibl>
+                    <bibl>
+                        <ref target="http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still/timeline/timeline--the-life-and-times-o"/>
+                    </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="vina_still">
                     <persName>Still, Lavinia</persName>
-                    <birth when="1810">
-                        <!-- Family Search, US Census 1860 -->
-                        <placeName>NC</placeName>
+                    <birth when="1810" cert="medium">
+                        <placeName>North Carolina</placeName>
                     </birth>
-                    <state type="relationship">
-                        <desc>wife of Peter Still</desc>
-                    </state>
                     <residence><placeName>Burlington, NJ</placeName></residence>
+                    <bibl>
+                        <title>United States Census, 1860</title>
+                        <ref target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"/>
+                    </bibl>
                 </person>
                 <person xml:id="catharine_still">
-                    <persName>Still, Catharine</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Catharine</forename>
+                    </persName>
                     <birth notBefore="1837" notAfter="1838">
-                        <!-- Family Search, US Census 1860 -->
-                        <placeName>AL</placeName>
+                        <placeName>Alabama</placeName>
                     </birth>
-                    <state type="relationship">
-                        <desc>daughter of Peter and Lavinia Still</desc>
-                        <!-- rutgers-lib_26928 -->
-                    </state>
                     <residence><placeName>Onondaga Valley, NY</placeName></residence>
+                    <bibl>
+                        <title>United States Census, 1860</title>
+                        <ref target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"></ref>
+                    </bibl>
                 </person>
                 <person xml:id="sophia">
-                    <persName>Still, Sophia</persName>
-                    <!-- mentioned in rutgers-lib_26727 -->
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Sophia</forename>
+                    </persName>
                     <birth when="1813"/>
-                    <!-- Family Search, US Census 1850-->
-                    <state type="relationship">
-                        <desc>Unknown</desc>
-                    </state>
                     <residence>Medford, NJ</residence>
+                    <listBibl>
+                        <bibl>
+                            <title>S[till], W[illia]m, letter, A[nti] S[lavery] Office, Philadelphia, October 12, 1852, to Peter [Still], [in New Jersey]</title>
+                            <ref target="https://doi.org/doi:10.7282/T3Q52PR7"/>
+                        </bibl>
+                        <bibl>
+                            <title>United States Census, 1850</title>
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="mckiernan_bernard">
                     <persName>McKiernan, Bernard</persName>
@@ -201,44 +281,60 @@
                     </event>
                 </person>
                 <person xml:id="pickard_kate">
-                    <persName>Pickard, Katherine Emily Reynolds</persName>
+                    <persName>
+                        <surname type="married">Pickard</surname>
+                        <surname>Reynolds</surname>
+                        <forename>Katherine</forename>
+                        <addName type="alias">Kate</addName>
+                        <forename>Emily</forename>
+                    </persName>
                     <birth when="1824-08-13">
-                        <placeName>Saratoga, NY</placeName>
+                        <placeName>Saratoga, New York</placeName>
                     </birth>
                     <death when="1864-09-24">
-                        <placeName>Camillus, NY</placeName>
+                        <placeName>Camillus, New York</placeName>
                     </death>
                     <event when="1846">
                         <label>marital status</label>
-                        <desc>Married D. L. Pickard</desc>
+                        <desc>Married <persName ref="#pickard_d_l">D. L. Pickard</persName>.</desc>
                     </event>
-                    <state type="relationship">
-                        <label>role in Still family</label>
-                        <desc>Peter Still's biographer</desc>
-                    </state>
-                    <occupation
-                        evidence="The Boston Daily Atlas (Boston, Massachusetts), issue of 06-12-1856"
-                        >Teacher, Female Seminary in Tuscumbia, Alabama</occupation>
-                    <residence><placeName>Tuscumbia, AL</placeName></residence>
-                    <residence><placeName>Camillus, NY</placeName></residence>
+                    <occupation>Teacher, Female Seminary in Tuscumbia, Alabama</occupation>
+                    <residence><placeName>Tuscumbia, Alabama</placeName></residence>
+                    <residence><placeName>Camillus, New York</placeName></residence>
+                    <bibl>
+                        <title>The Boston Daily Atlas (Boston, Massachusetts)</title>
+                        <date when="1856-06-12"/>
+                        <ref target="http://docs.newsbank.com/openurl?ctx_ver=z39.88-2004&amp;amp;rft_id=info:sid/iw.newsbank.com:EANX&amp;amp;rft_val_format=info:ofi/fmt:kev:mtx:ctx&amp;amp;rft_dat=11F03019F1D4DDD0&amp;amp;svc_dat=HistArchive:ahnpdoc&amp;amp;req_dat=0DC2EA1C6DFCA835"/>
+                    </bibl>
                 </person>
                 <person xml:id="marvin_julia">
-                    <persName>Marvin, Julia Reynolds</persName>
+                    <persName>
+                        <surname type="married">Marvin</surname>
+                        <surname>Reynolds</surname>
+                        <forename>Julia</forename>
+                    </persName>
                     <birth when="1827-08-23">
-                        <!-- Family Search, Find A Grave -->
-                        <placeName>Saratoga, NY</placeName>
+                        <placeName>Saratoga, New York</placeName>
                     </birth>
                     <death when="1889-02-03">
-                        <placeName>Washington, D.C.</placeName>
+                        <placeName>Washington, District of Columbia</placeName>
                     </death>
                     <state type="relationship">
                         <desc>sister of Kate E. R. Pickard</desc>
                     </state>
                     <event when="1853">
-                        <!-- rutgers-lib_26847 -->
                         <label>marital status</label>
                         <desc>Married Mr. LeGrand Marvin</desc>
                     </event>
+                    <listBibl>
+                        <bibl>
+                            <ref target="https://www.findagrave.com/memorial/75875204"/>
+                        </bibl>
+                        <bibl>
+                            <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], April 24, 1854, to "Uncle Peter" [Peter Still]</title>
+                            <ref target="https://doi.org/doi:10.7282/T37D2V83"/>
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="willie">
                     <persName>Pickard, Darwin Willie </persName>
@@ -277,38 +373,63 @@
                     <occupation>Minister and abolitionist</occupation>
                 </person>
                 <person xml:id="seth_conklin">
-                    <persName>Conklin, Seth</persName>
+                    <persName>
+                        <surname>Conklin</surname>
+                        <forename>Seth</forename>
+                    </persName>
                     <birth when="1802-02-03">
-                        <!-- The Life of Seth Conkling by William Henry Furness -->
-                        <placeName>Sandy Hill, N.Y.</placeName>
+                        <placeName>Sandy Hill, New York</placeName>
                     </birth>
                     <death when="1851"/>
-                    <!-- The Saga of Peter Still by Spencer Crew -->
                     <occupation>Former soldier and abolitionist</occupation>
+                    <listBibl>
+                        <bibl>
+                            <title>The Saga of Peter Still</title>
+                            <author>Spencer Crew</author>
+                            <ref target="http://njh.libraries.rutgers.edu/index.php/njh/article/view/1059"/>
+                        </bibl>
+                        <bibl>
+                            <title>The Life of Seth Conkling</title>
+                            <author>William Henry Furness</author>
+                            <ref target="http://hdl.handle.net/2027/mdp.39015078952341"/>
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="joseph_parrish">
-                    <persName>Parrish, Dr. Joseph</persName>
+                    <persName>
+                        <surname>Parrish</surname>
+                        <forename>Joseph</forename>
+                    </persName>
                     <birth notBefore="1815" notAfter="1819">
-                        <!-- Family Search -->
-                        <placeName>PA</placeName>
+                        <placeName>Pennsylvania</placeName>
                     </birth>
                     <death notBefore="1890" notAfter="1891">
-                        <placeName>NJ</placeName>
+                        <placeName>New Jersey</placeName>
                     </death>
                     <occupation>Physician</occupation>
                     <residence>
                         <placeName>Burlington, NJ</placeName>
                     </residence>
+                    <bibl>
+                        <title>United States Census, 1860</title>
+                    </bibl>
                 </person>
                 <person xml:id="garrison">
-                    <persName>Garrison, William Lloyd</persName>
-                    <birth when="1838">
-                        <!-- Family Search -->
-                        <placeName>Boston, MA</placeName>
+                    <persName>
+                        <surname>Garrison</surname>
+                        <forename>William</forename>
+                        <forename>Lloyd</forename>
+                    </persName>
+                    <birth when="1804-12-12">
+                        <placeName>Newburyport, Massachusetts</placeName>
                     </birth>
-                    <death when="1909-09-13">
-                        <placeName>Lexington, MA</placeName>
+                    <death when="1879-05-24">
+                        <placeName>New York, New York</placeName>
                     </death>
+                    <occupation>Prominent American abolitionist, journalist, and social reformer. Founder and editor of <emph>The Liberator</emph>.</occupation>
+                    <bibl>
+                        <ref target="https://www.familysearch.org/tree/person/details/96XL-LHV"/>
+                    </bibl>
                 </person>
                 <person xml:id="furness">
                     <persName>Furness, William Henry</persName>
@@ -322,29 +443,40 @@
                     <occupation>Minister and abolitionist</occupation>
                 </person>
                 <person xml:id="james_mckim">
-                    <persName>McKim, James Miller</persName>
-                    <!-- http://archives.dickinson.edu/people/james-miller-mckim-1810-1874 -->
+                    <persName>
+                        <surname>McKim</surname>
+                        <forename>James</forename>
+                        <forename>Miller</forename>
+                    </persName>
                     <birth when="1810-11-10">
-                        <placeName>Carlisle, PA</placeName>
+                        <placeName>Carlisle, Pennsylvania</placeName>
                     </birth>
                     <death when="1874-06-13">
-                        <placeName>West Orange, NJ</placeName>
+                        <placeName>West Orange, New Jersey</placeName>
                     </death>
                     <occupation>Minister, abolitionist, founder of <emph>The Nation</emph>
                         newspaper</occupation>
+                    <bibl>
+                        <ref target="http://archives.dickinson.edu/people/james-miller-mckim-1810-1874"/>
+                    </bibl>
                 </person>
                 <person xml:id="ellis_loring">
-                    <persName>Loring, Ellis Gray</persName>
+                    <persName>
+                        <surname>Loring</surname>
+                        <forename>Ellis</forename>
+                        <forename>Gray</forename>
+                    </persName>
                     <birth notBefore="1800" notAfter="1803">
-                        <!-- Family Search, http://oasis.lib.harvard.edu/oasis/deliver/~sch00099-->
-                        <placeName>Boston, MA</placeName>
+                        <placeName>Boston, Massachusetts</placeName>
                     </birth>
                     <death when="1858-05-24">
-                        <placeName>Boston, MA</placeName>
+                        <placeName>Boston, Massachusetts</placeName>
                     </death>
                     <occupation>Lawyer, abolitionist, founder of the New England Anti-Slavery
                         Society</occupation>
-                    <!-- Harvard University OASIS (see URL above) -->
+                    <bibl>
+                        <ref target="http://oasis.lib.harvard.edu/oasis/deliver/~sch00099"/>
+                    </bibl>
                 </person>
                 <person xml:id="harriet_stowe">
                     <!-- rutgers-lib_26731 -->
@@ -382,7 +514,7 @@
                     <persName>Friedman, Joseph</persName>
                 </person>
                 <person xml:id="john_hogun">
-                    <persName>Hogun, John H.</persName>
+                    <persName>Hogun, John Henry</persName>
                 </person>
                 <person xml:id="levi_gist">
                     <persName>Gist, Levi</persName>
@@ -392,7 +524,11 @@
                 <relation mutual="#pickard_kate #pickard_d_l" name="spouse"/>
                 <relation name="parent" active="#pickard_kate #pickard_d_l" passive="#willie"/>
                 <relation name="parent" active="#charity_still #levin_still_sr"
-                    passive="#peter_still"/>
+                    passive="#peter_still #william_still #levin_still_jr"/>
+                <relation mutual="#william_still #letitia_george" name="spouse"/>
+                <relation name="parent" active="#letitia_george #william_still" passive="#caroline_still"/>
+                <relation mutual="#peter_still #vina_still" name="spouse"/>
+                <relation name="parent" active="#vina_still #peter_still" passive="#catharine_still"/>
                 <relation name="slave-owner" active="#john_hogun #joseph_friedman #levi_gist" passive="#peter_still"/>
             </listPerson>
         </body>
