@@ -70,7 +70,7 @@
                     <residence><placeName>Burlington, NJ</placeName></residence>
                     <event when="1826-06-25">
                         <label>Marriage</label>
-                        <desc>Married Lavinia (Vina) Sisson in <placeName>Alabama</placeName> (Pickard, p. 375-76).</desc>
+                        <desc>Married <persName ref="#vina_still">Lavinia (Vina) Sisson</persName> in <placeName>Alabama</placeName> (Pickard, p. 375-76).</desc>
                     </event>
                     <event when="1850-04-16">
                         <label>Manumission</label>
@@ -151,7 +151,10 @@
                     <persName>Still, Nancy</persName>
                 </person>
                 <person xml:id="william_still">
-                    <persName>Still, William</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>William</forename>
+                    </persName>
                     <birth notBefore="1821-10-07" notAfter="1821-11-17">
                         <placeName>Burlington, New Jersey</placeName>
                     </birth>
@@ -168,7 +171,7 @@
                     </event>
                     <event when="1847">
                         <label>Marriage</label>
-                        <desc>William Still married Laetitia George and set up house with her on Washington Street.</desc>
+                        <desc>William Still married <persName ref="#letitia_george">Laetitia George</persName> and set up house with her on Washington Street.</desc>
                     </event>
                     <listBibl>
                         <bibl>
@@ -214,7 +217,12 @@
                     </listBibl>
                 </person>
                 <person xml:id="vina_still">
-                    <persName>Still, Lavinia</persName>
+                    <persName>
+                        <surname type="married">Still</surname>
+                        <surname>Sisson</surname>
+                        <forename>Lavinia</forename>
+                        <addName type="alias">Vina</addName>
+                    </persName>
                     <birth when="1810" cert="medium">
                         <placeName>North Carolina</placeName>
                     </birth>
@@ -319,9 +327,6 @@
                     <death when="1889-02-03">
                         <placeName>Washington, District of Columbia</placeName>
                     </death>
-                    <state type="relationship">
-                        <desc>sister of Kate E. R. Pickard</desc>
-                    </state>
                     <event when="1853">
                         <label>marital status</label>
                         <desc>Married Mr. LeGrand Marvin</desc>
@@ -345,10 +350,6 @@
                     <death when="1873-08-04">
                         <placeName>Syracuse, NY</placeName>
                     </death>
-                    <state type="relationship">
-                        <label>relationship</label>
-                        <desc>son of Kate E. R. Pickard</desc>
-                    </state>
                 </person>
                 <person xml:id="thornton_lewis">
                     <persName>Thornton, Lewis B.</persName>
@@ -432,15 +433,28 @@
                     </bibl>
                 </person>
                 <person xml:id="furness">
-                    <persName>Furness, William Henry</persName>
+                    <persName>
+                        <surname>Furness</surname>
+                        <forename>William</forename>
+                        <forename>Henry</forename>
+                    </persName>
                     <birth when="1802-04-20">
-                        <!-- Family Search, Find A Grave -->
-                        <placeName>Boston, MA</placeName>
+                        <placeName>Boston, Massachusetts</placeName>
                     </birth>
                     <death when="1896-01-30">
-                        <placeName>Philadelphia, PA</placeName>
+                        <placeName>Philadelphia, Pensylvania</placeName>
                     </death>
                     <occupation>Minister and abolitionist</occupation>
+                    <listBibl>
+                        <bibl>
+                            <title>William H. Furness, D. D.</title>
+                            <author ref="#william_still"/>
+                            <ref target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=771"/>
+                        </bibl>
+                        <bibl>
+                            <ref target="https://en.wikipedia.org/wiki/William_Henry_Furness"/>
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="james_mckim">
                     <persName>
