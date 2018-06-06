@@ -4,11 +4,11 @@
         <fileDesc>
             <titleStmt>
                 <title>A Peter Still Personography</title>
-            <respStmt>
-                <resp>Compiled and edited by</resp>
-                <persName ref="#FG"> Francesca Giannetti </persName>
-                <persName ref="#MH"> Michelle Hwang </persName>
-            </respStmt>
+                <respStmt>
+                    <resp>Compiled and edited by</resp>
+                    <persName ref="#FG"> Francesca Giannetti </persName>
+                    <persName ref="#MH"> Michelle Hwang </persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <publisher>Rutgers University Libraries</publisher>
@@ -47,10 +47,11 @@
                         <forename>Levin</forename>
                     </persName>
                     <death when="1842-12-24"/>
-                        <bibl>
-                            <title>William Still: His Life and Work to This Time.</title>
-                            <author>James P. Boyd</author>
-                        </bibl>
+                    <bibl>
+                        <title>William Still: His Life and Work to This Time.</title>
+                        <author>James P. Boyd</author>
+                        <ref target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=34"/>
+                    </bibl>
                 </person>
                 <person xml:id="levin_still_jr">
                     <persName>Still, Levin</persName>
@@ -70,7 +71,8 @@
                     <residence><placeName>Burlington, NJ</placeName></residence>
                     <event when="1826-06-25">
                         <label>Marriage</label>
-                        <desc>Married <persName ref="#vina_still">Lavinia (Vina) Sisson</persName> in <placeName>Alabama</placeName> (Pickard, p. 375-76).</desc>
+                        <desc>Married <persName ref="#vina_still">Lavinia (Vina) Sisson</persName>
+                            in <placeName>Alabama</placeName> (Pickard, p. 375-76).</desc>
                     </event>
                     <event when="1850-04-16">
                         <label>Manumission</label>
@@ -78,17 +80,22 @@
                     </event>
                     <event when="1850-07-26">
                         <label>Freedom</label>
-                        <desc>Reached freedom of <placeName>Cincinnati, Ohio</placeName> (Pickard, p. 237).</desc>
+                        <desc>Reached freedom of <placeName>Cincinnati, Ohio</placeName> (Pickard,
+                            p. 237).</desc>
                     </event>
                     <listBibl>
                         <bibl>
                             <author ref="#pickard_kate">Pickard, Kate E. R.</author>
-                            <title>The Kidnapped and the Ransomed; Being the Personal Recollections of Peter Still and His Wife “Vina,” after Forty Years of Slavery</title>
+                            <title>The Kidnapped and the Ransomed; Being the Personal Recollections
+                                of Peter Still and His Wife “Vina,” after Forty Years of
+                                Slavery</title>
                             <ref target="http://hdl.handle.net/2027/yale.39002006718895"/>
                         </bibl>
                         <bibl>
                             <title>Timeline: The Life and Times of William Still (1821-1902)</title>
-                            <ref target="http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still/timeline/timeline--the-life-and-times-o"/>
+                            <ref
+                                target="http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still/timeline/timeline--the-life-and-times-o"
+                            />
                         </bibl>
                     </listBibl>
                 </person>
@@ -125,14 +132,13 @@
                     </persName>
                     <birth when="1812-04-09">
                         <placeName>Indian Mills, New Jersey</placeName>
-                        <!-- Family Search, Find A Grave -->
                     </birth>
                     <death when="1882-03-09">
                         <placeName>Medford, New Jersey</placeName>
                     </death>
                     <occupation>Herbalist</occupation>
                     <bibl>
-                            <ptr target="http://www.medfordhistory.org/drstillcenter/index.php"/>
+                        <ptr target="http://www.medfordhistory.org/drstillcenter/index.php"/>
                     </bibl>
                 </person>
                 <person xml:id="mahala_still">
@@ -163,20 +169,26 @@
                     </death>
                     <event when="1844">
                         <label>Removal to Philadelphia</label>
-                        <desc>"...he left New Jersey, in the spring of 1844, and came to Philadelphia."</desc>
+                        <desc>"...he left New Jersey, in the spring of 1844, and came to
+                            Philadelphia."</desc>
                     </event>
                     <event when="1847">
                         <label>Anti-Slavery Office</label>
-                        <desc>William Still applied to <persName ref="#james_mckim">J. Miller McKim</persName> for the position of clerk at the Anti-Slavery Office.</desc>
+                        <desc>William Still applied to <persName ref="#james_mckim">J. Miller
+                                McKim</persName> for the position of clerk at the Anti-Slavery
+                            Office.</desc>
                     </event>
                     <event when="1847">
                         <label>Marriage</label>
-                        <desc>William Still married <persName ref="#letitia_george">Laetitia George</persName> and set up house with her on Washington Street.</desc>
+                        <desc>William Still married <persName ref="#letitia_george">Laetitia
+                                George</persName> and set up house with her on Washington
+                            Street.</desc>
                     </event>
                     <listBibl>
                         <bibl>
                             <title>William Still: His Life and Work to This Time.</title>
                             <author>James P. Boyd</author>
+                            <ref target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=31"/>
                         </bibl>
                     </listBibl>
                 </person>
@@ -210,10 +222,13 @@
                         <bibl>
                             <title>William Still: His Life and Work to This Time.</title>
                             <author>James P. Boyd</author>
+                            <ref target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=94"/>
                         </bibl>
-                    <bibl>
-                        <ref target="http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still/timeline/timeline--the-life-and-times-o"/>
-                    </bibl>
+                        <bibl>
+                            <ref
+                                target="http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still/timeline/timeline--the-life-and-times-o"
+                            />
+                        </bibl>
                     </listBibl>
                 </person>
                 <person xml:id="vina_still">
@@ -229,7 +244,9 @@
                     <residence><placeName>Burlington, NJ</placeName></residence>
                     <bibl>
                         <title>United States Census, 1860</title>
-                        <ref target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"/>
+                        <ref
+                            target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="catharine_still">
@@ -243,7 +260,9 @@
                     <residence><placeName>Onondaga Valley, NY</placeName></residence>
                     <bibl>
                         <title>United States Census, 1860</title>
-                        <ref target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"></ref>
+                        <ref
+                            target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="sophia">
@@ -255,7 +274,9 @@
                     <residence>Medford, NJ</residence>
                     <listBibl>
                         <bibl>
-                            <title>S[till], W[illia]m, letter, A[nti] S[lavery] Office, Philadelphia, October 12, 1852, to Peter [Still], [in New Jersey]</title>
+                            <title>S[till], W[illia]m, letter, A[nti] S[lavery] Office,
+                                Philadelphia, October 12, 1852, to Peter [Still], [in New
+                                Jersey]</title>
                             <ref target="https://doi.org/doi:10.7282/T3Q52PR7"/>
                         </bibl>
                         <bibl>
@@ -312,7 +333,9 @@
                     <bibl>
                         <title>The Boston Daily Atlas (Boston, Massachusetts)</title>
                         <date when="1856-06-12"/>
-                        <ref target="http://docs.newsbank.com/openurl?ctx_ver=z39.88-2004&amp;amp;rft_id=info:sid/iw.newsbank.com:EANX&amp;amp;rft_val_format=info:ofi/fmt:kev:mtx:ctx&amp;amp;rft_dat=11F03019F1D4DDD0&amp;amp;svc_dat=HistArchive:ahnpdoc&amp;amp;req_dat=0DC2EA1C6DFCA835"/>
+                        <ref
+                            target="http://docs.newsbank.com/openurl?ctx_ver=z39.88-2004&amp;amp;rft_id=info:sid/iw.newsbank.com:EANX&amp;amp;rft_val_format=info:ofi/fmt:kev:mtx:ctx&amp;amp;rft_dat=11F03019F1D4DDD0&amp;amp;svc_dat=HistArchive:ahnpdoc&amp;amp;req_dat=0DC2EA1C6DFCA835"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="marvin_julia">
@@ -336,7 +359,8 @@
                             <ref target="https://www.findagrave.com/memorial/75875204"/>
                         </bibl>
                         <bibl>
-                            <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], April 24, 1854, to "Uncle Peter" [Peter Still]</title>
+                            <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], April 24, 1854, to
+                                "Uncle Peter" [Peter Still]</title>
                             <ref target="https://doi.org/doi:10.7282/T37D2V83"/>
                         </bibl>
                     </listBibl>
@@ -387,7 +411,9 @@
                         <bibl>
                             <title>The Saga of Peter Still</title>
                             <author>Spencer Crew</author>
-                            <ref target="http://njh.libraries.rutgers.edu/index.php/njh/article/view/1059"/>
+                            <ref
+                                target="http://njh.libraries.rutgers.edu/index.php/njh/article/view/1059"
+                            />
                         </bibl>
                         <bibl>
                             <title>The Life of Seth Conkling</title>
@@ -427,7 +453,8 @@
                     <death when="1879-05-24">
                         <placeName>New York, New York</placeName>
                     </death>
-                    <occupation>Prominent American abolitionist, journalist, and social reformer. Founder and editor of <emph>The Liberator</emph>.</occupation>
+                    <occupation>Prominent American abolitionist, journalist, and social reformer.
+                        Founder and editor of <emph>The Liberator</emph>.</occupation>
                     <bibl>
                         <ref target="https://www.familysearch.org/tree/person/details/96XL-LHV"/>
                     </bibl>
@@ -449,7 +476,9 @@
                         <bibl>
                             <title>William H. Furness, D. D.</title>
                             <author ref="#william_still"/>
-                            <ref target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=771"/>
+                            <ref
+                                target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=771"
+                            />
                         </bibl>
                         <bibl>
                             <ref target="https://en.wikipedia.org/wiki/William_Henry_Furness"/>
@@ -471,7 +500,9 @@
                     <occupation>Minister, abolitionist, founder of <emph>The Nation</emph>
                         newspaper</occupation>
                     <bibl>
-                        <ref target="http://archives.dickinson.edu/people/james-miller-mckim-1810-1874"/>
+                        <ref
+                            target="http://archives.dickinson.edu/people/james-miller-mckim-1810-1874"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="ellis_loring">
@@ -538,12 +569,14 @@
                 <relation mutual="#pickard_kate #pickard_d_l" name="spouse"/>
                 <relation name="parent" active="#pickard_kate #pickard_d_l" passive="#willie"/>
                 <relation name="parent" active="#charity_still #levin_still_sr"
-                    passive="#peter_still #william_still #levin_still_jr"/>
+                    passive="#peter_still #william_still #levin_still_jr #sophia"/>
                 <relation mutual="#william_still #letitia_george" name="spouse"/>
-                <relation name="parent" active="#letitia_george #william_still" passive="#caroline_still"/>
+                <relation name="parent" active="#letitia_george #william_still"
+                    passive="#caroline_still"/>
                 <relation mutual="#peter_still #vina_still" name="spouse"/>
                 <relation name="parent" active="#vina_still #peter_still" passive="#catharine_still"/>
-                <relation name="slave-owner" active="#john_hogun #joseph_friedman #levi_gist" passive="#peter_still"/>
+                <relation name="slave-owner" active="#john_hogun #joseph_friedman #levi_gist"
+                    passive="#peter_still"/>
             </listPerson>
         </body>
     </text>
