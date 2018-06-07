@@ -30,6 +30,7 @@
                     <persName>
                         <surname type="married">Still</surname>
                         <forename type="given">Cidney</forename>
+                        <forename type="alternate">Sidney</forename>
                         <addName type="adopted">Charity</addName>
                     </persName>
                     <birth when="1772">
@@ -37,12 +38,12 @@
                     </birth>
                     <bibl>
                         <title>United States Census, 1850</title>
-                        <ref target="https://familysearch.org/ark:/61903/3:1:S3HT-65X3-DKV"/>
+                        <ptr target="https://familysearch.org/ark:/61903/3:1:S3HT-65X3-DKV"/>
                     </bibl>
                 </person>
                 <person xml:id="levin_still_sr">
                     <persName>
-                        <surname>Steel</surname>
+                        <surname type="given">Steel</surname>
                         <surname type="adopted">Still</surname>
                         <forename>Levin</forename>
                     </persName>
@@ -50,13 +51,16 @@
                     <bibl>
                         <title>William Still: His Life and Work to This Time.</title>
                         <author>James P. Boyd</author>
-                        <ref target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=34"/>
+                        <ptr target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=34"/>
                     </bibl>
                 </person>
                 <person xml:id="levin_still_jr">
                     <persName>Still, Levin</persName>
                     <birth when="1799-02-26"/>
-                    <death when="1831"/>
+                    <death when="1831-12-28"/>
+                    <bibl>
+                        <ptr target="https://hdl.handle.net/2027/yale.39002006718895?urlappend=%3Bseq=146"/>
+                    </bibl>
                 </person>
                 <person xml:id="peter_still">
                     <persName>
@@ -64,7 +68,7 @@
                         <forename>Peter</forename>
                     </persName>
                     <birth when="1801-02-22">
-                        <placeName>Saunders Griffin plantation [?], Eastern Shore of
+                        <placeName>plantation of <persName>Saunders Griffin</persName>, Eastern Shore of
                             Maryland</placeName>
                     </birth>
                     <death when="1868"/>
@@ -89,24 +93,39 @@
                             <title>The Kidnapped and the Ransomed; Being the Personal Recollections
                                 of Peter Still and His Wife “Vina,” after Forty Years of
                                 Slavery</title>
-                            <ref target="http://hdl.handle.net/2027/yale.39002006718895"/>
+                            <ptr target="http://hdl.handle.net/2027/yale.39002006718895"/>
                         </bibl>
                         <bibl>
                             <title>Timeline: The Life and Times of William Still (1821-1902)</title>
-                            <ref
+                            <ptr
                                 target="http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still/timeline/timeline--the-life-and-times-o"
                             />
                         </bibl>
+                        <bibl>
+                            <ptr target="https://msa.maryland.gov/megafile/msa/speccol/sc5400/sc5496/015200/015222/html/015222bio.html"/>
+                        </bibl>
                     </listBibl>
+                </person>
+                <person xml:id="kitty_still">
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Kitturah</forename>
+                        <addName>Kitty</addName>
+                    </persName>
+                    <birth when="1805-01-20"/>
+                </person>
+                <person xml:id="mahala_still">
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Mahalah</forename>
+                        <addName type="alternate">Mahala</addName>
+                    </persName>
+                    <birth when="1803-12-30"/>
                 </person>
                 <person xml:id="ann_still">
                     <!-- rutgers-lib_26930 -->
                     <persName>Still, Ann</persName>
                     <birth when="1798-01"/>
-                </person>
-                <person xml:id="kitty_still">
-                    <persName>Still, Kitturah</persName>
-                    <birth when="1805-01-20"/>
                 </person>
                 <person xml:id="samuel_still">
                     <persName>Still, Samuel</persName>
@@ -140,10 +159,6 @@
                     <bibl>
                         <ptr target="http://www.medfordhistory.org/drstillcenter/index.php"/>
                     </bibl>
-                </person>
-                <person xml:id="mahala_still">
-                    <persName>Still, Mahala</persName>
-                    <birth when="1803-12-30"/>
                 </person>
                 <person xml:id="charles_still">
                     <persName>Still, Charles</persName>
@@ -188,7 +203,7 @@
                         <bibl>
                             <title>William Still: His Life and Work to This Time.</title>
                             <author>James P. Boyd</author>
-                            <ref target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=31"/>
+                            <ptr target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=31"/>
                         </bibl>
                     </listBibl>
                 </person>
@@ -222,10 +237,10 @@
                         <bibl>
                             <title>William Still: His Life and Work to This Time.</title>
                             <author>James P. Boyd</author>
-                            <ref target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=94"/>
+                            <ptr target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=94"/>
                         </bibl>
                         <bibl>
-                            <ref
+                            <ptr
                                 target="http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still/timeline/timeline--the-life-and-times-o"
                             />
                         </bibl>
@@ -244,7 +259,7 @@
                     <residence><placeName>Burlington, NJ</placeName></residence>
                     <bibl>
                         <title>United States Census, 1860</title>
-                        <ref
+                        <ptr
                             target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"
                         />
                     </bibl>
@@ -257,10 +272,10 @@
                     <birth notBefore="1837" notAfter="1838">
                         <placeName>Alabama</placeName>
                     </birth>
-                    <residence><placeName>Onondaga Valley, NY</placeName></residence>
+                    <residence><placeName>Onondaga Valley, New York</placeName></residence>
                     <bibl>
                         <title>United States Census, 1860</title>
-                        <ref
+                        <ptr
                             target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"
                         />
                     </bibl>
@@ -277,7 +292,7 @@
                             <title>S[till], W[illia]m, letter, A[nti] S[lavery] Office,
                                 Philadelphia, October 12, 1852, to Peter [Still], [in New
                                 Jersey]</title>
-                            <ref target="https://doi.org/doi:10.7282/T3Q52PR7"/>
+                            <ptr target="https://doi.org/doi:10.7282/T3Q52PR7"/>
                         </bibl>
                         <bibl>
                             <title>United States Census, 1850</title>
@@ -333,7 +348,7 @@
                     <bibl>
                         <title>The Boston Daily Atlas (Boston, Massachusetts)</title>
                         <date when="1856-06-12"/>
-                        <ref
+                        <ptr
                             target="http://docs.newsbank.com/openurl?ctx_ver=z39.88-2004&amp;amp;rft_id=info:sid/iw.newsbank.com:EANX&amp;amp;rft_val_format=info:ofi/fmt:kev:mtx:ctx&amp;amp;rft_dat=11F03019F1D4DDD0&amp;amp;svc_dat=HistArchive:ahnpdoc&amp;amp;req_dat=0DC2EA1C6DFCA835"
                         />
                     </bibl>
@@ -356,12 +371,12 @@
                     </event>
                     <listBibl>
                         <bibl>
-                            <ref target="https://www.findagrave.com/memorial/75875204"/>
+                            <ptr target="https://www.findagrave.com/memorial/75875204"/>
                         </bibl>
                         <bibl>
                             <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], April 24, 1854, to
                                 "Uncle Peter" [Peter Still]</title>
-                            <ref target="https://doi.org/doi:10.7282/T37D2V83"/>
+                            <ptr target="https://doi.org/doi:10.7282/T37D2V83"/>
                         </bibl>
                     </listBibl>
                 </person>
@@ -411,14 +426,14 @@
                         <bibl>
                             <title>The Saga of Peter Still</title>
                             <author>Spencer Crew</author>
-                            <ref
+                            <ptr
                                 target="http://njh.libraries.rutgers.edu/index.php/njh/article/view/1059"
                             />
                         </bibl>
                         <bibl>
                             <title>The Life of Seth Conkling</title>
                             <author>William Henry Furness</author>
-                            <ref target="http://hdl.handle.net/2027/mdp.39015078952341"/>
+                            <ptr target="http://hdl.handle.net/2027/mdp.39015078952341"/>
                         </bibl>
                     </listBibl>
                 </person>
@@ -456,7 +471,7 @@
                     <occupation>Prominent American abolitionist, journalist, and social reformer.
                         Founder and editor of <emph>The Liberator</emph>.</occupation>
                     <bibl>
-                        <ref target="https://www.familysearch.org/tree/person/details/96XL-LHV"/>
+                        <ptr target="https://www.familysearch.org/tree/person/details/96XL-LHV"/>
                     </bibl>
                 </person>
                 <person xml:id="furness">
@@ -476,12 +491,12 @@
                         <bibl>
                             <title>William H. Furness, D. D.</title>
                             <author ref="#william_still"/>
-                            <ref
+                            <ptr
                                 target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=771"
                             />
                         </bibl>
                         <bibl>
-                            <ref target="https://en.wikipedia.org/wiki/William_Henry_Furness"/>
+                            <ptr target="https://en.wikipedia.org/wiki/William_Henry_Furness"/>
                         </bibl>
                     </listBibl>
                 </person>
@@ -500,7 +515,7 @@
                     <occupation>Minister, abolitionist, founder of <emph>The Nation</emph>
                         newspaper</occupation>
                     <bibl>
-                        <ref
+                        <ptr
                             target="http://archives.dickinson.edu/people/james-miller-mckim-1810-1874"
                         />
                     </bibl>
@@ -520,7 +535,7 @@
                     <occupation>Lawyer, abolitionist, founder of the New England Anti-Slavery
                         Society</occupation>
                     <bibl>
-                        <ref target="http://oasis.lib.harvard.edu/oasis/deliver/~sch00099"/>
+                        <ptr target="http://oasis.lib.harvard.edu/oasis/deliver/~sch00099"/>
                     </bibl>
                 </person>
                 <person xml:id="harriet_stowe">
