@@ -1,11 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" >
   <teiHeader>
     <fileDesc>
@@ -55,11 +50,11 @@
             <idno>MC 1392</idno>
           </msIdentifier>
           <msContents>
-            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
-              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
-              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
-              and Still family record (1798-1821). Persons and places represented include William Lloyd 
-              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife,
+              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R.
+              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected;
+              and Still family record (1798-1821). Persons and places represented include William Lloyd
+              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington,
               N.J., and Philadelphia, Pa. 57 items.</p>
           </msContents>
         </msDesc>
@@ -67,12 +62,12 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
-        transcription. The layout of the page has been preserved whenever possible. 
-        Abbreviations and spellings have been maintained within the transcriptions, 
-        and the full word and corrected or modern spellings have been provided. Images 
-        of the original letters have been provided in order to show the original page 
-        layout and other markings that are not the author's. Words or phrases that 
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+        transcription. The layout of the page has been preserved whenever possible.
+        Abbreviations and spellings have been maintained within the transcriptions,
+        and the full word and corrected or modern spellings have been provided. Images
+        of the original letters have been provided in order to show the original page
+        layout and other markings that are not the author's. Words or phrases that
         are deemed indecipherable have been noted as "unclear."
         </p>
         <hyphenation eol="none">
@@ -86,13 +81,13 @@
         <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
         <rendition xml:id="b" n="tiebp:bold" scheme="css">
           font-weight:bold;
-        </rendition> 
+        </rendition>
         <rendition xml:id="i" n="tiebp:italic" scheme="css">
           font-style:italic;
-        </rendition> 
+        </rendition>
         <rendition xml:id="u" n="tiebp:underline" scheme="css">
           text-decoration:underline;
-        </rendition> 
+        </rendition>
         <rendition xml:id="n" n="teibp:normal" scheme="css">
           font-weight:normal;
           text-decoration:none;
@@ -101,9 +96,9 @@
         <!-- Indentation -->
         <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
           text-indent:4em;
-          /* The above method of describing an indentation for, say, a paragraph is 
-          preferred. The method being used is in response to a bug in some browsers 
-          whereby a block element, like a paragraph, is erroneously re-indented 
+          /* The above method of describing an indentation for, say, a paragraph is
+          preferred. The method being used is in response to a bug in some browsers
+          whereby a block element, like a paragraph, is erroneously re-indented
           after interruption by another block element (like a list, which is valid,
           in TEI, inside a paragraph). */
           content:"\A0\A0\A0\A0\A0\A0";
@@ -151,7 +146,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName>William Lloyd Garrison</persName>
-          <placeName>Roxbury, MA</placeName>
+          <placeName>Roxbury, Massachusetts</placeName>
           <date when="1872-04-07">April 7, 1872</date>
         </correspAction>
         <correspAction type="received">
@@ -168,6 +163,9 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change resp="#FG" when="2018-06-18">Removed teibp stylesheet declarations and added TEIP5 schema and schematron. Edited transcription.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -181,7 +179,7 @@
           <salute>Dear <persName ref="psn:william_still">Mr. Still</persName>:</salute>
         </opener>
       </div>
-      
+
       <div>
         <p rendition="#indent">
           I have already delayed too<lb />
@@ -197,13 +195,13 @@
           might nearly all have been<lb />
           lost to posterity. Its reliableness,<lb />
           moreover, cannot be called in question-<lb />
-          It is, therefore, not “fiction <unclear>formed</unclear><lb />
+          It is, therefore, not “fiction <unclear>founded</unclear><lb />
           upon fact,” and embellished by a<lb />
           lively imagination, but fact without<lb />
           a particle of fiction, <del>and</del> narrated<lb />
 
           <pb n="2" facs="../images/26931_2.png" />
-          
+
           in a simple, ingenuous, straightforward<lb />
           manner, and needing no<lb />
           coloring whatever. What a revelation<lb />
@@ -224,43 +222,43 @@
           perils! How it illustrates, too,<lb />
           the object subservience of the nation<lb />
           to the Slave Power, so that even<lb />
-          in Boston the atrocious Fugitive<lb />
-          
+          in <placeName>Boston</placeName> the atrocious Fugitive<lb />
+
           <pb n="3" facs="../images/26931_3.png" />
-          
+
           Slave Law was as effectually enforced<lb />
-          as it could have been in New<lb />
-          Orleans; and in all our broad domains<lb />
+          as it could have been in <placeName>New<lb />
+          Orleans</placeName>; and in all our broad domains<lb />
           none <add place="above">could</add> give shelter or assistance<lb />
           to the hunted and famishing<lb />
-          victim, except at the peril of [unclear]<lb />
+          victim, except at the peril of <unclear>fire</unclear> and<lb />
           imprisonment! And yet, numerous<lb />
           as are the instances you have recorded,<lb />
           they are <add place="above">only</add> samples of thousands<lb />
           of others which can never be chronicled,<lb />
           running through six generations.<lb />
           May we trust our senses that<lb />
-          there is an end of all this wickedness -<lb />
+          there is an end of all this wickedness -- <lb />
           that a final and marvelous<lb />
           deliverance has been wrought for<lb />
           all in bondage? Yes, it is true: and<lb />
           there has been the same divine interposition<lb />
           as of old. “And the Lord said,<lb />
-          I have surely seen the affliction of<lb /> 
+          I have surely seen the affliction of<lb />
           my people which are in Egypt, and<lb />
           have heard their cry by reason of their<lb />
-          
+
           <pb n="4" facs="../images/26931_4.png" />
-          
+
           taskmasters; for I know their sorrows,<lb />
           and I am come down to deliver<lb />
           them out of the hand of the Egyptians.”<lb />
-          … “Thy right hand, O Lord,<lb /> 
+          … “Thy right hand, O Lord,<lb />
           is become glorious in power: thy<lb />
           right hand, O Lord, hath dashed in<lb />
           pieces the enemy!”<lb />
         </p>
-        
+
         <p rendition="#indent">
           I hope that the sale of your<lb />
           work will be widely extended, not<lb />
@@ -275,14 +273,14 @@
           the colored population of our land.<lb />
           It is a book for every household.<lb />
         </p>
-          
+
         <closer>
           <salute>Yours, with best wishes,</salute>
-          <signed>W<add place="above">m</add> Lloyd Garrison.</signed>
+          <signed><persName ref="psn:garrison">W<add place="above">m</add> Lloyd Garrison</persName>.</signed>
         </closer>
-        
-        <postscript><p>William Still.</p></postscript>
-          
+
+        <postscript><ab>William Still.</ab></postscript>
+
       </div>
     </body>
   </text>
