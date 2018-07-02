@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Thornton, Lewis B., letter, Tuscumbia, Ala., August 19, 1852, to H.N. Ely</title>
+                <title>Thornton, Lewis B., letter, Tuscumbia, Ala., August 19, 1852, to H.N.
+                    Ely</title>
                 <author>
                     <persName>Thornton, Lewis B.</persName>
                 </author>
@@ -22,8 +23,9 @@
             <publicationStmt>
                 <publisher>Rutgers Community Repository (RUcore)</publisher>
                 <availability>
-                    <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
-                        Non-commercial Share-alike</ref>.</ab>
+                    <ab>Reusable according to the Creative Commons License <ref
+                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                            Non-commercial Share-alike</ref>.</ab>
                 </availability>
                 <idno xml:id="DOI">doi:10.7282/T39S1R7F</idno>
                 <idno xml:id="WMA">rutgers-lib:25776</idno>
@@ -50,70 +52,54 @@
                         <idno>MC 1392</idno>
                     </msIdentifier>
                     <msContents>
-                        <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
-                            Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
-                            Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
-                            and Still family record (1798-1821). Persons and places represented include William Lloyd 
-                            Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
-                            N.J., and Philadelphia, Pa. 57 items.</p>
+                        <p>Correspondence (1850-1875), chiefly relating to Still's campaign to
+                            purchase his wife, Vina Still, and family held as slaves in Alabama and
+                            the publication (1856) of Kate E.R. Pickard's biography, The Kidnapped
+                            and the Ransomed; memo book (1853-1854) of funds collected; and Still
+                            family record (1798-1821). Persons and places represented include
+                            William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+                            Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57
+                            items.</p>
                     </msContents>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
-                    transcription. The layout of the page has been preserved whenever possible. 
-                    Abbreviations and spellings have been maintained within the transcriptions, 
-                    and the full word and corrected or modern spellings have been provided. Images 
-                    of the original letters have been provided in order to show the original page 
-                    layout and other markings that are not the author's. Words or phrases that 
-                    are deemed indecipherable have been noted as "unclear."
-                </p>
+                <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+                    transcription. The layout of the page has been preserved whenever possible.
+                    Abbreviations and spellings have been maintained within the transcriptions, and
+                    the full word and corrected or modern spellings have been provided. Images of
+                    the original letters have been provided in order to show the original page
+                    layout and other markings that are not the author's. Words or phrases that are
+                    deemed indecipherable have been noted as "unclear." </p>
                 <hyphenation eol="none">
                     <p>Any dashes occurring in line breaks have been removed.</p>
                 </hyphenation>
             </editorialDecl>
             <projectDesc>
-                <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2015-2016.</p>
+                <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+                    Assistantship, 2015-2016.</p>
             </projectDesc>
             <tagsDecl>
                 <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
-                <rendition xml:id="b" n="tiebp:bold" scheme="css">
-                    font-weight:bold;
-                </rendition> 
-                <rendition xml:id="i" n="tiebp:italic" scheme="css">
-                    font-style:italic;
-                </rendition> 
-                <rendition xml:id="u" n="tiebp:underline" scheme="css">
-                    text-decoration:underline;
-                </rendition> 
-                <rendition xml:id="n" n="teibp:normal" scheme="css">
-                    font-weight:normal;
-                    text-decoration:none;
-                    font-style:normal;
-                </rendition>
+                <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+                <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+                <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+                <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+                    text-decoration:none; font-style:normal; </rendition>
                 <!-- Indentation -->
                 <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
-                    text-indent:4em;
-                    /* The above method of describing an indentation for, say, a paragraph is 
-                    preferred. The method being used is in response to a bug in some browsers 
-                    whereby a block element, like a paragraph, is erroneously re-indented 
-                    after interruption by another block element (like a list, which is valid,
-                    in TEI, inside a paragraph). */
-                    content:"\A0\A0\A0\A0\A0\A0";
-                </rendition>
+                    text-indent:4em; /* The above method of describing an indentation for, say, a
+                    paragraph is preferred. The method being used is in response to a bug in some
+                    browsers whereby a block element, like a paragraph, is erroneously re-indented
+                    after interruption by another block element (like a list, which is valid, in
+                    TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent2" scheme="css">
-                    display:block;
-                    padding-left:6em;
-                    text-indent:-2em;
-                </rendition>
-                <rendition xml:id="indent3" scheme="css">
-                    display:block;
-                    padding-left:10em;
-                    text-indent:-2em;
-                </rendition>
+                <rendition xml:id="indent2" scheme="css"> display:block; padding-left:6em;
+                    text-indent:-2em; </rendition>
+                <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+                    text-indent:-2em; </rendition>
                 <rendition xml:id="center" scheme="css">text-align: center;</rendition>
             </tagsDecl>
             <classDecl>
@@ -122,12 +108,10 @@
                 </taxonomy>
             </classDecl>
             <listPrefixDef>
-                <prefixDef ident="psn"
-                    matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+                <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
                     replacementPattern="still-personography.xml#$1">
-                    <p> In the context of this project, private URIs with the prefix
-                        "psn" point to <gi>person</gi> elements in the project's
-                        still-personography.xml file.
+                    <p> In the context of this project, private URIs with the prefix "psn" point to
+                            <gi>person</gi> elements in the project's still-personography.xml file.
                     </p>
                 </prefixDef>
             </listPrefixDef>
@@ -153,55 +137,66 @@
                 </keywords>
             </textClass>
         </profileDesc>
+        <revisionDesc>
+            <change when="2018-07-02" who="#FG">Cleaned up divs. Removed TEIBP stylesheets. Fixed closer.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
-<body>
-    <pb n="1" facs="../images/25776_1.png"/> 
-    <div type="correspondence-action">
-        <ab style="writing-mode: vertical-lr" rendition="#center">
-            From <name type="person" ref="psn:thornton_lewis">L.B. Thorton</name><lb />
-        <date when="1852-08-19">August 19th '52</date>
-        </ab>
-    </div>
-    <pb n="2" facs="../images/25776_2.png"/> 
-    <div>
-        <opener>
-            <dateline rendition="#indent3">
-                <placeName>
-                    <settlement>Tuscumbria</settlement>
-                    <region>Ala.</region>
-                </placeName>,
-                <date when="1852-08-19">August 19th 1852</date>
-            </dateline><lb/>
-            <persName ref="psn:ely_h_n" resp="#FG" rendition="#indent2">H. N. Ely.</persName>
-            <salute rendition="#indent2">
-                <choice>
-                    <expan>Dear</expan>
-                    <abbr>Dr.</abbr>
-                </choice> Sir,
-            </salute>
-        </opener>
+        <body>
+            <pb n="1" facs="../images/25776_1.png"/>
+            <div type="correspondence-action">
+                <ab style="writing-mode: vertical-lr" rendition="#center"> From <name type="person"
+                        ref="psn:thornton_lewis">L.B. Thorton</name><lb/>
+                    <date when="1852-08-19">August 19th '52</date>
+                </ab>
+            </div>
+            <pb n="2" facs="../images/25776_2.png"/>
+            <div type="letter">
+                <opener>
+                    <dateline rendition="#indent3">
+                        <placeName>
+                            <settlement>Tuscumbria</settlement>, 
+                            <region>Ala.</region>
+                        </placeName>, <date when="1852-08-19">August 19th 1852</date>
+                    </dateline><lb/>
+                    <persName ref="psn:ely_h_n" resp="#FG" rendition="#indent2">H. N.
+                        Ely.</persName>
+                    <salute rendition="#indent2">
+                        <choice>
+                            <expan>Dear</expan>
+                            <abbr>Dr.</abbr>
+                        </choice> Sir, </salute>
+                </opener>
 
-        <p rendition="#indent">
-        Your letter has remained<lb/>
-        unanswered, for so long, because I have not been<lb />
-        able to have an interview with <persName ref="psn:mckiernan_bernard" resp="#FG">Mr. McKiernan</persName><lb />
-        on the subject about which you wrote. I have<lb />
-        just seen him. He says he will not separate<lb />
-        the family of negroes and that the lowest<lb />
-        price he will take under any circumstances <lb />
-            is <measure type="currency">$5,000</measure> and if that <choice><expan>amount</expan><abbr>amt.</abbr> </choice> is placed <lb />
-        in my hands or with any responsible persons<lb />
-        for him, he will let the negroes go.<lb />
-        I would like if <persName ref="psn:peter_still">Peter</persName> could get his <persName ref="psn:vina_still">wife</persName><lb />
-            &amp; family. I think this <choice><expan>amount</expan><abbr>amt.</abbr></choice> a high price, <lb />
-but it is the lowest I know.</p>
+                <p rendition="#indent"> Your letter has remained<lb/> unanswered, for so long,
+                    because I have not been<lb/> able to have an interview with <persName
+                        ref="psn:mckiernan_bernard" resp="#FG">Mr. McKiernan</persName><lb/> on the
+                    subject about which you wrote. I have<lb/> just seen him. He says he will not
+                    separate<lb/> the family of negroes and that the lowest<lb/> price he will take
+                    under any circumstances <lb/> is <measure type="currency">$5,000</measure> and
+                    if that <choice>
+                        <expan>amount</expan>
+                        <abbr>amt.</abbr>
+                    </choice> is placed <lb/> in my hands or with any responsible persons<lb/> for
+                    him, he will let the negroes go.<lb/> I would like if <persName
+                        ref="psn:peter_still">Peter</persName> could get his <persName
+                        ref="psn:vina_still">wife</persName><lb/> &amp; family. I think this <choice>
+                        <expan>amount</expan>
+                        <abbr>amt.</abbr>
+                    </choice> a high price, <lb/> but it is the lowest I know.</p>
 
-        <closer rendition="#indent2">Very <choice><abbr>Resply.</abbr><expan>Respectfully</expan></choice><lb />
-
-            <name type="person" ref="psn:thornton_lewis" resp="#FG" rendition="#indent3">Lewis B. Thorton</name></closer>
-    </div>
-</body>
+                <closer rendition="#indent2">
+                    <salute>Very <choice>
+                            <abbr>Resply.</abbr>
+                            <expan>Respectfully</expan>
+                        </choice>
+                    </salute><lb/>
+                    <signed>
+                        <name type="person" ref="psn:thornton_lewis" resp="#FG" rendition="#indent3"
+                            >Lewis B. Thorton</name>
+                    </signed>
+                </closer>
+            </div>
+        </body>
     </text>
 </TEI>
-
