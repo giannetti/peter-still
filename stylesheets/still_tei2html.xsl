@@ -9,7 +9,7 @@
             <xd:p><xd:b>Author:</xd:b> Francesca</xd:p>
             <xd:p>This stylesheet generates a lightly edited XHTML version of TEI encoded
                 correspondence belonging to the Peter Still Papers, held in Rutgers University
-                Libraries Special Collections and University Archives.</xd:p>
+                Libraries Special Collections and University Archives. The output is specifically tailored for display in the item records of an Omeka installation.</xd:p>
         </xd:desc>
     </xd:doc>
 
@@ -61,6 +61,13 @@
                 <xsl:apply-templates select="lb"/>
             </br>
         </p>
+        <xsl:if test="address">
+            <xsl:for-each select="address/addrLine">
+                <p style="text-align: right;">
+                    <xsl:apply-templates />
+                </p>
+            </xsl:for-each>
+        </xsl:if>
         <p style="text-align: left;">
             <xsl:apply-templates select="salute"/>
         </p>
