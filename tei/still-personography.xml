@@ -579,6 +579,12 @@
                 <person xml:id="levi_gist">
                     <persName>Gist, Levi</persName>
                 </person>
+                <person xml:id="stephen_chase">
+                    <persName>
+                        <surname>Chase</surname>
+                        <forename>Stephen</forename>
+                    </persName>
+                </person>
 
                 <relation mutual="#pickard_kate #marvin_julia" name="sibling"/>
                 <relation mutual="#pickard_kate #pickard_d_l" name="spouse"/>

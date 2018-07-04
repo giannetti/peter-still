@@ -1,16 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], January 29, 1853, to &quot;Uncle Peter&quot; [Peter Still]:</title>
+                <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], January 29, 1853, to
+                    &quot;Uncle Peter&quot; [Peter Still]:</title>
                 <author>
                     <persName>Pickard, Kate E.R.</persName>
                 </author>
@@ -27,8 +23,9 @@
             <publicationStmt>
                 <publisher>Rutgers Community Repository (RUcore)</publisher>
                 <availability>
-                    <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
-                        Non-commercial Share-alike</ref>.</ab>
+                    <ab>Reusable according to the Creative Commons License <ref
+                            target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                            Non-commercial Share-alike</ref>.</ab>
                 </availability>
                 <idno xml:id="DOI">doi:10.7282/T3RB74RJ</idno>
                 <idno xml:id="WMA">rutgers-lib:26578</idno>
@@ -55,70 +52,54 @@
                         <idno>MC 1392</idno>
                     </msIdentifier>
                     <msContents>
-                        <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
-                            Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
-                            Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
-                            and Still family record (1798-1821). Persons and places represented include William Lloyd 
-                            Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
-                            N.J., and Philadelphia, Pa. 57 items.</p>
+                        <p>Correspondence (1850-1875), chiefly relating to Still's campaign to
+                            purchase his wife, Vina Still, and family held as slaves in Alabama and
+                            the publication (1856) of Kate E.R. Pickard's biography, The Kidnapped
+                            and the Ransomed; memo book (1853-1854) of funds collected; and Still
+                            family record (1798-1821). Persons and places represented include
+                            William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+                            Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57
+                            items.</p>
                     </msContents>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
-                    transcription. The layout of the page has been preserved whenever possible. 
-                    Abbreviations and spellings have been maintained within the transcriptions, 
-                    and the full word and corrected or modern spellings have been provided. Images 
-                    of the original letters have been provided in order to show the original page 
-                    layout and other markings that are not the author's. Words or phrases that 
-                    are deemed indecipherable have been noted as "unclear."
-                </p>
+                <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+                    transcription. The layout of the page has been preserved whenever possible.
+                    Abbreviations and spellings have been maintained within the transcriptions, and
+                    the full word and corrected or modern spellings have been provided. Images of
+                    the original letters have been provided in order to show the original page
+                    layout and other markings that are not the author's. Words or phrases that are
+                    deemed indecipherable have been noted as "unclear." </p>
                 <hyphenation eol="none">
                     <p>Any dashes occurring in line breaks have been removed.</p>
                 </hyphenation>
             </editorialDecl>
             <projectDesc>
-                <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2015-2016.</p>
+                <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+                    Assistantship, 2015-2016.</p>
             </projectDesc>
             <tagsDecl>
                 <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
-                <rendition xml:id="b" n="tiebp:bold" scheme="css">
-                    font-weight:bold;
-                </rendition> 
-                <rendition xml:id="i" n="tiebp:italic" scheme="css">
-                    font-style:italic;
-                </rendition> 
-                <rendition xml:id="u" n="tiebp:underline" scheme="css">
-                    text-decoration:underline;
-                </rendition> 
-                <rendition xml:id="n" n="teibp:normal" scheme="css">
-                    font-weight:normal;
-                    text-decoration:none;
-                    font-style:normal;
-                </rendition>
+                <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+                <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+                <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+                <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+                    text-decoration:none; font-style:normal; </rendition>
                 <!-- Indentation -->
                 <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
-                    text-indent:4em;
-                    /* The above method of describing an indentation for, say, a paragraph is 
-                    preferred. The method being used is in response to a bug in some browsers 
-                    whereby a block element, like a paragraph, is erroneously re-indented 
-                    after interruption by another block element (like a list, which is valid,
-                    in TEI, inside a paragraph). */
-                    content:"\A0\A0\A0\A0\A0\A0";
-                </rendition>
+                    text-indent:4em; /* The above method of describing an indentation for, say, a
+                    paragraph is preferred. The method being used is in response to a bug in some
+                    browsers whereby a block element, like a paragraph, is erroneously re-indented
+                    after interruption by another block element (like a list, which is valid, in
+                    TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
                 <rendition xml:id="indent1" scheme="css">margin-left: 1.5em;</rendition>
-                <rendition xml:id="indent2" scheme="css">
-                    display:block;
-                    padding-left:6em;
-                    text-indent:-2em;
-                </rendition>
-                <rendition xml:id="indent3" scheme="css">
-                    display:block;
-                    padding-left:10em;
-                    text-indent:-2em;
-                </rendition>
+                <rendition xml:id="indent2" scheme="css"> display:block; padding-left:6em;
+                    text-indent:-2em; </rendition>
+                <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+                    text-indent:-2em; </rendition>
                 <rendition xml:id="center" scheme="css">text-align: center;</rendition>
             </tagsDecl>
             <classDecl>
@@ -127,12 +108,10 @@
                 </taxonomy>
             </classDecl>
             <listPrefixDef>
-                <prefixDef ident="psn"
-                    matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+                <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
                     replacementPattern="still-personography.xml#$1">
-                    <p> In the context of this project, private URIs with the prefix
-                        "psn" point to <gi>person</gi> elements in the project's
-                        still-personography.xml file.
+                    <p> In the context of this project, private URIs with the prefix "psn" point to
+                            <gi>person</gi> elements in the project's still-personography.xml file.
                     </p>
                 </prefixDef>
             </listPrefixDef>
@@ -158,11 +137,14 @@
                 </keywords>
             </textClass>
         </profileDesc>
+        <revisionDesc>
+            <change when="2018-07-04" who="#FG">Proofread.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <pb n="1" facs="../images/26578_1.png" />
-            <div>
+            <pb n="1" facs="../images/26578_1.png"/>
+            <div type="letter">
                 <opener>
                     <dateline rendition="#indent3">
                         <placeName>Camillus</placeName>
@@ -170,113 +152,86 @@
                     </dateline>
                     <salute>Dear <persName ref="psn:peter_still">Uncle Pete</persName></salute>
                 </opener>
-            </div>
-            
-            <div>
-                
-                <p rendition="#indent">
-                    I was very happy to receive <lb/>
-                    your letter of the <date when="1853-01-08">8th inst.</date> We were all<lb/>
-                    glad to hear from you, and glad that there<lb/>
-                    is a prospect of you receiving aid in<lb/>
+
+                <p rendition="#indent"> I was very happy to receive <lb/> your letter of the <date
+                        when="1853-01-08">8th inst.</date> We were all<lb/> glad to hear from you,
+                    and glad that there<lb/> is a prospect of you receiving aid in<lb/>
                     <placeName>Boston</placeName>. <lb/>
                 </p>
-                <p rendition="#indent"> 
-                    I received a letter from <persName ref="psn:marvin_julia">sister Julia</persName> on<lb/>
-                    <date when="1852-12-31">the last day of December</date>. She expresses much <lb/>
-                    interest in your success and <persName ref="psn:hargraves">Dr. Hargraves </persName>will<lb/>
-                    do all in his power to induce <persName ref="psn:mckiernan_bernard">Maj. McKiernan</persName><lb/>
-                    to let your family go. If no attempt had<lb/>
-                    been made to run them off it would not be<lb/>
-                    difficult to buy them but <persName>Maj. McKiernan</persName> being <lb/>
-                    a hot-headed politician was very much enraged<lb/>
-                    by that attempt, and probably meant, when he<lb/>
-                    told <persName ref="psn:thornton_lewis">Mr. Thorton</persName> that he would not take less<lb/>
-                    than <measure type="currency">$5000</measure> - that he would not not sell them at all. <lb/>
-                    I trust however, that he may be induced to <lb/>
-                    let them go. The Dr. has enlisted <persName ref="psn:weakley">Judge Weakley's</persName> <lb/>
-                    interest in your behalf, and you need not <lb/>
-                    fear that any effort on his part will be wanting <lb/>
-                    In the mean time you must work yourself <lb/>
-                    and be careful to maintain a right spirit. <lb/>
-                    Do not cherish bitter or resentful feelings at <lb/>
-                    <pb n="2" facs="../images/26578_2.png" />
-                    the delay of your hopes. Trust in that God<lb/>
-                    without whose notice not a sparrow falls to the <lb/>
-                    ground. These are day of trial - do not let your <lb/>
-                    patience fail.
-                </p>
-                <p rendition="#indent">
-                    It is very hard and unkind in <persName>Maj. McKiernan</persName> <lb/>
-                    to ask such a high price for your family, and even <lb/>
-                    to be unwilling to sell them at all, but you must <lb/>
-                    not speak harshly of him or even let your thoughts <lb/>
-                    dwell too much on that part of the subject. <lb/>
-                    It will do you no good - it will make you no friends <lb/>
-                    to indulge such feelings but it will injure your <lb/>
-                    character. You will not be so well fitted to <lb/>
-                    enjoy the company of your <persName ref="psn:vina_still">wife</persName> and children, if you <lb/>
-                    let your temper become soured before you meet <lb/>
-                    them. I write this to caution you - for <lb/>
-                    I know it is hard for any one to keep a meek <lb/>
-                    and quiet spirit when he knows he has been, <lb/>
-                    and is, suffering unkindness and injury.
-                </p>
-                <p rendition="#indent">
-                    Sister <persName>Julia</persName> says in her letter "Tell Peter <lb/>
-                    his master young <persName ref="psn:john_hogun">John Hogan</persName> is dead and the <lb/>
-                    elder <persName>Mr. Hogan</persName> and his wife have both become <lb/>
-                    Christians and united with the Presbyterian Church <lb/>
-                    in Tuscumbia. Miss <persName>Maria Cockburn</persName> <lb/>
-                    married a Mr. <persName>Lavender</persName>, a dancing master, <lb/>
-                    in <placeName>Tuscumbia</placeName>, and in consequence, all the <lb/>
-                    family have cast her off. They do not even <lb/>
-                    recognize her when they meet in the street.
-
-                    <pb n="3" facs="../images/26578_3.png" />
-
-His old friend Mr. <persName>Brady</persName> was married a few weeks <lb/>
-                    since to a Miss <persName>Johnson</persName> of <placeName>Kentucky</placeName> and has gone <lb/>
-                    to <placeName>New Orleans</placeName> to live. Please give him <lb/>
-                    these bits of information - I can think of no other  <lb/>
-                    <placeName>Tuscumbia</placeName> news that would interest him. <lb/>
-                    Remember me to him most kindly. Assure <lb/>
-                    him too, that everything will be done that can <lb/>
-                    be to get his wife and children, but tell him  <lb/>
-                    not to be too sure, for he may be disappointed. <lb/>
-                    Poor fellow! it will be hard, if after cherishing <lb/>
-                    his dream of happiness so many years, he must <lb/>
-                    then be so cruelly disappointed! Tell him <lb/>
-                    I'll be home <date when="1853-06-01">in June</date>, and then I hope I'll <lb/>
-                    have the pleasure of looking into his good <lb/>
-                    kind honest face once more." 
-                </p>
-                <p rendition="#indent"> 
-                    I have copied the close of Sister Julia's <lb/>
-                    letter, that you may have it in her own words. <lb/>
-                    When I hear from her again, or from Dr. <persName>Hargraves</persName> <lb/>
-                    I will write you - I should have sent you <lb/>
-                    this information earlier, but <persName ref="psn:pickard_d_l">Mr. Pickard</persName> and <lb/>
+                <p rendition="#indent"> I received a letter from <persName ref="psn:marvin_julia"
+                        >sister Julia</persName> on<lb/>
+                    <date when="1852-12-31">the last day of December</date>. She expresses much
+                    <lb/> interest in your success and <persName ref="psn:hargraves">Dr. Hargraves
+                    </persName>will<lb/> do all in his power to induce <persName
+                        ref="psn:mckiernan_bernard">Maj. McKiernan</persName><lb/> to let your
+                    family go. If no attempt had<lb/> been made to run them off it would not be<lb/>
+                    difficult to buy them but <persName>Maj. McKiernan</persName> being <lb/> a
+                    hot-headed politician was very much enraged<lb/> by that attempt, and probably
+                    meant, when he<lb/> told <persName ref="psn:thornton_lewis">Mr.
+                        Thorton</persName> that he would not take less<lb/> than <measure
+                        type="currency">$5000</measure> - that he would not not sell them at all.
+                    <lb/> I trust however, that he may be induced to <lb/> let them go. The Dr. has
+                    enlisted <persName ref="psn:weakley">Judge Weakley's</persName>
+                    <lb/> interest in your behalf, and you need not <lb/> fear that any effort on
+                    his part will be wanting <lb/> In the mean time you must work yourself <lb/> and
+                    be careful to maintain a right spirit. <lb/> Do not cherish bitter or resentful
+                    feelings at <lb/>
+                    <pb n="2" facs="../images/26578_2.png"/> the delay of your hopes. Trust in that
+                    God<lb/> without whose notice not a sparrow falls to the <lb/> ground. These are
+                    day of trial - do not let your <lb/> patience fail. </p>
+                <p rendition="#indent"> It is very hard and unkind in <persName>Maj.
+                        McKiernan</persName>
+                    <lb/> to ask such a high price for your family, and even <lb/> to be unwilling
+                    to sell them at all, but you must <lb/> not speak harshly of him or even let
+                    your thoughts <lb/> dwell too much on that part of the subject. <lb/> It will do
+                    you no good - it will make you no friends <lb/> to indulge such feelings but it
+                    will injure your <lb/> character. You will not be so well fitted to <lb/> enjoy
+                    the company of your <persName ref="psn:vina_still">wife</persName> and children,
+                    if you <lb/> let your temper become soured before you meet <lb/> them. I write
+                    this to caution you - for <lb/> I know it is hard for any one to keep a meek
+                    <lb/> and quiet spirit when he knows he has been, <lb/> and is, suffering
+                    unkindness and injury. </p>
+                <p rendition="#indent"> Sister <persName>Julia</persName> says in her letter "Tell
+                    Peter <lb/> his master young <persName ref="psn:john_hogun">John
+                        Hogan</persName> is dead and the <lb/> elder <persName>Mr. Hogan</persName>
+                    and his wife have both become <lb/> Christians and united with the Presbyterian
+                    Church <lb/> in Tuscumbia. Miss <persName>Maria Cockburn</persName>
+                    <lb/> married a Mr. <persName>Lavender</persName>, a dancing master, <lb/> in
+                        <placeName>Tuscumbia</placeName>, and in consequence, all the <lb/> family
+                    have cast her off. They do not even <lb/> recognize her when they meet in the
+                    street. <pb n="3" facs="../images/26578_3.png"/> His old friend Mr.
+                        <persName>Brady</persName> was married a few weeks <lb/> since to a Miss
+                        <persName>Johnson</persName> of <placeName>Kentucky</placeName> and has gone
+                    <lb/> to <placeName>New Orleans</placeName> to live. Please give him <lb/> these
+                    bits of information - I can think of no other <lb/>
+                    <placeName>Tuscumbia</placeName> news that would interest him. <lb/> Remember me
+                    to him most kindly. Assure <lb/> him too, that everything will be done that can
+                    <lb/> be to get his wife and children, but tell him <lb/> not to be too sure,
+                    for he may be disappointed. <lb/> Poor fellow! it will be hard, if after
+                    cherishing <lb/> his dream of happiness so many years, he must <lb/> then be so
+                    cruelly disappointed! Tell him <lb/> I'll be home <date when="1853-06-01">in
+                        June</date>, and then I hope I'll <lb/> have the pleasure of looking into
+                    his good <lb/> kind honest face once more." </p>
+                <p rendition="#indent"> I have copied the close of Sister Julia's <lb/> letter, that
+                    you may have it in her own words. <lb/> When I hear from her again, or from Dr.
+                        <persName>Hargraves</persName>
+                    <lb/> I will write you - I should have sent you <lb/> this information earlier,
+                    but <persName ref="psn:pickard_d_l">Mr. Pickard</persName> and <lb/>
                     <persName ref="psn:willie">my little Willie</persName> have been ill and <lb/>
-                    have taken all my time and care. They are better <lb/>
-                    now however.
-                </p>
-                <p rendition="#indent">
-                    I trust that the next letter I receive <add place="above" resp="#FG">from the South</add> will <lb/>
-                    contain more encouraging news. It is some <lb/>
-                    comfort to know that there are warm hearts there <lb/>
-                    enlisted in your favor. If you make any <lb/>
-                    <pb n="4" facs="../images/26578_4.png" />
-                    change in your plans, let me know, and <lb/>
-                    be assured you have the warm sympathy of </p>
+                    have taken all my time and care. They are better <lb/> now however. </p>
+                <p rendition="#indent"> I trust that the next letter I receive <add place="above"
+                        resp="#FG">from the South</add> will <lb/> contain more encouraging news. It
+                    is some <lb/> comfort to know that there are warm hearts there <lb/> enlisted in
+                    your favor. If you make any <lb/>
+                    <pb n="4" facs="../images/26578_4.png"/> change in your plans, let me know, and
+                    <lb/> be assured you have the warm sympathy of </p>
                 <closer>
                     <salute rendition="#indent2">Your friend</salute>
-                    <signed rendition="#indent3"> 
-                        <persName ref="psn:pickard_kate">Kate E.R. Pickard</persName> 
+                    <signed rendition="#indent3">
+                        <persName ref="psn:pickard_kate">Kate E. R. Pickard</persName>
                     </signed>
                 </closer>
             </div>
         </body>
     </text>
 </TEI>
-
