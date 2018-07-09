@@ -114,13 +114,16 @@
       <correspDesc>
         <correspAction type="sent">
           <persName>Fletcher Webster</persName>
-          <placeName>Boston, MA</placeName>
+          <placeName>Boston, Massachusetts</placeName>
           <date when="1853-01-31">January 31, 1853</date>
         </correspAction>
         <correspAction type="received">
           <persName>Unknown</persName>
           <placeName>Unknown</placeName>
           <date>Unknown</date>
+        </correspAction>
+        <correspAction type="deliveredTo">
+          <persName>Peter Still</persName>
         </correspAction>
       </correspDesc>
       <textClass>
@@ -132,7 +135,8 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change who="#FG" when="2018-07-09">Proofread. Fixed table to read across fold. Added reference to personography for Webster.</change>
+      <change who="#FG" when="2018-07-09">Proofread. Fixed table to read across fold. Added
+        reference to personography for Webster.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -189,18 +193,15 @@
             <date when="1853-01-31">Jan 31. 1853.</date>
           </dateline>
         </opener>
-
         <p> I have looked at <persName ref="psn:peter_still">Peter Still's</persName><lb/> paper and
           heard his story,<lb/> and believing him to be entirely<lb/> trustworthy am very willing
           to<lb/> contribute my <unclear><gap reason="illegible" unit="word" quantity="1"
             /></unclear> towards the<lb/> accomplishment of his purpose,<lb/> and my testimony, for
           what it is<lb/> worth, to his character &amp; credibility.<lb/>
         </p>
-
         <closer>
           <signed><persName ref="psn:fletcher_webster">Fletcher Webster</persName>.</signed>
         </closer>
-
       </div>
     </body>
   </text>

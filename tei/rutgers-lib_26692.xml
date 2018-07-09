@@ -5,21 +5,21 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Parrish, Joseph, letter, Burlington, N.J., October 5, 1852, to "Cousin John" [John P.
-          Robinson?]:</title>
+        <title>May, Sam[ue]l J., letter, Syracuse, [N.Y.], March 9, 1855, to "Uncle Peter " [Peter
+          Still]</title>
         <author>
-          <persName>Parrish, Joseph, 1818-1891</persName>
+          <persName>May, Samuel J.</persName>
         </author>
         <respStmt>
-          <resp>Transcription by</resp>
-          <name xml:id="ZS"> Zachary Sinkiewicz </name>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
         </respStmt>
         <respStmt>
-          <resp>Encoding by</resp>
+          <resp>Edited by</resp>
           <name xml:id="FG"> Francesca Giannetti </name>
         </respStmt>
       </titleStmt>
-      <extent>2 p.</extent>
+      <extent>3 p.</extent>
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
@@ -27,8 +27,8 @@
               target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
               Share-alike</ref>.</ab>
         </availability>
-        <idno xml:id="DOI">doi:10.7282/T3KD1Z1X</idno>
-        <idno xml:id="WMA">rutgers-lib:26726</idno>
+        <idno xml:id="DOI">doi:10.7282/T37081KB</idno>
+        <idno xml:id="WMA">rutgers-lib:26692</idno>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -114,16 +114,14 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Joseph Parrish</persName>
-          <placeName>Burlington, New Jersey</placeName>
-          <date when="1852-10-05">Oct. 5/52</date>
+          <persName>Samuel J. May</persName>
+          <placeName>Syracuse, New York</placeName>
+          <date when="1855-03-09">March 9, 1855</date>
         </correspAction>
         <correspAction type="received">
-          <persName>John P. Robinson</persName>
-          <placeName>Boston, Massachusetts</placeName>
-        </correspAction>
-        <correspAction type="forwarded">
           <persName>Peter Still</persName>
+          <placeName>Unknown</placeName>
+          <date>Unknown</date>
         </correspAction>
       </correspDesc>
       <textClass>
@@ -133,68 +131,85 @@
           <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
         </keywords>
       </textClass>
-      <handNotes>
-        <handNote xml:id="JP" scribe="JosephParish" script="handwritten" medium="pen" scope="major">
-          <p>the document's main hand, Joseph Parish</p>
-        </handNote>
-        <handNote xml:id="JR" scribe="JohnRobinson" script="handwritten" medium="pen" scope="minor">
-          <p>the document author's cousin</p>
-        </handNote>
-      </handNotes>
     </profileDesc>
     <revisionDesc>
-      <change when="2018-07-09" who="#FG">Proofread. Added references to personography
-        file.</change>
+      <change when="2018-07-09" who="#FG">Proofread.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26726_1.png"/>
+      <pb n="1" facs="../images/26692_1.png"/>
       <div type="letter">
         <opener>
-          <dateline rendition="#indent3">
-            <placeName>Burlington, N.J.</placeName>
-            <date when="1852-10-05">Oct. 5/52</date>
+          <dateline>
+            <placeName>Syracuse</placeName>
+            <date when="1855-03-09"> Mar. 9 <lb/>
+              <hi rendition="#u">1855.</hi>
+            </date>
           </dateline>
-          <salute>Dear Cousin John,</salute>
+          <salute>Dear <persName ref="psn:peter_still">Uncle Peter</persName>.</salute>
         </opener>
 
-        <p rendition="#indent">
-          <persName ref="psn:peter_still">Peter Still</persName>, who carries <lb/> this note, is
-          one of the most estimable of <lb/> men. He wishes to have access to the <lb/> great hearts
-          of some of the good people of <lb/> your city, who have great purses. </p>
-        <p rendition="#indent"> Please get from him his history, <lb/> and his object, and direct
-          him what <lb/> to do. His integrity may be relied on. </p>
+        <p rendition="#indent"> I was glad to receive<lb/> your letter of the <date
+          when="1855-03-01">1<hi rend="superscript"><hi rendition="#u">st</hi></hi></date> and to<lb/> learn
+          from it that you are<lb/> well and your family well<lb/> provided for.<lb/>
+        </p>
+
+        <p> This afternoon <persName>Mrs Reynolds</persName><lb/> came to see me. I read your<lb/>
+          letter to her. She told me<lb/> that she had no doubt her<lb/> daughter <persName
+            ref="psn:pickard_kate">Mrs. Pickard</persName> would<lb/> undertake to write the
+          Memoir<lb/> of your life.<lb/>
+        </p>
+
+        <p> The life of <persName ref="psn:seth_conklin">Seth Conklin</persName><lb/> should be
+          embodied in it,<lb/> or published in the Appendix.<lb/> -- I supposed that D<hi
+            rend="superscript">r </hi> <lb/>
+          <persName ref="psn:furness">Furness</persName> intended to complete<lb/> the sketch he has
+          so well<lb/> commenced and publish<lb/> it with his own name upon<lb/>
+          <pb n="2" facs="../images/26692_2.png"/> it, which would attract still<lb/> more the the
+          public attention. I<lb/> hope he will do so. It now<lb/> seems to me that the work<lb/>
+          should be entitled this<lb/> "Memoirs of the Life of<lb/> Peter Still, forty two
+          years<lb/> a Slave; of his remarkable<lb/> restoration to liberty, and to<lb/> his aged
+          mother and her<lb/> children; together with the<lb/> subsequent liberation of his<lb/>
+          family. By Mrs. Emily Pickard;<lb/> to which is added a sketch<lb/> of the life of Seth
+          Conklin,<lb/> who was sacrificed <del type="crossout">himself</del><lb/> in an attempt to
+          deliver the<lb/> family of Mr Still by Rev<lb/> W<hi rend="superscript">m</hi> H. Furness
+          DD."<lb/>
+        </p>
+
+        <p> This will intimate to you<lb/> what I think the book should<lb/> be and something
+          like<lb/> the above should be its<lb/> title.<lb/>
+        </p>
+
+        <pb n="3" facs="../images/26692_3.png"/>
+
+        <p> Whenever you please to<lb/> come on, Mrs. Pickard<lb/> will be happy to make the<lb/>
+          necessary arrangements<lb/> with you. But before<lb/> you come, you had better<lb/> see
+            D<hi rend="superscript">r</hi>. Furness and learn<lb/> from him what he prefers<lb/> to
+          do or have done in the<lb/> matter. His memoir of Seth<lb/> Conklin is exceedingly
+          interesting.<lb/>
+        </p>
+
+        <p> We shall be very glad to<lb/> see you, and your <persName ref="psn:vina_still"
+            >wife</persName><lb/> and your children. But <lb/> if they have got good places,<lb/> it
+          wouldn't be wise to get<lb/> them off, and take them from<lb/> place to place - exhibiting
+          them<lb/> to your friends and the public.<lb/> That would get them<lb/> into unsettled,
+          unthrifty<lb/> habits.<lb/>
+        </p>
+
         <closer>
-          <salute>Affectionately,</salute>
-          <signed>
-            <persName ref="psn:joseph_parrish">Joseph Parrish</persName>
-          </signed>
+          <salute> -- Your sincere friend,</salute>
+          <signed><persName ref="psn:samuel_may">Sam. J. May</persName>.</signed>
         </closer>
-        <postscript>
-          <p rendition="#indent">P.S. You have not been on to <lb/> see us this year. We should be
-            pleased <lb/> to have you come. All well. Love <lb/> to cousin H. &amp; the little ones.</p>
-        </postscript> <lb/>
+
+        <pb n="4" facs="../images/26692_4.png"/>
+
         <postscript>
           <p>
-            <add hand="#JR" rendition="#indent">The above letter is from Doctor Joseph Parrish <lb/>
-              a distinguished physician of New Jersey &amp; well known <lb/> by his profession in
-              Boston. </add>
-            <add rendition="#indent3">
-              <persName> John P. Robinson </persName>
-              <lb/>
-              <placeName>Boston </placeName>
-              <date when="1853-01-03">Jany, 3. 1853</date>. </add>
-          </p>
+            <handShift medium="pencil"/> I will help you all in my power </p>
         </postscript>
-      </div>
-      <pb n="2" facs="../images/26726_2.png"/>
-      <div type="correspondence-action">
-        <ab rendition="#center"> Dr Parrish <lb/>
-          <date when="1852-10-05">Oct 5 '52</date>
-        </ab>
-      </div>
 
+      </div>
     </body>
   </text>
 </TEI>
