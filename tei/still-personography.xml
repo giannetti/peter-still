@@ -585,6 +585,18 @@
                         <forename>Stephen</forename>
                     </persName>
                 </person>
+                <person xml:id="henry_hoyt">
+                    <persName>
+                        <surname>Hoyt</surname>
+                        <forename>Henry</forename>
+                    </persName>
+                </person>
+                <person xml:id="fletcher_webster">
+                    <persName>
+                        <surname>Webster</surname>
+                        <forename>Fletcher</forename>
+                    </persName>
+                </person>
 
                 <relation mutual="#pickard_kate #marvin_julia" name="sibling"/>
                 <relation mutual="#pickard_kate #pickard_d_l" name="spouse"/>

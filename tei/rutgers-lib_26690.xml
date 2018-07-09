@@ -5,16 +5,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Hoyt, Henry, letter, Boston, January 17, 1854, to Mr. J.P. Williston:</title>
+        <title>Webster, Fletcher, note, Boston, January 31, 1853</title>
         <author>
-          <persName>Hoyt, Henry</persName>
+          <persName>Webster, Fletcher</persName>
         </author>
         <respStmt>
-          <resp>Transcription by</resp>
-          <name xml:id="ZS"> Zachary Sinkiewicz </name>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
         </respStmt>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Edited by</resp>
           <name xml:id="FG"> Francesca Giannetti </name>
         </respStmt>
       </titleStmt>
@@ -26,8 +26,8 @@
               target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
               Share-alike</ref>.</ab>
         </availability>
-        <idno xml:id="DOI">doi:10.7282/T33778VM</idno>
-        <idno xml:id="WMA">rutgers-lib:26691</idno>
+        <idno xml:id="DOI">doi:10.7282/T3ZG6SCB</idno>
+        <idno xml:id="WMA">rutgers-lib:26690</idno>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -113,16 +113,14 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Henry Hoyt</persName>
+          <persName>Fletcher Webster</persName>
           <placeName>Boston, MA</placeName>
-          <date when="1854-01-17">January 17, 1854</date>
+          <date when="1853-01-31">January 31, 1853</date>
         </correspAction>
         <correspAction type="received">
-          <persName>J.P. Williston</persName>
-          <placeName>unknown</placeName>
-        </correspAction>
-        <correspAction type="deliveredTo">
-          <persName>Peter Still</persName>
+          <persName>Unknown</persName>
+          <placeName>Unknown</placeName>
+          <date>Unknown</date>
         </correspAction>
       </correspDesc>
       <textClass>
@@ -134,61 +132,75 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2018-07-09" who="#FG">Proofread. Fixed divs, added persName reference for Hoyt, and took a second (third? fourth?) look at some unclear passages.</change>
+      <change who="#FG" when="2018-07-09">Proofread. Fixed table to read across fold. Added reference to personography for Webster.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26691_1.png"/>
+      <pb n="1" facs="../images/26690_1.png"/>
+
+      <ab rendition="#indent3">
+        <persName>Stephen Tilten</persName><lb/>
+        <unclear>90</unclear><lb/> Commercial <choice>
+          <abbr>Whf</abbr>
+          <expan>Wharf</expan>
+        </choice><lb/>
+      </ab>
+
+      <table rows="6" cols="2">
+        <row role="data">
+          <cell role="data"><persName>Rev. G. W. <unclear>Blayden</unclear></persName></cell>
+          <cell role="data"><placeName>9 Central Court</placeName></cell>
+        </row>
+        <row role="data">
+          <cell role="data"><persName>Rev. E. N. <unclear>Kirk</unclear></persName> - </cell>
+          <cell role="data">58 Pinckney St</cell>
+        </row>
+        <row role="data">
+          <cell role="data"><persName>Rev. J. B. <del rend="strikethrough"
+                  ><unclear>Waterhouse</unclear></del></persName> - </cell>
+          <cell role="data"><placeName><del rend="strikethrough">55 Temp</del>le
+            St</placeName></cell>
+        </row>
+        <row role="data">
+          <cell role="data"><persName>Rev. H. M. <unclear>Duftee</unclear></persName> - </cell>
+          <cell role="data"><placeName>1 Pine St Church</placeName></cell>
+        </row>
+        <row role="data">
+          <cell role="data"><persName>Rev. <unclear>Geo. Reinhardt</unclear></persName></cell>
+          <cell role="data"><placeName>80 Summer St</placeName></cell>
+        </row>
+        <row role="data">
+          <cell role="data"><persName>Rev. N. Adams</persName> - </cell>
+          <cell role="data"><placeName>4 Boylston Place</placeName></cell>
+        </row>
+      </table>
+
+      <ab>
+        <unclear><gap reason="illegible"/></unclear>
+      </ab>
+
+      <pb n="2" facs="../images/26690_2.png"/>
+
       <div type="letter">
         <opener>
           <dateline>
             <placeName>Boston</placeName>
-            <date when="1854-01-17">
-                <abbr>Jany</abbr>
-               17. 1854</date>
-            <lb/>
+            <date when="1853-01-31">Jan 31. 1853.</date>
           </dateline>
-          <persName>Mr JP. Williston</persName>
-          <salute rendition="#indent2">My dear <choice>
-              <abbr>Bro</abbr>
-              <expan>Brother</expan>
-            </choice></salute>
         </opener>
 
-        <p rendition="#indent"> The bearer <persName ref="psn:peter_still">Peter <lb/>
-            <choice>
-              <corr>Still</corr>
-              <sic>Sill</sic>
-            </choice></persName> is one of God<supplied>'</supplied>s own poor from the <lb/> land
-          of bondage who having bought <lb/> his own body, is now endeavouring <lb/> to raise money
-          to purchase his <persName ref="psn:vina_still">wife</persName>
-          <lb/> &amp; children. I know, you &amp; other <lb/> friends of a Common Redeemer <lb/>
-          &amp; of a common humanity will do <lb/> what is needful to accomplish an <lb/> object so
-          dear to the heart of this <lb/> child of God. Unless <persName ref="psn:mckiernan_bernard"
-            >the owner</persName>
-          <lb/> of his family like some other fiends <lb/> in human shape refuse to part with <lb/>
-          them, so soon as he finds that the <lb/> funds are secured, I think
-            <persName>Peter</persName>
-          <lb/> will one day call <name type="person" ref="psn:vina_still">his wife</name> his &amp;
-          <lb/> children his own. <span rendition="#indent"><persName>Mrs. Hoyt</persName> says </span>
-          <pb n="2" facs="../images/26691_2.png"/>
-          <supplied>"</supplied>tell <persName>Mr Williston</persName> that <choice>
-            <expan>though</expan>
-            <abbr>tho</abbr>
-          </choice> the <lb/>
-          <unclear><gap reason="illegible" unit="word" quantity="1"/></unclear> have <unclear>burned
-            of</unclear> his <lb/> house, I know that they have <lb/> not <unclear>burned</unclear>
-          out the goodness <lb/> of his heart." <span rendition="#indent">May God </span>
-          <lb/> second the efforts of this hitherto <lb/>
-          <unclear>oppressed</unclear> one to <unclear>compass</unclear> the objects <lb/> so dear
-          to his heart </p>
+        <p> I have looked at <persName ref="psn:peter_still">Peter Still's</persName><lb/> paper and
+          heard his story,<lb/> and believing him to be entirely<lb/> trustworthy am very willing
+          to<lb/> contribute my <unclear><gap reason="illegible" unit="word" quantity="1"
+            /></unclear> towards the<lb/> accomplishment of his purpose,<lb/> and my testimony, for
+          what it is<lb/> worth, to his character &amp; credibility.<lb/>
+        </p>
+
         <closer>
-          <salute rendition="#indent2"> Very truly yours </salute>
-          <signed rendition="#indent3"><persName ref="psn:henry_hoyt">Henry Hoyt</persName></signed><lb/>
-          <add rendition="#indent2"><handShift medium="pencil"
-            /><placeName>Northhampton</placeName></add>
+          <signed><persName ref="psn:fletcher_webster">Fletcher Webster</persName>.</signed>
         </closer>
+
       </div>
     </body>
   </text>

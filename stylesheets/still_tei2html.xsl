@@ -79,7 +79,7 @@
                 in brackets.</xd:p>
         </xd:desc>
     </xd:doc>
-    <xsl:template match="choice">
+    <xsl:template match="TEI//choice">
         <xsl:text>[</xsl:text>
         <xsl:value-of select="corr | expan | reg"/>
         <xsl:text>]</xsl:text>
@@ -179,11 +179,11 @@
 
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
-            <xd:p>Convert lb element to br element, but only for children of the ab element (ignore
+            <xd:p>Convert lb element to br element, but only for children of the ab, opener, and closer elements (ignore
                 line breaks in p element).</xd:p>
         </xd:desc>
     </xd:doc>
-    <xsl:template match="ab/lb">
+    <xsl:template match="ab/lb | //opener//lb | //closer//lb">
         <br>
             <xsl:apply-templates/>
         </br>
@@ -200,6 +200,10 @@
             <xsl:apply-templates/>
             <xsl:text>[?]</xsl:text>
         </span>
+    </xsl:template>
+    
+    <xsl:template match="supplied">
+        <xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text>
     </xsl:template>
 
     <xsl:template match="pb">
@@ -254,9 +258,9 @@
         <p style="padding-left:13em; text-indent:-2em;">
             <xsl:apply-templates select="signed"/>
         </p>
-        <xsl:if test="date">
+        <xsl:if test="date | add">
             <p style="padding-left:13em; text-indent:-2em;">
-                <xsl:apply-templates/>
+                <xsl:apply-templates select="date | add"/>
             </p>
         </xsl:if>
         <xsl:if test="address">
