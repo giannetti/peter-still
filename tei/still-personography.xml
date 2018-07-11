@@ -29,10 +29,10 @@
                 <person xml:id="charity_still">
                     <persName>
                         <surname type="married">Still</surname>
-                        <forename type="given">Cidney</forename>
-                        <forename type="alternate">Sidney</forename>
-                        <addName type="adopted">Charity</addName>
+                        <forename type="adopted">Charity</forename>
                     </persName>
+                    <persName type="given">Cidney Still</persName>
+                    <persName type="alternate">Sidney Still</persName>
                     <birth when="1772">
                         <placeName>New Jersey</placeName>
                     </birth>
@@ -43,10 +43,10 @@
                 </person>
                 <person xml:id="levin_still_sr">
                     <persName>
-                        <surname type="given">Steel</surname>
                         <surname type="adopted">Still</surname>
                         <forename>Levin</forename>
                     </persName>
+                    <persName type="given">Levin Steel</persName>
                     <death when="1842-12-24"/>
                     <bibl>
                         <title>William Still: His Life and Work to This Time.</title>
@@ -596,6 +596,27 @@
                         <surname>Webster</surname>
                         <forename>Fletcher</forename>
                     </persName>
+                </person>
+                <person xml:id="mary_buckman">
+                    <persName>
+                        <surname>Buckman</surname>
+                        <forename>Mary A.</forename>
+                    </persName>
+                </person>
+                <person xml:id="van_rensselaer">
+                    <persName>
+                        <surname>Van Rensselaer</surname>
+                        <forename>Cortlandt</forename>
+                    </persName>
+                    <birth when="1808-05-26">
+                        <placeName>Albany, New York</placeName>
+                    </birth>
+                    <death when="1860-07-25">
+                        <placeName>Burlington, New Jersey</placeName>
+                    </death>
+                    <bibl>
+                        <ptr target="https://en.wikipedia.org/wiki/Cortlandt_Van_Rensselaer"/>
+                    </bibl>
                 </person>
 
                 <relation mutual="#pickard_kate #marvin_julia" name="sibling"/>
