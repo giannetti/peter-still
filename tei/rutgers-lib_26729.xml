@@ -1,12 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,7 +12,11 @@
         </author>
         <respStmt>
           <resp>Transcription and encoding by</resp>
-          <name xml:id="MH"> Francesca Giannetti </name>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
         </respStmt>
       </titleStmt>
       <extent>4 p.</extent>
@@ -164,11 +164,14 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-08-08" who="#FG">Proofread. Cleaned up divs.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <pb n="1" facs="../images/26729_1.png" /> <!-- in facs, pls put correct relative path, e.g. facs="../images/25775_1.png" -->
-      <div>
+      <div type="letter">
         <opener>
           <dateline>
             <placeName>Camillus Onondaga Co. NY.</placeName> <lb/>
@@ -176,16 +179,14 @@
           </dateline>
           <salute><persName ref="psn:samuel_may">Dear Mr May</persName></salute>
         </opener>
-      </div>
-     
-      <div>
+
         <p rendition="#indent">
           You can scarcely imagine my delight <lb/>
           at greeting once more my good friend <persName ref="psn:peter_still">Peter</persName><lb/>
           and under circumstances so unlike those which <lb/>
           attended my first acquaintance with him.</p>
         <p rendition="#indent">
-          When I first entered the <name type="place">Tuscumbia <abbr>Fem.</abbr><lb/>
+          When I first entered the <name type="org">Tuscumbia <abbr>Fem.</abbr><lb/>
             Seminary</name> as a teacher – <date when="1847-01-15">Jan. 15 1847</date> – there <lb/>
           was Peter –  <hi rendition="#u">a slave</hi>! Morning, noon, and <lb/>
           night found him there. For a year I met <lb/>
@@ -221,7 +222,7 @@
           trusted everywhere.
         </p>
         <p rendition="#indent">
-          I left the <name type="place">Tuscumbia Seminary</name> at the <lb/>
+          I left the <name type="org">Tuscumbia Seminary</name> at the <lb/>
           end of a year, but remained in the vicinity <lb/>
           until <date when="1850-04-01">April 1850</date>. During this time I visited <lb/>
           <placeName>Tuscumbia</placeName> frequently, and always met Peter <lb/>

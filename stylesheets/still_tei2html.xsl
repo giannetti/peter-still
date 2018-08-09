@@ -209,7 +209,7 @@
     <xsl:template match="pb">
         <!-- include the page number -->
         <br/>
-        <h4>Page: <xsl:value-of select="@n"/></h4>
+        <p style="text-align: center;"><small>[Page: <xsl:value-of select="@n"/>]</small></p>
         <br/>
     </xsl:template>
 

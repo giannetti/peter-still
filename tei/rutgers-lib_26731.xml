@@ -1,12 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -180,12 +176,15 @@
         </handNote>
       </handNotes>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-08-08" who="#FG">Proofread.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <pb n="1" facs="../images/26731_1.png" />
 
-      <div rendition="#center">
+      <div rendition="#center" type="correspondence-action">
         <ab>
           <persName ref="psn:harriet_stowe">Mrs. Stowe</persName><lb />
           <date when="1852-12-25">Dec 25<hi rend="superscript">th</hi> '52</date>
@@ -194,7 +193,7 @@
 
       <pb n="2" facs="../images/26731_2.png" />
 
-      <div>
+      <div type="letter">
         <p rendition="#indent">
           Having examined the claims of this unfortunate<lb />
           man I am satisfied that his is a case that<lb />
@@ -202,10 +201,10 @@
         </p>
         
         <p rendition="#indent">
-          <choice><sic>Tho</sic><corr>Though</corr></choice> the sum demanded is so large as to look<lb /> 
+          <choice><orig>Tho</orig><reg>Though</reg></choice> the sum demanded is so large as to look<lb /> 
           hopeless, yet if every man who is so happy as<lb /> 
-          to be free, &amp; have his own wife &amp; children <hi rendition="#u">for</hi><lb /> 
-          <hi rendition="#u">his own</hi>, would give even twenty five cents, the<lb />
+          to be free, &amp; have his own wife &amp; children <hi rendition="#u">for</hi> <lb /> 
+          <hi rendition="#u">his own</hi>, would give even <measure type="currency">twenty five cents</measure>, the<lb />
           sum might soon be raised.<lb />
         </p>
 
@@ -215,7 +214,7 @@
         </p>
 
         <closer>
-          <signed>H.B. Stowe <measure type="currency">10.00</measure></signed>
+          <signed><persName ref="psn:harriet_stowe">H.B. Stowe</persName> <measure type="currency">10.00</measure></signed>
         </closer>
 
         <postscript>

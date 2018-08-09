@@ -1,12 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -172,11 +168,14 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-08-08" who='#FG'>Proofread. Cleaned up divs. Changed sic/corr to orig/reg.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <pb n="1" facs="../images/26730_1.png" />
-      <div>
+      <div type="letter">
         <opener>
           <dateline>
             <placeName>Philadelphia</placeName>,
@@ -185,9 +184,7 @@
           </dateline>
           <salute>My Dear <persName ref="psn:peter_still">Bro.</persName></salute>
         </opener>
-      </div>
 
-      <div>
         <p rendition="#indent">
           I have received, this evening,<lb />
           through the <persName ref="psn:samuel_may">Rev. Samuel J. May</persName> of <placeName>Syracuse</placeName>,<lb />
@@ -198,7 +195,7 @@
         </p>
         
         <p rendition="#indent">
-          You <choice><sic>was</sic><corr>were</corr></choice> fortunate in falling into<lb />
+          You <choice><orig>was</orig><reg>were</reg></choice> fortunate in falling into<lb />
           the hands of the <persName>Rev. S. J. May</persName>. He is a true<lb />
           friend of the bondman, and will no doubt<lb />
           be of great service to you.<lb />
@@ -207,12 +204,12 @@
         <p rendition="#indent">
           I often think about you, and most<lb />
           ardently hope you will succeed in rescuing<lb />
-          your <persName ref="psn:vina_still">wife</persName> &amp; children from the hands of the<lb />
-          <persName ref="psn:mckiernan_bernard">tyrant</persName> who now holds them. But the price<lb /> 
+          your <persName ref="psn:vina_still">wife</persName> &amp; children from the hands of the <lb />
+          <persName ref="psn:mckiernan_bernard">tyrant</persName> who now holds them. But the price <lb /> 
           demanded to redeem them, is so monstrously<lb /> 
           unrighteous. I must confess to you, that I am<lb /> 
           some times led almost to despair in reference<lb />
-          to your accomplishing the object <choice><corr>sought</corr><sic>saught</sic></choice>.<lb /> 
+          to your accomplishing the object <choice><reg>sought</reg><orig>saught</orig></choice>.<lb /> 
           But you must not be discouraged - persevere<lb />
           hope on, and the difficulties may yet all be<lb /> 
           overcome.<lb />
@@ -227,14 +224,14 @@
           raised in <placeName>Philadelphia</placeName>, I will do so now.<lb />
           My <hi rendition="#u">private</hi> opinion is, that <measure type="currency">$1000</measure> may be<lb />
           raised providing your efforts in <placeName>N.J.</placeName> and<lb /> 
-          the East shall prove <choice><corr>encouraging</corr><sic>incouraging</sic></choice>. I hold<lb />
+          the East shall prove <choice><reg>encouraging</reg><orig>incouraging</orig></choice>. I hold<lb />
           myself ready for <measure type="currency">$50</measure> out of my own little purse.<lb />
         </p>
 
         <p rendition="#indent">
-          Enclosed you will find Mr. <persName ref="psn:mckiernan_bernard"><choice><sic>M<hi rend="superscript">c</hi>Keirnon's</sic><corr>McKiernan's</corr></choice></persName><lb />
-          letter. As to <persName ref="psn:seth_conklin">Seth Conklin's</persName> letters,<lb /> 
-          the <persName ref="psn:furness">Rev. W. H. Furness</persName>, have them in his<lb />
+          Enclosed you will find Mr. <persName ref="psn:mckiernan_bernard"><choice><orig>M<hi rend="superscript">c</hi>Keirnon's</orig><reg>McKiernan's</reg></choice></persName><lb />
+          letter. As to <persName ref="psn:seth_conklin">Seth Conklin</persName>'s letters,<lb /> 
+          the <persName ref="psn:furness">Rev. W. H. Furness</persName>, <choice><orig>have</orig><reg>has</reg></choice> them in his<lb />
           possession at this time. He is now writing<lb />
           out some of Mr. Conklin's most indescribably thrilling<lb />
           adventures &amp;c.; however I shall probably see him<lb />
@@ -243,14 +240,14 @@
         </p>
 
         <p rendition="#indent">
-          Please write to mee soon &amp; let<lb />
+          Please write to me soon &amp; let<lb />
           me hear how you have succeeded<lb /> 
           and what your hopes and prospects are.<lb />
         </p>
 
         <p rendition="#indent">
           Our Anti Slavery Fair closed last<lb />
-          evening, consequently <choice><corr>today</corr><sic>to day</sic></choice> finds me<lb />
+          evening, consequently <choice><reg>today</reg><orig>to day</orig></choice> finds me<lb />
           very busy, so you must excuse me for<lb /> 
           not writing more at length.<lb />
         </p>
