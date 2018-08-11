@@ -152,7 +152,9 @@
       </handNotes>
     </profileDesc>
     <revisionDesc>
-      <change when="2018-07-11" who="#FG">Proofread. Added references to still-personography.xml.</change>
+      <change when="2018-07-11" who="#FG">Proofread. Added references to
+        still-personography.xml. </change>
+      <change when="2018-08-11" who="#FG">Fixed divs.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -187,38 +189,41 @@
         <closer>
           <signed><persName ref="psn:elias_boudinot">E. E. Boudinot</persName></signed>
         </closer>
+
+
+        <postscript>
+          <ab>
+            <add hand="#MB"> The above named Peter Still was in my<lb/> employ ten months, during
+              which time he<lb/> fully sustained the character given him by<lb/> M<hi
+                rend="superscript">r</hi> Boudinot. It gives me pleasure to add<lb/> my name to this
+              recommmendation. <lb/>
+              <persName rendition="#indent3" ref="psn:mary_buckman"> Mary A. Buckman
+              </persName><lb/>
+            </add>
+          </ab>
+        </postscript>
+
+        <postscript>
+          <ab>
+            <add hand="#CVR"> Judge Boudinot is one of our principal citizens, &amp; I have
+              entire<lb/> confidence in his recommendation of Peter Still. <lb/>
+              <placeName> Burlington, N.J., </placeName>
+              <date when="1852-11-06">Nov. 6/52 </date><!-- floats left -->
+              <persName ref="psn:van_rensselaer"> Cortlandt Van Rensselaer </persName>
+              <!-- floats right -->
+            </add>
+          </ab>
+        </postscript>
       </div>
-
-      <postscript>
-        <ab>
-          <add hand="#MB"> The above named Peter Still was in my<lb/> employ ten months, during
-            which time he<lb/> fully sustained the character given him by<lb/> M<hi
-              rend="superscript">r</hi> Boudinot. It gives me pleasure to add<lb/> my name to this recommmendation. <lb/>
-            <persName rendition="#indent3" ref="psn:mary_buckman"> Mary A. Buckman </persName><lb/>
-          </add>
-        </ab>
-      </postscript>
-
-      <postscript>
-        <ab>
-          <add hand="#CVR"> Judge Boudinot is one of our principal citizens, &amp; I have
-            entire<lb/> confidence in his recommendation of Peter Still. <lb/>
-            <placeName> Burlington, N.J., </placeName>
-            <date when="1852-11-06">Nov. 6/52 </date><!-- floats left -->
-            <persName ref="psn:van_rensselaer"> Cortlandt Van Rensselaer </persName>
-            <!-- floats right -->
-          </add>
-        </ab>
-      </postscript>
 
       <pb n="2" facs="../images/26728_2.png"/>
 
-      <postscript style="transform:rotateZ(-90deg)" rendition="#center">
+      <div style="transform:rotateZ(-90deg)" rendition="#center" type="correspondence-action">
         <ab hand="#EB">
           <persName>Judge Boudinot</persName><lb/> &amp;<lb/>
           <persName>Mrs. Buckman</persName><lb/>
         </ab>
-      </postscript>
+      </div>
 
     </body>
   </text>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,8 +26,9 @@
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
-          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
-            Non-commercial Share-alike</ref>.</ab>
+          <ab>Reusable according to the Creative Commons License <ref
+              target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
+              Share-alike</ref>.</ab>
         </availability>
         <idno xml:id="DOI">doi:10.7282/T3Z03898</idno>
         <idno xml:id="WMA">rutgers-lib:26837</idno>
@@ -54,12 +55,12 @@
             <idno>MC 1392</idno>
           </msIdentifier>
           <msContents>
-            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife,
-              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R.
-              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected;
-              and Still family record (1798-1821). Persons and places represented include William Lloyd
-              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington,
-              N.J., and Philadelphia, Pa. 57 items.</p>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his
+              wife, Vina Still, and family held as slaves in Alabama and the publication (1856) of
+              Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854)
+              of funds collected; and Still family record (1798-1821). Persons and places
+              represented include William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+              Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57 items.</p>
           </msContents>
         </msDesc>
       </sourceDesc>
@@ -67,68 +68,38 @@
     <encodingDesc>
       <editorialDecl>
         <p>Line breaks, paragraph breaks, and indentations have been preserved within the
-        transcription. The layout of the page has been preserved whenever possible.
-        Abbreviations and spellings have been maintained within the transcriptions,
-        and the full word and corrected or modern spellings have been provided. Images
-        of the original letters have been provided in order to show the original page
-        layout and other markings that are not the author's. Words or phrases that
-        are deemed indecipherable have been noted as "unclear."
-        </p>
+          transcription. The layout of the page has been preserved whenever possible. Abbreviations
+          and spellings have been maintained within the transcriptions, and the full word and
+          corrected or modern spellings have been provided. Images of the original letters have been
+          provided in order to show the original page layout and other markings that are not the
+          author's. Words or phrases that are deemed indecipherable have been noted as "unclear." </p>
         <hyphenation eol="none">
           <p>Any dashes occurring in line breaks have been removed.</p>
         </hyphenation>
       </editorialDecl>
       <projectDesc>
-        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+          Assistantship, 2016-2017.</p>
       </projectDesc>
       <tagsDecl>
         <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
-        <rendition xml:id="b" n="tiebp:bold" scheme="css">
-          font-weight:bold;
-        </rendition>
-        <rendition xml:id="i" n="tiebp:italic" scheme="css">
-          font-style:italic;
-        </rendition>
-        <rendition xml:id="u" n="tiebp:underline" scheme="css">
-          text-decoration:underline;
-        </rendition>
-        <rendition xml:id="n" n="teibp:normal" scheme="css">
-          font-weight:normal;
-          text-decoration:none;
-          font-style:normal;
-        </rendition>
+        <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+        <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+        <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+        <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+          text-decoration:none; font-style:normal; </rendition>
         <!-- Indentation -->
-        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
-          text-indent:4em;
-          /* The above method of describing an indentation for, say, a paragraph is
-          preferred. The method being used is in response to a bug in some browsers
-          whereby a block element, like a paragraph, is erroneously re-indented
-          after interruption by another block element (like a list, which is valid,
-          in TEI, inside a paragraph). */
-          content:"\A0\A0\A0\A0\A0\A0";
-        </rendition>
-        <rendition xml:id="indent1" scheme="css">
-          display:block;
-          padding-left:4em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent2" scheme="css">
-          display:block;
-          padding-left:7em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent3" scheme="css">
-          display:block;
-          padding-left:10em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="center" scheme="css">
-          display:block;
-          text-align:center;
-          margin-left:auto;
-          margin-right:auto;
-          text-align: center;
-        </rendition>
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before"> text-indent:4em; /*
+          The above method of describing an indentation for, say, a paragraph is preferred. The
+          method being used is in response to a bug in some browsers whereby a block element, like a
+          paragraph, is erroneously re-indented after interruption by another block element (like a
+          list, which is valid, in TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+        <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+          text-indent:-2em; </rendition>
+        <rendition xml:id="center" scheme="css"> display:block; text-align:center; margin-left:auto;
+          margin-right:auto; text-align: center; </rendition>
       </tagsDecl>
       <classDecl>
         <taxonomy xml:id="LCSH">
@@ -136,13 +107,10 @@
         </taxonomy>
       </classDecl>
       <listPrefixDef>
-        <prefixDef ident="psn"
-          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+        <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
           replacementPattern="still-personography.xml#$1">
-          <p> In the context of this project, private URIs with the prefix
-            "psn" point to <gi>person</gi> elements in the
-            still-personography.xml file.
-          </p>
+          <p> In the context of this project, private URIs with the prefix "psn" point to
+              <gi>person</gi> elements in the still-personography.xml file. </p>
         </prefixDef>
       </listPrefixDef>
     </encodingDesc>
@@ -176,49 +144,47 @@
       </handNotes>
     </profileDesc>
     <revisionDesc>
-      <change resp="#FG" when="2018-06-18">Removed teibp stylesheet declarations and added TEIP5 schema and schematron. Edited transcription.</change>
+      <change resp="#FG" when="2018-06-18">Removed teibp stylesheet declarations and added TEIP5
+        schema and schematron. Edited transcription.</change>
+      <change resp="#FG" when="2018-08-11">Fixed divs.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26837_1.png" />
-      <div>
+      <pb n="1" facs="../images/26837_1.png"/>
+      <div type="letter">
         <opener>
           <dateline>
             <placeName>Burlington N. Jersey</placeName>
-            <date when="1853-06-27"><unclear>6mo.</unclear> 27<hi rend="superscript">th</hi>, 1853</date>
+            <date when="1853-06-27">6mo. 27<hi rend="superscript">th</hi> 1853</date>
           </dateline>
         </opener>
-      </div>
-      <div>
-        <p rendition="#indent">
-          I take pleasure in introducing to your kind<lb />
-          notice the bearer <persName ref="psn:peter_still">Peter Still</persName> who having by his<lb />
-          industry purchased his own freedom is now<lb />
-          endeavoring to purchase that of <persName ref="psn:vina_still">his wife</persName> &amp; children. He<lb />
-          has as you will perceive by his papers received much<lb />
-          encouragement &amp; "<hi rendition="#u">material aid</hi>" from the Benevolent<lb />
-          upon whom he has called. Trusting he will<lb />
-          continue to meet the same from those on whom<lb />
-          he may call I leave him to the blessing of Providence<lb />
-          and your sympathy and am <unclear>rs</unclear><lb />
+
+        <p rendition="#indent"> I take pleasure in introducing to your kind<lb/> notice the bearer
+            <persName ref="psn:peter_still">Peter Still</persName> who having by his<lb/> industry
+          purchased his own freedom is now<lb/> endeavoring to purchase that of <persName
+            ref="psn:vina_still">his wife</persName> &amp; children. He<lb/> has as you will
+          perceive by his papers received much<lb/> encouragement &amp; "<hi rendition="#u">material
+            aid</hi>" from the Benevolent<lb/> upon whom he has called. Trusting he will<lb/>
+          continue to meet the same from those on whom<lb/> he may call I leave him to the blessing
+          of Providence<lb/> and your sympathy and am <unclear>rs</unclear><lb/>
         </p>
 
         <closer>
           <signed><persName ref="psn:dillwyn_smith">Dillwyn Smith</persName></signed>
         </closer>
-
-        <pb n="2" facs="../images/26837_2.png" />
-
-        <postscript>
-          <ab>
-            <add hand="#Unknown">
-              Dillwyn Smith<lb />
-              June 25<hi rend="superscript">th</hi> '53
-            </add>
-          </ab>
-        </postscript>
       </div>
+
+      <pb n="2" facs="../images/26837_2.png"/>
+
+      <div type="correspondence-action">
+        <ab>
+          <add hand="#Unknown"> <persName ref="psn:dillwyn_smith">Dillwyn Smith</persName><lb/>
+            <date when="1853-06-25">June 25<hi rend="superscript">th</hi> '53</date>
+          </add>
+        </ab>
+      </div>
+
     </body>
   </text>
 </TEI>
