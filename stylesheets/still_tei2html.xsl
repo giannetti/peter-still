@@ -54,12 +54,10 @@
     </xd:doc>
     <xsl:template match="opener">
         <p style="text-align: right;">
-            <xsl:value-of select="dateline/placeName"/>
-            <xsl:text> </xsl:text>
-            <xsl:value-of select="dateline/date"/>
-            <br>
-                <xsl:apply-templates select="lb"/>
-            </br>
+            <xsl:apply-templates select="dateline/placeName"/>
+        </p>
+        <p style="text-align: right;">
+            <xsl:apply-templates select="dateline/date"/>
         </p>
         <xsl:if test="address">
             <xsl:for-each select="address/addrLine">

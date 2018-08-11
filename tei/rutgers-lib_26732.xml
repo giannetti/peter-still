@@ -1,12 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -155,12 +151,12 @@
       <correspDesc>
         <correspAction type="sent">
           <persName>Kate E. R. Pickard</persName>
-          <placeName>Camillus, NY</placeName>
+          <placeName>Camillus, New York</placeName>
           <date when="1853-03-21">March 21, 1853</date>
         </correspAction>
         <correspAction type="received">
           <persName>Peter Still</persName>
-          <placeName>Boston, MA</placeName>
+          <placeName>Boston, Massachusetts</placeName>
           <date>Unknown</date>
         </correspAction>
       </correspDesc>
@@ -172,11 +168,14 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-08-11" who="#FG">Proofread. Cleaned up divs and added date.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <pb n="1" facs="../images/26732_1.png" />
-      <div>
+      <div type="letter">
         <opener>
           <dateline rendition="#indent3">
             <placeName>Camillus</placeName>
@@ -184,12 +183,10 @@
           </dateline>
           <salute>Dear <persName ref="psn:peter_still">Uncle Peter</persName></salute>
         </opener>
-      </div>
 
-      <div>
         <p rendition="#indent">
           I was very glad to receive your<lb />
-          letter of the <date>14th</date> <abbr>ult.</abbr> and have waited till<lb />
+          letter of the <date when="1853-02-14">14th</date> <abbr>ult.</abbr> and have waited till<lb />
           now for good news to write you in reply. But<lb /> 
           alas! I have little to say that will give you<lb />
           hope of a <hi rendition="#u">speedy</hi> union with those dear<lb />
@@ -197,7 +194,7 @@
         </p>
         
         <p rendition="#indent">
-          I received a letter from <persName ref="psn:marvin_julia">sister Julia</persName><lb />
+          I received a letter from sister <persName ref="psn:marvin_julia">Julia</persName><lb />
           last night in which she says – <lb />
         </p>
         
@@ -207,7 +204,7 @@
           So I read him his part about Uncle Peter. He<lb />
           told me he saw Peter's <persName ref="psn:vina_still">wife</persName> and children only<lb />
           a little while ago, and that they were very well.<lb />
-          He is trying to get <persName ref="psn:mckiernan_bernard">Maj. Mc'Kiernan's</persName> consent to<lb />
+          He is trying to get Maj. <persName ref="psn:mckiernan_bernard">Mc'Kiernan</persName>'s consent to<lb />
           part with them but is obliged to go cautiously<lb /> 
           to work. Maj. Mc'K. is the Dr. says, a grasping<lb />
           avaricious man, and if he were to find out that<lb />
@@ -254,25 +251,25 @@
 
         <p rendition="#indent">
           Sister Julia sends me some <placeName>Tuscumbia</placeName><lb />
-          news – She says <persName>Mrs. Armisted Barton</persName> died of<lb /> 
-          typhoid fever about the same that that <persName>Col Moon</persName><lb /> 
+          news – She says Mrs. <persName>Armisted Barton</persName> died of<lb /> 
+          typhoid fever about the same that that Col <persName>Moon</persName><lb /> 
           died of cancer – That was in December, I believe.<lb />
-          <persName>Col. Meredith</persName>, too is dead. Mr. &amp; Mrs. <persName>Towns</persName> have<lb />
+          Col. <persName>Meredith</persName>, too is dead. Mr. &amp; Mrs. <persName>Towns</persName> have<lb />
           
           <pb n="3" facs="../images/26732_3.png" />
 
           removed out of town to their plantation. Uncle<lb />
           <persName>Billy Winston</persName> lives in the Barton house now, but<lb />
           intends to go to <placeName>Texas</placeName> before long where he can find<lb />
-          a wild country again. His daughter <persName>Mrs. Mary</persName> was married<lb /> 
-          a short time since to <persName>Mr. Cooper</persName>, but very<lb />
+          a wild country again. His daughter Miss <persName>Mary</persName> was married<lb /> 
+          a short time since to Mr <persName>Cooper</persName>, but very<lb />
           much against her father's will. They were married<lb />
-          in the Methodist Church. They board at Mrs.<lb /> 
-          <persName>Col. Christian's</persName>. <persName>Mrs. Lewis</persName>, Mrs. Christian's<lb /> 
-          mother, is dead, and so is <persName>Mrs. Charles Cooper</persName>,<lb />
-          Mr. John Christian's mother. Mr. John Christian<lb /> 
+          in the Methodist Church. They board at Mrs <lb /> 
+          Col. <persName>Christian</persName>'s. Mrs. <persName>Lewis</persName>, Mrs. Christian's<lb /> 
+          mother, is dead, and so is Mrs. <persName>Charles Cooper</persName>,<lb />
+          Mrs. John Christian's mother. Mr. John Christian<lb /> 
           has given up his store and is now on a boat.<lb />
-          <persName>Mr. Penland</persName> has left <placeName>Tuscumbia</placeName> and has settled<lb />
+          Mr <persName>Penland</persName> has left <placeName>Tuscumbia</placeName> and has settled<lb />
           in <placeName>Tennessee</placeName>. <persName>Tom Walker</persName> has lost all his<lb />
           property, is even in debt, and lounges about the streets<lb />
           as usual.<lb />
@@ -286,8 +283,8 @@
           must let me hear from you often. I cannot<lb />
           tell how deep an interest I feel in your welfare<lb />
           or how happy it would make me if I could aid in<lb />
-          restoring your family to you. <hi rendition="#u">We</hi> <hi rendition="#u">must</hi> <hi rendition="#u">do</hi> <hi rendition="#u">all</hi><lb /> 
-          <hi rendition="#u">in</hi> <hi rendition="#u">our</hi> <hi rendition="#u">power</hi> and have the result to that Friend<lb /> 
+          restoring your family to you. <hi rendition="#u">We must do all <lb /> 
+          in our power</hi> and have the result to that Friend<lb /> 
           above whose ear is ever open to the cry of the helpless<lb />
           if they put their trust in him.<lb />
         </p>
@@ -302,7 +299,7 @@
         </p>
 
         <closer>
-          <salute>Your true friend,</salute>
+          <salute>Your true friend</salute>
           <signed><persName ref="psn:pickard_kate">Kate E. R. Pickard</persName></signed>
         </closer>
 
@@ -311,7 +308,7 @@
             Don't neglect to inform me where you go when<lb />
             you leave <placeName>Boston</placeName> so that I can write if I have<lb />
             good news for you. We expect Sister Julia<lb /> 
-            early in June.<lb />
+            early in June. <lb />
           </p>
         </postscript>
 
