@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carter, I? W. J? (per W.W. Handy), letter, Franklin County, Ala., June 25, 1855,
+               to Peter Still, Burlington, New Jersey</title>
+            <author><persName>Carter, I. W. J.</persName></author>
+            <respStmt>
+               <resp>Transcription by</resp>
+               <name xml:id="MH"> Michelle Hwang </name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name xml:id="FG"> Francesca Giannetti </name>
+            </respStmt>
+         </titleStmt>
+         <extent>2 p.</extent>
+         <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <availability>
+               <ab>Reusable according to the Creative Commons License <ref
+                     target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                     Non-commercial Share-alike</ref>.</ab>
+            </availability>
+            <idno xml:id="DOI">doi:10.7282/T3PN95SN</idno>
+            <idno xml:id="WMA">rutgers-lib:26916</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Peter Still Papers, 1850-1875</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Rutgers Community Repository (RUcore)</publisher>
+                  <pubPlace>Rutgers University Libraries</pubPlace>
+                  <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Special Collections and University Archives</settlement>
+                  <repository>Rutgers University Libraries</repository>
+                  <idno>MC 1392</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase
+                     his wife, Vina Still, and family held as slaves in Alabama and the publication
+                     (1856) of Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo
+                     book (1853-1854) of funds collected; and Still family record (1798-1821).
+                     Persons and places represented include William Lloyd Garrison, Horace Greeley,
+                     Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, N.J., and
+                     Philadelphia, Pa. 57 items.</p>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+               transcription. The layout of the page has been preserved whenever possible.
+               Abbreviations and spellings have been maintained within the transcriptions, and the
+               full word and corrected or modern spellings have been provided. Images of the
+               original letters have been provided in order to show the original page layout and
+               other markings that are not the author's. Words or phrases that are deemed
+               indecipherable have been noted as "unclear." </p>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+            </hyphenation>
+         </editorialDecl>
+         <projectDesc>
+            <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+               Assistantship, 2016-2017.</p>
+         </projectDesc>
+         <tagsDecl>
+            <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+            <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+            <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+            <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+            <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+               text-decoration:none; font-style:normal; </rendition>
+            <!-- Indentation -->
+            <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+               text-indent:4em; /* The above method of describing an indentation for, say, a
+               paragraph is preferred. The method being used is in response to a bug in some
+               browsers whereby a block element, like a paragraph, is erroneously re-indented after
+               interruption by another block element (like a list, which is valid, in TEI, inside a
+               paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+            <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="center" scheme="css"> display:block; text-align:center;
+               margin-left:auto; margin-right:auto; text-align: center; </rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>Library of Congress Subject Headings</bibl>
+            </taxonomy>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+               replacementPattern="still-personography.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "psn" point to
+                     <gi>person</gi> elements in the still-personography.xml file. </p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>I. W. J. Carter</persName>
+               <placeName>Franklin County, Alabama</placeName>
+               <date when="1855-06-25">June 25, 1855</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Peter Still</persName>
+               <placeName>Burlington, New Jersey</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <term>Slavery--United States--History--19th century.</term>
+               <term>African Americans--Biography.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-08-12" who="#FG">Edited transcription and encoded for first
+            time.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="correspondence-action" rendition="#center">
+            <pb n="1"/>
+            <ab><persName>Peter Still</persName><lb/><placeName>Burlington New
+               Jersey</placeName></ab>
+         </div>
+         <div type="letter">
+            <pb n="2"/>
+            <opener>
+               <dateline><placeName>Franklin County Ala</placeName>
+                  <date when="1855-06-25">June 25 1855</date></dateline>
+               <salute><persName ref="psn:peter_still">Peter Still</persName> Dear Sir</salute>
+            </opener>
+            <p rendition="#indent">I <choice>
+                  <abbr>rec</abbr>
+                  <expan>received</expan>
+               </choice> your letter <choice>
+                  <orig>writen</orig>
+                  <reg>written</reg>
+               </choice> 
+               <date when="1855-03-13">March 13/55</date> and was glad to <choice>
+                  <orig>here</orig>
+                  <reg>hear</reg>
+               </choice> from you and family &amp; the health of you all. <choice>
+                  <orig>Tugather</orig>
+                  <reg>Together</reg>
+               </choice> with your relations and friends and the safe <choice>
+                  <orig>arival</orig>
+                  <reg>arrival</reg>
+               </choice> of your <hi rendition="#u">family</hi> which I thought you never would see
+               this side of the grave for although it was <choice>
+                  <orig>rumered</orig>
+                  <reg>rumored</reg>
+               </choice> abroad I could not think it possible that you could or would enjoy such a
+               good fortune <choice>
+                  <orig>is</orig>
+                  <reg>as</reg>
+               </choice> you <choice>
+                  <orig>menton</orig>
+                  <reg>mention</reg>
+               </choice> all safe all happy in the place where hearts were made. glad to see you all
+               safe &amp; satisfied Dear sir you <choice>
+                  <orig>moste cordialy</orig>
+                  <reg>most cordially</reg>
+               </choice> have mine &amp; <choice>
+                  <orig>famiels</orig>
+                  <reg>family's</reg>
+               </choice> love &amp; respects to you &amp; sister <persName ref="psn:vina_still"
+                  >Levina</persName> 
+               <persName>Peter</persName> 
+               <persName>Levin</persName> &amp; <persName ref="psn:catharine_still"
+                  >Catherine</persName> you mentioned in your letter that your motive for writing
+               was to get some information respecting your little grandson
+                  <persName>Peter</persName> he was born <date when="1854-03-11">March 11<hi
+                     rend="superscript">th</hi> 1854</date> when your family left he was sick &amp;
+               hardly expected to live but he is well now and a very fine child and <choice>
+                  <orig>figeratively</orig>
+                  <reg>figuratively</reg>
+               </choice> speaking is yourself his head eyes mouth &amp; <choice>
+                  <orig>complection</orig>
+                  <reg>complexion</reg>
+               </choice> is a perfect picture of you Sir I now mention that I saw <persName>Joseph
+                  Gist</persName> and he says that his Mother Brothers &amp; sisters are all well
+               also his grandmother and sends their best respects to you &amp; family in regard to
+               the fish trap Joseph <choice>
+                  <orig>dose</orig>
+                  <reg>does</reg>
+               </choice> not seem to hold it but <pb n="3"/> but says that it is unprofitable he
+               says that he <choice>
+                  <orig>examened</orig>
+                  <reg>examined</reg>
+               </choice> it and saw that one side was broken down also he says that
+                  <persName>Jno</persName> &amp; <persName>Louis McKiernan</persName> said that you
+               left it to them and there was something about the settlement of a
+                  <unclear>coat</unclear> which leaves him not to hold the trap Joseph says that
+               since you left him he has felt lost ever since that your departure has filled him
+               with Joy and <choice>
+                  <orig>greef</orig>
+                  <reg>grief</reg>
+               </choice> and more <choice>
+                  <orig>greef</orig>
+                  <reg>grief</reg>
+               </choice> than Joy also he says you must remember him <persName>William
+                  Handy</persName> &amp; family sends respects to you and family
+                  <persName>Edward</persName> &amp; <persName>Ann Eliza Hopkins</persName>
+               <choice> 
+                  <abbr>respts</abbr>
+                  <expan>respects</expan>
+               </choice> to you &amp; family </p>
+            <closer>
+               <salute>no more to say now</salute>
+               <signed>I. W. J. Carter <lb/> per W. W. Handy</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
