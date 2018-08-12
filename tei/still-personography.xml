@@ -356,9 +356,9 @@
                 <person xml:id="marvin_julia">
                     <persName>
                         <surname type="married">Marvin</surname>
-                        <surname>Reynolds</surname>
                         <forename>Julia</forename>
                     </persName>
+                    <persName>Julia Reynolds</persName>
                     <birth when="1827-08-23">
                         <placeName>Saratoga, New York</placeName>
                     </birth>
@@ -616,6 +616,17 @@
                     </death>
                     <bibl>
                         <ptr target="https://en.wikipedia.org/wiki/Cortlandt_Van_Rensselaer"/>
+                    </bibl>
+                </person>
+                <person xml:id="morris_hallowell">
+                    <persName>
+                        <surname>Hallowell</surname>
+                        <forename>Morris Longstreth</forename>
+                    </persName>
+                    <birth when="1809-08-14"/>
+                    <death when="1880-09-16"/>
+                    <bibl>
+                        <ptr target="https://www.findagrave.com/memorial/73121462/morris-longstreth-hallowell"/>
                     </bibl>
                 </person>
 

@@ -5,13 +5,17 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], April 24, 1854, to "Uncle Peter" [Peter
-          Still]</title>
+        <title>Still, W[illia]m, letter, Anti Slavery Office, Philadelphia, November 9, 1853, to
+          Peter [Still]</title>
         <author>
-          <persName>Pickard, Kate E. R.</persName>
+          <persName>Still, William</persName>
         </author>
         <respStmt>
-          <resp>Transcription and encoding by</resp>
+          <resp>Transcription by</resp>
+          <name xml:id="ZS"> Zachary Sinkiewicz </name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding by</resp>
           <name xml:id="MH"> Michelle Hwang </name>
         </respStmt>
         <respStmt>
@@ -19,7 +23,7 @@
           <name xml:id="FG"> Francesca Giannetti </name>
         </respStmt>
       </titleStmt>
-      <extent>3 p.</extent>
+      <extent>4 p.</extent>
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
@@ -27,8 +31,8 @@
               target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
               Share-alike</ref>.</ab>
         </availability>
-        <idno xml:id="DOI">doi:10.7282/T37D2V83</idno>
-        <idno xml:id="WMA">rutgers-lib:26847</idno>
+        <idno xml:id="DOI">doi:10.7282/T3QF8T02</idno>
+        <idno xml:id="WMA">rutgers-lib:26843</idno>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -114,9 +118,9 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Kate E. R. Pickard</persName>
-          <placeName>Camillus, New York</placeName>
-          <date when="1854-04-24">April 24, 1854</date>
+          <persName>William Still</persName>
+          <placeName>Philadelphia, PA</placeName>
+          <date when="1853-11-09">November 9, 1853</date>
         </correspAction>
         <correspAction type="received">
           <persName>Peter Still</persName>
@@ -133,89 +137,64 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2018-08-11" who="#FG">Proofread.</change>
+      <change when="2018-08-11" who="#FG">Proofread. Fixed a few unclear terms.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26847_1.png"/>
+      <pb n="1" facs="../images/26843_1.png"/>
       <div type="letter">
         <opener>
           <dateline>
-            <placeName>Camillus,</placeName>
-            <date when="1854-04-24">Apr. 24th 1854</date>. </dateline>
-          <salute>Dear Uncle <persName ref="psn:peter_still">Peter</persName></salute>
+            <placeName>Philadelphia </placeName>, <date when="1853-11-09">Nov. 9/53</date><lb/>
+            <placeName>Anti Slavery Office</placeName>
+          </dateline>
+          <salute>My Dear <persName ref="psn:peter_still">Peter</persName>.</salute>
         </opener>
 
-        <p rendition="#indent"> Your letter of the <date when="1854-03-20" cert="medium">20th</date>
-          has just<lb/> come - I am very glad to hear from you but<lb/> deeply grieved at the news
-          of your disappointment.<lb/> I have been dreading that very answer for<lb/> several
-          months, for slaves have been so high<lb/> as to furnish a base man just the excuse<lb/> he
-          would like. "Wait on the Lord," is<lb/> now your duty. Trust in Him, who is able to<lb/>
-          destroy the counsels of the wicked. O how I<lb/> wish I could help you! But I can
-          only<lb/> commend you to the tender mercies of the<lb/> Heavenly Father in whose sight the
-          poor and<lb/> humble are never disregarded. May he have<lb/> compassion on you and grant
-          you that blessed<lb/> boon - the society of <hi rendition="#u">your own family</hi>. </p>
+        <p rendition="#indent"> I have not<lb/> written to you for a long<lb/> while for the very
+          good<lb/> reason that I have not known<lb/> where I could reach you<lb/> with a letter and
+          even now<lb/> I shall be obliged to let this<lb/> letter take its chance in<lb/> finding
+          you.<lb/>
+        </p>
 
-        <p rendition="#indent"> You will be surprised when I tell you<lb/> that sister <persName
-            ref="psn:marvin_julia">Julia</persName> is married. Her husband<lb/> Mr
-            <persName>LeGrand Marvin</persName> of <placeName>Buffalo</placeName> is a very<lb/>
-          excellent man, though a good many years<lb/> older than she is. She had never seen
-          him<lb/> when you were here. They met in travelling<lb/> last fall and were married in
-            <date when="1853-12">December</date>.<lb/> She has made us one short visit since but<lb/>
-          <pb n="2" facs="../images/26847_2.png"/> I have seen her in her new home. Mr<lb/> Marvin
-          is a lawyer a man of piety and<lb/> wealth. Sister Julia visited <placeName>New
-            York</placeName> and <lb/>
-          <placeName>Philadelphia</placeName> immediately after her marriage,<lb/> and if the
-          weather had not been so bad<lb/> would have gone to <placeName>Boston</placeName>. In that
-          case<lb/> she would have tried to find you, as we<lb/> supposed you were at that time in
-          Boston. </p>
+        <pb n="2" facs="../images/26843_2.png"/>
 
-        <p rendition="#indent"> My mother is with me now. She is going<lb/> west in a few weeks to
-          visit sister Julia and<lb/> several other friends. My little <persName ref="psn:willie"
-            >Willie</persName> has<lb/> been quite well the most of the time since<lb/> you were
-          here, but he is now suffering from<lb/> a violent cold. Mr. <persName
-            ref="psn:pickard_d_l">Pickard</persName>'s health is still<lb/> quite poor. </p>
+        <p rendition="#indent"> You will see by the<lb/> accompanying letter from<lb/> Rev.
+            <persName ref="psn:samuel_may">S.J. May, Jr.</persName> of
+            <placeName>Syracuse</placeName>,<lb/> that important information is<lb/> needed, in
+          relation to<lb/> your family, as you can<lb/> best <add place="above">give</add> the
+          information, I hope<lb/> you will do so without<lb/> delay. I answered his letter<lb/> as
+          well as I could, but<lb/> could not name any persons<lb/> in
+            <placeName>Tuscumbia</placeName>, &amp;c.<lb/>
+        </p>
 
-        <p rendition="#indent"> We have often thought and talked about<lb/> you during the past
-          winter. We hoped you would<lb/> find it in your way to make us another call.<lb/> We could
-          have got up a meeting and helped<lb/> you <hi rendition="#u">a little</hi> if you could
-          have been here in<lb/> the winter - it was the worst time in the<lb/> year when you were
-          here last summer - I mean<lb/> the worst to get people's time or attention<lb/> off <del
-            rend="strikethrough">the</del> from their business. </p>
+        <pb n="3" facs="../images/26843_3.png"/>
 
-        <p rendition="#indent"> The Father above has been very kind to you<lb/> so far dear Uncle
-          Peter and he will not forsake<lb/> you now. He has given you health and energy<lb/> and
-          has disposed the hearts of many kind<lb/>
-          <pb n="3" facs="../images/26847_3.png"/> people to aid you and I trust in him<lb/> for the
-          future. I trust that he will so<lb/> overrule the designs of the wicked oppressors<lb/> as
-          to gladden your poor tried and troubled<lb/> heart. Pray to him - tell him all your<lb/>
-          desires and all your sorrows, and believe his<lb/> word, that he will hear the prayer of
-          the<lb/> humble. We cannot see the end, but he<lb/> has seen it from the beginning. He
-          is<lb/> suffering the wicked to triumph for a<lb/> little while, but his word declares
-          that<lb/> He will overthrow them forever, and bring<lb/> all their evil works upon their
-          own heads.<lb/> May H<subst>
-            <del type="overwrite">a</del>
-            <add place="over" type="overwrite">i</add>
-          </subst>s grace sustain you - his love is<lb/> warmer and purer than that of wife or
-          son<lb/> or daughter, and no power on earth can<lb/> separate you from him. </p>
+        <p rendition="#indent"> Mr. <persName>Birney</persName> did not succeed<lb/> in his
+          undertakings;<lb/> indeed I doubt very much<lb/> whether he took much pains<lb/> in the
+          matter. in fact<lb/> he as good as told me he<lb/> had done but little. He<lb/> was very
+          anxious to get hold<lb/> of the money. <persName>Edwards M.<lb/> Davis</persName>, who
+          holds it, thought<lb/> that so it was placed where<lb/> he could <choice>
+            <orig>dra<add place="above">u</add>gh</orig>
+            <reg>draft</reg>
+          </choice> for it at<lb/> sight, that <add place="above">that</add> was all
+          sufficient.<lb/> So it was of course,<lb/>
+          <pb n="4" facs="../images/26843_4.png"/> but that did not seem<lb/> to have met Mr.
+          Birney's<lb/> wishes though he consented<lb/> at the time the arrangement<lb/> was made
+          with him that<lb/> he was satisfied with<lb/> it. But I will tell you all about<lb/> the
+          matter when I see you.<lb/>
+        </p>
 
-        <p rendition="#indent"> Write to me often and tell me what you<lb/> are doing and what are
-          your plans. </p>
-
-        <p rendition="#indent"> Mr Pickard and Mother send their kindest<lb/> regards, and Willie
-          sends a kiss to Uncle<lb/> Peter. Willie is a little chatterbox though<lb/> he does not
-          speak very plainly. </p>
-
-        <p rendition="#indent"> Sister Julia would be very glad to hear from<lb/> you, and would I
-          presume have written to<lb/> you if she had known certainly where you<lb/> were If you
-          should wish to write to her, direct<lb/> to Mrs. LeGrand Marvin, <placeName>Buffalo,
-            N.Y.</placeName>
+        <p rendition="#indent"> How much money have<lb/> you raised in all? And when<lb/> do you
+          think of coming on<lb/> this way?<lb/>
         </p>
 
         <closer>
-          <salute>Your warm &amp; true friend</salute>
-          <signed><persName ref="psn:pickard_kate">Kate E. R. Pickard</persName></signed>
+          <salute>
+            <hi rendition="#u">Our Love</hi><lb/> Yours Truly </salute>
+          <signed><persName ref="psn:william_still">W<hi rend="superscript">m</hi>
+            Still</persName></signed>
         </closer>
 
       </div>

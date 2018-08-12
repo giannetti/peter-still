@@ -5,16 +5,12 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>May, Samuel J., letter, Syracuse, [N.Y.], July 15, 1853, to one or more unnamed residents of Syracuse</title>
+        <title>Simpson, John, letter, Florence, Ala., March 27, 1854, to Morris L. Hallowell, Esq.</title>
         <author>
-          <persName>May, Samuel J.</persName>
+          <persName>Simpson, John</persName>
         </author>
         <respStmt>
-          <resp>Transcription by</resp>
-          <name xml:id="ZS"> Zachary Sinkiewicz </name>
-        </respStmt>
-        <respStmt>
-          <resp>Encoding by</resp>
+          <resp>Transcription and encoding by</resp>
           <name xml:id="MH"> Michelle Hwang </name>
         </respStmt>
         <respStmt>
@@ -22,15 +18,15 @@
           <name xml:id="FG"> Francesca Giannetti </name>
         </respStmt>
       </titleStmt>
-      <extent>3 p.</extent>
+      <extent>1 p.</extent>
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
           <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
             Non-commercial Share-alike</ref>.</ab>
         </availability>
-        <idno xml:id="DOI">doi:10.7282/T32R3RT9</idno>
-        <idno xml:id="WMA">rutgers-lib:26838</idno>
+        <idno xml:id="DOI">doi:10.7282/T33R0T0J</idno>
+        <idno xml:id="WMA">rutgers-lib:26846</idno>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -149,18 +145,14 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Samuel J. May</persName>
-          <placeName ref="#syracuse">Syracuse, New York</placeName>
-          <date when="1853-07-15">July 15, 1853</date>
+          <persName>John Simpson</persName>
+          <placeName>Florence, Alabama</placeName>
+          <date when="1854-03-27">March 27, 1854</date>
         </correspAction>
         <correspAction type="received">
-          <persName>Unknown</persName>
-          <placeName>Unknown</placeName>
+          <persName>Morris Longstreth Hallowell</persName>
+          <placeName cert="medium">Philadelphia, Pennsylvania</placeName>
           <date>Unknown</date>
-        </correspAction>
-        <correspAction type="transmitted">
-          <persName>Peter Still</persName>
-          <placeName>Syracuse, New York</placeName>
         </correspAction>
       </correspDesc>
       <textClass>
@@ -172,123 +164,65 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2018-08-11" who="#FG">Proofread. Edited correspDesc. </change>
+      <change when="2018-08-11" who="#FG">Proofread. Edited correspDesc. Fixed divs. Edited a few unclear terms.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26838_1.png" />
-
+      <pb n="1" facs="../images/26846_1.png" />
       <div type="letter">
-        <p rendition="#indent">
-          The bearer of this is <persName ref="psn:peter_still">Peter Still</persName>.<lb />
-          His story is a remarkable one, but well<lb />
-          authenticated. I have examined all his<lb />
-          papers, and have received letters testifying<lb />
-          to his excellent character from<lb /> 
-          persons who knew him in <placeName key="AL, United States">Alabama</placeName>.<lb />
-        </p>
+        <opener>
+          <dateline>
+            <placeName>Florence Al<hi rend="superscript">a</hi></placeName>
+            <date when="1854-03-27">27<hi rend="superscript">th</hi> Mar. 1854</date><lb />
+          </dateline>
+          <salute><persName ref="psn:morris_hallowell">Morris L. Hallowell Esq </persName><lb />
+          Dear Sir</salute>
+        </opener>
 
         <p rendition="#indent">
-          He was stolen from the banks of<lb />
-          the <placeName key="Delaware River">Delaware River</placeName>, when a child of<lb />
-          five or six years of age; and sold<lb /> 
-          into slavery in <placeName key="KY, United States">Kentucky</placeName>. There he<lb /> 
-          lived thirteen years; and was then<lb />
-          sold and carried to Alabama and<lb />
-          kept in slavery thirty one years longer.<lb />
-          By extraordinary exertion and the<lb />
-          greatest carefulness, he succeeded in<lb />
-          accumulating <measure type="currency" quantity="500">five hundred dollars</measure>,<lb />
-          which he paid to his master, and was set<lb />
-          free.<lb />
+          I wrote to you 27<hi rend="superscript">th</hi> <unclear><abbr>ult<hi rend="superscript">o</hi></abbr></unclear><lb />
+          in reply to yours of 17<hi rend="superscript">th</hi>. Mr. <persName ref="psn:mckiernan_bernard">McKeirnan</persName> did not return<lb />
+          home <choice><orig>untill</orig><reg>until</reg></choice> a few days ago, and I had not an <choice><orig>opertunity</orig><reg>opportunity</reg></choice><lb />
+          of seeing him until <choice><orig>to day</orig><reg>today</reg></choice>, the negroes he says are<lb />
+          among the most Valuable in the Country, and he will<lb />
+          not dispose of them under <measure type="currency">Six thousand <abbr>Dols</abbr></measure>. he says<lb />
+          he can any day sell the two boys for <measure type="currency">three thousand Dols</measure><lb />
+          and as their running away Cost him over <measure type="currency">one thousand<lb />
+          Dol.</measure> to get them back he will make their <unclear>friend</unclear> pay for<lb />
+          that. I <choice><orig>try<hi rend="superscript">d</hi></orig><reg>tried</reg></choice> to get him to put them at a lower figure<lb />
+          but could not get him to agree to it, he will not <unclear>agree</unclear><lb />
+          to deliver them at <placeName><choice><orig>Cincinatti</orig><reg>Cincinnati</reg></choice></placeName> but will deliver them<lb />
+          here, to myself or any one you may appoint to receive them<lb />
+          and pay him the above amount we know regular <unclear extent="7" unit="chars"/><lb />
+          running between here and <placeName>Louisville</placeName> by which they <unclear>could</unclear><lb />
+          get round to <choice><orig>Cincinatti</orig><reg>Cincinnati</reg></choice>. <unclear reason="illegible">Should</unclear> the friends of these <unclear>negroes</unclear><lb />
+          conclude to purchase them at this price I shall with pleasure<lb />
+          advance that amount and draw on you should you <unclear reason="illegible">ask</unclear><lb />
+          me to do so.<lb />
         </p>
-
-        <p rendition="#indent">
-          He came to the North, and by a most<lb /> 
-          singular providence, he found brothers<lb /> 
-          and sisters living in <placeName key="Philadelphia, PA, United States">Philadelphia</placeName>, and<lb />
-          his aged mother still alive in <placeName key="NJ, United States">New Jersey</placeName>,<lb />
-          where he had left her when he was<lb /> 
-          stolen.<lb /> 
-        </p>
-
-        <p rendition="#indent">
-          Having recovered his own liberty, he is<lb /> 
-          now eager to procure the freedom of his<lb />
-          
-          <pb n="2" facs="../images/26838_2.png" />
-
-          <persName ref="psn:vina_still">wife</persName> and children, two sons and a daughter.<lb />
-          It is hoped that their liberation may<lb />
-          be obtained for <measure type="currency" quantity="3500">$3,500</measure>. This may seem to<lb />
-          many a large sum; but what is it in comparison<lb /> 
-          with the gift of liberty to four<lb />
-          human beings? If every one who has heard<lb /> 
-          or may hear Peter Still's story, will only<lb /> 
-          give him what he or she can well afford,<lb />
-          the sum will soon be raised.<lb />
-        </p>
-
-        <p rendition="#indent">
-          About <measure type="currency" quantity="1500">fifteen hundred dollars</measure> have<lb />
-          already been collected, and Peter Still<lb />
-          has now come to <placeName key="Syracuse, NY, United States">Syracuse</placeName>, to ask assistance<lb />
-          from the benevolent of this thriving<lb /> 
-          city.<lb />
-        </p>
-
-        <p rendition="#indent">
-          We the undersigned promise to pay<lb />
-          this sum set against our names<lb /> 
-          Peter Still, on his order, to be appropriated<lb />
-          to the payment of the price demanded<lb />
-          for the liberation of his wife<lb />
-          sons, and daughter.<lb />
-        </p>
-
-         <p rendition="#indent3">
-           <placeName>Syracuse </placeName> <date when="1853-07-15">July 15, 1853</date>
-         </p>
-
-        <table rows="3" cols="2">
-          <row>
-            <cell>
-              Amount of collection taken <date when="1853-07-17">July 17</date>
-              in the Unitarian Church
-            </cell>
-            <cell role="amount"><measure type="currency" quantity="33.66">$33.66</measure></cell>
-         </row>
-         <row>
-            <cell role="patron"><persName ref="psn:samuel_may">Samuel J. May</persName></cell>
-            <cell role="amount">5.00</cell>
-         </row>
-         <row>
-            <cell role="patron">Sundry persons by S.J.M.</cell>
-           <cell role="amount"><measure type="currency">5.00</measure></cell>
-         </row>
-        </table>
-          
-        <pb n="3" facs="../images/26838_3.png" />
-
-        <p>
-          Sundry others in Syracuse have<lb /> 
-          subscribed and paid Peter Still<lb />
-          to the amount of <measure type="currency" quantity="110">one hundred<lb />
-            and ten dollars</measure> &#8211; See his Book &#8211; <lb />
-        </p>
-
-        <p>
-          He leaves us today and I cordially<lb />
-          commend him to the benevolent<lb />
-          everywhere.<lb />
-        </p>
-
+ 
         <closer>
-          <date when="1853-07-27">July 27, 1853</date>, <signed><persName ref="psn:samuel_may">Samuel J. May</persName></signed>          
+          <salute>
+            Very <abbr>Respy.</abbr><lb />
+            Your friend<lb />
+          </salute>
+          <signed><persName ref="psn:john_simpson">John Simpson</persName></signed>
         </closer>
-
       </div>
+
+        <pb n="2" facs="../images/26846_2.png" />
+
+        <!-- should be rotated CCW 90 degrees -->
+        <div type="correspondence-action">
+          <ab>
+            <date when="1854-03-27">1854</date><lb />
+            <persName>John Simpson</persName><lb />
+            3rd Mo. 27.<hi rend="superscript">th</hi><lb />
+          </ab>
+        </div>
+
+      
     </body>
   </text>
 </TEI>

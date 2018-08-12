@@ -5,9 +5,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>May, Samuel J., letter, Syracuse, [N.Y.], July 15, 1853, to one or more unnamed residents of Syracuse</title>
+        <title>Neale, Rollin H., letter, Boston, September 28, 1853</title>
         <author>
-          <persName>May, Samuel J.</persName>
+          <persName>Neale, Rollin H.</persName>
         </author>
         <respStmt>
           <resp>Transcription by</resp>
@@ -22,15 +22,15 @@
           <name xml:id="FG"> Francesca Giannetti </name>
         </respStmt>
       </titleStmt>
-      <extent>3 p.</extent>
+      <extent>1 p.</extent>
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
           <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
             Non-commercial Share-alike</ref>.</ab>
         </availability>
-        <idno xml:id="DOI">doi:10.7282/T32R3RT9</idno>
-        <idno xml:id="WMA">rutgers-lib:26838</idno>
+        <idno xml:id="DOI">doi:10.7282/T3FX79KF</idno>
+        <idno xml:id="WMA">rutgers-lib:26841</idno>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -149,9 +149,9 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Samuel J. May</persName>
-          <placeName ref="#syracuse">Syracuse, New York</placeName>
-          <date when="1853-07-15">July 15, 1853</date>
+          <persName>Rollin H. Neale</persName>
+          <placeName>Boston, Massachusetts</placeName>
+          <date when="1853-09-28">September 28, 1853</date>
         </correspAction>
         <correspAction type="received">
           <persName>Unknown</persName>
@@ -160,7 +160,7 @@
         </correspAction>
         <correspAction type="transmitted">
           <persName>Peter Still</persName>
-          <placeName>Syracuse, New York</placeName>
+          <placeName>Boston, Massachusetts</placeName>
         </correspAction>
       </correspDesc>
       <textClass>
@@ -172,120 +172,46 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2018-08-11" who="#FG">Proofread. Edited correspDesc. </change>
+      <change when="2018-08-11" who="#FG">Proofread. Edited correspDesc. Added some persName elements.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26838_1.png" />
+      <pb n="1" facs="../images/26841_1.png" />
 
       <div type="letter">
-        <p rendition="#indent">
-          The bearer of this is <persName ref="psn:peter_still">Peter Still</persName>.<lb />
-          His story is a remarkable one, but well<lb />
-          authenticated. I have examined all his<lb />
-          papers, and have received letters testifying<lb />
-          to his excellent character from<lb /> 
-          persons who knew him in <placeName key="AL, United States">Alabama</placeName>.<lb />
-        </p>
-
-        <p rendition="#indent">
-          He was stolen from the banks of<lb />
-          the <placeName key="Delaware River">Delaware River</placeName>, when a child of<lb />
-          five or six years of age; and sold<lb /> 
-          into slavery in <placeName key="KY, United States">Kentucky</placeName>. There he<lb /> 
-          lived thirteen years; and was then<lb />
-          sold and carried to Alabama and<lb />
-          kept in slavery thirty one years longer.<lb />
-          By extraordinary exertion and the<lb />
-          greatest carefulness, he succeeded in<lb />
-          accumulating <measure type="currency" quantity="500">five hundred dollars</measure>,<lb />
-          which he paid to his master, and was set<lb />
-          free.<lb />
-        </p>
-
-        <p rendition="#indent">
-          He came to the North, and by a most<lb /> 
-          singular providence, he found brothers<lb /> 
-          and sisters living in <placeName key="Philadelphia, PA, United States">Philadelphia</placeName>, and<lb />
-          his aged mother still alive in <placeName key="NJ, United States">New Jersey</placeName>,<lb />
-          where he had left her when he was<lb /> 
-          stolen.<lb /> 
-        </p>
-
-        <p rendition="#indent">
-          Having recovered his own liberty, he is<lb /> 
-          now eager to procure the freedom of his<lb />
-          
-          <pb n="2" facs="../images/26838_2.png" />
-
-          <persName ref="psn:vina_still">wife</persName> and children, two sons and a daughter.<lb />
-          It is hoped that their liberation may<lb />
-          be obtained for <measure type="currency" quantity="3500">$3,500</measure>. This may seem to<lb />
-          many a large sum; but what is it in comparison<lb /> 
-          with the gift of liberty to four<lb />
-          human beings? If every one who has heard<lb /> 
-          or may hear Peter Still's story, will only<lb /> 
-          give him what he or she can well afford,<lb />
-          the sum will soon be raised.<lb />
-        </p>
-
-        <p rendition="#indent">
-          About <measure type="currency" quantity="1500">fifteen hundred dollars</measure> have<lb />
-          already been collected, and Peter Still<lb />
-          has now come to <placeName key="Syracuse, NY, United States">Syracuse</placeName>, to ask assistance<lb />
-          from the benevolent of this thriving<lb /> 
-          city.<lb />
-        </p>
-
-        <p rendition="#indent">
-          We the undersigned promise to pay<lb />
-          this sum set against our names<lb /> 
-          Peter Still, on his order, to be appropriated<lb />
-          to the payment of the price demanded<lb />
-          for the liberation of his wife<lb />
-          sons, and daughter.<lb />
-        </p>
-
-         <p rendition="#indent3">
-           <placeName>Syracuse </placeName> <date when="1853-07-15">July 15, 1853</date>
-         </p>
-
-        <table rows="3" cols="2">
-          <row>
-            <cell>
-              Amount of collection taken <date when="1853-07-17">July 17</date>
-              in the Unitarian Church
-            </cell>
-            <cell role="amount"><measure type="currency" quantity="33.66">$33.66</measure></cell>
-         </row>
-         <row>
-            <cell role="patron"><persName ref="psn:samuel_may">Samuel J. May</persName></cell>
-            <cell role="amount">5.00</cell>
-         </row>
-         <row>
-            <cell role="patron">Sundry persons by S.J.M.</cell>
-           <cell role="amount"><measure type="currency">5.00</measure></cell>
-         </row>
-        </table>
-          
-        <pb n="3" facs="../images/26838_3.png" />
-
         <p>
-          Sundry others in Syracuse have<lb /> 
-          subscribed and paid Peter Still<lb />
-          to the amount of <measure type="currency" quantity="110">one hundred<lb />
-            and ten dollars</measure> &#8211; See his Book &#8211; <lb />
+          The bearer, <persName ref="psn:peter_still">Peter Still</persName>, has<lb />
+          deeply interested me by this<lb />
+          simple and obviously truthful<lb />
+          narrative which he gives<lb /> 
+          of his experience in slavery,<lb />
+          and the wonderful series<lb />
+          of providences which attended<lb /> 
+          him in finding his <persName ref="psn:charity_still">Mother</persName><lb />
+          and brothers and sisters after<lb />
+          an absence of forty years.<lb /> 
         </p>
 
-        <p>
-          He leaves us today and I cordially<lb />
-          commend him to the benevolent<lb />
-          everywhere.<lb />
+        <p rendition="#indent">
+          He is worthy of the fullest<lb />
+          confidence, and will, I am<lb /> 
+          sure, meet with favor <del rend="strikethrough">with</del> from<lb />
+          all who hear from him the<lb /> 
+          incidents of his affecting history.<lb />
+          If any one wishes to shed<lb /> 
+          tears of gratitude and joy and<lb />
+          sympathy he has but to hear<lb />
+          Peter's story, "and that would<lb />
+          do it."<lb />
         </p>
 
         <closer>
-          <date when="1853-07-27">July 27, 1853</date>, <signed><persName ref="psn:samuel_may">Samuel J. May</persName></signed>          
+          <signed><persName ref="psn:rollin_neale">Rollin H. Neale</persName></signed>
+          <dateline>
+            <placeName>Boston</placeName> <date when="1853-09-28">Sept. 28,
+              <lb />1853</date>
+          </dateline>
         </closer>
 
       </div>

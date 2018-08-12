@@ -158,6 +158,10 @@
           <placeName>Unknown</placeName>
           <date>Unknown</date>
         </correspAction>
+        <correspAction type="transmitted">
+          <persName>Peter Still</persName>
+          <placeName>Boston, Massachusetts</placeName>
+        </correspAction>
       </correspDesc>
       <textClass>
         <keywords scheme="#LCSH">
@@ -169,13 +173,14 @@
     </profileDesc>
     <revisionDesc>
       <change resp="#FG" when="2018-06-18">Removed teibp stylesheet declarations and added TEIP5 schema and schematron. Edited transcription.</change>
+      <change when="2018-08-11" who="#FG">Edited correspDesc.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <pb n="1" facs="../images/26840_1.png" />
 
-      <div>
+      <div type="letter">
         <p>
           The bearer, <persName ref="psn:peter_still">Peter Still</persName>, has<lb />
           been above forty years in<lb />

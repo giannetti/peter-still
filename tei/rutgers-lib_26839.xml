@@ -1,16 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>May, Samuel J., letter, Syracuse, [N.Y.], August 9, 1853, to Peter Still, Boston (2 p.)</title>
+        <title>May, Samuel J., letter, Syracuse, [N.Y.], August 9, 1853, to Peter Still, Boston (2
+          p.)</title>
         <author>
           <persName>May, Samuel J.</persName>
         </author>
@@ -31,8 +27,9 @@
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
-          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
-            Non-commercial Share-alike</ref>.</ab>
+          <ab>Reusable according to the Creative Commons License <ref
+              target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
+              Share-alike</ref>.</ab>
         </availability>
         <idno xml:id="DOI">doi:10.7282/T36H4HJ1</idno>
         <idno xml:id="WMA">rutgers-lib:26839</idno>
@@ -59,81 +56,51 @@
             <idno>MC 1392</idno>
           </msIdentifier>
           <msContents>
-            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
-              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
-              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
-              and Still family record (1798-1821). Persons and places represented include William Lloyd 
-              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
-              N.J., and Philadelphia, Pa. 57 items.</p>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his
+              wife, Vina Still, and family held as slaves in Alabama and the publication (1856) of
+              Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854)
+              of funds collected; and Still family record (1798-1821). Persons and places
+              represented include William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+              Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57 items.</p>
           </msContents>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
-        transcription. The layout of the page has been preserved whenever possible. 
-        Abbreviations and spellings have been maintained within the transcriptions, 
-        and the full word and corrected or modern spellings have been provided. Images 
-        of the original letters have been provided in order to show the original page 
-        layout and other markings that are not the author's. Words or phrases that 
-        are deemed indecipherable have been noted as "unclear."
-        </p>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+          transcription. The layout of the page has been preserved whenever possible. Abbreviations
+          and spellings have been maintained within the transcriptions, and the full word and
+          corrected or modern spellings have been provided. Images of the original letters have been
+          provided in order to show the original page layout and other markings that are not the
+          author's. Words or phrases that are deemed indecipherable have been noted as "unclear." </p>
         <hyphenation eol="none">
           <p>Any dashes occurring in line breaks have been removed.</p>
         </hyphenation>
       </editorialDecl>
       <projectDesc>
-        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+          Assistantship, 2016-2017.</p>
       </projectDesc>
       <tagsDecl>
         <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
-        <rendition xml:id="b" n="tiebp:bold" scheme="css">
-          font-weight:bold;
-        </rendition> 
-        <rendition xml:id="i" n="tiebp:italic" scheme="css">
-          font-style:italic;
-        </rendition> 
-        <rendition xml:id="u" n="tiebp:underline" scheme="css">
-          text-decoration:underline;
-        </rendition> 
-        <rendition xml:id="n" n="teibp:normal" scheme="css">
-          font-weight:normal;
-          text-decoration:none;
-          font-style:normal;
-        </rendition>
+        <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+        <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+        <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+        <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+          text-decoration:none; font-style:normal; </rendition>
         <!-- Indentation -->
-        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
-          text-indent:4em;
-          /* The above method of describing an indentation for, say, a paragraph is 
-          preferred. The method being used is in response to a bug in some browsers 
-          whereby a block element, like a paragraph, is erroneously re-indented 
-          after interruption by another block element (like a list, which is valid,
-          in TEI, inside a paragraph). */
-          content:"\A0\A0\A0\A0\A0\A0";
-        </rendition>
-        <rendition xml:id="indent1" scheme="css">
-          display:block;
-          padding-left:4em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent2" scheme="css">
-          display:block;
-          padding-left:7em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent3" scheme="css">
-          display:block;
-          padding-left:10em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="center" scheme="css">
-          display:block;
-          text-align:center;
-          margin-left:auto;
-          margin-right:auto;
-          text-align: center;
-        </rendition>
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before"> text-indent:4em; /*
+          The above method of describing an indentation for, say, a paragraph is preferred. The
+          method being used is in response to a bug in some browsers whereby a block element, like a
+          paragraph, is erroneously re-indented after interruption by another block element (like a
+          list, which is valid, in TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+        <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+          text-indent:-2em; </rendition>
+        <rendition xml:id="center" scheme="css"> display:block; text-align:center; margin-left:auto;
+          margin-right:auto; text-align: center; </rendition>
       </tagsDecl>
       <classDecl>
         <taxonomy xml:id="LCSH">
@@ -141,13 +108,10 @@
         </taxonomy>
       </classDecl>
       <listPrefixDef>
-        <prefixDef ident="psn"
-          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+        <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
           replacementPattern="still-personography.xml#$1">
-          <p> In the context of this project, private URIs with the prefix
-            "psn" point to <gi>person</gi> elements in the
-            still-personography.xml file.
-          </p>
+          <p> In the context of this project, private URIs with the prefix "psn" point to
+              <gi>person</gi> elements in the still-personography.xml file. </p>
         </prefixDef>
       </listPrefixDef>
     </encodingDesc>
@@ -155,12 +119,12 @@
       <correspDesc>
         <correspAction type="sent">
           <persName>Samuel J. May</persName>
-          <placeName>Syracuse, NY</placeName>
+          <placeName>Syracuse, New York</placeName>
           <date when="1853-08-09">August 9, 1853</date>
         </correspAction>
         <correspAction type="received">
           <persName>Peter Still</persName>
-          <placeName>Boston, MA</placeName>
+          <placeName>Boston, Massachusetts</placeName>
           <date>Unknown</date>
         </correspAction>
       </correspDesc>
@@ -172,99 +136,73 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-08-11" who="#FG">Proofread. Edited terms marked unclear.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26839_1.png" />
+      <pb n="1" facs="../images/26839_1.png"/>
 
       <div type="correspondence-action">
-        <head style="transform:rotateZ(-90deg)" rendition="#center">
-          <persName ref="psn:peter_still">Mr Peter Still</persName><lb />
-          <placeName>Boston</placeName><lb />
-        </head>
+        <ab style="transform:rotateZ(-90deg)" rendition="#center"> Mr <persName
+            ref="psn:peter_still">Peter Still</persName><lb/>
+          <placeName>Boston</placeName><lb/>
+        </ab>
       </div>
 
       <pb n="2" facs="../images/26839_2.png"/>
 
-      <div>
+      <div type="letter">
         <opener>
           <dateline>
             <placeName>Syracuse</placeName>
-            <date when="1853-08-09">Aug. 9,<lb />
-              1853.
-            </date>
+            <date when="1853-08-09">Aug. 9,<lb/> 1853. </date>
           </dateline>
           <salute>Dear <persName ref="psn:peter_still">Uncle Peter</persName></salute>
         </opener>
-      </div>
 
-      <div>
-        <p rendition="indent">
-          I was right glad to <unclear cert="low">heard</unclear><lb />
-          by your letter of the <date when="1853-08-04" cert="medium">4th</date> from <placeName>New Bedford</placeName><lb />
-          that you had found friends<lb />
-          there, and were likely to gather<lb />
-          some valuable contributions toward<lb /> 
-          the accomplishment of your great<lb />
-          object. I hope you have not been<lb />
-          disappointed. But I fear you<lb /> 
-          will be obliged to raise at least<lb />
-          five thousand dollars in order to<lb />
-          procure the liberation of your wife<lb />
-          and children. For some causes, which<lb />
-          I do not understand the price<lb />
-          of slaves is now higher than it<lb />
-          has ever been and according to<lb /> 
-          present prices $5000 would not<lb />
-          be a very exobitant demand for<lb /> 
-          your family. Nevertheless, go<lb /> 
-          on in your labors perhaps something<lb />
-          may happen in the good providence<lb />
-          of God to favor your wishes.<lb />
-        </p>
-        
-        <p rendition="indent">
-          I have not yet received a<lb /> 
-          line from <persName>Mr. Birney</persName> of <placeName>Philadelphia</placeName>.<lb /> 
-          
-          <pb n="3" facs="../images/26839_3.png"/>
-
-          From this I infer that he<lb /> 
-          has heard nothing from <placeName>Alabama</placeName><lb /> 
-          that he deems is worthwhile<lb />
-          to communicate. So soon as<lb />
-          I do receive a letter from him, you<lb />
-          shall be made acquainted<lb />
-          with the contents of it.<lb />
+        <p rendition="indent"> I was right glad to <unclear cert="medium">learn</unclear><lb/> by
+          your letter of the <date when="1853-08-04" cert="medium">4<hi rend="superscript">th</hi></date> from <placeName>New
+            Bedford</placeName><lb/> that you had found friends<lb/> there, and were likely to
+          gather<lb/> some valuable contributions toward<lb/> the accomplishment of your great<lb/>
+          object. I hope you have not been<lb/> disappointed. But I fear you<lb/> will be obliged to
+          raise at least<lb/> five thousand dollars in order to<lb/> procure the liberation of your
+          wife<lb/> and children. For some causes, which<lb/> I do not understand, the price<lb/> of
+          slaves is now higher than it<lb/> has ever been and according to<lb/> present prices $5000
+          would not<lb/> be a very exorbitant demand for<lb/> your family. Nevertheless, go<lb/> on
+          in your labors, perhaps something<lb/> may happen in the good providence<lb/> of God to
+          favor your wishes.<lb/>
         </p>
 
-        <p rendition="indent">
-          Nor have I heard a word from<lb /> 
-          your friend <persName ref="psn:pickard_kate">Mrs. Pickard</persName>. But<lb />
-          I have written to her informing<lb />
-          her of your progress and I have<lb />
-          no doubt that so soon as she<lb />
-          shall have any thing to communicate,<lb />
-          she will send it in a letter<lb /> 
-          to <persName ref="psn:garrison">Mr. Garrison</persName>.<lb />
+        <p rendition="indent"> I have not yet received a<lb/> line from <persName>Mr.
+            Birney</persName> of <placeName>Philadelphia</placeName>.<lb/>
+          <pb n="3" facs="../images/26839_3.png"/> From this I infer that he<lb/> has heard nothing
+          from <placeName>Alabama</placeName><lb/> that he deems is worthwhile<lb/> to communicate.
+          So soon as<lb/> I do receive a letter from him, you<lb/> shall be made acquainted<lb/>
+          with the contents of it.<lb/>
         </p>
 
-        <p rendition="indent">
-          Yesterday I sent by my son<lb />
-          <persName>John Edward</persName>, the roll you left<lb />
-          with me- <persName ref="psn:furness">Dr. Furness'</persName> narrrative<lb /> 
-          of <persName ref="psn:seth_conklin">Seth Conklin</persName>. He expects to be<lb /> 
-          in Boston by Saturday night or<lb />
-          Sunday <del rend="strikethrough">morning</del> and he will give the<lb />
-          roll to Mr Garrison for you.<lb />
+        <p rendition="indent"> Nor have I heard a word from<lb/> your friend Mrs <persName
+            ref="psn:pickard_kate">Pickard</persName>. But<lb/> I have written to her informing<lb/>
+          her of your progress and I have<lb/> no doubt that so soon as she<lb/> shall have any
+          thing to communicate,<lb/> she will send it in a letter<lb/> to Mr <persName
+            ref="psn:garrison">Garrison</persName>.<lb/>
         </p>
 
-        <p rendition="indent">
-          All my family are as well<lb /> 
-          as when you left us. They remember<lb /> 
-          you very kindly and send<lb /> 
-          to you their best regards.<lb />
-          God bless you, Uncle Peter.<lb />
+        <p rendition="indent"> Yesterday I sent by my son <lb/>
+          <persName>John Edward</persName>, the roll you left<lb/> with me - D<hi rend="superscript"
+            >r</hi> 
+          <persName ref="psn:furness">Furness</persName>' narrative<lb/> of <persName
+            ref="psn:seth_conklin">Seth Conklin</persName>. He expects to be<lb/> in
+            <placeName>Boston</placeName> by Saturday night or<lb/> Sunday <del rend="strikethrough"
+              ><unclear extent="4" unit="chars"/></del><add place="above">morning</add> and he will
+          give the<lb/> roll to Mr Garrison for you.<lb/>
+        </p>
+
+        <p rendition="indent"> All my family are as well<lb/> as when you left us. They
+          remember<lb/> you very kindly and send<lb/> to you their best regards.<lb/> God bless you,
+          Uncle Peter.<lb/>
         </p>
 
         <closer>

@@ -105,6 +105,9 @@
             <xsl:apply-templates/>
         </sup>
     </xsl:template>
+    <xsl:template match="add[@place='over']">
+        <xsl:apply-templates/>
+    </xsl:template>
 
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
@@ -133,7 +136,7 @@
             <xd:p>Convert rend value of 'strikethrough' to CSS line-through.</xd:p>
         </xd:desc>
     </xd:doc>
-    <xsl:template match="del[@rend='strikethrough']">
+    <xsl:template match="del[@rend='strikethrough'] | subst/del">
         <span style="text-decoration: line-through;">
             <xsl:apply-templates/>
         </span>
@@ -157,7 +160,9 @@
         </br>
     </xsl:template>
 
-    <xsl:template match="postscript"> ⟨<xsl:apply-templates/>⟩ </xsl:template>
+    <xsl:template match="postscript">
+        <xsl:text>⟨</xsl:text><xsl:apply-templates/><xsl:text>⟩</xsl:text>
+    </xsl:template>
 
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
@@ -181,7 +186,7 @@
                 line breaks in p element).</xd:p>
         </xd:desc>
     </xd:doc>
-    <xsl:template match="ab/lb | //opener//lb | //closer//lb">
+    <xsl:template match="ab//lb | //opener//lb | //closer//lb">
         <br>
             <xsl:apply-templates/>
         </br>
