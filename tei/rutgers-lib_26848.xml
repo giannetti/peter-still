@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Greeley, Horace, letter, Eve. Journal office, New York, May 10, 1854, to George
+          Dawson [?], Esq., Albany, [N.Y.]</title>
+        <author>
+          <persName>Greeley, Horace</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>1 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref
+              target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
+              Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3C53KZZ</idno>
+        <idno xml:id="WMA">rutgers-lib:26848</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his
+              wife, Vina Still, and family held as slaves in Alabama and the publication (1856) of
+              Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854)
+              of funds collected; and Still family record (1798-1821). Persons and places
+              represented include William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+              Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+          transcription. The layout of the page has been preserved whenever possible. Abbreviations
+          and spellings have been maintained within the transcriptions, and the full word and
+          corrected or modern spellings have been provided. Images of the original letters have been
+          provided in order to show the original page layout and other markings that are not the
+          author's. Words or phrases that are deemed indecipherable have been noted as "unclear." </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+          Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+        <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+        <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+        <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+          text-decoration:none; font-style:normal; </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before"> text-indent:4em; /*
+          The above method of describing an indentation for, say, a paragraph is preferred. The
+          method being used is in response to a bug in some browsers whereby a block element, like a
+          paragraph, is erroneously re-indented after interruption by another block element (like a
+          list, which is valid, in TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+        <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+          text-indent:-2em; </rendition>
+        <rendition xml:id="center" scheme="css"> display:block; text-align:center; margin-left:auto;
+          margin-right:auto; text-align: center; </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix "psn" point to
+              <gi>person</gi> elements in the still-personography.xml file. </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Horace Greeley</persName>
+          <placeName cert="low">New York, New York</placeName>
+          <date when="1854-05-10">May 10, 1854</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>George Dawson, Esq.</persName>
+          <placeName>Albany, New York</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2018-08-11" who="#FG">Proofread. Fixed divs. Edited correspDesc.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26848_1.png"/>
+      <div>
+        <opener>
+          <dateline>
+            <placeName>New York</placeName>, <date when="1854-05-10">May 10, 1854</date>.<lb/>
+          </dateline>
+          <salute>My Old Friend,</salute>
+        </opener>
+      </div>
+
+      <div>
+        <p rendition="#indent">
+          <persName ref="psn:peter_still">Peter Still</persName>, who will hand<lb/> you this, was
+          born free in <placeName>New Jersey</placeName>;<lb/> kidnapped thence when six years old,
+          with<lb/> his <persName ref="psn:levin_still_jr">brother</persName>, two years older, and sold into<lb/> slavery; served forty years in
+          <placeName>Alabama</placeName>;<lb/> finally bought himself free, leaving<lb/> his <persName ref="psn:vina_still">wife</persName>
+          and four children in the hands<lb/> of the scoundrels who had robbed him<lb/> of forty
+          year's work; and he is now begging<lb/> more to buy them out of bondage. His<lb/>
+          chivalrous robber <unclear extent="3" unit="chars"/> asks him <measure type="currency">$5,000</measure> for<lb/> his own
+          wife and children. It is robbery<lb/> to buy it, but inhumane to refuse; and as<lb/> the
+          time has not yet arrived for facing such<lb/> villains with ball and steel rather <choice>
+            <orig>then</orig>
+            <reg>than</reg>
+          </choice><lb/> gold, I wish you could beg him <unclear reason="illegible" extent="7" unit="chars">raise a</unclear> <lb/> <unclear>fort</unclear> of the many among those
+          you know.<lb/>
+        </p>
+
+        <closer>
+          <salute>Yours,</salute>
+          <signed><persName ref="psn:horace_greeley">Horace Greeley</persName></signed>
+        </closer>
+      </div>
+      <div>
+        <ab><persName>George Dawson</persName>, Esq. <placeName>Albany. Eve. Journal
+            office</placeName>.</ab>
+      </div>
+
+      <pb n="2" facs="../images/26848_2.png"/>
+
+      <div type="correspondence-action">
+        <ab>
+          <persName>Horace Greeley</persName><lb/>
+          <date when="1854-05-10">May 10 '54</date>
+        </ab>
+      </div>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hallowell, Morris L., copy of a letter, Philadelphia, September 19, 1854, to
+               Cha[rle]s A. Gurley, New London, Conn.</title>
+            <author><persName>Hallowell, Morris Longstreth, 1809-1880</persName></author>
+            <respStmt>
+               <resp>Transcribed and Encoded by</resp>
+               <name xml:id="FG"> Francesca Giannetti </name>
+            </respStmt>
+         </titleStmt>
+         <extent>3 p.</extent>
+         <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <availability>
+               <ab>Reusable according to the Creative Commons License <ref
+                     target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                     Non-commercial Share-alike</ref>.</ab>
+            </availability>
+            <idno xml:id="DOI">doi:10.7282/T3X63N2F</idno>
+            <idno xml:id="WMA">rutgers-lib:26910</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Peter Still Papers, 1850-1875</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Rutgers Community Repository (RUcore)</publisher>
+                  <pubPlace>Rutgers University Libraries</pubPlace>
+                  <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Special Collections and University Archives</settlement>
+                  <repository>Rutgers University Libraries</repository>
+                  <idno>MC 1392</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase
+                     his wife, Vina Still, and family held as slaves in Alabama and the publication
+                     (1856) of Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo
+                     book (1853-1854) of funds collected; and Still family record (1798-1821).
+                     Persons and places represented include William Lloyd Garrison, Horace Greeley,
+                     Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, N.J., and
+                     Philadelphia, Pa. 57 items.</p>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+               transcription. The layout of the page has been preserved whenever possible.
+               Abbreviations and spellings have been maintained within the transcriptions, and the
+               full word and corrected or modern spellings have been provided. Images of the
+               original letters have been provided in order to show the original page layout and
+               other markings that are not the author's. Words or phrases that are deemed
+               indecipherable have been noted as "unclear." </p>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+            </hyphenation>
+         </editorialDecl>
+         <projectDesc>
+            <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+               Assistantship, 2016-2017.</p>
+         </projectDesc>
+         <tagsDecl>
+            <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+            <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+            <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+            <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+            <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+               text-decoration:none; font-style:normal; </rendition>
+            <!-- Indentation -->
+            <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+               text-indent:4em; /* The above method of describing an indentation for, say, a
+               paragraph is preferred. The method being used is in response to a bug in some
+               browsers whereby a block element, like a paragraph, is erroneously re-indented after
+               interruption by another block element (like a list, which is valid, in TEI, inside a
+               paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+            <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="center" scheme="css"> display:block; text-align:center;
+               margin-left:auto; margin-right:auto; text-align: center; </rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>Library of Congress Subject Headings</bibl>
+            </taxonomy>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+               replacementPattern="still-personography.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "psn" point to
+                     <gi>person</gi> elements in the still-personography.xml file. </p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Morris L. Hallowell</persName>
+               <placeName>Philadelphia, Pennsylvania</placeName>
+               <date when="1854-09-19">September 19, 1854</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Charles A. Gurley</persName>
+               <placeName>New London, Connecticut</placeName>
+               <date>Unknown</date>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <term>Slavery--United States--History--19th century.</term>
+               <term>African Americans--Biography.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-08-12" who="#FG">Apparently this letter was overlooked in the initial
+            pass by the Aresty students. Am transcribing and encoding for the first time.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1"/>
+            <head>Copy.</head>
+            <opener>
+               <dateline><placeName>Phil<hi rend="superscript">a</hi></placeName>
+                  <date when="1854-09-19">9<hi rend="superscript">th</hi> month 19<hi
+                        rend="superscript"><hi rendition="#u">th</hi></hi> 1854.</date></dateline>
+               <address>
+                  <addrLine><persName>Chas a Gurley</persName></addrLine>
+                  <addrLine>New London</addrLine>
+                  <addrLine>Con</addrLine>
+               </address>
+               <salute>Respected Friend.</salute>
+            </opener>
+            <p rendition="#indent"> An extraordinary press of business and sickness in my family
+               has prevented an earlier reply to thy letter of the <date when="1854-09-09">9<hi
+                     rend="superscript">th</hi></date> I am rejoiced to learn that <persName
+                  ref="psn:peter_still">Peter</persName> has been so successful in making
+               collections. and he may rest assured that I will not divulge the facts. for I am
+               aware that it is all important it should be kept a profound secret. I think that when
+               Peter understands the position in which the affair now is that he will recall his
+               instructions to me to call on Birney &amp; Goodrich. Soon after Peter requested me to
+               act for him I became satisfied after as thorough investigation as the circumstances
+               would admit of that the negotiation for the purchase of his family woud never be
+               carried to a successful termination by correspondence and therefore despatched a
+               gentleman (in whom I have full confidence) to <placeName>Florence Ala</placeName>
+               with <pb n="2"/> instructions if he could get possession of the <persName
+                  ref="psn:vina_still">wife</persName> and children and carry them to
+                  <placeName>Cincinnati</placeName>. I instructed him to place himself under the
+               advice and direction of <persName ref="psn:john_simpson">John Simpson</persName> an
+               old personal friend and wealthy merchant to whom I wrote giving him all the facts and
+               asking his personal interest and attention. Simpson recollected Peter and promised to
+               give all the aid in his power; but he said the owner had been so frequently
+               approached by letter and otherwise that it would be very unwise for my agent to go to
+               him; that his feeling towards Peter was very bitter and that the family could not now
+               be bought on any terms. He said further that if we would place the affair in his
+               hands he would embrace the earliest opportunity of carrying out our views. </p>
+            <p rendition="#indent"> Thou will readily perceive that in this position of affairs it would be very unwise
+               again to call on Birney &amp; Goodrich who are not lawyers but are proprietors of
+               what is known here as a Commercial Agency. The amount named to Simpson as the sum
+               Peter can pay for his family is <measure type="currency">$3500.</measure> and he is
+               authorized to draw on <abbr>enc</abbr> at sight for that amount wherever he can make
+               the purchase. I think it would be unwise to let Simpson know that. Peter can <del
+                  rend="strikethrough"><unclear>raise</unclear></del> command <pb n="3"/> a larger
+               sum and I would <subst>
+                  <del rend="strikethrough">ardently</del>
+                  <add place="above">earnestly</add>
+               </subst> advise the latter not to move in the matter in any way until he again hears
+               from me. </p>
+            <closer>
+               <salute>Very <choice>
+                     <abbr>Resply</abbr>
+                     <expan>Respectfully</expan>
+                  </choice></salute>
+               <signed><persName ref="psn:morris_hallowell">Morris L Hallowell</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

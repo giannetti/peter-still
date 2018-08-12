@@ -61,7 +61,7 @@
         </p>
         <xsl:if test="address">
             <xsl:for-each select="address/addrLine">
-                <p style="text-align: right;">
+                <p style="text-align: left;">
                     <xsl:apply-templates />
                 </p>
             </xsl:for-each>
@@ -183,10 +183,10 @@
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Convert lb element to br element, but only for children of the ab, opener, and closer elements (ignore
-                line breaks in p element).</xd:p>
+                line breaks in p element). On 2018-08-12, removed ab//lb from template match.</xd:p>
         </xd:desc>
     </xd:doc>
-    <xsl:template match="ab//lb | //opener//lb | //closer//lb">
+    <xsl:template match="//opener//lb | //closer//lb">
         <br>
             <xsl:apply-templates/>
         </br>
