@@ -573,6 +573,12 @@
                 <person xml:id="joseph_friedman">
                     <persName>Friedman, Joseph</persName>
                 </person>
+                <person xml:id="isaac_friedman">
+                    <persName>
+                        <surname>Friedman</surname>
+                        <forename>Isaac</forename>
+                    </persName>
+                </person>
                 <person xml:id="john_hogun">
                     <persName>Hogun, John Henry</persName>
                 </person>
@@ -640,7 +646,7 @@
                     passive="#caroline_still"/>
                 <relation mutual="#peter_still #vina_still" name="spouse"/>
                 <relation name="parent" active="#vina_still #peter_still" passive="#catharine_still"/>
-                <relation name="slave-owner" active="#john_hogun #joseph_friedman #levi_gist"
+                <relation name="slave-owner" active="#john_hogun #joseph_friedman #isaac_friedman #levi_gist"
                     passive="#peter_still"/>
             </listPerson>
         </body>

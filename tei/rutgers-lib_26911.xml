@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -151,13 +146,17 @@
       <correspDesc>
         <correspAction type="sent">
           <persName>Samuel J. May</persName>
-          <placeName>Syracuse, NY</placeName>
+          <placeName>Syracuse, New York</placeName>
           <date when="1854-10-07">October 7, 1854</date>
         </correspAction>
         <correspAction type="received">
           <persName>Unknown</persName>
           <placeName>Unknown</placeName>
           <date>Unknown</date>
+        </correspAction>
+        <correspAction type="transmitted">
+          <persName>Peter Still</persName>
+          <placeName>Syracuse, New York</placeName>
         </correspAction>
       </correspDesc>
       <textClass>
@@ -168,11 +167,14 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-08-12" who="#FG">Proofread. Edited correspDesc.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <pb n="1" facs="../images/26911_1.png" />
-      <div>
+      <div type="letter">
         <opener>
           <dateline>
             <placeName>Syracuse,</placeName>
@@ -180,12 +182,10 @@
           </dateline>
           <salute>Dear Friends</salute>
         </opener>
-      </div>
-      
-      <div>
+
         <p rendition="#indent">
-      		The bearee of this<lb />
-      		will be <persName ref="psn:peter_still">Peter Still</persName> - one of the<lb />
+      		The bearer of this<lb />
+      		will be <persName ref="psn:peter_still">Peter Still</persName> -- one of the<lb />
       		most remarkable of the many<lb />
       		who have recently come out of<lb />
       		the horrid bondage of the American<lb />
@@ -194,8 +194,8 @@
         
         <p rendition="#indent">
       		His story is a peculiar one - as<lb />
-      		also the story of his friend <persName ref="psn:seth_conklin">Seth</persName><lb />
-      		Conkling. I leave Mr Still to give<lb />
+      		also the story of his friend <persName ref="psn:seth_conklin">Seth <lb />
+      		  Conkling</persName>. I leave Mr Still to give<lb />
       		his own narrative. You may rely<lb />
       		upon all he tells you - for a<lb />
       		more truthful man does not<lb />
@@ -204,14 +204,14 @@
         
         <p rendition="#indent">
       		He has nearly accomplished<lb />
-      		his arduous <choice><corr>undertaking</corr><sic>under taking</sic></choice> - has<lb />
+      		his arduous undertaking - has<lb />
       		raised nearly enough to pay<lb />
       		for the release of his family and<lb />
       		bear the expenses of their removal<lb />
       		to their new home in some<lb />
           one of the nominally free states<lb />
       		of our Union. Do help him to the<lb />
-      		residue -
+      		residue --
         </p>
           
         <closer>
