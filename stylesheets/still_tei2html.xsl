@@ -60,7 +60,7 @@
             <xsl:apply-templates select="dateline/date"/>
         </p>
         <xsl:if test="address">
-            <xsl:for-each select="address/addrLine">
+            <xsl:for-each select="addrLine">
                 <p style="text-align: left;">
                     <xsl:apply-templates />
                 </p>
@@ -274,4 +274,5 @@
             </xsl:for-each>
         </xsl:if>
     </xsl:template>
+    <xsl:template match="certainty"/> <!-- ignore notes about certainty -->
 </xsl:stylesheet>

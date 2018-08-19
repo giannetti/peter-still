@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -151,7 +146,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName>Kate E. R. Pickard</persName>
-          <placeName>Camillus, NY</placeName>
+          <placeName>Camillus, New York</placeName>
           <date when="1855-08-26">August 26, 1855</date>
         </correspAction>
         <correspAction type="received">
@@ -168,6 +163,9 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-08-18" who="#FG">Proofread.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>

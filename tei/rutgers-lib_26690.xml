@@ -126,6 +126,14 @@
           <persName>Peter Still</persName>
         </correspAction>
       </correspDesc>
+      <handNotes>
+        <handNote xml:id="FW" scribe="psn:fletcher_webster" script="handwritten" medium="pencil black_pen" scope="major">
+          <p>the document's main hand, Fletcher Webster</p>
+        </handNote>
+        <handNote xml:id="PS" scribe="psn:peter_still" script="handwritten" medium="pencil" scope="minor">
+          <p>This hand is a candidate for Peter Still's own </p>
+        </handNote>
+      </handNotes>
       <textClass>
         <keywords scheme="#LCSH">
           <term>Slavery--United States--History--19th century.</term>
@@ -137,66 +145,71 @@
     <revisionDesc>
       <change who="#FG" when="2018-07-09">Proofread. Fixed table to read across fold. Added
         reference to personography for Webster.</change>
+      <change who="#FG" when="2018-08-14">Added tentative attributions of handwriting. Modified table.</change>
+      <change who="#FG" when="2018-08-17">Took a stab at an unclear term.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26690_1.png"/>
+      <pb n="1" facs="../images/26690_1.png" xml:id="rutgers-lib_26690_1"/>
+      
+      <certainty target="#rutgers-lib_26690_1" locus="value"
+        degree="0.5">
+        <desc>The @hand values may have been incorrectly ascribed, although given near matches for pencil handwriting found in Peter Still's memo book (also unattributed), there's an argument to be made that some of the pencil writing on the first page of Webster's letter belongs to Peter himself.</desc>
+      </certainty>
 
-      <ab rendition="#indent3">
-        <persName>Stephen Tilten</persName><lb/>
-        <unclear>90</unclear><lb/> Commercial <choice>
-          <abbr>Whf</abbr>
-          <expan>Wharf</expan>
-        </choice><lb/>
-      </ab>
-
-      <table rows="6" cols="2">
+      <table rows="7" cols="2">
         <row role="data">
-          <cell role="data"><persName>Rev. G. W. <unclear>Blayden</unclear></persName></cell>
-          <cell role="data"><placeName>9 Central Court</placeName></cell>
+          <cell role="data"></cell>
+          <cell role="data"><add hand="#PS"><persName>Stephen Tilten</persName> <lb/><unclear> 90 </unclear><lb/> Commercial <choice>
+            <abbr>Whf</abbr>
+            <expan>Wharf</expan>
+          </choice></add></cell>
         </row>
         <row role="data">
-          <cell role="data"><persName>Rev. E. N. <unclear>Kirk</unclear></persName> - </cell>
-          <cell role="data">58 Pinckney St</cell>
+          <cell role="data"><add hand="#FW"><persName>Rev. G. W. <unclear>Blayden</unclear></persName></add></cell>
+          <cell role="data"><add hand="#PS"><placeName>9 Central Court</placeName></add></cell>
         </row>
         <row role="data">
-          <cell role="data"><persName>Rev. J. B. <del rend="strikethrough"
-                  ><unclear>Waterhouse</unclear></del></persName> - </cell>
-          <cell role="data"><placeName><del rend="strikethrough">55 Temp</del>le
-            St</placeName></cell>
+          <cell role="data"><add hand="#FW"><persName>Rev. E. N. <unclear>Kirk</unclear></persName> - </add></cell>
+          <cell role="data"><add hand="#PS">58 Pinckney St</add></cell>
         </row>
         <row role="data">
-          <cell role="data"><persName>Rev. H. M. <unclear>Duftee</unclear></persName> - </cell>
-          <cell role="data"><placeName>1 Pine St Church</placeName></cell>
+          <cell role="data"><add hand="#FW"><persName>Rev. J. B. <del rend="strikethrough"
+                  ><unclear>Waterhouse</unclear></del></persName> - </add></cell>
+          <cell role="data"><add hand="#PS"><placeName><del rend="strikethrough">55 Temp</del>le
+            St</placeName></add></cell>
         </row>
         <row role="data">
-          <cell role="data"><persName>Rev. <unclear>Geo. Reinhardt</unclear></persName></cell>
-          <cell role="data"><placeName>80 Summer St</placeName></cell>
+          <cell role="data"><add hand="#FW"><persName>Rev. H. M. <unclear>Duftee</unclear></persName> - </add></cell>
+          <cell role="data"><add hand="#PS"><placeName>1 Pine St Church</placeName></add></cell>
         </row>
         <row role="data">
-          <cell role="data"><persName>Rev. N. Adams</persName> - </cell>
-          <cell role="data"><placeName>4 Boylston Place</placeName></cell>
+          <cell role="data"><add hand="#FW"><persName>Rev. <unclear>Geo. Reinhardt</unclear></persName></add></cell>
+          <cell role="data"><add hand="#PS"><placeName>80 Summer St</placeName></add></cell>
+        </row>
+        <row role="data">
+          <cell role="data"><add hand="#FW"><persName>Rev. N. Adams</persName> - </add></cell>
+          <cell role="data"><add hand="#PS"><placeName>4 Boylston Place</placeName></add></cell>
+        </row>
+        <row role="data">
+          <cell role="data"><unclear><gap reason="illegible"/></unclear></cell>
+          <cell role="data"></cell>
         </row>
       </table>
 
-      <ab>
-        <unclear><gap reason="illegible"/></unclear>
-      </ab>
-
       <pb n="2" facs="../images/26690_2.png"/>
 
-      <div type="letter">
+      <div type="letter" hand="#FW">
         <opener>
           <dateline>
             <placeName>Boston</placeName>
             <date when="1853-01-31">Jan 31. 1853.</date>
           </dateline>
         </opener>
-        <p> I have looked at <persName ref="psn:peter_still">Peter Still's</persName><lb/> paper and
+        <p> I have looked at <persName ref="psn:peter_still">Peter Still's</persName><lb/> papers and
           heard his story,<lb/> and believing him to be entirely<lb/> trustworthy am very willing
-          to<lb/> contribute my <unclear><gap reason="illegible" unit="word" quantity="1"
-            /></unclear> towards the<lb/> accomplishment of his purpose,<lb/> and my testimony, for
+          to<lb/> contribute my <unclear>mite</unclear> towards the<lb/> accomplishment of his purpose,<lb/> and my testimony, for
           what it is<lb/> worth, to his character &amp; credibility.<lb/>
         </p>
         <closer>
