@@ -46,6 +46,14 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+    
+    <xsl:template match="address">
+        <xsl:for-each select="addrLine">
+            <p style="text-align: left;">
+                <xsl:apply-templates />
+            </p>
+        </xsl:for-each>
+    </xsl:template>
 
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
@@ -59,13 +67,6 @@
         <p style="text-align: right;">
             <xsl:apply-templates select="dateline/date"/>
         </p>
-        <xsl:if test="address">
-            <xsl:for-each select="addrLine">
-                <p style="text-align: left;">
-                    <xsl:apply-templates />
-                </p>
-            </xsl:for-each>
-        </xsl:if>
         <p style="text-align: left;">
             <xsl:apply-templates select="salute"/>
         </p>

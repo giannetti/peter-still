@@ -159,38 +159,35 @@
         <keywords scheme="#LCSH">
           <term>Slavery--United States--History--19th century.</term>
           <term>African Americans--Biography.</term>
-          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2018-08-18" who="#FG">Proofread.</change>
+      <change when="2018-08-18" who="#FG">Proofread. Added a few persName tags.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <pb n="1" facs="../images/26917_1.png" />
-      <div>
+      <div type="letter">
         <opener>
           <dateline>
             <placeName>Camillus</placeName>,
             <date when="1855-08-26">Aug 26th 1855</date>.
           </dateline>
-          <salute>Dear <persName ref="psn:peter_still">Uncle Peter</persName></salute>
+          <salute>Dear Uncle <persName ref="psn:peter_still">Peter</persName></salute>
         </opener>
-      </div>
-      
-      <div>
+        
         <p rendition="#indent">
           I am once more at home and<lb />
           think I will delay no longer to write you. I<lb /> 
           have waited a few days hoping to see Mr<lb />
-          May before I wrote you.
+          <persName ref="psn:samuel_may">May</persName> before I wrote you.
         </p>
         
         <p rendition="#indent">
           The first half of the Narrative is<lb />
-          ready for the press. <persName ref="psn:samuel_may">Mr. May</persName> is coming out<lb />
+          ready for the press. Mr. <persName ref="psn:samuel_may">May</persName> is coming out<lb />
           to read it - I have been looking for him<lb />
           every day for more than a week.
         </p>
@@ -214,18 +211,18 @@
         </p>
         
         <p rendition="#indent">
-          <persName ref="psn:marvin_julia">Sister Julia</persName> is quite well, as are also<lb />
-          our family. <persName ref="psn:pickard_d_l">Mr Pickard</persName> has been quite<lb />
+          Sister <persName ref="psn:marvin_julia">Julia</persName> is quite well, as are also<lb />
+          our family. Mr <persName ref="psn:pickard_d_l">Pickard</persName> has been quite<lb />
           out of health this summer, but he is now<lb />
           as well as usual. <persName ref="psn:willie">Willie</persName> sends his love<lb />
-          to Uncle Peter and <persName ref="psn:vina_still">Aunt Vina</persName>, and wishes<lb />
+          to Uncle Peter and Aunt <persName ref="psn:vina_still">Vina</persName>, and wishes<lb />
           very much to see them. He says "Mama,<lb /> 
           what <hi rendition="#u">did</hi> they go away for?
         </p>
         
         <p rendition="#indent">
           Lydia has come back. She went<lb /> 
-          home about the <date when="1855-05-31">last day of May</date>, and was to<lb />
+          home about the <date when="1855-05-31">last of May</date>, and was to<lb />
           stay three days, but she was gone more<lb />
           than two months. She seems very<lb />
           happy now, but does not talk.
@@ -233,7 +230,7 @@
           
         <p rendition="#indent">
           Much love from all of us to dear Aunt<lb />
-          Vina, as well as to yourself. <choice><corr>Everybody</corr><sic>Every body</sic></choice> I<lb />
+          Vina, as well as to yourself. <choice><reg>Everybody</reg><orig>Every body</orig></choice> I<lb />
           <add place="above">meet</add> inquires about you, and all seem very anxious<lb />
           to see that wonderful book.
         </p>
@@ -242,13 +239,13 @@
           I hope your family all continues to do<lb />
           well. Give my best wishes to them, and<lb />
           tell them <del rend="strikethrough">that</del> they must remember that<lb />
-          <choice><corr>everybody</corr><sic>every body</sic></choice> is watching them to see if it<lb />
+          <choice><reg>everybody</reg><orig>every body</orig></choice> is watching them to see if it<lb />
           pays to buy people out of slavery.
         </p>
           
         <p rendition="#indent">
-          I am anxious to hear from Peter's poor<lb />
-          little boy. I do wish Aunt Vina had it<lb />
+          I am anxious to hear from <persName ref="psn:peter_still_ii">Peter</persName>'s poor<lb />
+          little <persName ref="psn:peter_still_iii">boy</persName>. I do wish Aunt Vina had it<lb />
           in her arms this minute.
         </p>
 
@@ -256,7 +253,7 @@
 
         <p rendition="#indent">
           I will write again after I have seen<lb />
-          Mr. May + Mr. Hall. I thought you<lb />
+          Mr. May &amp; Mr. Hall. I thought you<lb />
           would like to hear how the book is<lb /> 
           getting on, and so I would wait no longer.
         </p>

@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,8 +22,9 @@
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
-          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
-            Non-commercial Share-alike</ref>.</ab>
+          <ab>Reusable according to the Creative Commons License <ref
+              target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
+              Share-alike</ref>.</ab>
         </availability>
         <idno xml:id="DOI">doi:10.7282/T3QN66WK</idno>
         <idno xml:id="WMA">rutgers-lib:26924</idno>
@@ -55,81 +51,51 @@
             <idno>MC 1392</idno>
           </msIdentifier>
           <msContents>
-            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
-              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
-              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
-              and Still family record (1798-1821). Persons and places represented include William Lloyd 
-              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
-              N.J., and Philadelphia, Pa. 57 items.</p>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his
+              wife, Vina Still, and family held as slaves in Alabama and the publication (1856) of
+              Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854)
+              of funds collected; and Still family record (1798-1821). Persons and places
+              represented include William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+              Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57 items.</p>
           </msContents>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
-        transcription. The layout of the page has been preserved whenever possible. 
-        Abbreviations and spellings have been maintained within the transcriptions, 
-        and the full word and corrected or modern spellings have been provided. Images 
-        of the original letters have been provided in order to show the original page 
-        layout and other markings that are not the author's. Words or phrases that 
-        are deemed indecipherable have been noted as "unclear."
-        </p>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+          transcription. The layout of the page has been preserved whenever possible. Abbreviations
+          and spellings have been maintained within the transcriptions, and the full word and
+          corrected or modern spellings have been provided. Images of the original letters have been
+          provided in order to show the original page layout and other markings that are not the
+          author's. Words or phrases that are deemed indecipherable have been noted as "unclear." </p>
         <hyphenation eol="none">
           <p>Any dashes occurring in line breaks have been removed.</p>
         </hyphenation>
       </editorialDecl>
       <projectDesc>
-        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+          Assistantship, 2016-2017.</p>
       </projectDesc>
       <tagsDecl>
         <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
-        <rendition xml:id="b" n="tiebp:bold" scheme="css">
-          font-weight:bold;
-        </rendition> 
-        <rendition xml:id="i" n="tiebp:italic" scheme="css">
-          font-style:italic;
-        </rendition> 
-        <rendition xml:id="u" n="tiebp:underline" scheme="css">
-          text-decoration:underline;
-        </rendition> 
-        <rendition xml:id="n" n="teibp:normal" scheme="css">
-          font-weight:normal;
-          text-decoration:none;
-          font-style:normal;
-        </rendition>
+        <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+        <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+        <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+        <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+          text-decoration:none; font-style:normal; </rendition>
         <!-- Indentation -->
-        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
-          text-indent:4em;
-          /* The above method of describing an indentation for, say, a paragraph is 
-          preferred. The method being used is in response to a bug in some browsers 
-          whereby a block element, like a paragraph, is erroneously re-indented 
-          after interruption by another block element (like a list, which is valid,
-          in TEI, inside a paragraph). */
-          content:"\A0\A0\A0\A0\A0\A0";
-        </rendition>
-        <rendition xml:id="indent1" scheme="css">
-          display:block;
-          padding-left:4em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent2" scheme="css">
-          display:block;
-          padding-left:7em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent3" scheme="css">
-          display:block;
-          padding-left:10em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="center" scheme="css">
-          display:block;
-          text-align:center;
-          margin-left:auto;
-          margin-right:auto;
-          text-align: center;
-        </rendition>
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before"> text-indent:4em; /*
+          The above method of describing an indentation for, say, a paragraph is preferred. The
+          method being used is in response to a bug in some browsers whereby a block element, like a
+          paragraph, is erroneously re-indented after interruption by another block element (like a
+          list, which is valid, in TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+        <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+          text-indent:-2em; </rendition>
+        <rendition xml:id="center" scheme="css"> display:block; text-align:center; margin-left:auto;
+          margin-right:auto; text-align: center; </rendition>
       </tagsDecl>
       <classDecl>
         <taxonomy xml:id="LCSH">
@@ -137,13 +103,10 @@
         </taxonomy>
       </classDecl>
       <listPrefixDef>
-        <prefixDef ident="psn"
-          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+        <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
           replacementPattern="still-personography.xml#$1">
-          <p> In the context of this project, private URIs with the prefix
-            "psn" point to <gi>person</gi> elements in the
-            still-personography.xml file.
-          </p>
+          <p> In the context of this project, private URIs with the prefix "psn" point to
+              <gi>person</gi> elements in the still-personography.xml file. </p>
         </prefixDef>
       </listPrefixDef>
     </encodingDesc>
@@ -151,7 +114,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName>Kate E. R. Pickard</persName>
-          <placeName>Unknown</placeName>
+          <placeName cert="medium">Camillus, New York</placeName>
           <date when="1855-05-01">May 1, 1855</date>
         </correspAction>
         <correspAction type="received">
@@ -164,141 +127,107 @@
         <keywords scheme="#LCSH">
           <term>Slavery--United States--History--19th century.</term>
           <term>African Americans--Biography.</term>
-          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
         </keywords>
       </textClass>
-      <handNotes>
-        <handNote xml:id="archivist" medium="pencil" scope="minor">
-          <p>Pencil annotation, probably added by archivist.</p>
-        </handNote>
-      </handNotes>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-09-03" who="#FG">Proofread.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26924_1.png" />
-      
-      <div>
-        <ab rendition="#indent3"><add hand="#archivist" place="top">[1885]</add></ab>
-        <ab rendition="#indent3"><add hand="#archivist" place="top">[May?]</add></ab>
-        <p rendition="#indent">
-          There are certain points in the history of <persName ref="psn:peter_still">Peter's</persName><lb />
-          <persName ref="psn:levin_still_sr">father</persName> and <persName ref="psn:charity_still">mother</persName> a knowledge of which is<lb />
-          necessary to the complete narrative of the story<lb />
-          She probably remembers them. If she does, will<lb />
-          some of the friends please send me in writing<lb />
-          answers to the following questions<lb />
-        </p>
-        
-        <p rendition="#indent">
-          How much did Peter's father pay for himself<lb />
-          and what is the date of his free papers? (a<lb />
-          copy of those papers would be interesting)<lb />
-        </p>
-        
-        <p rendition="#indent">
-          How long had he been married when he purchased<lb />
-          his freedom? How many children<lb />
-          had he at that time?<lb />
-        </p>
-        
-        <p rendition="#indent">
-          What was his employment when a slave?<lb />
-        </p>
-        
-        <p rendition="#indent">
-          What after he became free?<lb />
-        </p>
-          
-        <p rendition="#indent">
-          How long after receiving his free papers did<lb />
-          he remain in the neighborhood of his former master?<lb />
-          What time in the year did he &amp; his<lb /> 
-          wife first flee.<lb />
-        </p>
-          
-        <p rendition="#indent">
-          In what employment was Peter's mother<lb />
-          engaged while a slave?<lb />
+      <pb n="1" facs="../images/26924_1.png"/>
+
+      <div type="letter">
+
+        <p rendition="#indent"> There are certain points in the history of <persName
+            ref="psn:peter_still">Peter</persName>'s <lb/>
+          <persName ref="psn:levin_still_sr">father</persName> and <persName ref="psn:charity_still"
+            >mother</persName> a knowledge of which is<lb/> necessary to the complete narrative of
+          the story<lb/> She probably remembers them. If she does, will<lb/> some of the friends
+          please send me in writing<lb/> answers to the following questions<lb/>
         </p>
 
-        <p rendition="#indent">
-          How old was <persName ref="psn:mahala_still">Mahala</persName> when the mother first<lb />
-          fled? How old was her sister <persName ref="psn:nancy_still">Nancy</persName> that<lb /> 
-          accompanied her?<lb />
+        <p rendition="#indent"> How much did Peter's father pay for himself<lb/> and what is the
+          date of his free papers? (a<lb/> copy of those papers would be interesting)<lb/>
         </p>
 
-        <p rendition="#indent">
-          How long after they escaped before they were<lb />
-          captured? Where were they found?<lb />
-          What doing? Treatment afterward?<lb />
-
-          <pb n="2" facs="../images/26924_2.png" />
-          
-          Where was the father when she &amp; the children<lb />
-          were <subst><del rend="strikethrough">found</del> <add>taken</add></subst>?<lb />
+        <p rendition="#indent"> How long had he been married when he purchased<lb/> his freedom? How
+          many children<lb/> had he at that time?<lb/>
         </p>
 
-        <p rendition="#indent">
-          In what state did she find her cabin on her<lb />
-          return? How long had she been gone?<lb />
+        <p rendition="#indent"> What was his employment when a slave?<lb/>
         </p>
 
-        <p rendition="#indent">
-          How long before she made the second effort?<lb />
+        <p rendition="#indent"> What after he became free?<lb/>
         </p>
 
-        <p rendition="#indent">       
-          Did she hear from her husband?<lb />
+        <p rendition="#indent"> How long after receiving his free papers did<lb/> he remain in the
+          neighborhood of his former master?<lb/> What time in the year did he &amp; his<lb/> wife
+          first flee.<lb/>
         </p>
 
-        <p rendition="#indent">
-          Circumstances of the second flight?<lb />
+        <p rendition="#indent"> In what employment was Peter's mother<lb/> engaged while a
+          slave?<lb/>
         </p>
 
-        <p rendition="#indent">
-          Did she go directly to her husband?<lb />
+        <p rendition="#indent"> How old was <persName ref="psn:mahala_still">Mahala</persName> when
+          the mother first<lb/> fled? How old was her sister <persName ref="psn:nancy_still"
+            >Nancy</persName> that<lb/> accompanied her?<lb/>
         </p>
 
-        <p rendition="#indent">
-          How long before they removed to their present<lb />
-          residence?<lb />
+        <p rendition="#indent"> How long after they escaped before they were<lb/> captured? Where
+          were they found?<lb/> What doing? Treatment afterward?<lb/>
+          <pb n="2" facs="../images/26924_2.png"/> Where was the father when she &amp; the
+          children<lb/> were <subst>
+            <del rend="strikethrough">found</del>
+            <add>taken</add>
+          </subst>?<lb/>
         </p>
 
-        <p rendition="#indent">
-          Circumstances of the escape of the two<lb />
-          sisters of Sydney?<lb />
+        <p rendition="#indent"> In what state did she find her cabin on her<lb/> return? How long
+          had she been gone?<lb/>
         </p>
 
-        <p rendition="#indent">
-          Meeting of the sisters afterwards - when<lb />
-          and where?<lb />        
-        </p>
-        
-        <p rendition="#indent">
-          Did Peter's mother in her second flight<lb />
-          take the same road as at first?<lb />        
+        <p rendition="#indent"> How long before she made the second effort?<lb/>
         </p>
 
-        <p rendition="#indent">
-          How long was she in reaching her husband?<lb />
+        <p rendition="#indent"> Did she hear from her husband?<lb/>
         </p>
 
-        <p rendition="#indent">
-          Did she travel by day? If not how was she<lb /> 
-          concealed? Was she questioned on the route?<lb />
+        <p rendition="#indent"> Circumstances of the second flight?<lb/>
         </p>
 
-        <p rendition="#indent">
-          Was Aunt Elsie married before she fled?<lb />
-          If so what became of her family?<lb />
+        <p rendition="#indent"> Did she go directly to her husband?<lb/>
+        </p>
+
+        <p rendition="#indent"> How long before they removed to their present<lb/> residence?<lb/>
+        </p>
+
+        <p rendition="#indent"> Circumstances of the escape of the two<lb/> sisters of Sydney?<lb/>
+        </p>
+
+        <p rendition="#indent"> Meeting of the sisters afterwards - when<lb/> and where?<lb/>
+        </p>
+
+        <p rendition="#indent"> Did Peter's mother in her second flight<lb/> take the same road as
+          at first?<lb/>
+        </p>
+
+        <p rendition="#indent"> How long was she in reaching her husband?<lb/>
+        </p>
+
+        <p rendition="#indent"> Did she travel by day? If not how was she<lb/> concealed? Was she
+          questioned on the route?<lb/>
+        </p>
+
+        <p rendition="#indent"> Was Aunt Elsie married before she fled?<lb/> If so what became of
+          her family?<lb/>
         </p>
 
         <closer>
-          <salute>          
-            Any other points of interest that may be<lb />
-            recollected by the older members of the family<lb />
-            will be gratefully received by<lb />
+          <salute> Any other points of interest that may be<lb/> recollected by the older members of
+            the family<lb/> will be gratefully received by<lb/>
           </salute>
           <signed><persName ref="psn:pickard_kate">Kate E. R. Pickard</persName></signed>
         </closer>

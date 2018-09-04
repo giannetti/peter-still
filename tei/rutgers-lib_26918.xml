@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -151,12 +146,12 @@
       <correspDesc>
         <correspAction type="sent">
           <persName>Kate E. R. Pickard</persName>
-          <placeName>Camillus, NY</placeName>
+          <placeName>Camillus, New York</placeName>
           <date when="1855-09-28">September 28, 1855</date>
         </correspAction>
         <correspAction type="received">
           <persName>Peter Still</persName>
-          <placeName>Burlington, NJ</placeName>
+          <placeName>Burlington, New Jersey</placeName>
           <date>Unknown</date>
         </correspAction>
       </correspDesc>
@@ -164,36 +159,37 @@
         <keywords scheme="#LCSH">
           <term>Slavery--United States--History--19th century.</term>
           <term>African Americans--Biography.</term>
-          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-09-03" who="#FG">Proofread. Cleared up a few unclear terms.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <pb n="1" facs="../images/26918_1.png"/>
       <div type="correspondence-action">
-        <head style="transform:rotateZ(-90deg) " rendition="#center">
-          <persName ref="psn:peter_still">Mr. Peter Still</persName><lb />
-          <placeName>Burlington</placeName><lb />
-          <placeName>New Jersey</placeName><lb />
-        </head>
+        <ab>
+        <address style="transform:rotateZ(-90deg) " rendition="#center">
+          <addrLine>Mr. <persName ref="psn:peter_still">Peter Still</persName></addrLine>
+          <addrLine><placeName>Burlington</placeName></addrLine>
+          <addrLine><placeName>New Jersey</placeName></addrLine>
+        </address>
+        </ab>
       </div>
       <pb n="2" facs="../images/26918_2.png" />
-      <div>
+      <div type="letter">
         <opener>
           <dateline>
-            <placeName>Camillus N.Y.</placeName>
-            <date when="1855-09-28">Sept. 28. /85</date>
+            <placeName>Camillus N.Y. </placeName><date when="1855-09-28">Sept. 28. /85</date>
           </dateline>
           <salute>Dear Uncle Peter</salute>
         </opener>
-      </div>
-      
-      <div>
+
         <p rendition="#indent">
           Your brother <persName ref="psn:william_still">William</persName> called<lb />
-          on <persName ref="psn:samuel_may">Mr May</persName> a few days since on his way to<lb />
+          on Mr <persName ref="psn:samuel_may">May</persName> a few days since on his way to<lb />
           <placeName>Canada</placeName>. When he returns he is to spend<lb />
           a few hours with me, and I would very much<lb />
           like to have you here at that time. I do<lb />
@@ -204,12 +200,12 @@
         
         <p rendition="#indent">
           Nothing is yet decided about the publisher -<lb />
-          we had thought best to <choice><corr>put it</corr><sic>putit</sic></choice><lb />
+          we had thought best to put it<lb />
           into the hands of Mr Hall of <placeName>Syracuse</placeName>,<lb />
           but two or three weeks since he changed<lb />
           his mind about wishing to publish it. He<lb />
           thinks he shall go out of the Book business<lb />
-          <add place="above">soon</add> and <unclear reason="illegible">recover</unclear> to <placeName>New York City</placeName>; and if<lb />
+          <add place="above">soon</add> and remove to <placeName>New York City</placeName>; and if<lb />
           he does so, it would not of course be best<lb />
           for him to undertake this.
         </p>
@@ -217,28 +213,28 @@
         <p rendition="#indent">
           Since we learned Mr. Hall's decision<lb />
           we have written to Mr Jewett of <placeName>Boston</placeName><lb />
-          + to a Ferin in <placeName>New York</placeName>; both of whom<lb />
-          wish to see the manuscripts. It will<lb />
+          &amp; to a Firm in <placeName>New York</placeName>; both of whom<lb />
+          wish to see the manuscript. It will<lb />
           therefore be necessary to send to them that<lb />
           <pb n="3" facs="../images/26918_3.png" />
           part of it which is already finished,<lb />
           and we think best for you to come on<lb />
-          now + hear it read.
+          now &amp; hear it read.
         </p>
 
         <p rendition="#indent">
           The part of it which relates to your<lb />
           personal history is done. What remains<lb />
-          to be written is the accounts of the running<lb />
+          to be written is the account of the running<lb />
           away, and of your tour through the North,<lb />
-          the <subst><add place="supralinear" type="insertion">facts</add><del rend="strikethrough">most</del></subst> of which <del rend="strikethrough">will</del> <del rend="strikethrough">relate to</del> are all<lb />
+          the <subst><add place="above" type="insertion">facts</add><del rend="strikethrough">most</del></subst> of which <del rend="strikethrough">will</del> <del rend="strikethrough">relate to</del> are all<lb />
           in my possession.
         </p>
         
         <p rendition="#indent">
           There is a little matter, though of considerable<lb />
           importance, about which I wish to<lb /> 
-          talk to you <choice><corr>before</corr><sic>befor</sic></choice> I go any further. So<lb />
+          talk to you <choice><reg>before</reg><orig>befor</orig></choice> I go any further. So<lb />
           come on as soon as you can.
         </p>
           
@@ -249,12 +245,12 @@
         </p>
           
         <p rendition="#indent">
-          Much love to <persName ref="psn:vina_still">Aunt Vina</persName>. I hope<lb />
+          Much love to Aunt <persName ref="psn:vina_still">Vina</persName>. I hope<lb />
           she is well and happy.
         </p>
 
         <closer>
-          <salute><choice><corr>Your</corr><sic>Yours</sic></choice> true friend</salute>
+          <salute><choice><reg>Your</reg><orig>Yours</orig></choice> tru<subst><add>e</add><del>ly</del></subst> friend</salute>
           <signed><persName ref="psn:pickard_kate">Kate E. R. Pickard</persName>.</signed>
         </closer>
 

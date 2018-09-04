@@ -55,7 +55,10 @@
                     </bibl>
                 </person>
                 <person xml:id="levin_still_jr">
-                    <persName>Still, Levin</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Levin</forename>
+                    </persName>
                     <birth when="1799-02-26"/>
                     <death when="1831-12-28"/>
                     <bibl>
@@ -110,16 +113,16 @@
                     <persName>
                         <surname>Still</surname>
                         <forename>Kitturah</forename>
-                        <addName>Kitty</addName>
                     </persName>
+                    <persName type="alternate">Kitty Still</persName>
                     <birth when="1805-01-20"/>
                 </person>
                 <person xml:id="mahala_still">
                     <persName>
                         <surname>Still</surname>
-                        <forename>Mahalah</forename>
-                        <addName type="alternate">Mahala</addName>
+                        <forename>Mahala</forename>
                     </persName>
+                    <persName type="alternate">Mahalah Still</persName>
                     <birth when="1803-12-30"/>
                 </person>
                 <person xml:id="ann_still">
@@ -249,10 +252,10 @@
                 <person xml:id="vina_still">
                     <persName>
                         <surname type="married">Still</surname>
-                        <surname>Sisson</surname>
+                        <surname type="given">Sisson</surname>
                         <forename>Lavinia</forename>
-                        <addName type="alias">Vina</addName>
                     </persName>
+                    <persName type="alternate">Vina Still</persName>
                     <birth when="1810" cert="medium">
                         <placeName>North Carolina</placeName>
                     </birth>
@@ -298,6 +301,18 @@
                             <title>United States Census, 1850</title>
                         </bibl>
                     </listBibl>
+                </person>
+                <person xml:id="peter_still_ii">
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                </person>
+                <person xml:id="peter_still_iii">
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Peter</forename>
+                    </persName>
                 </person>
                 <person xml:id="mckiernan_bernard">
                     <persName>McKiernan, Bernard</persName>
