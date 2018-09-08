@@ -342,11 +342,11 @@
                 <person xml:id="pickard_kate">
                     <persName>
                         <surname type="married">Pickard</surname>
-                        <surname>Reynolds</surname>
+                        <surname type="given">Reynolds</surname>
                         <forename>Katherine</forename>
-                        <addName type="alias">Kate</addName>
                         <forename>Emily</forename>
                     </persName>
+                    <persName type="alternate">Kate E. R. Pickard</persName>
                     <birth when="1824-08-13">
                         <placeName>Saratoga, New York</placeName>
                     </birth>

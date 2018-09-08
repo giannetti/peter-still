@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cornealous?, Murry, letter, Burlington, [N.J.], December 30?,1855, to unnamed
+               recipient</title>
+            <author><persName>Cornealous, Murry</persName></author>
+            <respStmt>
+               <resp>Transcription by</resp>
+               <persName xml:id="MH"> Michelle Hwang </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <persName xml:id="FG"> Francesca Giannetti </persName>
+            </respStmt>
+         </titleStmt>
+         <extent>2 p.</extent>
+         <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <availability>
+               <ab>Reusable according to the Creative Commons License <ref
+                     target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                     Non-commercial Share-alike</ref>.</ab>
+            </availability>
+            <idno xml:id="DOI">doi:10.7282/T32V2G6K</idno>
+            <idno xml:id="WMA">rutgers-lib:26919</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Peter Still Papers, 1850-1875</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Rutgers Community Repository (RUcore)</publisher>
+                  <pubPlace>Rutgers University Libraries</pubPlace>
+                  <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Special Collections and University Archives</settlement>
+                  <repository>Rutgers University Libraries</repository>
+                  <idno>MC 1392</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase
+                     his wife, Vina Still, and family held as slaves in Alabama and the publication
+                     (1856) of Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo
+                     book (1853-1854) of funds collected; and Still family record (1798-1821).
+                     Persons and places represented include William Lloyd Garrison, Horace Greeley,
+                     Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, N.J., and
+                     Philadelphia, Pa. 57 items.</p>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+               transcription. The layout of the page has been preserved whenever possible.
+               Abbreviations and spellings have been maintained within the transcriptions, and the
+               full word and corrected or modern spellings have been provided. Images of the
+               original letters have been provided in order to show the original page layout and
+               other markings that are not the author's. Words or phrases that are deemed
+               indecipherable have been noted as "unclear." </p>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+            </hyphenation>
+         </editorialDecl>
+         <projectDesc>
+            <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+               Assistantship, 2016-2017.</p>
+         </projectDesc>
+         <tagsDecl>
+            <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+            <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+            <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+            <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+            <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+               text-decoration:none; font-style:normal; </rendition>
+            <!-- Indentation -->
+            <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+               text-indent:4em; /* The above method of describing an indentation for, say, a
+               paragraph is preferred. The method being used is in response to a bug in some
+               browsers whereby a block element, like a paragraph, is erroneously re-indented after
+               interruption by another block element (like a list, which is valid, in TEI, inside a
+               paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+            <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="center" scheme="css"> display:block; text-align:center;
+               margin-left:auto; margin-right:auto; text-align: center; </rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>Library of Congress Subject Headings</bibl>
+            </taxonomy>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+               replacementPattern="still-personography.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "psn" point to
+                     <gi>person</gi> elements in the still-personography.xml file. </p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Murray Cornealous</persName>
+               <placeName>Burlington, New Jersey</placeName>
+               <date when="1855-12-30">December 30, 1855</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Unknown</persName>
+               <placeName>Unknown</placeName>
+               <date>Unknown</date>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <term>Slavery--United States--History--19th century.</term>
+               <term>African Americans--Biography.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-09-03" who="#FG">Encoded for the first time.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="../images/26919_1.png"/>
+            <opener>
+               <dateline><placeName>Burlington</placeName><date when="1855-12-30">Dec
+                        <unclear>30</unclear> 1855</date></dateline>
+               <salute>Most respected <choice>
+                     <orig>freind</orig>
+                     <reg>friend</reg>
+                  </choice></salute>
+            </opener>
+
+            <p rendition="#indent">I write to you <lb/> to let you <choice>
+                  <orig>now</orig>
+                  <reg>know</reg>
+               </choice> that I would like <lb/> you to send me that money that <lb/> you <choice>
+                  <orig>sead</orig>
+                  <reg>said</reg>
+               </choice> you <choice>
+                  <orig>wold</orig>
+                  <reg>would</reg>
+               </choice> give me <choice>
+                  <orig>fore</orig>
+                  <reg>for</reg>
+               </choice>
+               <lb/> my <choice>
+                  <orig>troble</orig>
+                  <reg>trouble</reg>
+               </choice> and you <choice>
+                  <orig>promest</orig>
+                  <reg>promised</reg>
+               </choice>
+               <lb/> it to me long <choice>
+                  <orig>a goe</orig>
+                  <reg>ago</reg>
+               </choice> and <choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+               </choice>
+               <choice>
+                  <orig>dont</orig>
+                  <reg>don't</reg>
+               </choice>
+               <lb/> think <choice>
+                  <orig>muche</orig>
+                  <reg>much</reg>
+               </choice> of you <choice>
+                  <orig>fore</orig>
+                  <reg>for</reg>
+               </choice> telling <lb/> me that story <choice>
+                  <orig>a bout</orig>
+                  <reg>about</reg>
+               </choice> it <choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+               </choice> am <lb/> in a <choice>
+                  <orig>sufern</orig>
+                  <reg>suffering</reg>
+               </choice> state it is by you that <lb/>
+               <choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+               </choice> am <choice>
+                  <orig>sufern</orig>
+                  <reg>suffering</reg>
+               </choice>
+               <choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+               </choice> have not a <choice>
+                  <orig>hom</orig>
+                  <reg>home</reg>
+               </choice>
+               <lb/>
+               <choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+               </choice> have no money to <choice>
+                  <orig>pade</orig>
+                  <reg><unclear>pay to</unclear></reg>
+               </choice> my lord <lb/> you must send me <choice>
+                  <orig>sune</orig>
+                  <reg>some</reg>
+               </choice> money <lb/> my Mother <choice>
+                  <orig>sead</orig>
+                  <reg>said</reg>
+               </choice> if you <choice>
+                  <orig>wose</orig>
+                  <reg>were</reg>
+               </choice>
+               <lb/> a gentlemen you would send me <lb/> that money <choice>
+                  <orig>fore</orig>
+                  <reg>for</reg>
+               </choice> my board but <lb/> if you <choice>
+                  <orig>dont</orig>
+                  <reg>don't</reg>
+               </choice> send me that <choice>
+                  <orig>moey</orig>
+                  <reg>money</reg>
+               </choice>
+               <lb/> that my Mother is <choice>
+                  <orig>a coming</orig>
+                  <reg>coming</reg>
+               </choice>
+               <lb/>
+               <pb n="2" facs="../images/26919_2.png"/> down to see you <choice>
+                  <orig>a boute</orig>
+                  <reg>about</reg>
+               </choice> it <lb/> she is <choice>
+                  <orig>a goin</orig>
+                  <reg>going</reg>
+               </choice> to <choice>
+                  <orig>sull</orig>
+                  <reg><unclear>sell</unclear></reg>
+               </choice> you if you <lb/>
+               <choice>
+                  <orig>dount</orig>
+                  <reg>don't</reg>
+               </choice> send me that money <lb/>
+               <choice>
+                  <orig>i</orig>
+                  <reg>I</reg>
+               </choice>
+               <choice>
+                  <orig>woan</orig>
+                  <reg>want</reg>
+               </choice> it this week if you <lb/>
+               <choice>
+                  <orig>plese</orig>
+                  <reg>please</reg>
+               </choice> if you bring it to me <lb/> this <choice>
+                  <orig>wreeke</orig>
+                  <reg>week</reg>
+               </choice> and if you <choice>
+                  <orig>dont</orig>
+                  <reg>don't</reg>
+               </choice>
+               <lb/>
+               <choice>
+                  <orig>woan</orig>
+                  <reg>want</reg>
+               </choice> to come to <choice>
+                  <orig><unclear>urll</unclear></orig>
+                  <reg>our</reg>
+               </choice> house <lb/> to <choice>
+                  <orig>levet</orig>
+                  <reg>leave</reg>
+               </choice>
+               <add place="above">it</add> to uncle <unclear>machin</unclear></p>
+
+            <closer>
+               <signed><persName>Murry Cornealous</persName></signed>
+            </closer>
+
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,16 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], June 3, 1856, to "Uncle Peter" [Peter Still]</title>
+        <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], June 3, 1856, to "Uncle Peter" [Peter
+          Still]</title>
         <author>
           <persName>Pickard, Kate E.R.</persName>
         </author>
@@ -27,8 +24,9 @@
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
-          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
-            Non-commercial Share-alike</ref>.</ab>
+          <ab>Reusable according to the Creative Commons License <ref
+              target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
+              Share-alike</ref>.</ab>
         </availability>
         <idno xml:id="DOI">doi:10.7282/T3028RNF</idno>
         <idno xml:id="WMA">rutgers-lib:26926</idno>
@@ -55,81 +53,51 @@
             <idno>MC 1392</idno>
           </msIdentifier>
           <msContents>
-            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
-              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
-              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
-              and Still family record (1798-1821). Persons and places represented include William Lloyd 
-              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
-              N.J., and Philadelphia, Pa. 57 items.</p>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his
+              wife, Vina Still, and family held as slaves in Alabama and the publication (1856) of
+              Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854)
+              of funds collected; and Still family record (1798-1821). Persons and places
+              represented include William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+              Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57 items.</p>
           </msContents>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
-        transcription. The layout of the page has been preserved whenever possible. 
-        Abbreviations and spellings have been maintained within the transcriptions, 
-        and the full word and corrected or modern spellings have been provided. Images 
-        of the original letters have been provided in order to show the original page 
-        layout and other markings that are not the author's. Words or phrases that 
-        are deemed indecipherable have been noted as "unclear."
-        </p>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+          transcription. The layout of the page has been preserved whenever possible. Abbreviations
+          and spellings have been maintained within the transcriptions, and the full word and
+          corrected or modern spellings have been provided. Images of the original letters have been
+          provided in order to show the original page layout and other markings that are not the
+          author's. Words or phrases that are deemed indecipherable have been noted as "unclear." </p>
         <hyphenation eol="none">
           <p>Any dashes occurring in line breaks have been removed.</p>
         </hyphenation>
       </editorialDecl>
       <projectDesc>
-        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+          Assistantship, 2016-2017.</p>
       </projectDesc>
       <tagsDecl>
         <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
-        <rendition xml:id="b" n="tiebp:bold" scheme="css">
-          font-weight:bold;
-        </rendition> 
-        <rendition xml:id="i" n="tiebp:italic" scheme="css">
-          font-style:italic;
-        </rendition> 
-        <rendition xml:id="u" n="tiebp:underline" scheme="css">
-          text-decoration:underline;
-        </rendition> 
-        <rendition xml:id="n" n="teibp:normal" scheme="css">
-          font-weight:normal;
-          text-decoration:none;
-          font-style:normal;
-        </rendition>
+        <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+        <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+        <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+        <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+          text-decoration:none; font-style:normal; </rendition>
         <!-- Indentation -->
-        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
-          text-indent:4em;
-          /* The above method of describing an indentation for, say, a paragraph is 
-          preferred. The method being used is in response to a bug in some browsers 
-          whereby a block element, like a paragraph, is erroneously re-indented 
-          after interruption by another block element (like a list, which is valid,
-          in TEI, inside a paragraph). */
-          content:"\A0\A0\A0\A0\A0\A0";
-        </rendition>
-        <rendition xml:id="indent1" scheme="css">
-          display:block;
-          padding-left:4em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent2" scheme="css">
-          display:block;
-          padding-left:7em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent3" scheme="css">
-          display:block;
-          padding-left:10em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="center" scheme="css">
-          display:block;
-          text-align:center;
-          margin-left:auto;
-          margin-right:auto;
-          text-align: center;
-        </rendition>
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before"> text-indent:4em; /*
+          The above method of describing an indentation for, say, a paragraph is preferred. The
+          method being used is in response to a bug in some browsers whereby a block element, like a
+          paragraph, is erroneously re-indented after interruption by another block element (like a
+          list, which is valid, in TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+        <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+          text-indent:-2em; </rendition>
+        <rendition xml:id="center" scheme="css"> display:block; text-align:center; margin-left:auto;
+          margin-right:auto; text-align: center; </rendition>
       </tagsDecl>
       <classDecl>
         <taxonomy xml:id="LCSH">
@@ -137,13 +105,10 @@
         </taxonomy>
       </classDecl>
       <listPrefixDef>
-        <prefixDef ident="psn"
-          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+        <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
           replacementPattern="still-personography.xml#$1">
-          <p> In the context of this project, private URIs with the prefix
-            "psn" point to <gi>person</gi> elements in the
-            still-personography.xml file.
-          </p>
+          <p> In the context of this project, private URIs with the prefix "psn" point to
+              <gi>person</gi> elements in the still-personography.xml file. </p>
         </prefixDef>
       </listPrefixDef>
     </encodingDesc>
@@ -151,12 +116,12 @@
       <correspDesc>
         <correspAction type="sent">
           <persName>Kate E.R. Pickard</persName>
-          <placeName>Camillus, NY</placeName>
+          <placeName>Camillus, New York</placeName>
           <date when="1856-06-03">June 3, 1856</date>
         </correspAction>
         <correspAction type="received">
           <persName>Peter Still</persName>
-          <placeName>Unknown</placeName>
+          <placeName cert="medium">Burlington, New Jersey</placeName>
           <date>Unknown</date>
         </correspAction>
       </correspDesc>
@@ -164,93 +129,72 @@
         <keywords scheme="#LCSH">
           <term>Slavery--United States--History--19th century.</term>
           <term>African Americans--Biography.</term>
-          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-09-07" who="#FG">Proofread. Made a few formatting changes and fixed divs.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26926_1.png" />
-      <div>
+      <pb n="1" facs="../images/26926_1.png"/>
+      <div type="letter">
         <opener>
           <dateline>
             <placeName>Camillus</placeName>
-            <date when="1856-06-03">June 3<add place="above">d</add> 1856.</date>
+            <date when="1856-06-03">June 3<hi rend="superscript">d</hi> 1856.</date>
           </dateline>
-          <salute>Dear <persName ref="psn:peter_still">Uncle Peter</persName></salute>
+          <salute>Dear Uncle <persName ref="psn:peter_still">Peter</persName></salute>
         </opener>
-      </div>
-      
-      <div>
-        <p rendition="#indent">
-          <hi rendition="#u">The</hi> <hi rendition="#u">Book</hi> <hi rendition="#u">is</hi> <hi rendition="#u">at</hi> <hi rendition="#u">last</hi> <hi rendition="#u">out</hi>.<lb />
-          I saw Mr. Hamilton on Saturday. He had<lb />
-          received a few copies by Express, though it is<lb />
-          not advertised for sale until the <date when="1856-06-05"><unclear>5th</unclear> June</date><lb />
-          It looks very well - the paper is nice and<lb />
-          the type clear - indeed the whole looks inviting<lb />
-          and interesting. The head of your mother<lb />
-          is excellent. If they had only copied the other<lb />
-          daguerreotypes as well they would have looked<lb />
-          very natural.<lb />
-        </p>
-        
-        <p rendition="#indent">
-          Mr Hamilton requested me to write you<lb />
-          immediately to ask you to come right on<lb /> 
-          and take an agency to sell the book. He<lb />
-          thinks you could sell more than any other<lb />
-          one man, and the profit you would make<lb />
-          would pay you well. His plan is to have<lb />
-          you visit the same places which you visited<lb />
-          while collecting money. Few that aided you,<lb />
-          even if they gave you but a trifle, would<lb />
-          refuse to buy a book if you presented it.<lb />
-        </p>
-        
-        <p rendition="#indent">
-          The Book contains 409 pages, and is to<lb />
-          sell at $1,25. <persName ref="psn:samuel_may">Mr. May's</persName> Introduction is<lb />
-          very beautiful. I think all your friends will<lb />
-          like it very much.<lb />
-        </p>
-
-        <pb n="2" facs="../images/26926_2.png" />
 
         <p rendition="#indent">
-          Would you like my advice about going out to<lb />
-          sell the books? I think if your family can<lb />
-          get along comfortably without you it will be<lb />
-          the best thing you can do to take the agency as<lb />
-          proposed by Mr. Hamilton. He will give you<lb />
-          the same profit that he does to other agents,<lb />
-          and you know, the more copies are sold, the<lb />
-          more <hi rendition="#u">our</hi> <hi rendition="#u">ten</hi> <hi rendition="#u">per cent</hi> will amount to.<lb />
-          There is so much excitement at present about<lb />
-          Slavery, that many of our friends are glad<lb />
-          the publication of the book has been delayed<lb />
-          till just this time. I have many things<lb />
-          to tell you about it, but I hope to see you<lb />
-          soon, so I will leave them.<lb />
-        </p>
-        
-        <p rendition="#indent">
-          Please write immediately to let us know<lb />
-          whether or not to expect you. The quicker you<lb />
-          come on, the better it will be for the book.<lb />
-          Be sure to write as soon as you get this, +<lb />
-          if you decide to take the agency, come on. Come<lb />
-          here first, and I will go with you to <placeName>Syracuse</placeName><lb />
-          to see Mr. Hamilton.<lb />
+          <hi rendition="#u">The Book is at last out</hi>.<lb/> I saw Mr. Hamilton on Saturday. He
+          had<lb/> received a few copies by Express, though it is<lb/> not advertised for sale until
+          the <date when="1856-06-05"><unclear>5th</unclear> June</date>.<lb/> It looks very well -
+          the paper is nice and<lb/> the type clear - indeed the whole looks inviting<lb/> and
+          interesting. The head of your mother<lb/> is excellent. If they had only copied the
+          other<lb/> daguerreotypes as well they would have looked<lb/> very natural.<lb/>
         </p>
 
-        <p rendition="#indent">
-          Much love to <persName ref="psn:vina_still">Aunt Vina</persName> + your children.<lb />
-          I am glad to hear that they are all doing<lb />
-          well.<lb />
+        <p rendition="#indent"> Mr Hamilton requested me to write you<lb/> immediately to ask you to
+          come right on<lb/> and take an agency to sell the book. He<lb/> thinks you could sell more
+          than any other<lb/> one man, and the profit you would make<lb/> would pay you well. His
+          plan is to have<lb/> you visit the same places which you visited<lb/> while collecting
+          money. Few that aided you,<lb/> even if they gave you but a trifle, would<lb/> refuse to
+          buy a book if you presented it.<lb/>
         </p>
-          
+
+        <p rendition="#indent"> The Book contains 409 pages, and is to<lb/> sell at <measure
+            type="currency">$1,25</measure>. Mr. <persName ref="psn:samuel_may">May</persName>'s
+          Introduction is <lb/> very beautiful. I think all your friends will<lb/> like it very
+          much.<lb/>
+        </p>
+
+        <pb n="2" facs="../images/26926_2.png"/>
+
+        <p rendition="#indent"> Would you like my advice about going out to<lb/> sell the books? I
+          think if your family can<lb/> get along comfortably without you it will be<lb/> the best
+          thing you can do to take the agency as<lb/> proposed by Mr. Hamilton. He will give
+          you<lb/> the same profit that he does to other agents,<lb/> and you know, the more copies
+          are sold, the<lb/> more <hi rendition="#u">our ten per cent</hi> will amount to.<lb/>
+          There is so much excitement at present about<lb/> Slavery, that many of our friends are
+          glad<lb/> the publication of the book has been delayed<lb/> till just this time. I have
+          many things<lb/> to tell you about it, but I hope to see you<lb/> soon, so I will leave
+          them.<lb/>
+        </p>
+
+        <p rendition="#indent"> Please write immediately to let us know<lb/> whether or not to
+          expect you. The quicker you<lb/> come on, the better it will be for the book.<lb/> Be sure
+          to write as soon as you get this, &amp; <lb/> if you decide to take the agency, come on.
+          Come<lb/> here first, and I will go with you to <placeName>Syracuse</placeName><lb/> to
+          see Mr. Hamilton.<lb/>
+        </p>
+
+        <p rendition="#indent"> Much love to Aunt <persName ref="psn:vina_still">Vina</persName>
+          &amp; your children.<lb/> I am glad to hear that they are all doing<lb/> well.<lb/>
+        </p>
+
         <closer>
           <salute>Your true friend</salute>
           <signed><persName ref="pickard_kate">Kate E. R. Pickard</persName></signed>

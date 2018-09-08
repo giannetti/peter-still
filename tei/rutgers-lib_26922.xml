@@ -1,16 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!-- the line above declares that you are creating an XML document -->
-<?xml-stylesheet title="TEI Boilerplate" type="text/xsl" href="teibp.xsl"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be transformed by "teibp.xsl" -->
-<?xml-stylesheet title="tiny_TEI_template"    type="text/css" href="../css/tiny_TEI_template.css" alternate="yes"?>
-<!-- the line above is a processing instruction that asks that -->
-<!-- this file be styled by "tiny_TEI_template.css" -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], May 30, 1857, to "Uncle Peter" [Peter Still]</title>
+        <title>Pickard, Kate E.R., letter, Camillus, [N.Y.], May 30, 1857, to "Uncle Peter" [Peter
+          Still]</title>
         <author>
           <persName>Pickard, Kate E.R.</persName>
         </author>
@@ -27,8 +24,9 @@
       <publicationStmt>
         <publisher>Rutgers Community Repository (RUcore)</publisher>
         <availability>
-          <ab>Reusable according to the Creative Commons License <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
-            Non-commercial Share-alike</ref>.</ab>
+          <ab>Reusable according to the Creative Commons License <ref
+              target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
+              Share-alike</ref>.</ab>
         </availability>
         <idno xml:id="DOI">doi:10.7282/T3G44QDD</idno>
         <idno xml:id="WMA">rutgers-lib:26922</idno>
@@ -55,81 +53,51 @@
             <idno>MC 1392</idno>
           </msIdentifier>
           <msContents>
-            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his wife, 
-              Vina Still, and family held as slaves in Alabama and the publication (1856) of Kate E.R. 
-              Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854) of funds collected; 
-              and Still family record (1798-1821). Persons and places represented include William Lloyd 
-              Garrison, Horace Greeley, Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, 
-              N.J., and Philadelphia, Pa. 57 items.</p>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his
+              wife, Vina Still, and family held as slaves in Alabama and the publication (1856) of
+              Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854)
+              of funds collected; and Still family record (1798-1821). Persons and places
+              represented include William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+              Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57 items.</p>
           </msContents>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
-        transcription. The layout of the page has been preserved whenever possible. 
-        Abbreviations and spellings have been maintained within the transcriptions, 
-        and the full word and corrected or modern spellings have been provided. Images 
-        of the original letters have been provided in order to show the original page 
-        layout and other markings that are not the author's. Words or phrases that 
-        are deemed indecipherable have been noted as "unclear."
-        </p>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+          transcription. The layout of the page has been preserved whenever possible. Abbreviations
+          and spellings have been maintained within the transcriptions, and the full word and
+          corrected or modern spellings have been provided. Images of the original letters have been
+          provided in order to show the original page layout and other markings that are not the
+          author's. Words or phrases that are deemed indecipherable have been noted as "unclear." </p>
         <hyphenation eol="none">
           <p>Any dashes occurring in line breaks have been removed.</p>
         </hyphenation>
       </editorialDecl>
       <projectDesc>
-        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research Assistantship, 2016-2017.</p>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+          Assistantship, 2016-2017.</p>
       </projectDesc>
       <tagsDecl>
         <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
-        <rendition xml:id="b" n="tiebp:bold" scheme="css">
-          font-weight:bold;
-        </rendition> 
-        <rendition xml:id="i" n="tiebp:italic" scheme="css">
-          font-style:italic;
-        </rendition> 
-        <rendition xml:id="u" n="tiebp:underline" scheme="css">
-          text-decoration:underline;
-        </rendition> 
-        <rendition xml:id="n" n="teibp:normal" scheme="css">
-          font-weight:normal;
-          text-decoration:none;
-          font-style:normal;
-        </rendition>
+        <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+        <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+        <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+        <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+          text-decoration:none; font-style:normal; </rendition>
         <!-- Indentation -->
-        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
-          text-indent:4em;
-          /* The above method of describing an indentation for, say, a paragraph is 
-          preferred. The method being used is in response to a bug in some browsers 
-          whereby a block element, like a paragraph, is erroneously re-indented 
-          after interruption by another block element (like a list, which is valid,
-          in TEI, inside a paragraph). */
-          content:"\A0\A0\A0\A0\A0\A0";
-        </rendition>
-        <rendition xml:id="indent1" scheme="css">
-          display:block;
-          padding-left:4em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent2" scheme="css">
-          display:block;
-          padding-left:7em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="indent3" scheme="css">
-          display:block;
-          padding-left:10em;
-          text-indent:-2em;
-        </rendition>
-        <rendition xml:id="center" scheme="css">
-          display:block;
-          text-align:center;
-          margin-left:auto;
-          margin-right:auto;
-          text-align: center;
-        </rendition>
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before"> text-indent:4em; /*
+          The above method of describing an indentation for, say, a paragraph is preferred. The
+          method being used is in response to a bug in some browsers whereby a block element, like a
+          paragraph, is erroneously re-indented after interruption by another block element (like a
+          list, which is valid, in TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+        <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+          text-indent:-2em; </rendition>
+        <rendition xml:id="center" scheme="css"> display:block; text-align:center; margin-left:auto;
+          margin-right:auto; text-align: center; </rendition>
       </tagsDecl>
       <classDecl>
         <taxonomy xml:id="LCSH">
@@ -137,26 +105,23 @@
         </taxonomy>
       </classDecl>
       <listPrefixDef>
-        <prefixDef ident="psn"
-          matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+        <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
           replacementPattern="still-personography.xml#$1">
-          <p> In the context of this project, private URIs with the prefix
-            "psn" point to <gi>person</gi> elements in the
-            still-personography.xml file.
-          </p>
+          <p> In the context of this project, private URIs with the prefix "psn" point to
+              <gi>person</gi> elements in the still-personography.xml file. </p>
         </prefixDef>
       </listPrefixDef>
     </encodingDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName>Kate E.R. Pickard</persName>
-          <placeName>Camillus, NY</placeName>
+          <persName>Kate E. R. Pickard</persName>
+          <placeName>Camillus, New York</placeName>
           <date when="1857-05-30">May 30, 1857</date>
         </correspAction>
         <correspAction type="received">
           <persName>Peter Still</persName>
-          <placeName>Unknown</placeName>
+          <placeName cert="medium">Burlington, New Jersey</placeName>
           <date>Unknown</date>
         </correspAction>
       </correspDesc>
@@ -164,150 +129,102 @@
         <keywords scheme="#LCSH">
           <term>Slavery--United States--History--19th century.</term>
           <term>African Americans--Biography.</term>
-          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change when="2018-09-07" who="#FG">Proofread and made a few formatting changes. Added a date.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="../images/26922_1.png" />
-      <div>
+      <pb n="1" facs="../images/26922_1.png"/>
+      <div type="letter">
         <opener>
           <dateline>
             <placeName>Camillus</placeName>
             <date when="1857-05-30">May 30, 1857.</date>
           </dateline>
-          <salute>My Dear <persName ref="psn:peter_still">Uncle Peter</persName></salute>
+          <salute>My Dear Uncle <persName ref="psn:peter_still">Peter</persName></salute>
         </opener>
-      </div>
-      
-      <div>
-        <p rendition="#indent">
-          It is a long time since I<lb />
-          wrote you last - have you thought you were<lb />
-          forgotten, or that I had ceased to feel any<lb />
-          interest in your welfare? If so, you were<lb />
-          greatly mistaken - I have thought of you<lb />
-          very often, + have sometimes heard from you<lb />
-          through Mr. Hamilton, and once in the<lb />
-          winter <persName ref="psn:samuel_may">Mr. May</persName> sent me a letter which<lb />
-          he had received from you. He wished me<lb />
-          to write you then, but I was not able to<lb />
-          do so.<lb />
-        </p>
-        
-        <p rendition="#indent">
-          I do not know whether you have heard anything<lb />
-          from us since I wrote you last - Our<lb />
-          family has greatly changed since then. Mother<lb />
-          Pickard died at Mr Lyon's on the 9th of<lb />
-          last December. She was injured by falling<lb />
-          on the step as she was going out the door,<lb />
-          and died in a few hours. Almost at the<lb />
-          moment she fell, my baby was born - a little<lb />
 
-          <pb n="2" facs="../images/26922_2.png" />
-          
-          daughter. At the same time a Miss Pickard<lb />
-          - a cousin of ours was here very ill - so as to<lb />
-          be unable to rise alone. It was a<lb /> 
-          time of great trouble and you will hardly<lb />
-          wonder that during the past winter our<lb />
-          own cares and sorrows have so absorbed<lb />
-          our attention that we have had little<lb />
-          time or spirits to write letters. I was<lb />
-          confined to my room all winter - did not<lb />
-          go out of the house till the very last of<lb />
-          March.<lb />
-        </p>
-        
-        <p rendition="#indent">
-          We are all now in usual health - Grandpa<lb />
-          has had a severe sickness this Spring -<lb />
-          two weeks ago we feared he would never<lb />
-          recover, but he is now able to ride about.<lb />
-          He has failed very much since you were<lb />
-          here + particularly since Grandma's death.<lb />
+        <p rendition="#indent"> It is a long time since I<lb/> wrote you last - have you thought you
+          were<lb/> forgotten, or that I had ceased to feel any<lb/> interest in your welfare? If
+          so, you were<lb/> greatly mistaken - I have thought of you<lb/> very often, &amp; have
+          sometimes heard from you<lb/> through Mr. Hamilton, and once in the<lb/> winter Mr.
+            <persName ref="psn:samuel_may">May</persName> sent me a letter which<lb/> he had
+          received from you. He wished me<lb/> to write you then, but I was not able to<lb/> do
+          so.<lb/>
         </p>
 
-        <p rendition="#indent">
-          My mother is in <placeName>Buffalo</placeName> with sister<lb />
-          <persName ref="psn:marvin_julia">Julia</persName> who is just recovering from a severe<lb />
-          <choice><corr>bilious</corr><sic>billious</sic></choice> attack. I am sorry to say her<lb />
-          family has received no such addition as<lb />
-          you were wishing.<lb />
-        </p>
-        
-        <p rendition="#indent">
-          Mr Lyon's family are very well. Miss<lb />
-          
-          <pb n="2" facs="../images/26922_2.png" />
-
-          Jennie is at home, and the two little girls<lb />
-          are growing finely. The little one that was<lb />
-          a baby when you were here is a beauty +<lb />
-          one of the smartest children you ever saw.<lb />
-          But tell <persName ref="psn:vina_still">Aunt Vina</persName>, if she wants to see<lb />
-          the prettiest, dearest, sweetest baby alive<lb />
-          she must come + look at my little Jane<lb />
+        <p rendition="#indent"> I do not know whether you have heard anything<lb/> from us since I
+          wrote you last - Our<lb/> family has greatly changed since then. Mother<lb/> Pickard died
+          at Mr Lyon's on the <date when="1856-12-09">9th of<lb/> last December</date>. She was
+          injured by falling<lb/> on the step as she was going out the door,<lb/> and died in a few
+          hours. Almost at the<lb/> moment she fell, my baby was born - a little<lb/>
+          <pb n="2" facs="../images/26922_2.png"/> daughter. At the same time a Miss Pickard<lb/> -
+          a cousin of ours was here very ill - so as to<lb/> be unable to rise alone. It was a<lb/>
+          time of great trouble and you will hardly<lb/> wonder that during the past winter our<lb/>
+          own cares and sorrows have so absorbed<lb/> our attention that we have had little<lb/>
+          time or spirits to write letters. I was<lb/> confined to my room all winter - did not<lb/>
+          go out of the house till the very last of<lb/> March.<lb/>
         </p>
 
-        <p rendition="#indent">
-          And so your dear old <persName ref="psn:charity_still">mother</persName> has<lb />
-          gone to her reward! You should not mourn<lb />
-          for her, Uncle Peter, for her sorrows are<lb />
-          all past. She lived to suffer much, but<lb />
-          her last days were <unclear>cheered</unclear> by a great joy.<lb />
-          Surely her end was peace, and her memory<lb />
-          is blessed. She is no doubt now rejoicing<lb />
-          in the presence of the Blessed One, and<lb /> 
-          holding sweet intercourse with the freed<lb />
-          spirit of that dear brother whose form<lb />
-          moulders in a land of slaves.<lb />
+        <p rendition="#indent"> We are all now in usual health - Grandpa<lb/> has had a severe
+          sickness this Spring -<lb/> two weeks ago we feared he would never<lb/> recover, but he is
+          now able to ride about.<lb/> He has failed very much since you were<lb/> here &amp;
+          particularly since Grandma's death.<lb/>
         </p>
 
-        <p rendition="#indent">
-          I am glad your children are all doing well.<lb />
-          How do you get along in paying for your<lb />
-          place? I am glad you have made a good<lb />
-          beginning in selling your books. Last year<lb />
-          there was so much political excitement,<lb />
-
-          <pb n="3" facs="../images/26922_3.png" />
-
-          that no doubt, the sales were slower than<lb />
-          they would otherwise have been. This year<lb />
-          I think you will do still better, and on<lb />
-          <hi rendition="#u">all</hi> <hi rendition="#u">you</hi> <hi rendition="#u">sell</hi> you get two profits - your<lb />
-          share as proprietor + the agents percentage<lb />
-          besides. I hope you will be able to push<lb />
-          it and get off a good number of the books<lb />
-          during the year. <hi rendition="#u">You</hi> can do more than<lb />
-          any one else if you do your best. I do not<lb />
-          care so much about the small profit that<lb />
-          I should receive as I do about your doing<lb />
-          well. Keep up your courage Uncle Peter<lb />
-          - you have proved yourself able to accomplish<lb />
-          great things. Try - and let me<lb />
-          hear from you often.<lb />
+        <p rendition="#indent"> My mother is in <placeName>Buffalo</placeName> with sister<lb/>
+          <persName ref="psn:marvin_julia">Julia</persName> who is just recovering from a severe<lb/>
+          <choice>
+            <reg>bilious</reg>
+            <orig>billious</orig>
+          </choice> attack. I am sorry to say her<lb/> family has received no such addition as<lb/>
+          you were wishing.<lb/>
         </p>
 
-        <p rendition="#indent">
-          I have heard no news from <placeName>Alabama</placeName><lb />
-          that would interest you, except the death<lb />
-          of Mr. Collier last fall + that of Judge<lb />
-          <persName ref="psn:weakley">Weakly</persName> of Florence.<lb />
+        <p rendition="#indent"> Mr Lyon's family are very well. Miss<lb/>
+          <pb n="2" facs="../images/26922_2.png"/> Jennie is at home, and the two little girls<lb/>
+          are growing finely. The little one that was<lb/> a baby when you were here is a beauty
+          &amp;<lb/> one of the smartest children you ever saw.<lb/> But tell Aunt <persName
+            ref="psn:vina_still">Vina</persName>, if she wants to see<lb/> the prettiest, dearest,
+          sweetest baby alive<lb/> she must come &amp; look at my little Jane<lb/>
         </p>
 
-        <p rendition="#indent">
-          Good bye Uncle Peter - Give much<lb />
-          love to Aunt Vina from all of us. Can't<lb />
-          one of your children write me a note now +<lb /> 
-          then? If they can, I will take pleasure in<lb /> 
-          answering it. 
+        <p rendition="#indent"> And so your dear old <persName ref="psn:charity_still"
+            >mother</persName> has<lb/> gone to her reward! You should not mourn<lb/> for her, Uncle
+          Peter, for her sorrows are<lb/> all past. She lived to suffer much, but<lb/> her last days
+          were cheered by a great joy.<lb/> Surely her end was peace, and her memory<lb/> is
+          blessed. She is no doubt now rejoicing<lb/> in the presence of the Blessed One, and<lb/>
+          holding sweet intercourse with the freed<lb/> spirit of that dear brother whose form<lb/>
+          moulders in a land of slaves.<lb/>
         </p>
-          
+
+        <p rendition="#indent"> I am glad your children are all doing well.<lb/> How do you get
+          along in paying for your<lb/> place? I am glad you have made a good<lb/> beginning in
+          selling your books. Last year<lb/> there was so much political excitement,<lb/>
+          <pb n="3" facs="../images/26922_3.png"/> that no doubt, the sales were slower than<lb/>
+          they would otherwise have been. This year<lb/> I think you will do still better, and on <lb/>
+          <hi rendition="#u">all you sell</hi> you get two profits - your<lb/> share as proprietor
+          &amp; the agent's percentage<lb/> besides. I hope you will be able to push<lb/> it and get
+          off a good number of the books<lb/> during the year. <hi rendition="#u">You</hi> can do
+          more than<lb/> any one else if you do your best. I do not<lb/> care so much about the
+          small profit that<lb/> I should receive as I do about your doing<lb/> well. Keep up your
+          courage Uncle Peter<lb/> - you have proved yourself able to accomplish<lb/> great things.
+          Try - and let me<lb/> hear from you oftener.<lb/>
+        </p>
+
+        <p rendition="#indent"> I have heard no news from <placeName>Alabama</placeName><lb/> that
+          would interest you, except the death<lb/> of Mr. Collier last fall &amp; that of Judge <lb/>
+          <persName ref="psn:weakley">Weakly</persName> of <placeName>Florence</placeName>.<lb/>
+        </p>
+
+        <p rendition="#indent"> Good bye Uncle Peter - Give much<lb/> love to Aunt Vina from all of
+          us. Can't<lb/> one of your children write me a note now &amp;<lb/> then? If they can, I
+          will take pleasure in<lb/> answering it. </p>
+
         <closer>
           <salute>As ever, your true friend</salute>
           <signed><persName ref="pickard_kate">Kate E. R. Pickard</persName></signed>
