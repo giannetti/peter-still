@@ -120,12 +120,12 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName>Lewis B. Thornton</persName>
-                    <placeName>Tuscumbria, AL</placeName>
+                    <placeName>Tuscumbria, Alabama</placeName>
                     <date when="1852-08-19">August 19, 1852</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>H.N. Ely</persName>
-                    <placeName>unknown</placeName>
+                    <persName>H. N. Ely</persName>
+                    <placeName cert="medium">Medford, New Jersey</placeName>
                     <date>unknown</date>
                 </correspAction>
             </correspDesc>
@@ -133,12 +133,12 @@
                 <keywords scheme="#LCSH">
                     <term>Slavery--United States--History--19th century.</term>
                     <term>African Americans--Biography.</term>
-                    <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
                 </keywords>
             </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2018-07-02" who="#FG">Cleaned up divs. Removed TEIBP stylesheets. Fixed closer.</change>
+            <change when="2018-09-07" who="#FG">Fixed Mr. Ely's identifier.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -159,7 +159,7 @@
                             <region>Ala.</region>
                         </placeName>, <date when="1852-08-19">August 19th 1852</date>
                     </dateline><lb/>
-                    <persName ref="psn:ely_h_n" resp="#FG" rendition="#indent2">H. N.
+                    <persName ref="psn:ely_h" resp="#FG" rendition="#indent2">H. N.
                         Ely.</persName>
                     <salute rendition="#indent2">
                         <choice>
@@ -169,8 +169,8 @@
                 </opener>
 
                 <p rendition="#indent"> Your letter has remained<lb/> unanswered, for so long,
-                    because I have not been<lb/> able to have an interview with <persName
-                        ref="psn:mckiernan_bernard" resp="#FG">Mr. McKiernan</persName><lb/> on the
+                    because I have not been<lb/> able to have an interview with Mr. <persName
+                        ref="psn:mckiernan_bernard" resp="#FG">McKiernan</persName><lb/> on the
                     subject about which you wrote. I have<lb/> just seen him. He says he will not
                     separate<lb/> the family of negroes and that the lowest<lb/> price he will take
                     under any circumstances <lb/> is <measure type="currency">$5,000</measure> and

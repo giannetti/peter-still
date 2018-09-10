@@ -411,11 +411,28 @@
                         <placeName>Tuscumbia, AL</placeName>
                     </residence>
                 </person>
-                <person xml:id="ely_h_n">
-                    <persName>Ely, H. N.</persName>
-                    <residence>
-                        <placeName>Medford, NJ</placeName>
-                    </residence>
+                <person xml:id="ely_h">
+                    <persName>
+                        <surname>Ely</surname>
+                        <forename cert="unknown">Henry P.</forename>
+                    </persName>
+                    <persName type="alternate">Ely, H. N.</persName>
+                    <birth when="1812-12-15"/>
+                    <death when="1873-01-09"/>
+                    <event>
+                        <label>Move</label>
+                        <desc>[S]ettled at Medford, Burlington County, N. J., in 1833, and built up an exten- 
+                            sive practice there</desc>
+                    </event>
+                    <note resp="#FG">Assuming that the Ely who is the addressee of rutgers-lib:25776 and the sender of rutgers-lib:26922 are the same man.</note>
+                    <listBibl>
+                        <bibl>
+                            <ptr target="https://archive.org/details/historicalnarrat00elyr"/>
+                        </bibl>
+                        <bibl>
+                            <ptr target="http://www.westjerseyhistory.org/books/medsites"/>
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="samuel_may">
                     <persName>May, Rev. Samuel Joseph</persName>

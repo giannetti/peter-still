@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Still, Catharine, letter, Onondaga Valley, N.Y., February 17, 1861, to &quot;My
+               Dear father&quot; [Peter Still]</title>
+            <author><persName>Still, Catharine</persName></author>
+            <respStmt>
+               <resp>Transcription by</resp>
+               <name xml:id="MH"> Michelle Hwang </name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name xml:id="FG"> Francesca Giannetti </name>
+            </respStmt>
+         </titleStmt>
+         <extent>2 p.</extent>
+         <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <availability>
+               <ab>Reusable according to the Creative Commons License <ref
+                     target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                     Non-commercial Share-alike</ref>.</ab>
+            </availability>
+            <idno xml:id="DOI">doi:10.7282/T37M082P</idno>
+            <idno xml:id="WMA">rutgers-lib:26928</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Peter Still Papers, 1850-1875</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Rutgers Community Repository (RUcore)</publisher>
+                  <pubPlace>Rutgers University Libraries</pubPlace>
+                  <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Special Collections and University Archives</settlement>
+                  <repository>Rutgers University Libraries</repository>
+                  <idno>MC 1392</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase
+                     his wife, Vina Still, and family held as slaves in Alabama and the publication
+                     (1856) of Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo
+                     book (1853-1854) of funds collected; and Still family record (1798-1821).
+                     Persons and places represented include William Lloyd Garrison, Horace Greeley,
+                     Harriet Beecher Stowe, and Cortlandt Van Rensselaer, and Burlington, N.J., and
+                     Philadelphia, Pa. 57 items.</p>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+               transcription. The layout of the page has been preserved whenever possible.
+               Abbreviations and spellings have been maintained within the transcriptions, and the
+               full word and corrected or modern spellings have been provided. Images of the
+               original letters have been provided in order to show the original page layout and
+               other markings that are not the author's. Words or phrases that are deemed
+               indecipherable have been noted as "unclear." </p>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+            </hyphenation>
+         </editorialDecl>
+         <projectDesc>
+            <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+               Assistantship, 2016-2017.</p>
+         </projectDesc>
+         <tagsDecl>
+            <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+            <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+            <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+            <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+            <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+               text-decoration:none; font-style:normal; </rendition>
+            <!-- Indentation -->
+            <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before">
+               text-indent:4em; /* The above method of describing an indentation for, say, a
+               paragraph is preferred. The method being used is in response to a bug in some
+               browsers whereby a block element, like a paragraph, is erroneously re-indented after
+               interruption by another block element (like a list, which is valid, in TEI, inside a
+               paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+            <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+               text-indent:-2em; </rendition>
+            <rendition xml:id="center" scheme="css"> display:block; text-align:center;
+               margin-left:auto; margin-right:auto; text-align: center; </rendition>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>Library of Congress Subject Headings</bibl>
+            </taxonomy>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+               replacementPattern="still-personography.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "psn" point to
+                     <gi>person</gi> elements in the still-personography.xml file. </p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Catharine Still</persName>
+               <placeName>Onondaga Valley, New York</placeName>
+               <date when="1861-02-17">February 17, 1861</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Peter Still</persName>
+               <placeName cert="medium">Burlington, New Jersey</placeName>
+               <date>Unknown</date>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <term>Slavery--United States--History--19th century.</term>
+               <term>African Americans--Biography.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-09-09" who="#FG">Encoded for first time.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName>Onondaga valley Ny</placeName><date when="1861-02-17">Feb 17th
+                     1861</date></dateline>
+               <salute>My Dear <persName ref="psn:peter_still">father</persName></salute>
+            </opener>
+            <p>Your letter was received and <lb/>very welcome was it for I had <choice>
+                  <orig>look</orig>
+                  <reg>looked</reg>
+               </choice> with <lb/>all the eyes I had to see the object before <lb/> it came the day
+               your letter came was the <lb/>coldest day we <del rend="strikethrough">had</del> have
+               had this winter <lb/> that was wednesday <unclear>week</unclear>. that week you <lb/>
+               <choice>
+                  <orig>can not imagined</orig>
+                  <reg>cannot imagine</reg>
+               </choice> what a cold week <lb/> that was but now we have plenty of <lb/> snow but
+               not so cold as it was in <choice>
+                  <orig>too</orig>
+                  <reg>two</reg>
+               </choice>
+               <lb/> weeks from now we will have <lb/>
+               <choice>
+                  <orig>veccation</orig>
+                  <reg>vacation</reg>
+               </choice> which will be in <date when="1861-03">march</date> Mrs <persName
+                  ref="psn:pickard_kate">Pickard</persName> wanted me to visit her in that <lb/>
+               time but I cannot it is <choice>
+                  <orig>to</orig>
+                  <reg>too</reg>
+               </choice> cold last <lb/> fall I got me a pair of calf skin shoes <lb/> some thing
+               that would suit you and I <lb/> find them very useful indeed tell <persName
+                  ref="psn:vina_still">Mother</persName>
+               <lb/> that I find that net sack that she wanted <lb/> me to give away very useful I
+               wrote to <lb/> you some time ago I ask about my skirt <lb/> but you did not <del
+                  rend="strikethrough">it</del> tell me any thing <lb/> about it I shall write a
+               little note for <lb/> Alice and put it in with yours I am glad <lb/> to <choice>
+                  <orig>hare</orig>
+                  <reg>hear</reg>
+               </choice> you are doing well you will to better <lb/> if you will write to me once
+               every week <lb/> did you ever get that book from <del rend="strikethrough">St</del>
+               <lb/>
+               <placeName>Stockton</placeName> if not do get <del rend="strikethrough">it</del> it
+                  <pb n="2"/> did you ever get that change <lb/> from uncle <persName
+                  ref="psn:william_still">William</persName> if not <lb/>
+               <choice>
+                  <orig>at tend</orig>
+                  <reg>attend</reg>
+               </choice> to it for me I consider it best <lb/> in your pocket give my love to all
+               <lb/> write me all the news do you <lb/> know Mr Loyin in
+                  <placeName>Syracuse</placeName>
+               <del rend="strikethrough">a</del>
+               <lb/> a <choice>
+                  <orig>colord</orig>
+                  <reg>colored</reg>
+               </choice> man in Syracuse he says he knew <lb/> you very well he promised to come to
+               see <lb/> me </p>
+            <closer>
+               <salute>no more write soon to your </salute>
+               <signed><persName ref="psn:catharine_still">Catharine Still</persName></signed>
+               <address><addrLine>onondaya valley</addrLine>
+                  <addrLine>NY</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
