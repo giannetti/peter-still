@@ -132,53 +132,53 @@
                <item><gap reason="illegible" unit="word" quantity="2"/> <unclear>204</unclear></item>
                <item><unclear>10.89</unclear></item>
             </list>
-            <ab>
+            <p>
                <persName>Joseph S. Stevens</persName>
                <placeName>Saco, Me</placeName>
-            </ab>
-            <ab>
+            </p>
+            <p>
                <persName>Lewis Nash</persName>
                <placeName>Saco <lb/> Me</placeName>
-            </ab>
+            </p>
             <pb n="2"/>
-            <ab>
+            <p>
                <persName>Henry A. Chandler</persName>
-            </ab>
-            <ab>
+            </p>
+            <p>
                <persName>Henry A. Chandler</persName>
                <placeName>Bath <lb/> Me</placeName>
                <persName>Julia A. Chandler</persName>
-            </ab>
-            <ab>
+            </p>
+            <p>
                <persName>J. T. G. Nichols</persName>, <placeName>Saco. Me.</placeName>
-            </ab>
-            <ab>
-               <persName>Thomas bicknell</persName>
+            </p>
+            <p>
+               <persName>Thomas Bicknell</persName>
                <persName>Hannah S. Bicknell</persName>
                <placeName>Kingston <lb/> Mass.</placeName>
-            </ab>
+            </p>
             
             <pb n="3"/>
             <!-- page three is blank -->
             
             <pb n="4"/>
-            <ab>
+            <p>
                Received from <persName ref="psn:peter_still">Peter Still</persName><lb/>
                for safe keeping, <measure>$355.00</measure><lb/>
                <persName>S. J. Nowell</persName>.
                <date when="1853-05-09">May 9, 1853</date>. <persName>James Nowell</persName>.
-            </ab>
-            <ab>
+            </p>
+            <p>
                The above amount forwarded <lb/> by request of Mr. Still <lb/> to <persName ref="psn:ellis_loring">Ellis Gray Loring</persName> Esq.<lb/> <placeName>Boston</placeName>, <date when="1853-05-10">May 10, 1853</date>. <lb/>
                <persName>S. J. Nowell</persName>.
-            </ab>
-            <ab>
+            </p>
+            <p>
                <placeName>Syracuse</placeName> <date when="1853-07-26">July 26 1853</date> <lb/>
                I have this day given <lb/>Peter Still a certificate <lb/>that he has deposited <lb/>
                with me <hi rendition="#u">two hundred <lb/> dollars</hi> to be paid whenever <lb/>
                he sends for the same <lb/>
                <persName ref="psn:samuel_may">Samuel J. May</persName>.
-            </ab>
+            </p>
             <pb n="5"/>
             <!-- pick up here -->
          </div>
