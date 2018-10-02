@@ -640,8 +640,7 @@
                 <person xml:id="ellis_loring">
                     <persName>
                         <surname>Loring</surname>
-                        <forename>Ellis</forename>
-                        <forename>Gray</forename>
+                        <forename>Ellis Gray</forename>
                     </persName>
                     <birth notBefore="1800" notAfter="1803">
                         <placeName>Boston, Massachusetts</placeName>

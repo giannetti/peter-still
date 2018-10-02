@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -121,12 +120,16 @@
                     <placeName>Philadelphia, Pennsylvania</placeName>
                     <date when="1850-08-07">August 7th, 1850</date>
                 </correspAction>
+                <correspAction type="transmitted">
+                    <persName>A. J. Gorden</persName>
+                    <placeName>Philadelphia, Pennsylvania</placeName>
+                </correspAction>
                 <correspAction type="received">
                     <persName cert="high">Peter Still</persName>
                     <placeName cert="medium">Cincinnati, Ohio</placeName>
                     <date>unknown</date>
                 </correspAction>
-                <correspAction type="deliveredTo">
+                <correspAction type="transmitted">
                     <persName>James O. Cousins</persName>
                     <placeName>Cincinnati, Ohio</placeName>
                 </correspAction>
@@ -142,6 +145,7 @@
         <revisionDesc>
             <change when="2018-07-02" who="#FG">Changed multiline address in closer to
                 address/addrLine. Removed TEIBP stylesheets. Changed sic/cor to orig/reg.</change>
+            <change when="2018-10-02" who="#FG">Cleaned up @type attributes in correspAction. Replaced name with persName.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -149,12 +153,12 @@
             <pb n="1" facs="../images/25775_1.png"/>
             <div type="correspondence-action">
                 <ab style="writing-mode: vertical-lr" rendition="#center">
-                    <name type="person" ref="psn:peter_still"> Peter Freedman </name>
+                    <persName ref="psn:peter_still"> Peter Freedman </persName>
                 </ab>
                 <ab rendition="#center">
-                    <handShift medium="pencil"/><name> James O. Cousins </name>
+                    <handShift medium="pencil"/><persName> James O. Cousins </persName>
                     <placeName><hi rendition="#u">Cincinnati Ohio</hi></placeName><lb/> Mailed by
-                        <name type="person">A. J. Gorden</name> of <placeName><choice>
+                        <persName>A. J. Gorden</persName> of <placeName><choice>
                             <orig>Phillidelphia</orig>
                             <reg>Philadelphia</reg>
                         </choice><lb/>
@@ -171,8 +175,8 @@
                     </dateline>
                 </opener>
 
-                <p> Last Friday afternoon, <name type="person" ref="psn:peter_still">Peter
-                        Freedman</name><lb/> was brought to this office by a man<lb/> whom I was <choice>
+                <p> Last Friday afternoon, <persName ref="psn:peter_still">Peter
+                        Freedman</persName><lb/> was brought to this office by a man<lb/> whom I was <choice>
                         <orig>partialy</orig>
                         <reg>partially</reg>
                     </choice> acquainted with,<lb/>
@@ -213,7 +217,7 @@
                             <orig>younges</orig>
                             <reg>youngest</reg>
                         </choice> brother,</salute>
-                    <signed><name ref="psn:william_still">Wm Still.</name></signed>
+                    <signed><persName ref="psn:william_still">Wm Still.</persName></signed>
                     <address>
                         <addrLine><placeName>no 31 North fifth St.</placeName></addrLine>
                         <addrLine>Philadelphia Pa</addrLine>
