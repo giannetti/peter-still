@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Family record ("Catalogue of Children of Leven Still and Charity his wife").</title>
+        <author>
+          <persName>Unknown</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>1 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref
+              target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
+              Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3H41RK7</idno>
+        <idno xml:id="WMA">rutgers-lib:26930</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his
+              wife, Vina Still, and family held as slaves in Alabama and the publication (1856) of
+              Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854)
+              of funds collected; and Still family record (1798-1821). Persons and places
+              represented include William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+              Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+          transcription. The layout of the page has been preserved whenever possible. Abbreviations
+          and spellings have been maintained within the transcriptions, and the full word and
+          corrected or modern spellings have been provided. Images of the original letters have been
+          provided in order to show the original page layout and other markings that are not the
+          author's. Words or phrases that are deemed indecipherable have been noted as "unclear." </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+          Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+        <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+        <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+        <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+          text-decoration:none; font-style:normal; </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before"> text-indent:4em; /*
+          The above method of describing an indentation for, say, a paragraph is preferred. The
+          method being used is in response to a bug in some browsers whereby a block element, like a
+          paragraph, is erroneously re-indented after interruption by another block element (like a
+          list, which is valid, in TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+        <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+          text-indent:-2em; </rendition>
+        <rendition xml:id="center" scheme="css"> display:block; text-align:center; margin-left:auto;
+          margin-right:auto; text-align: center; </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix "psn" point to
+              <gi>person</gi> elements in the still-personography.xml file. </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2018-10-02" who="#FG">Proofread. Fixed @when attributes in date and cross-referenced data with personography file.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="primary-source-text">
+        <pb n="1" facs="../images/26930_1.png"/>
+
+        <head> Catalogue of Children of <persName ref="psn:levin_still_sr">Leven
+          still</persName><lb/> And <persName ref="psn:charity_still">Charity</persName> his
+          wife<lb/>
+        </head>
+
+        <list>
+          <item><persName ref="psn:ann_still">Ann still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1798-01-08">January <unclear>8th</unclear> 1798</date></item>
+          <item><persName ref="psn:levin_still_jr">Leven still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1799-02-26">February 26th 1799</date></item>
+          <item><persName ref="psn:peter_still">Peter still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1801-02-22">February 22d 1801</date></item>
+          <item><persName ref="psn:mahala_still">Mahalah still</persName> was <choice>
+              <corr>born</corr>
+              <sic>Bornd</sic>
+            </choice>
+            <date when="1803-12-30">December 30th 1803</date></item>
+          <item><persName ref="psn:kitty_still">Kitty still</persName>
+            <choice>
+              <reg>was born</reg>
+              <orig>Bas Bornd</orig>
+            </choice>
+            <date when="1805-01-20">January 20th 1805</date></item>
+          <item><persName ref="psn:samuel_still">Samuel still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1807-02-26">February 26th 1807</date></item>
+          <item><persName ref="psn:mary_still">Mary still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1808-08-31">August 31st 1808</date></item>
+          <item><persName ref="psn:hannah_still">Hannah still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1810-07-31">July 31st 1810</date></item>
+          <item><persName ref="psn:james_still">James still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1812-04-09">April 9th 1812</date></item>
+          <item><persName ref="psn:isaac_still">Isaac still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1814-01-08">January 8th 1814</date></item>
+          <item><persName ref="psn:john_still">John N still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1815-01-08">January 8th 1815</date></item>
+          <item><persName ref="psn:charles_still">Charles still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1817-03-01">March 1st 1817</date></item>
+          <item><persName ref="psn:joseph_still">Joseph still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1819-11-24">November 24th 1819</date></item>
+          <item><persName ref="psn:william_still">William still</persName> was <choice>
+              <reg>born</reg>
+              <orig>Bornd</orig>
+            </choice>
+            <date when="1821-10-07">October 7th 1821</date></item>
+        </list>
+
+        <closer>
+          <placeName>Burlington County NJ</placeName>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

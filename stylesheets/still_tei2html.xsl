@@ -249,6 +249,18 @@
             <xsl:apply-templates select="node()"/>
         </td>
     </xsl:template>
+    
+    <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+        <xd:desc>
+            <xd:p>Convert list.</xd:p>
+        </xd:desc>
+    </xd:doc>
+    <xsl:template match="list">
+        <ul><xsl:apply-templates select="*"/></ul>
+    </xsl:template>
+    <xsl:template match="list/*">
+        <li><xsl:apply-templates select="node()"/></li>
+    </xsl:template>
 
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>

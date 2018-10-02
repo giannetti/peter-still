@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Garrison, W[illia]m Lloyd, letter, Roxbury, [Mass.], March 5, 1875, to [William]
+          Still.</title>
+        <author>
+          <persName>Garrison, William Lloyd</persName>
+        </author>
+        <respStmt>
+          <resp>Transcription and encoding by</resp>
+          <name xml:id="MH"> Michelle Hwang </name>
+        </respStmt>
+        <respStmt>
+          <resp>Edited by</resp>
+          <name xml:id="FG"> Francesca Giannetti </name>
+        </respStmt>
+      </titleStmt>
+      <extent>3 p.</extent>
+      <publicationStmt>
+        <publisher>Rutgers Community Repository (RUcore)</publisher>
+        <availability>
+          <ab>Reusable according to the Creative Commons License <ref
+              target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution Non-commercial
+              Share-alike</ref>.</ab>
+        </availability>
+        <idno xml:id="DOI">doi:10.7282/T3MW2H86</idno>
+        <idno xml:id="WMA">rutgers-lib:26932</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Peter Still Papers, 1850-1875</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Rutgers Community Repository (RUcore)</publisher>
+            <pubPlace>Rutgers University Libraries</pubPlace>
+            <address>
+              <addrLine>Alexander Library</addrLine>
+              <addrLine>169 College Ave.</addrLine>
+              <addrLine>New Brunswick, NJ 08901-1163</addrLine>
+            </address>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Special Collections and University Archives</settlement>
+            <repository>Rutgers University Libraries</repository>
+            <idno>MC 1392</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Correspondence (1850-1875), chiefly relating to Still's campaign to purchase his
+              wife, Vina Still, and family held as slaves in Alabama and the publication (1856) of
+              Kate E.R. Pickard's biography, The Kidnapped and the Ransomed; memo book (1853-1854)
+              of funds collected; and Still family record (1798-1821). Persons and places
+              represented include William Lloyd Garrison, Horace Greeley, Harriet Beecher Stowe, and
+              Cortlandt Van Rensselaer, and Burlington, N.J., and Philadelphia, Pa. 57 items.</p>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the
+          transcription. The layout of the page has been preserved whenever possible. Abbreviations
+          and spellings have been maintained within the transcriptions, and the full word and
+          corrected or modern spellings have been provided. Images of the original letters have been
+          provided in order to show the original page layout and other markings that are not the
+          author's. Words or phrases that are deemed indecipherable have been noted as "unclear." </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+      <projectDesc>
+        <p>Letters transcribed and encoded in partial fulfillment of an Aresty Research
+          Assistantship, 2016-2017.</p>
+      </projectDesc>
+      <tagsDecl>
+        <!-- Basic text formatting: bold, italic, underline, "normal," etc. -->
+        <rendition xml:id="b" n="tiebp:bold" scheme="css"> font-weight:bold; </rendition>
+        <rendition xml:id="i" n="tiebp:italic" scheme="css"> font-style:italic; </rendition>
+        <rendition xml:id="u" n="tiebp:underline" scheme="css"> text-decoration:underline; </rendition>
+        <rendition xml:id="n" n="teibp:normal" scheme="css"> font-weight:normal;
+          text-decoration:none; font-style:normal; </rendition>
+        <!-- Indentation -->
+        <rendition xml:id="indent" n="tiebp:indent" scheme="css" scope="before"> text-indent:4em; /*
+          The above method of describing an indentation for, say, a paragraph is preferred. The
+          method being used is in response to a bug in some browsers whereby a block element, like a
+          paragraph, is erroneously re-indented after interruption by another block element (like a
+          list, which is valid, in TEI, inside a paragraph). */ content:"\A0\A0\A0\A0\A0\A0"; </rendition>
+        <rendition xml:id="indent1" scheme="css"> display:block; padding-left:4em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent2" scheme="css"> display:block; padding-left:7em; text-indent:-2em; </rendition>
+        <rendition xml:id="indent3" scheme="css"> display:block; padding-left:10em;
+          text-indent:-2em; </rendition>
+        <rendition xml:id="center" scheme="css"> display:block; text-align:center; margin-left:auto;
+          margin-right:auto; text-align: center; </rendition>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="psn" matchPattern="([a-z]+_[a-z]+(_[a-z]+)*)"
+          replacementPattern="still-personography.xml#$1">
+          <p> In the context of this project, private URIs with the prefix "psn" point to
+              <gi>person</gi> elements in the still-personography.xml file. </p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>William Lloyd Garrison</persName>
+          <placeName>Roxbury, Massachusetts</placeName>
+          <date when="1875-03-05">March 5, 1875</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>William Still</persName>
+          <placeName cert="medium">Philadelphia, Pennsylvania</placeName>
+          <date>Unknown</date>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Slavery--United States--History--19th century.</term>
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2018-09-09" who="#FG">Proofread. Edited a few words and added persName/placeName tags.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="../images/26932_1.png"/>
+      <div type="letter">
+        <opener>
+          <dateline>
+            <placeName>Roxbury</placeName>, <date when="1875-03-05">March 5, 1875</date>. </dateline>
+          <salute>Dear Mr. <persName ref="psn:william_still">Still</persName>:</salute>
+        </opener>
+
+        <p rendition="#indent"> The postman has just brought<lb/> me your letter of the <date
+            when="1875-03-03">3d inst.</date>, so<lb/> that my reply can hardly reach you<lb/> in
+          season for your Committee meeting<lb/> to-morrow noon.<lb/>
+        </p>
+
+        <p rendition="#indent"> Please say to the Committee that<lb/> I am very much obliged to them
+          for<lb/> their courteous invitation to me to attend<lb/> the centennial anniversary of
+          the<lb/> Pennsylvania Society for promoting<lb/> the Abolition of Slavery, &amp;e.,
+          next<lb/> month; but there is no prospect that<lb/> I shall be able to be present, for
+          I<lb/> am still a good deal crippled and a<lb/> constant sufferer from a rheumatic<lb/>
+          ailment which has afflicted me for<lb/> the last two years, though I am at<lb/>
+          <pb n="2" facs="../images/26932_2.png"/> present somewhat better than formerly.<lb/> I
+          should almost be willing to undertake<lb/> a pedestrian tour to <placeName>Philadelphia</placeName>,<lb/> if I
+          could only be assured of<lb/> the free use of my limbs by the time<lb/> the celebration is
+          to come off.<lb/>
+        </p>
+
+        <p rendition="#indent"> If I can do no more, I will<lb/> at least try to send a letter,
+          expressive<lb/> of my feelings, to be read on<lb/> the occasion as a substitute for
+          my<lb/> presence, should the Committee think<lb/> proper.<lb/>
+        </p>
+
+        <p rendition="#indent"> How deeply it is to be regretted<lb/> that the common school
+          provision <add place="above">(as intended by Mr. <persName>Sumner</persName>)</add> was<lb/> eliminated from
+          the Civil Rights Bill!<lb/> Yet the passage of the Bill as it is, by<lb/> Congress, is
+          more than Southern Rebeldom<lb/> can bear, and will doubtless lead to<lb/> many scenes of
+          violence; but it indicates<lb/> progress in the right direction.<lb/> No doubt an attempt
+          will be made to<lb/>
+          <pb n="3" facs="../images/26932_3.png"/> repeal it at the next session of Congress,<lb/>
+          and perhaps successfully, by the<lb/> Rebel-Democracy, into whose hands<lb/> it now looks
+          as if the control of the<lb/> Government is to pass at the close<lb/> of
+            <persName>Grant</persName>'s administration. How he<lb/> is hated and maligned, and
+          also<lb/> feared, by all the enemies of equal<lb/> rights, North and South!<lb/>
+        </p>
+
+        <p rendition="#indent"> But, though the prospect is a<lb/> dark one, let us abate nothing of
+          heart<lb/> or hope as to the final result, which,<lb/> if the friends of impartial
+          freedom<lb/> remain true to the cause which they<lb/> long ago espoused under far
+          more<lb/> trying circumstances, cannot fail<lb/> to be still more in accordance with<lb/>
+          the claims of justice and humanity<lb/> than our present highest attainment.<lb/>
+        </p>
+
+        <closer>
+          <salute>Faithfully yours,</salute>
+          <signed><persName ref="psn:garrison">W<hi rend="superscript">m.</hi> Lloyd
+              Garrison</persName></signed>
+        </closer>
+
+      </div>
+    </body>
+  </text>
+</TEI>

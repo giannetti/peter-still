@@ -51,7 +51,8 @@
                     <bibl>
                         <title>William Still: His Life and Work to This Time.</title>
                         <author>James P. Boyd</author>
-                        <ptr target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=34"/>
+                        <ptr target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=34"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="levin_still_jr">
@@ -62,7 +63,9 @@
                     <birth when="1799-02-26"/>
                     <death when="1831-12-28"/>
                     <bibl>
-                        <ptr target="https://hdl.handle.net/2027/yale.39002006718895?urlappend=%3Bseq=146"/>
+                        <ptr
+                            target="https://hdl.handle.net/2027/yale.39002006718895?urlappend=%3Bseq=146"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="peter_still">
@@ -71,8 +74,8 @@
                         <forename>Peter</forename>
                     </persName>
                     <birth when="1801-02-22">
-                        <placeName>plantation of <persName>Saunders Griffin</persName>, Eastern Shore of
-                            Maryland</placeName>
+                        <placeName>plantation of <persName>Saunders Griffin</persName>, Eastern
+                            Shore of Maryland</placeName>
                     </birth>
                     <death when="1868"/>
                     <residence><placeName>Burlington, NJ</placeName></residence>
@@ -105,7 +108,9 @@
                             />
                         </bibl>
                         <bibl>
-                            <ptr target="https://msa.maryland.gov/megafile/msa/speccol/sc5400/sc5496/015200/015222/html/015222bio.html"/>
+                            <ptr
+                                target="https://msa.maryland.gov/megafile/msa/speccol/sc5400/sc5496/015200/015222/html/015222bio.html"
+                            />
                         </bibl>
                     </listBibl>
                 </person>
@@ -114,7 +119,7 @@
                         <surname>Still</surname>
                         <forename>Kitturah</forename>
                     </persName>
-                    <persName type="alternate">Kitty Still</persName>
+                    <persName type="alias">Kitty Still</persName>
                     <birth when="1805-01-20"/>
                 </person>
                 <person xml:id="mahala_still">
@@ -126,26 +131,55 @@
                     <birth when="1803-12-30"/>
                 </person>
                 <person xml:id="ann_still">
-                    <!-- rutgers-lib_26930 -->
-                    <persName>Still, Ann</persName>
-                    <birth when="1798-01"/>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Ann</forename>
+                    </persName>
+                    <birth when="1798-01-08"/>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                    </bibl>
                 </person>
                 <person xml:id="samuel_still">
-                    <persName>Still, Samuel</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Samuel</forename>
+                    </persName>
                     <birth when="1807-02-26"/>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                    </bibl>
                 </person>
                 <person xml:id="mary_still">
-                    <persName>Still, Mary</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Mary</forename>
+                    </persName>
                     <birth when="1808-08-31"/>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                    </bibl>
                 </person>
                 <person xml:id="hannah_still">
-                    <persName>Still, Hannah</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Hannah</forename>
+                    </persName>
                     <birth when="1810-07-31"/>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                    </bibl>
                 </person>
                 <person xml:id="john_still">
-                    <persName>Still, John N.</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>John N.</forename>
+                    </persName>
                     <!-- this is an N, rutgers-lib_26930 compare with NJ at bottom -->
                     <birth when="1815-01-08"/>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                    </bibl>
                 </person>
                 <person xml:id="james_still">
                     <persName>
@@ -163,16 +197,45 @@
                         <ptr target="http://www.medfordhistory.org/drstillcenter/index.php"/>
                     </bibl>
                 </person>
+                <person xml:id="isaac_still">
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Isaac</forename>
+                    </persName>
+                    <birth when="1814-01-08"/>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                    </bibl>
+                </person>
                 <person xml:id="charles_still">
-                    <persName>Still, Charles</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Charles</forename>
+                    </persName>
                     <birth when="1817-03-01"/>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                    </bibl>
                 </person>
                 <person xml:id="joseph_still">
-                    <persName>Still, Joseph</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Joseph</forename>
+                    </persName>
                     <birth when="1819-11-24"/>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                    </bibl>
                 </person>
                 <person xml:id="nancy_still">
-                    <persName>Still, Nancy</persName>
+                    <persName>
+                        <surname>Still</surname>
+                        <forename>Nancy</forename>
+                    </persName>
+                    <note resp="#FG">Cannot find reference to a Nancy who was a sister of Mahala (and Peter and the rest) in any other document other than this letter by <persName ref="#pickard_kate"/>.</note>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051665"/>
+                    </bibl>
                 </person>
                 <person xml:id="william_still">
                     <persName>
@@ -206,7 +269,9 @@
                         <bibl>
                             <title>William Still: His Life and Work to This Time.</title>
                             <author>James P. Boyd</author>
-                            <ptr target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=31"/>
+                            <ptr
+                                target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=31"
+                            />
                         </bibl>
                     </listBibl>
                 </person>
@@ -240,7 +305,9 @@
                         <bibl>
                             <title>William Still: His Life and Work to This Time.</title>
                             <author>James P. Boyd</author>
-                            <ptr target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=94"/>
+                            <ptr
+                                target="https://hdl.handle.net/2027/uva.x000241679?urlappend=%3Bseq=94"
+                            />
                         </bibl>
                         <bibl>
                             <ptr
@@ -255,7 +322,7 @@
                         <surname type="given">Sisson</surname>
                         <forename>Lavinia</forename>
                     </persName>
-                    <persName type="alternate">Vina Still</persName>
+                    <persName type="alias">Vina Still</persName>
                     <birth when="1810" cert="medium">
                         <placeName>North Carolina</placeName>
                     </birth>
@@ -315,7 +382,10 @@
                     </persName>
                 </person>
                 <person xml:id="mckiernan_bernard">
-                    <persName>McKiernan, Bernard</persName>
+                    <persName>
+                        <surname>McKiernan</surname>
+                        <forename>Bernard</forename>
+                    </persName>
                     <residence>
                         <placeName>South Florence, AL</placeName>
                     </residence>
@@ -327,12 +397,15 @@
                     <persName>Weakley, Judge</persName>
                 </person>
                 <person xml:id="pickard_d_l">
-                    <persName>Pickard, Darwin L.</persName>
+                    <persName>
+                        <surname>Pickard</surname>
+                        <forename>Darwin L.</forename>
+                    </persName>
                     <birth when="1820-05-20">
-                        <placeName>Camillus, NY</placeName>
+                        <placeName>Camillus, New York</placeName>
                     </birth>
                     <death when="1897-01-09">
-                        <placeName>Syracuse, NY</placeName>
+                        <placeName>Syracuse, New York</placeName>
                     </death>
                     <event when="1846">
                         <label>marital status</label>
@@ -346,7 +419,7 @@
                         <forename>Katherine</forename>
                         <forename>Emily</forename>
                     </persName>
-                    <persName type="alternate">Kate E. R. Pickard</persName>
+                    <persName type="alias">Kate E. R. Pickard</persName>
                     <birth when="1824-08-13">
                         <placeName>Saratoga, New York</placeName>
                     </birth>
@@ -371,9 +444,9 @@
                 <person xml:id="marvin_julia">
                     <persName>
                         <surname type="married">Marvin</surname>
+                        <surname type="given">Reynolds</surname>
                         <forename>Julia</forename>
                     </persName>
-                    <persName>Julia Reynolds</persName>
                     <birth when="1827-08-23">
                         <placeName>Saratoga, New York</placeName>
                     </birth>
@@ -396,19 +469,27 @@
                     </listBibl>
                 </person>
                 <person xml:id="willie">
-                    <persName>Pickard, Darwin Willie </persName>
+                    <persName>
+                        <surname>Pickard</surname>
+                        <forename>Darwin Willie</forename>
+                    </persName>
                     <birth when="1851-08-21">
-                        <placeName>Camillus, NY</placeName>
-                        <!-- Family Search, Find A Grave -->
+                        <placeName>Camillus, New York</placeName>
                     </birth>
                     <death when="1873-08-04">
-                        <placeName>Syracuse, NY</placeName>
+                        <placeName>Syracuse, New York</placeName>
                     </death>
+                    <bibl>
+                        <ptr target="https://www.findagrave.com/memorial/75875450/darwin-willie-pickard"/>
+                    </bibl>
                 </person>
                 <person xml:id="thornton_lewis">
-                    <persName>Thornton, Lewis B.</persName>
+                    <persName>
+                        <surname>Thornton</surname>
+                        <forename>Lewis B.</forename>
+                    </persName>
                     <residence>
-                        <placeName>Tuscumbia, AL</placeName>
+                        <placeName>Tuscumbia, Alabama</placeName>
                     </residence>
                 </person>
                 <person xml:id="ely_h">
@@ -421,10 +502,11 @@
                     <death when="1873-01-09"/>
                     <event>
                         <label>Move</label>
-                        <desc>[S]ettled at Medford, Burlington County, N. J., in 1833, and built up an exten- 
-                            sive practice there</desc>
+                        <desc>[S]ettled at Medford, Burlington County, N. J., in 1833, and built up
+                            an extensive practice there</desc>
                     </event>
-                    <note resp="#FG">Assuming that the Ely who is the addressee of rutgers-lib:25776 and the sender of rutgers-lib:26922 are the same man.</note>
+                    <note resp="#FG">Assuming that the Ely who is the addressee of rutgers-lib:25776
+                        and the sender of rutgers-lib:26922 are the same man.</note>
                     <listBibl>
                         <bibl>
                             <ptr target="https://archive.org/details/historicalnarrat00elyr"/>
@@ -435,12 +517,15 @@
                     </listBibl>
                 </person>
                 <person xml:id="samuel_may">
-                    <persName>May, Rev. Samuel Joseph</persName>
+                    <persName>
+                        <surname>May</surname>
+                        <forename>Samuel Joseph</forename>
+                    </persName>
                     <birth when="1797-09-12">
-                        <placeName>Boston, MA</placeName>
+                        <placeName>Boston, Massachusetts</placeName>
                     </birth>
                     <death when="1871-07-01">
-                        <placeName>Syracuse, NY</placeName>
+                        <placeName>Syracuse, New York</placeName>
                     </death>
                     <occupation>Minister and abolitionist</occupation>
                 </person>
@@ -572,38 +657,97 @@
                 </person>
                 <person xml:id="harriet_stowe">
                     <!-- rutgers-lib_26731 -->
-                    <persName>Stowe, Harriet Beecher</persName>
+                    <persName>
+                        <surname>Stowe</surname>
+                        <forename>Harriet Beecher</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051489"/>
+                    </bibl>
                 </person>
                 <person xml:id="elias_boudinot">
                     <!-- rutgers-lib_26728 -->
-                    <persName>Boudinot, Elias E.</persName>
+                    <persName>
+                        <surname>Boudinot</surname>
+                        <forename>Elias E.</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051486"/>
+                    </bibl>
                 </person>
                 <person xml:id="thomas_king">
                     <!-- rutgers-lib_26733 -->
-                    <persName>King, Thomas Starr</persName>
+                    <persName>
+                        <surname>King</surname>
+                        <forename>Thomas Starr</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051494"/>
+                    </bibl>
                 </person>
                 <person xml:id="dillwyn_smith">
                     <!-- rutgers-lib_26837 -->
-                    <persName>Smith, Dillwyn</persName>
+                    <persName>
+                        <surname>Smith</surname>
+                        <forename>Dillwin</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051500"/>
+                    </bibl>
                 </person>
                 <person xml:id="rollin_neale">
                     <!-- rutgers-lib_26840 -->
-                    <persName>Neale, Rollin Heber</persName>
+                    <persName>
+                        <surname>Neale</surname>
+                        <forename>Rollin Heber</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051504"/>
+                    </bibl>
                 </person>
                 <person xml:id="nathan_durfee">
                     <!-- rutgers-lib_26845 -->
-                    <persName>Durfee, Nathan</persName>
+                    <persName>
+                        <surname>Durfee</surname>
+                        <forename>Nathan</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051513"/>
+                    </bibl>
                 </person>
                 <person xml:id="john_simpson">
                     <!-- rutgers-lib_26846 -->
-                    <persName>Simpson, John</persName>
+                    <persName>
+                        <surname>Simpson</surname>
+                        <forename>John</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051516"/>
+                    </bibl>
                 </person>
                 <person xml:id="horace_greeley">
                     <!-- rutgers-lib_26848 -->
-                    <persName>Greeley, Horace</persName>
+                    <persName>
+                        <surname>Greeley</surname>
+                        <forename>Horace</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051518"/>
+                    </bibl>
                 </person>
                 <person xml:id="joseph_friedman">
-                    <persName>Friedman, Joseph</persName>
+                    <persName>
+                        <surname>Friedman</surname>
+                        <forename>Joseph</forename>
+                    </persName>
+                    <listBibl>
+                        <bibl>
+                            <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051578"/>
+                        </bibl>
+                        <bibl>
+                            <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051487"/>
+                        </bibl> 
+                    </listBibl>
                 </person>
                 <person xml:id="isaac_friedman">
                     <persName>
@@ -612,16 +756,31 @@
                     </persName>
                 </person>
                 <person xml:id="john_hogun">
-                    <persName>Hogun, John Henry</persName>
+                    <persName>
+                        <surname>Hogun</surname>
+                        <forename>John Henry</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051490"/>
+                    </bibl>
                 </person>
                 <person xml:id="levi_gist">
-                    <persName>Gist, Levi</persName>
+                    <persName>
+                        <surname>Gist</surname>
+                        <forename>Levi</forename>
+                    </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051487"/>
+                    </bibl>
                 </person>
                 <person xml:id="stephen_chase">
                     <persName>
                         <surname>Chase</surname>
                         <forename>Stephen</forename>
                     </persName>
+                    <bibl>
+                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051514"/>
+                    </bibl>
                 </person>
                 <person xml:id="henry_hoyt">
                     <persName>
@@ -664,21 +823,27 @@
                     <birth when="1809-08-14"/>
                     <death when="1880-09-16"/>
                     <bibl>
-                        <ptr target="https://www.findagrave.com/memorial/73121462/morris-longstreth-hallowell"/>
+                        <ptr
+                            target="https://www.findagrave.com/memorial/73121462/morris-longstreth-hallowell"
+                        />
                     </bibl>
                 </person>
 
                 <relation mutual="#pickard_kate #marvin_julia" name="sibling"/>
                 <relation mutual="#pickard_kate #pickard_d_l" name="spouse"/>
+                <relation mutual="#william_still #letitia_george" name="spouse"/>
+                <relation mutual="#peter_still #vina_still" name="spouse"/>
+                <relation mutual="#peter_still #nancy_still #levin_still_jr #ann_still #mahala_still #kitty_still #samuel_still #mary_still #hannah_still #james_still #isaac_still #john_still #charles_still #joseph_still #william_still" name="sibling"/>
+                
                 <relation name="parent" active="#pickard_kate #pickard_d_l" passive="#willie"/>
                 <relation name="parent" active="#charity_still #levin_still_sr"
                     passive="#peter_still #william_still #levin_still_jr #sophia"/>
-                <relation mutual="#william_still #letitia_george" name="spouse"/>
                 <relation name="parent" active="#letitia_george #william_still"
                     passive="#caroline_still"/>
-                <relation mutual="#peter_still #vina_still" name="spouse"/>
-                <relation name="parent" active="#vina_still #peter_still" passive="#catharine_still"/>
-                <relation name="slave-owner" active="#john_hogun #joseph_friedman #isaac_friedman #levi_gist"
+                <relation name="parent" active="#vina_still #peter_still" passive="#catharine_still #peter_still_ii"/>
+                
+                <relation name="slave-owner"
+                    active="#john_hogun #joseph_friedman #isaac_friedman #levi_gist"
                     passive="#peter_still"/>
             </listPerson>
         </body>
