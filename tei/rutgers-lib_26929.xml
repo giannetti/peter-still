@@ -180,7 +180,33 @@
                <persName ref="psn:samuel_may">Samuel J. May</persName>.
             </p>
             <pb n="5"/>
-            <!-- pick up here -->
+            <p>Reuben H. Ober <lb/> <placeName>No 1 <unclear>Mc</unclear> Lean Court <lb/> Boston</placeName></p>
+            <p>Mr <persName>Ralph Mitchell</persName> <lb/> Mrs. <persName>Clara Mitchell</persName> <lb/>
+            <placeName>37 Village St <lb/> Hartford Conn</placeName></p>
+            <p><persName>A. Nauton</persName> <lb/>
+            <placeName>Middletown, Ct. <lb/> Office of the Constitution</placeName></p>
+            
+            <pb n="6"/>
+            <p>Received from Peter <lb/> Still <measure type="currency">$30</measure> for safe-keeping <lb/>
+               <persName ref="psn:john_still">John N. Still</persName> <lb/>
+               <date when="1854-05-21">May 21<hi rend="superscript">st</hi> 1854</date>
+            </p>
+            
+            <pb n="7"/>
+            <!-- page seven is blank -->
+            
+            <pb n="8"/>
+            <!-- page eight is blank -->
+            
+            <pb n="9"/>
+            <p><persName>Richard E Ely</persName><lb/>
+            <placeName>New Hope <lb/> Bucks Co <lb/> Penn<hi rend="superscript">a</hi></placeName> <lb/>
+            on the railroad take <lb/> ticket to <placeName>Lambertville</placeName></p>
+            
+            <pb n="10"/>
+            <p><persName><unclear>H. H. Ryder</unclear></persName><lb/> <placeName>Roxbury <lb/> 6 Kenylworth St.</placeName></p>
+            <p><persName ref="psn:thomas_king">T. S. King</persName> <lb/> <placeName>Boston <lb/> 12 Burroughs Place</placeName></p>
+            <!-- pick up on p 10 -->
          </div>
       </body>
    </text>
