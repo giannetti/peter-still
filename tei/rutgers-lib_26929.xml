@@ -120,16 +120,16 @@
             <pb n="1"/>
             <list>
                <item><unclear>Express <del rend="strikethrough">to Boston</del></unclear></item>
-               <item>To <gap reason="illegible" unit="word" quantity="2"/> 60</item>
-               <item>To <gap reason="illegible" unit="word" quantity="1"/> 50</item>
-               <item>To <gap reason="illegible" unit="word" quantity="1"/> 42</item>
-               <item><gap reason="illegible" unit="word" quantity="1"/> <unclear>12</unclear></item>
-               <item><gap reason="illegible" unit="word" quantity="1"/> 125</item>
+               <item>To <unclear><gap reason="illegible" unit="word" quantity="2"/></unclear> 60</item>
+               <item>To <unclear><gap reason="illegible" unit="word" quantity="1"/></unclear> 50</item>
+               <item>To <unclear><gap reason="illegible" unit="word" quantity="1"/></unclear> 42</item>
+               <item><unclear><gap reason="illegible" unit="word" quantity="1"/></unclear> <unclear>12</unclear></item>
+               <item><unclear><gap reason="illegible" unit="word" quantity="1"/></unclear> 125</item>
                <item>days <hi rendition="#u">450</hi></item>
                <item><del rend="strikethrough">9</del></item>
-               <item><unclear>Lodging</unclear> <gap reason="illegible" unit="word" quantity="2"/> <unclear>20</unclear></item>
+               <item><unclear>Lodging <gap reason="illegible" unit="word" quantity="2"/></unclear> <unclear>20</unclear></item>
                <item><unclear>8.89</unclear></item>
-               <item><gap reason="illegible" unit="word" quantity="2"/> <unclear>204</unclear></item>
+               <item><unclear><gap reason="illegible" unit="word" quantity="2"/> 204</unclear></item>
                <item><unclear>10.89</unclear></item>
             </list>
             <p>
@@ -204,9 +204,145 @@
             on the railroad take <lb/> ticket to <placeName>Lambertville</placeName></p>
             
             <pb n="10"/>
-            <p><persName><unclear>H. H. Ryder</unclear></persName><lb/> <placeName>Roxbury <lb/> 6 Kenylworth St.</placeName></p>
+            <p><unclear><persName>N. H. Ryder</persName></unclear><lb/> <placeName>Roxbury <lb/> 6 Kenilworth St.</placeName></p>
             <p><persName ref="psn:thomas_king">T. S. King</persName> <lb/> <placeName>Boston <lb/> 12 Burroughs Place</placeName></p>
-            <!-- pick up on p 10 -->
+            <p><persName>H Ballon 2<hi rend="superscript">d</hi></persName><lb/> <placeName>Medford</placeName></p>
+            <p><unclear><persName>O. H. Leonard</persName></unclear>, Chelsea. <lb/><placeName>Essex st. near Shurtleff</placeName>.</p>
+            <p><unclear><persName>AP Cleverly</persName></unclear><lb/> <placeName>Boston <lb/> Mt Vernon <unclear><gap unit="word" quantity="1"/></unclear> Beacon</placeName></p>
+            
+            <pb n="11"/>
+            
+            <p><placeName>Newburyport</placeName></p>
+            <p><unclear><persName>Rev Mr Bowen</persName></unclear></p>
+            <p><unclear><persName>Elden Pike</persName></unclear></p>
+            <p><unclear><persName>Mr Whiley</persName></unclear></p>
+            <p><placeName>Portsmouth NH</placeName></p>
+            <p><persName>Rev Mr Peabody</persName></p>
+            <p><persName>Wm B. Loud</persName></p>
+            <p><persName>Mr Cheaven</persName></p>
+            <p><persName>Rev Lemuel Willis</persName></p>
+            <p><placeName>Sac<del rend="strikethrough">c</del>o</placeName></p>
+            <p><unclear><persName>Rev G. G. Strickland</persName></unclear></p>
+            
+            <pb n="12"/>
+            
+            <p><persName>Rev E. Peabody</persName></p>
+            <p><placeName>29 Somerset Street</placeName></p>
+            <p><persName>Rev S. K <unclear>Lorthrop</unclear></persName></p>
+            <p><placeName>49 Court Street</placeName>.</p>
+            <p><placeName>Saco</placeName></p>
+            <p><persName>J. S. Stevens</persName></p>
+            <p><persName>Ms A M Remond</persName></p>
+            <p><placeName>No 9 Dean Street <lb/>Salem Mass</placeName></p>
+            
+            <pb n="13"/>
+            
+            <p><persName>C. H. Webster</persName></p>
+            <p><placeName>No 43. East Sumner St. East Boston</placeName></p>
+            <p><persName>J. G. Adams</persName> <placeName>Malden Ms</placeName></p>
+            <p><persName>Henry A. Eaton</persName> <placeName>Medford Ms</placeName></p>
+            <p><persName>S. Ellis</persName>, <placeName>No 2, N. Bennett <lb/>Boston</placeName></p>
+            <p><persName>C. R. Moose</persName></p>
+            <p><placeName>Newton <unclear><choice><orig>Comen</orig><reg>Common</reg></choice></unclear></placeName></p>
+            <p><unclear><persName>A Tomphus</persName></unclear></p>
+            <p><placeName>38 <unclear>Cornhill</unclear></placeName></p>
+            <p><persName>D. G. Tomlinson</persName></p>
+            <p><placeName>8 Briggs Place <lb/>Boston Mass.</placeName></p>
+            
+            <pb n="14"/>
+            
+            <p><persName>B. V. Stevenson</persName></p>
+            <p><placeName>South Hingham</placeName></p>
+            <p><persName>John M Sheer</persName></p>
+            <p><placeName>2/2 Central Court</placeName></p>
+            <p><unclear><persName>Bertrand Engram</persName></unclear></p>
+            <p><unclear><persName>Austin Willey</persName></unclear></p>
+            <p>Rev<hi rend="superscript">d</hi> <persName>Josiah Keely</persName></p>
+            <p>pastor of Bapt Chr</p>
+            <p><placeName>Saco - <lb/> Me</placeName></p>
+            
+            <pb n="15"/>
+            
+            <p><persName>Rev. D. P. <unclear>Siverman</unclear></persName></p>
+            <p><placeName>Weymouth Mass <lb/> Old Colony Depot</placeName>.</p>
+            
+            <p>Collected and paid to Peter <lb/>Still in the City of <placeName>Lorrell</placeName></p>
+            <p><measure type="currency">$175.00</measure></p>
+            <p>Attest, <persName>Chauncey L. Knapp</persName></p>
+            
+            <p>Collected and paid to Peter <lb/>Still in the city of <placeName>Worcester</placeName>,</p>
+            <p><measure type="currency">$175.00</measure></p>
+            <p>attest, <persName>John G. Adams</persName></p>
+            
+            <pb n="16"/>
+            
+            <p>In <placeName>Bath. Maine</placeName></p>
+            <p>Peter Still received from the <lb/>friends of freedom <measure type="currency" quantity="65">sixty five Dollars</measure></p>
+            <p>In <placeName>Brunswick Maine</placeName> - </p>
+            <p><measure type="currency" quantity="45">forty five Dollars</measure>.-</p>
+            <p>In <placeName>Portland Maine</placeName> <measure type="currency" quantity="100">One hundred Dollars</measure></p>
+            <p>In <placeName>Saco</placeName> &amp; <placeName>Biddeford Maine</placeName> <measure type="currency" quantity="100">One <lb/> hundred Dollars</measure>.-</p>
+            <p>In <placeName>Portsmouth N.H.</placeName> <measure type="currency" quantity="100">One hundred <lb/> Dollars</measure>.</p>
+            <p>In <placeName>Newburyport Mass.</placeName> <measure type="currency" quantity="65">sixty five <lb/> Dollars</measure>.-</p>
+            <p>In <placeName>Salem, Mass</placeName> <measure type="currency" quantity="155">One hundred <lb/> and fifty five Dollars</measure>.-</p>
+            <p>In <placeName>Lynn, Mass.</placeName> <measure type="currency" quantity="50">fifty Dollars</measure></p>
+            <p>In <placeName>New Bedford</placeName> <measure type="currency" quantity="120">one <lb/> hundred <del>Dollars</del> and twenty dollars</measure></p>
+            
+            <pb n="17"/>
+            
+            <p>Distance travelled by Peter Still</p>
+            <p>North East of Boston fare free <add place="below">except from Portland to Bath <measure type="currency">$1</measure>.-</add></p>
+            <list>
+               <item><placeName>Boston</placeName> to <placeName>Lynn</placeName> - 9 miles</item>
+               <item>to <placeName>Salem</placeName> 5 -"-</item>
+               <item> to <placeName>Beverly</placeName> 2 -"-</item>
+               <item>to <placeName>Newburyport</placeName> 18 -"-</item>
+               <item>to <placeName>Portsmouth</placeName> 20 -"-</item>
+               <item>to <placeName>Biddeford</placeName> - 35 -"-</item>
+               <item>to <placeName>Saco</placeName> - 2 -"-</item>
+               <item>to <placeName>Portland</placeName> 13 -"-</item>
+               <item>to <placeName>Brunswick</placeName> 27 -"-</item>
+               <item>to <placeName>Bath</placeName> - 9 -"-</item>
+               <item>140 - miles</item>
+            </list>
+            
+            <p>The fares when charged are</p>
+            <list>
+               <item>Boston to Portland - - $3.00</item>
+               <item>Portland to Bath --- 1.00</item>
+               <item>4.00</item>
+            </list>
+            <p>which would <measure type="currency">$8</measure>. going &amp; returning -but <lb/> he paid but <measure type="currency">$1.00</measure>.-</p>
+            <p>his whole <choice><orig>expences</orig><reg>expenses</reg></choice> east of Boston was <measure type="currency">$6.75</measure></p>
+            <p>the above memo made by</p>
+            <p><persName>Stephen Abbot Chase</persName>, <placeName>Salem, Mass.</placeName></p>
+            <p>at the request of Peter Still</p>
+            
+            <pb n="18"/>
+            
+            <p><persName>Nancy Thayer</persName></p>
+            <p><placeName>Salem Mass <lb/> 33 Fedral Street</placeName></p>
+            <p>collected in <placeName>Plymouth</placeName> <measure type="currency" quantity="100">one <lb/>hundred dollars</measure> and in <placeName>Kingston</placeName> <measure type="currency">40 Dollars</measure></p>
+            <p><persName>Justus Harlow</persName></p>
+            <p>Collected in <placeName>Fall River</placeName> <lb/><measure type="currency" quantity="180">One hundred and eighty Dollars</measure></p>
+            <p><persName>James M. Aldrich</persName></p>
+            <p>Collected in <placeName>Somerset</placeName> <lb/> <measure type="currency" quantity="20">Twenty Dollars</measure></p>
+            <p><persName>J M Aldrich</persName></p>
+            
+            <pb n="19"/>
+            
+            <p>Collected and paid Peter Still <lb/> in the city of <placeName>Providence RI</placeName> <measure type="currency">$250.00</measure></p>
+            <p><persName>R H Conklin</persName></p>
+            <p><placeName>Providence</placeName> <date when="1853-11-16">Nov. 16<hi rend="superscript">th</hi> 1853</date></p>
+            <p><persName>D. B. Harris</persName></p>
+            <p>Collected and paid to Peter <lb/>Still in the city of <placeName>New <lb/>York</placeName>, from the friends <lb/> of Freedom, <measure type="currency" quantity="1055">Ten Hundred <lb/> &amp; Fifty Five Dollars</measure></p>
+            <p>$1055 00/100 <persName>Thomas Faulk</persName></p>
+            <p>Collected in <placeName>Pittsfield, <lb/> Mass.</placeName> &amp; paid to Peter Still <lb/> <measure type="currency" quantity="105.92">one hundred &amp; five <lb/>dollars &amp; 92 cents</measure>.</p>
+            <p><persName>Samuel Ham's</persName></p>
+            <p><placeName>Pittsfield</placeName> <date when="1854-06-14">June 14, 1854</date></p>
+            
+            <pb n="20"/>
+            <!-- pick up on p 20 -->
          </div>
       </body>
    </text>
