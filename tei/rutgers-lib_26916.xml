@@ -137,6 +137,7 @@
       <revisionDesc>
          <change when="2018-08-12" who="#FG">Edited transcription and encoded for first
             time.</change>
+         <change when="2018-10-28" who="#FG">Added @ref value for Peter's grandson.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -187,13 +188,11 @@
                </choice> have mine &amp; <choice>
                   <orig>famiels</orig>
                   <reg>family's</reg>
-               </choice> love &amp; respects to you &amp; sister <persName ref="psn:vina_still"
-                  >Levina</persName> 
-               <persName>Peter</persName> 
-               <persName>Levin</persName> &amp; <persName ref="psn:catharine_still"
+               </choice> love &amp; respects to you &amp; sister <persName ref="psn:vina_still">Levina </persName> 
+               <persName>Peter</persName> <persName>Levin</persName> &amp; <persName ref="psn:catharine_still"
                   >Catherine</persName> you mentioned in your letter that your motive for writing
                was to get some information respecting your little grandson
-                  <persName>Peter</persName> he was born <date when="1854-03-11">March 11<hi
+               <persName ref="psn:peter_still_iii">Peter</persName> he was born <date when="1854-03-11">March 11<hi
                      rend="superscript">th</hi> 1854</date> when your family left he was sick &amp;
                hardly expected to live but he is well now and a very fine child and <choice>
                   <orig>figeratively</orig>

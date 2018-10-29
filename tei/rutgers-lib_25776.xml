@@ -139,6 +139,7 @@
         <revisionDesc>
             <change when="2018-07-02" who="#FG">Cleaned up divs. Removed TEIBP stylesheets. Fixed closer.</change>
             <change when="2018-09-07" who="#FG">Fixed Mr. Ely's identifier.</change>
+            <change when="2018-10-28" who="#FG">Fixed a mispelled Tuscumbia.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -155,7 +156,7 @@
                 <opener>
                     <dateline rendition="#indent3">
                         <placeName>
-                            <settlement>Tuscumbria</settlement>, 
+                            <settlement>Tuscumbia</settlement>, 
                             <region>Ala.</region>
                         </placeName>, <date when="1852-08-19">August 19th 1852</date>
                     </dateline><lb/>

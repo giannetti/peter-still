@@ -2,40 +2,23 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
     version="2.0">
-
-    <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
-        <xd:desc>
-            <xd:p><xd:b>Created on:</xd:b> Aug 13, 2017</xd:p>
-            <xd:p><xd:b>Author:</xd:b> Francesca</xd:p>
-            <xd:p>This stylesheet generates a lightly edited XHTML version of TEI encoded
-                correspondence belonging to the Peter Still Papers, held in Rutgers University
-                Libraries Special Collections and University Archives. The output is specifically tailored for display in the item records of an Omeka installation.</xd:p>
-        </xd:desc>
-    </xd:doc>
-
+    
     <xsl:output method="xhtml" encoding="UTF-8"/>
-    <xsl:strip-space elements="*"/>
-
-    <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
-        <xd:desc>
-            <xd:p>Create the body of the HTML doc with the WMA identifier as the title. </xd:p>
-        </xd:desc>
-    </xd:doc>
+    
     <xsl:template match="/">
-        <html>
-            <head>
-                <title>
-                    <xsl:value-of select="//idno[@xml:id='WMA']"/>
-                </title>
-            </head>
-            <body>
-                <div id="transcription">
-                    <xsl:apply-templates select="TEI/text/body"/>
-                </div>
-            </body>
-        </html>
+        <xsl:variable name="first-part" select="substring-before(//idno[@xml:id='WMA'], ':')"/>
+        <xsl:variable name="second-part" select="substring-after(//idno[@xml:id='WMA'], ':')"/>
+        <xsl:variable name="doc_id" select="string-join(($first-part, $second-part), '_')"/>
+        <xsl:result-document method="xhtml" encoding="utf-8"
+            href="html/{$doc_id}.html" omit-xml-declaration="yes">
+            
+            <div id="transcription">
+                <xsl:apply-templates select="TEI/text/body"/>
+            </div>
+            
+        </xsl:result-document>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Create HTML divs for the TEI div elements.</xd:p>
@@ -54,7 +37,7 @@
             </p>
         </xsl:for-each>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Process the opener element.</xd:p>
@@ -71,7 +54,7 @@
             <xsl:apply-templates select="salute"/>
         </p>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>When there's a choice element, take the value of the child corr element and put it
@@ -83,7 +66,7 @@
         <xsl:value-of select="corr | expan | reg"/>
         <xsl:text>]</xsl:text>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Convert the emph element to the em element.</xd:p>
@@ -94,7 +77,7 @@
             <xsl:apply-templates/>
         </em>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Apply superscript to any add elements where the place is denoted as
@@ -109,7 +92,7 @@
     <xsl:template match="add[@place='over']">
         <xsl:apply-templates/>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Indent anything with a rendition value of #indent.</xd:p>
@@ -120,7 +103,7 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Indent further for rendition value of #indent3.</xd:p>
@@ -131,7 +114,7 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Convert rend value of 'strikethrough' to CSS line-through.</xd:p>
@@ -142,7 +125,7 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Convert rendition value of #u to CSS underline.</xd:p>
@@ -153,18 +136,18 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+    
     <xsl:template match="ab[@rendition='#indent3']/add">
         <br>
             <span style="display:block; padding-left:10em; text-indent:-2em;" class="add"
                 >⟨<xsl:apply-templates/>⟩</span>
         </br>
     </xsl:template>
-
+    
     <xsl:template match="postscript">
         <xsl:text>⟨</xsl:text><xsl:apply-templates/><xsl:text>⟩</xsl:text>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Render verticle left-to-right text with CSS writing-mode.</xd:p>
@@ -180,7 +163,7 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Convert lb element to br element, but only for children of the ab, opener, and closer elements (ignore
@@ -192,7 +175,7 @@
             <xsl:apply-templates/>
         </br>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Render any unclear elements as italics followed by a question mark in
@@ -209,14 +192,14 @@
     <xsl:template match="supplied">
         <xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text>
     </xsl:template>
-
+    
     <xsl:template match="pb">
         <!-- include the page number -->
         <br/>
         <p style="text-align: center;"><small>[Page: <xsl:value-of select="@n"/>]</small></p>
         <br/>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Convert table to HTML table.</xd:p>
@@ -227,7 +210,7 @@
             <xsl:apply-templates select="row"/>
         </table>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Convert table rows to tr element.</xd:p>
@@ -238,7 +221,7 @@
             <xsl:apply-templates select="*"/>
         </tr>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Convert table cells to td element.</xd:p>
@@ -261,7 +244,7 @@
     <xsl:template match="list/*">
         <li><xsl:apply-templates select="node()"/></li>
     </xsl:template>
-
+    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Indent the closer text.</xd:p>
@@ -288,4 +271,5 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="certainty"/> <!-- ignore notes about certainty -->
+    
 </xsl:stylesheet>

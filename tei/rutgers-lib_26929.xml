@@ -266,7 +266,7 @@
             <p><persName>Rev. D. P. <unclear>Siverman</unclear></persName></p>
             <p><placeName>Weymouth Mass <lb/> Old Colony Depot</placeName>.</p>
             
-            <p>Collected and paid to Peter <lb/>Still in the City of <placeName>Lorrell</placeName></p>
+            <p>Collected and paid to Peter <lb/>Still in the City of <placeName>Lowell</placeName></p>
             <p><measure type="currency">$175.00</measure></p>
             <p>Attest, <persName>Chauncey L. Knapp</persName></p>
             
@@ -286,7 +286,7 @@
             <p>In <placeName>Newburyport Mass.</placeName> <measure type="currency" quantity="65">sixty five <lb/> Dollars</measure>.-</p>
             <p>In <placeName>Salem, Mass</placeName> <measure type="currency" quantity="155">One hundred <lb/> and fifty five Dollars</measure>.-</p>
             <p>In <placeName>Lynn, Mass.</placeName> <measure type="currency" quantity="50">fifty Dollars</measure></p>
-            <p>In <placeName>New Bedford</placeName> <measure type="currency" quantity="120">one <lb/> hundred <del>Dollars</del> and twenty dollars</measure></p>
+            <p>In <placeName>New Bedford</placeName> <measure type="currency" quantity="120">one <lb/> hundred <del rend="strikethrough">Dollars</del> and twenty dollars</measure></p>
             
             <pb n="17"/>
             
@@ -315,7 +315,7 @@
             <p>which would <measure type="currency">$8</measure>. going &amp; returning -but <lb/> he paid but <measure type="currency">$1.00</measure>.-</p>
             <p>his whole <choice><orig>expences</orig><reg>expenses</reg></choice> east of Boston was <measure type="currency">$6.75</measure></p>
             <p>the above memo made by</p>
-            <p><persName>Stephen Abbot Chase</persName>, <placeName>Salem, Mass.</placeName></p>
+            <p><persName ref="psn:stephen_chase">Stephen Abbot Chase</persName>, <placeName>Salem, Mass.</placeName></p>
             <p>at the request of Peter Still</p>
             
             <pb n="18"/>
@@ -342,7 +342,70 @@
             <p><placeName>Pittsfield</placeName> <date when="1854-06-14">June 14, 1854</date></p>
             
             <pb n="20"/>
-            <!-- pick up on p 20 -->
+            
+            <p>Collected and paid to <lb/> Peter Still in the City of <placeName>New Haven, Conn.</placeName><lb/>
+               <measure type="currency" quantity="300">Three Hundred Dollars</measure>.<lb/>
+               <date when="1854-07-07">July 7. 1854</date>. <persName><unclear>Chas. H.</unclear> Babcock</persName>
+            </p>
+            <p><placeName>Hartford Ct.</placeName> <date when="1854-07-31">July 31st 1854</date>. <lb/>
+               Collected by Peter Still in the city of <placeName>Hartford</placeName> <measure type="currency" quantity="300">Three Hundred Dollars</measure><lb/>
+               <persName>Jos. R. Hawley</persName>.
+            </p>
+            <p>In the <unclear>Cars</unclear> .50</p>
+            <p><placeName>Middletown</placeName> <date when="1854-08-14">Aug 14. 1854</date> <lb/>
+            Collected in the city of <placeName>Middletown</placeName> by Peter Still<lb/> <measure type="currency" quantity="126.89">One Hundred and Twenty six <lb/>dollars. 89/100</measure> - <persName>Lester Lewis</persName></p>
+            
+            <pb n="21"/>
+            
+            <p><date when="1854-08-21">Aug. 21<hi rend="superscript">st</hi></date> Collected by <lb/>
+            Peter Still in <placeName>Meriden</placeName><lb/> for the redemption of his family <lb/>
+               from <hi rendition="#u">American Slavery</hi><lb/> <measure type="currency" quantity="80">eighty dollars</measure>.<lb/>
+               <persName><unclear>Harvey</unclear> Miller</persName>
+            </p>
+            <p><persName>R. W. Tompkins</persName> <lb/><placeName>Norwich Con't</placeName><lb/> <date when="1854-09-29">September 29. 1854</date></p>
+            <p><persName>W<hi rend="superscript"><hi rendition="#u">m</hi></hi> J. Hubbard</persName> <lb/>
+            <placeName>Boston</placeName> <unclear>master</unclear></p>
+            <p><persName>G <unclear><gap quantity="1" unit="word"/></unclear></persName> <lb/>
+            <placeName>Norwich <lb/> <unclear>Connst</unclear></placeName></p>
+            
+            <pb n="22"/>
+            
+            <p>Mrs <persName>Harriet G. Lee</persName> <lb/>
+            <placeName>Norwich Connecticut</placeName> <lb/>
+            <date when="1854-09-29">Sept 29 1854</date></p>
+            
+            <p><persName>Charles Lee</persName> <lb/>
+            <placeName>Norwich Connecticut</placeName> <lb/>
+               <date when="1854-09-29">Sept 29<hi rend="superscript">th</hi> 1854</date></p>
+            
+            <pb n="23"/>
+            <p rendition="#indent3"><placeName>Toronto</placeName> C. W.</p>
+            <p>Peter Still came <lb/> to the city of <placeName>Toronto</placeName> <lb/> <date when="1854-10-13">Oct 13<hi rend="superscript"><hi rendition="#u">th</hi></hi> 1854</date>. Bearing <lb/>letters of introduction <lb/> from the <add place="above">Rev</add> <persName ref="psn:samuel_may">Samuel <lb/>J. May</persName> of <placeName>Syracuse <lb/>N.Y.</placeName> 
+            to the Rev Dr <lb/><persName>Willis</persName>, <persName>T. <unclear>Henning</unclear></persName> <lb/>
+            esq and the Rev <lb/><persName>J. B. Smith</persName>, who gave <lb/> him a cordial reception, <lb/> and manifested <lb/> the deepest interest, <lb/> and sympahty for <lb/> him during his brief <lb/>stay in Toronto.</p>
+            <p>Mr Still stated to <lb/>his friends here</p>
+            
+            <pb n="24"/>
+            
+            <p>that his object <lb/> in visiting Canada <lb/>was not for the purpose <lb/>of asking aid <lb/> or to make an effort <lb/> to raise money <add place="above">from</add> among <lb/>the friends here <lb/>but for the pleasure <lb/> of treading upon the <lb/>"<hi rendition="#u">free soil</hi> of this part <lb/> of her Majesty's dominions" of which he <add place="above">had</add> <lb/>heard so much, <lb/>and to see how his <lb/>brethren (the fugitives <lb/>from slavery) prospered. <lb/> He is highly gratified <lb/> with what he saw</p>
+            
+            <pb n="25"/>
+            
+            <p>and heard, and <lb/> his entertainment generally.</p>
+            
+            <p rendition="#indent2">A few friends <lb/> here, felt it to be <lb/> a privilege, and a pleasure <lb/> to present Mr Still <lb/>with <add place="above">the</add> small sum <lb/> of <measure type="currency">$15</measure>. for which he <lb/> expressed the deepest <lb/>gratitude. Could he <lb/>protract his stay a <lb/>few days, many would <lb/>have availed themselves <lb/> of a like privilege &amp; <lb/> pleasure. Mr Still <lb/>had the pleasure of <lb/>visiting the colored <lb/>Methodist Church <lb/> on <placeName><unclear><gap unit="word" quantity="1"/></unclear> Street</placeName> the <lb/><date when="1854-10-15">15<hi rend="superscript"><hi rendition="#u">th</hi></hi> inst</date> A.M. and</p>
+            
+            <pb n="26"/>
+            
+            <p>then <unclear>Pipers</unclear> (Baptist) <lb/> in evening.</p>
+            
+            <p rendition="#indent2">He leaves <lb/>our city tomorrow <lb/>morning the <date when="1854-10-16">16<hi rend="superscript"><hi rendition="#u">th</hi></hi> oct</date> <lb/>8 o'clock. May success <lb/> attend him.</p>
+            <p>By request. <persName>J. B. Smith</persName>.</p>
+            <p><placeName>Toronto</placeName>. <lb/> C.W.</p>
+            
+            <pb n="27"/>
+            
+            <p><persName>Harriett A. Mitchell</persName> <lb/><persName>Ralph Mitchell</persName> <lb/><persName>Clara S. Mitchell</persName> <lb/> <placeName rendition="#indent2">No 40 Cedar Street <lb/>Hartford Conn</placeName></p>
          </div>
       </body>
    </text>

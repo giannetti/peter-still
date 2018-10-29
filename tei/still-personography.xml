@@ -26,7 +26,7 @@
     <text>
         <body>
             <listPerson>
-                <person xml:id="charity_still">
+                <person xml:id="charity_still" n="1">
                     <persName>
                         <surname type="married">Still</surname>
                         <forename type="adopted">Charity</forename>
@@ -55,7 +55,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="levin_still_jr">
+                <person xml:id="levin_still_jr" n="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Levin</forename>
@@ -68,7 +68,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="peter_still">
+                <person xml:id="peter_still" n="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Peter</forename>
@@ -137,7 +137,9 @@
                     </persName>
                     <birth when="1798-01-08"/>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="samuel_still">
@@ -147,7 +149,9 @@
                     </persName>
                     <birth when="1807-02-26"/>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="mary_still">
@@ -157,7 +161,9 @@
                     </persName>
                     <birth when="1808-08-31"/>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="hannah_still">
@@ -167,7 +173,9 @@
                     </persName>
                     <birth when="1810-07-31"/>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="john_still">
@@ -178,7 +186,9 @@
                     <!-- this is an N, rutgers-lib_26930 compare with NJ at bottom -->
                     <birth when="1815-01-08"/>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="james_still">
@@ -204,7 +214,9 @@
                     </persName>
                     <birth when="1814-01-08"/>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="charles_still">
@@ -214,7 +226,9 @@
                     </persName>
                     <birth when="1817-03-01"/>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="joseph_still">
@@ -224,7 +238,9 @@
                     </persName>
                     <birth when="1819-11-24"/>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="nancy_still">
@@ -232,12 +248,17 @@
                         <surname>Still</surname>
                         <forename>Nancy</forename>
                     </persName>
-                    <note resp="#FG">Cannot find reference to a Nancy who was a sister of Mahala (and Peter and the rest) in any other document other than this letter by <persName ref="#pickard_kate"/>.</note>
+                    <note resp="#FG">Cannot find reference to a Nancy who was a sister of Mahala
+                        (and Peter and the rest) in any other document other than this letter by
+                            <persName ref="#pickard_kate"/>. Could it be that this was an
+                        inadvertent substitution for Kitty?</note>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051665"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051665"
+                        />
                     </bibl>
                 </person>
-                <person xml:id="william_still">
+                <person xml:id="william_still" n="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>William</forename>
@@ -316,7 +337,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="vina_still">
+                <person xml:id="vina_still" n="1">
                     <persName>
                         <surname type="married">Still</surname>
                         <surname type="given">Sisson</surname>
@@ -334,7 +355,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="catharine_still">
+                <person xml:id="catharine_still" n="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Catharine</forename>
@@ -380,8 +401,14 @@
                         <surname>Still</surname>
                         <forename>Peter</forename>
                     </persName>
+                    <birth when="1854-03-11"/>
+                    <bibl>
+                        <ref
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051584"
+                        />
+                    </bibl>
                 </person>
-                <person xml:id="mckiernan_bernard">
+                <person xml:id="mckiernan_bernard" n="1">
                     <persName>
                         <surname>McKiernan</surname>
                         <forename>Bernard</forename>
@@ -412,7 +439,7 @@
                         <desc>Married Kate E. Reynolds</desc>
                     </event>
                 </person>
-                <person xml:id="pickard_kate">
+                <person xml:id="pickard_kate" n="1">
                     <persName>
                         <surname type="married">Pickard</surname>
                         <surname type="given">Reynolds</surname>
@@ -441,7 +468,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="marvin_julia">
+                <person xml:id="marvin_julia" n="1">
                     <persName>
                         <surname type="married">Marvin</surname>
                         <surname type="given">Reynolds</surname>
@@ -480,10 +507,12 @@
                         <placeName>Syracuse, New York</placeName>
                     </death>
                     <bibl>
-                        <ptr target="https://www.findagrave.com/memorial/75875450/darwin-willie-pickard"/>
+                        <ptr
+                            target="https://www.findagrave.com/memorial/75875450/darwin-willie-pickard"
+                        />
                     </bibl>
                 </person>
-                <person xml:id="thornton_lewis">
+                <person xml:id="thornton_lewis" n="1">
                     <persName>
                         <surname>Thornton</surname>
                         <forename>Lewis B.</forename>
@@ -492,7 +521,7 @@
                         <placeName>Tuscumbia, Alabama</placeName>
                     </residence>
                 </person>
-                <person xml:id="ely_h">
+                <person xml:id="ely_h" n="1">
                     <persName>
                         <surname>Ely</surname>
                         <forename cert="unknown">Henry P.</forename>
@@ -506,7 +535,8 @@
                             an extensive practice there</desc>
                     </event>
                     <note resp="#FG">Assuming that the Ely who is the addressee of rutgers-lib:25776
-                        and the sender of rutgers-lib:26922 are the same man.</note>
+                        and the sender of rutgers-lib:26922 are the same man. This could be
+                        mistaken.</note>
                     <listBibl>
                         <bibl>
                             <ptr target="https://archive.org/details/historicalnarrat00elyr"/>
@@ -516,7 +546,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="samuel_may">
+                <person xml:id="samuel_may" n="1">
                     <persName>
                         <surname>May</surname>
                         <forename>Samuel Joseph</forename>
@@ -529,7 +559,7 @@
                     </death>
                     <occupation>Minister and abolitionist</occupation>
                 </person>
-                <person xml:id="seth_conklin">
+                <person xml:id="seth_conklin" n="1">
                     <persName>
                         <surname>Conklin</surname>
                         <forename>Seth</forename>
@@ -554,7 +584,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="joseph_parrish">
+                <person xml:id="joseph_parrish" n="1">
                     <persName>
                         <surname>Parrish</surname>
                         <forename>Joseph</forename>
@@ -573,7 +603,7 @@
                         <title>United States Census, 1860</title>
                     </bibl>
                 </person>
-                <person xml:id="garrison">
+                <person xml:id="garrison" n="1">
                     <persName>
                         <surname>Garrison</surname>
                         <forename>William</forename>
@@ -591,7 +621,7 @@
                         <ptr target="https://www.familysearch.org/tree/person/details/96XL-LHV"/>
                     </bibl>
                 </person>
-                <person xml:id="furness">
+                <person xml:id="furness" n="1">
                     <persName>
                         <surname>Furness</surname>
                         <forename>William</forename>
@@ -617,7 +647,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="james_mckim">
+                <person xml:id="james_mckim" n="1">
                     <persName>
                         <surname>McKim</surname>
                         <forename>James</forename>
@@ -637,7 +667,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="ellis_loring">
+                <person xml:id="ellis_loring" n="1">
                     <persName>
                         <surname>Loring</surname>
                         <forename>Ellis Gray</forename>
@@ -654,14 +684,16 @@
                         <ptr target="http://oasis.lib.harvard.edu/oasis/deliver/~sch00099"/>
                     </bibl>
                 </person>
-                <person xml:id="harriet_stowe">
+                <person xml:id="harriet_stowe" n="1">
                     <!-- rutgers-lib_26731 -->
                     <persName>
                         <surname>Stowe</surname>
                         <forename>Harriet Beecher</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051489"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051489"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="elias_boudinot">
@@ -671,7 +703,9 @@
                         <forename>Elias E.</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051486"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051486"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="thomas_king">
@@ -681,7 +715,9 @@
                         <forename>Thomas Starr</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051494"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051494"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="dillwyn_smith">
@@ -691,7 +727,9 @@
                         <forename>Dillwin</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051500"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051500"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="rollin_neale">
@@ -701,7 +739,9 @@
                         <forename>Rollin Heber</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051504"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051504"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="nathan_durfee">
@@ -711,7 +751,9 @@
                         <forename>Nathan</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051513"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051513"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="john_simpson">
@@ -721,7 +763,9 @@
                         <forename>John</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051516"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051516"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="horace_greeley">
@@ -731,7 +775,9 @@
                         <forename>Horace</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051518"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051518"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="joseph_friedman">
@@ -741,11 +787,15 @@
                     </persName>
                     <listBibl>
                         <bibl>
-                            <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051578"/>
+                            <ptr
+                                target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051578"
+                            />
                         </bibl>
                         <bibl>
-                            <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051487"/>
-                        </bibl> 
+                            <ptr
+                                target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051487"
+                            />
+                        </bibl>
                     </listBibl>
                 </person>
                 <person xml:id="isaac_friedman">
@@ -760,7 +810,9 @@
                         <forename>John Henry</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051490"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051490"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="levi_gist">
@@ -769,7 +821,9 @@
                         <forename>Levi</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051487"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051487"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="stephen_chase">
@@ -778,7 +832,9 @@
                         <forename>Stephen</forename>
                     </persName>
                     <bibl>
-                        <ptr target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051514"/>
+                        <ptr
+                            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051514"
+                        />
                     </bibl>
                 </person>
                 <person xml:id="henry_hoyt">
@@ -827,24 +883,28 @@
                         />
                     </bibl>
                 </person>
+            </listPerson>
 
+            <listRelation>
                 <relation mutual="#pickard_kate #marvin_julia" name="sibling"/>
                 <relation mutual="#pickard_kate #pickard_d_l" name="spouse"/>
                 <relation mutual="#william_still #letitia_george" name="spouse"/>
                 <relation mutual="#peter_still #vina_still" name="spouse"/>
-                <relation mutual="#peter_still #nancy_still #levin_still_jr #ann_still #mahala_still #kitty_still #samuel_still #mary_still #hannah_still #james_still #isaac_still #john_still #charles_still #joseph_still #william_still" name="sibling"/>
-                
+                <relation
+                    mutual="#peter_still #levin_still_jr #ann_still #mahala_still #kitty_still #samuel_still #mary_still #hannah_still #james_still #isaac_still #john_still #charles_still #joseph_still #william_still" name="sibling"/>
+
                 <relation name="parent" active="#pickard_kate #pickard_d_l" passive="#willie"/>
                 <relation name="parent" active="#charity_still #levin_still_sr"
                     passive="#peter_still #william_still #levin_still_jr #sophia"/>
                 <relation name="parent" active="#letitia_george #william_still"
                     passive="#caroline_still"/>
-                <relation name="parent" active="#vina_still #peter_still" passive="#catharine_still #peter_still_ii"/>
-                
+                <relation name="parent" active="#vina_still #peter_still"
+                    passive="#catharine_still #peter_still_ii"/>
+
                 <relation name="slave-owner"
                     active="#john_hogun #joseph_friedman #isaac_friedman #levi_gist"
                     passive="#peter_still"/>
-            </listPerson>
+            </listRelation>
         </body>
     </text>
 </TEI>
