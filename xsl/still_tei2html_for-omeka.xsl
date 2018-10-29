@@ -10,7 +10,7 @@
         <xsl:variable name="second-part" select="substring-after(//idno[@xml:id='WMA'], ':')"/>
         <xsl:variable name="doc_id" select="string-join(($first-part, $second-part), '_')"/>
         <xsl:result-document method="xhtml" encoding="utf-8"
-            href="html/{$doc_id}.html" omit-xml-declaration="yes">
+            href="../html/{$doc_id}.html" omit-xml-declaration="yes">
             
             <div id="transcription">
                 <xsl:apply-templates select="TEI/text/body"/>
