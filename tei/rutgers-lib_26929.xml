@@ -112,6 +112,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2018-10-02" who="#FG">Transcribed and encoded for first time.</change>
+         <change when="2018-11-02" who="#FG">Fixed sp mistake.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -382,7 +383,7 @@
             <p rendition="#indent3"><placeName>Toronto</placeName> C. W.</p>
             <p>Peter Still came <lb/> to the city of <placeName>Toronto</placeName> <lb/> <date when="1854-10-13">Oct 13<hi rend="superscript"><hi rendition="#u">th</hi></hi> 1854</date>. Bearing <lb/>letters of introduction <lb/> from the <add place="above">Rev</add> <persName ref="psn:samuel_may">Samuel <lb/>J. May</persName> of <placeName>Syracuse <lb/>N.Y.</placeName> 
             to the Rev Dr <lb/><persName>Willis</persName>, <persName>T. <unclear>Henning</unclear></persName> <lb/>
-            esq and the Rev <lb/><persName>J. B. Smith</persName>, who gave <lb/> him a cordial reception, <lb/> and manifested <lb/> the deepest interest, <lb/> and sympahty for <lb/> him during his brief <lb/>stay in Toronto.</p>
+            esq and the Rev <lb/><persName>J. B. Smith</persName>, who gave <lb/> him a cordial reception, <lb/> and manifested <lb/> the deepest interest, <lb/> and sympathy for <lb/> him during his brief <lb/>stay in Toronto.</p>
             <p>Mr Still stated to <lb/>his friends here</p>
             
             <pb n="24"/>

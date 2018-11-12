@@ -134,8 +134,8 @@
         </keywords>
       </textClass>
       <handNotes>
-        <handNote xml:id="JP" scribe="JosephParish" script="handwritten" medium="pen" scope="major">
-          <p>the document's main hand, Joseph Parish</p>
+        <handNote xml:id="JP" scribe="JosephParrish" script="handwritten" medium="pen" scope="major">
+          <p>the document's main hand, Joseph Parrish</p>
         </handNote>
         <handNote xml:id="JR" scribe="JohnRobinson" script="handwritten" medium="pen" scope="minor">
           <p>the document author's cousin</p>
@@ -145,6 +145,7 @@
     <revisionDesc>
       <change when="2018-07-09" who="#FG">Proofread. Added references to personography
         file.</change>
+      <change when="2018-10-29" who="#FG">Fixed spelling of Parrish's name.</change>
     </revisionDesc>
   </teiHeader>
   <text>

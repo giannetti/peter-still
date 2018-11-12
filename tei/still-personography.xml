@@ -36,10 +36,18 @@
                     <birth when="1772">
                         <placeName>New Jersey</placeName>
                     </birth>
-                    <bibl>
+                    <death when="1857-04-23">Burlington, New Jersey</death>
+                    <note resp="#FG">Fradin (p.163) notes her death date.</note>
+                    <listBibl>
+                        <bibl>
                         <title>United States Census, 1850</title>
                         <ptr target="https://familysearch.org/ark:/61903/3:1:S3HT-65X3-DKV"/>
-                    </bibl>
+                        </bibl>
+                        <bibl>
+                            <title>My Family Shall Be Free!</title>
+                            <author>Fradin</author>
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="levin_still_sr">
                     <persName>
@@ -77,8 +85,8 @@
                         <placeName>plantation of <persName>Saunders Griffin</persName>, Eastern
                             Shore of Maryland</placeName>
                     </birth>
-                    <death when="1868"/>
-                    <residence><placeName>Burlington, NJ</placeName></residence>
+                    <death when="1868-01-10"><placeName>Burlington, New Jersey</placeName></death>
+                    <residence><placeName>Burlington, New Jersey</placeName></residence>
                     <event when="1826-06-25">
                         <label>Marriage</label>
                         <desc>Married <persName ref="#vina_still">Lavinia (Vina) Sisson</persName>
@@ -112,6 +120,10 @@
                                 target="https://msa.maryland.gov/megafile/msa/speccol/sc5400/sc5496/015200/015222/html/015222bio.html"
                             />
                         </bibl>
+                        <bibl>
+                            <title>My Family Shall Be Free!</title>
+                            <author>Fradin</author>
+                        </bibl>
                     </listBibl>
                 </person>
                 <person xml:id="kitty_still">
@@ -121,6 +133,11 @@
                     </persName>
                     <persName type="alias">Kitty Still</persName>
                     <birth when="1805-01-20"/>
+                    <note resp="#FG">Fradin in p. 11 asserts that Kitturah's name was changed to Kitty when she escaped slavery with her mother Cidney</note>
+                    <bibl>
+                        <title>My Family Shall Be Free!</title>
+                        <author>Fradin, Dennis Brindell</author>
+                    </bibl>
                 </person>
                 <person xml:id="mahala_still">
                     <persName>
@@ -136,11 +153,18 @@
                         <forename>Ann</forename>
                     </persName>
                     <birth when="1798-01-08"/>
-                    <bibl>
+                    <note resp="#FG">Died a child, according to Fradin (p. 19)</note>
+                    <listBibl>
+                        <bibl>
                         <ptr
                             target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
                         />
-                    </bibl>
+                        </bibl>
+                        <bibl>
+                            <title>My Family Shall Be Free!</title>
+                            <author>Fradin, Dennis Brindell</author>
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="samuel_still">
                     <persName>
@@ -395,6 +419,14 @@
                         <surname>Still</surname>
                         <forename>Peter</forename>
                     </persName>
+                    <birth when="1826-09-12">
+                        <placeName>Bainbridge, Alabama</placeName>
+                    </birth>
+                    <note resp="#FG">Fradin gives his date of birth (p. 39).</note>
+                    <bibl>
+                        <title>My Family Shall Be Free!</title>
+                        <author>Fradin</author>
+                    </bibl>
                 </person>
                 <person xml:id="peter_still_iii">
                     <persName>
