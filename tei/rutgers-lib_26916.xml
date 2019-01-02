@@ -138,6 +138,7 @@
          <change when="2018-08-12" who="#FG">Edited transcription and encoded for first
             time.</change>
          <change when="2018-10-28" who="#FG">Added @ref value for Peter's grandson.</change>
+         <change when="2019-01-02" who="#FG">Added line breaks. Changed some capitalization to reflect idiosyncrasies of letter writer.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -155,81 +156,81 @@
                <salute><persName ref="psn:peter_still">Peter Still</persName> Dear Sir</salute>
             </opener>
             <p rendition="#indent">I <choice>
-                  <abbr>rec</abbr>
+                  <abbr>Rec</abbr>
                   <expan>received</expan>
-               </choice> your letter <choice>
+               </choice> your letter<lb/> <choice>
                   <orig>writen</orig>
                   <reg>written</reg>
                </choice> 
                <date when="1855-03-13">March 13/55</date> and was glad to <choice>
                   <orig>here</orig>
                   <reg>hear</reg>
-               </choice> from you and family &amp; the health of you all. <choice>
+               </choice> from you<lb/> and family &amp; the health of you all. <choice>
                   <orig>Tugather</orig>
                   <reg>Together</reg>
-               </choice> with your relations and friends and the safe <choice>
-                  <orig>arival</orig>
+               </choice><lb/> with your Relations and friends and the safe<lb/> <choice>
+                  <orig>Arival</orig>
                   <reg>arrival</reg>
-               </choice> of your <hi rendition="#u">family</hi> which I thought you never would see
-               this side of the grave for although it was <choice>
-                  <orig>rumered</orig>
+               </choice> of your family which I thought you<lb/> never would see
+               this side of the grave for<lb/> although it was <choice>
+                  <orig>Rumered</orig>
                   <reg>rumored</reg>
-               </choice> abroad I could not think it possible that you could or would enjoy such a
+               </choice> abroad I could not think<lb/> it possible that you could or would enjoy such<lb/> a
                good fortune <choice>
                   <orig>is</orig>
                   <reg>as</reg>
                </choice> you <choice>
                   <orig>menton</orig>
                   <reg>mention</reg>
-               </choice> all safe all happy in the place where hearts were made. glad to see you all
+               </choice> all safe all happy<lb/> in the place where hearts were made. glad to<lb/> see you all
                safe &amp; satisfied Dear sir you <choice>
-                  <orig>moste cordialy</orig>
-                  <reg>most cordially</reg>
+                  <orig>moste<lb/> cordialy</orig>
+                  <reg>most<lb/> cordially</reg>
                </choice> have mine &amp; <choice>
-                  <orig>famiels</orig>
+                  <orig>familes</orig>
                   <reg>family's</reg>
-               </choice> love &amp; respects to you &amp; sister <persName ref="psn:vina_still">Levina</persName> 
+               </choice> love &amp; Respects to<lb/> you &amp; sister <persName ref="psn:vina_still">Levina</persName> 
                <persName>Peter</persName> <persName>Levin</persName> &amp; <persName ref="psn:catharine_still"
-                  >Catherine</persName> you mentioned in your letter that your motive for writing
-               was to get some information respecting your little grandson
-               <persName ref="psn:peter_still_iii">Peter</persName> he was born <date when="1854-03-11">March 11<hi
-                     rend="superscript">th</hi> 1854</date> when your family left he was sick &amp;
-               hardly expected to live but he is well now and a very fine child and <choice>
+                  >Catherine</persName><lb/> you mentioned in your letter that your<lb/> motive for writing
+               was to get some information<lb/> respecting your little grandson
+               <persName ref="psn:peter_still_iii">peter</persName> he<lb/> was born <date when="1854-03-11">March 11<hi
+                     rend="superscript">th</hi> 1854</date> when your family left<lb/> he was sick &amp;
+               hardly Expected to live but he<lb/> is well now and a very fine child and<lb/> <choice>
                   <orig>figeratively</orig>
                   <reg>figuratively</reg>
-               </choice> speaking is yourself his head eyes mouth &amp; <choice>
+               </choice> speaking is your Self his head Eyes<lb/> mouth &amp; <choice>
                   <orig>complection</orig>
                   <reg>complexion</reg>
-               </choice> is a perfect picture of you Sir I now mention that I saw <persName>Joseph
-                  Gist</persName> and he says that his Mother Brothers &amp; sisters are all well
-               also his grandmother and sends their best respects to you &amp; family in regard to
-               the fish trap Joseph <choice>
+               </choice> is a perfect picture of<lb/> you Sir I now <choice><orig>menton</orig><reg>mention</reg></choice> that I saw <persName>Joseph
+                  Gist</persName><lb/> and he says that his Mother Brothers &amp; sisters<lb/> are all well
+               also his grandmother and sends their<lb/> best Respects to you &amp; family in Regard to
+               the<lb/> fish trap Joseph <choice>
                   <orig>dose</orig>
                   <reg>does</reg>
-               </choice> not seem to hold it but <pb n="3"/> but says that it is unprofitable he
-               says that he <choice>
-                  <orig>examened</orig>
+               </choice> not seem to hold it but<lb/> <pb n="3"/> but says that it is unprofitable he
+               says that he<lb/> <choice>
+                  <orig>Examened</orig>
                   <reg>examined</reg>
-               </choice> it and saw that one side was broken down also he says that
-                  <persName>Jno</persName> &amp; <persName>Louis McKiernan</persName> said that you
-               left it to them and there was something about the settlement of a
-                  <unclear>coat</unclear> which leaves him not to hold the trap Joseph says that
-               since you left him he has felt lost ever since that your departure has filled him
-               with Joy and <choice>
+               </choice> it and saw that one side was broken<lb/> down also he says that
+                  <persName>Jno</persName> &amp; <persName>Louis McKiernan</persName> said<lb/> that you
+               Left it to them and there was something<lb/> about the settlement of a
+                  <unclear>coat</unclear> which Leaves him<lb/> not to hold the trap Joseph says that
+               since<lb/> you Left him he has felt Lost Ever since that<lb/> your departure has filled him
+               with Joy and<lb/> <choice>
                   <orig>greef</orig>
                   <reg>grief</reg>
                </choice> and more <choice>
                   <orig>greef</orig>
                   <reg>grief</reg>
-               </choice> than Joy also he says you must remember him <persName>William
-                  Handy</persName> &amp; family sends respects to you and family
-                  <persName>Edward</persName> &amp; <persName>Ann Eliza Hopkins</persName>
+               </choice> than Joy also he says<lb/> you must Remember him <persName>William
+                  Handy</persName> &amp; family<lb/> sends Respects to you and family
+                  <persName>Edward</persName> &amp;<lb/> <persName>Ann Eliza Hopkins</persName>
                <choice> 
-                  <abbr>respts</abbr>
+                  <abbr>Respts</abbr>
                   <expan>respects</expan>
                </choice> to you &amp; family </p>
             <closer>
-               <salute>no more to say now</salute>
+               <salute>No more to say now</salute>
                <signed>I. W. J. Carter <lb/> per W. W. Handy</signed>
             </closer>
          </div>
