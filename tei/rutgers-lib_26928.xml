@@ -137,6 +137,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2018-09-09" who="#FG">Encoded for first time.</change>
+         <change when="2019-01-03" who="#FG">Fixed a sp error.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -180,7 +181,7 @@
                little note for <lb/> Alice and put it in with yours I am glad <lb/> to <choice>
                   <orig>hare</orig>
                   <reg>hear</reg>
-               </choice> you are doing well you will to better <lb/> if you will write to me once
+               </choice> you are doing well you will do better <lb/> if you will write to me once
                every week <lb/> did you ever get that book from <del rend="strikethrough">St</del>
                <lb/>
                <placeName>Stockton</placeName> if not do get <del rend="strikethrough">it</del> it
