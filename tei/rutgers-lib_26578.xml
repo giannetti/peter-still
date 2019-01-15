@@ -139,6 +139,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2018-07-04" who="#FG">Proofread.</change>
+            <change when="2019-01-07" who="#FG">Cleaned up a few persName tags to remove extraneous forms of address and possessives and include just the name.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -150,7 +151,7 @@
                         <placeName>Camillus</placeName>
                         <date when="1853-01-29">Jan. 29, 1853</date>
                     </dateline>
-                    <salute>Dear <persName ref="psn:peter_still">Uncle Pete</persName></salute>
+                    <salute>Dear Uncle <persName ref="psn:peter_still">Pete</persName></salute>
                 </opener>
 
                 <p rendition="#indent"> I was very happy to receive <lb/> your letter of the <date
@@ -158,29 +159,30 @@
                     and glad that there<lb/> is a prospect of you receiving aid in<lb/>
                     <placeName>Boston</placeName>. <lb/>
                 </p>
-                <p rendition="#indent"> I received a letter from <persName ref="psn:marvin_julia"
-                        >sister Julia</persName> on<lb/>
+                <p rendition="#indent"> I received a letter from sister <persName
+                        ref="psn:marvin_julia">Julia</persName> on<lb/>
                     <date when="1852-12-31">the last day of December</date>. She expresses much
-                    <lb/> interest in your success and <persName ref="psn:hargraves">Dr. Hargraves
-                    </persName>will<lb/> do all in his power to induce <persName
-                        ref="psn:mckiernan_bernard">Maj. McKiernan</persName><lb/> to let your
-                    family go. If no attempt had<lb/> been made to run them off it would not be<lb/>
-                    difficult to buy them but <persName>Maj. McKiernan</persName> being <lb/> a
-                    hot-headed politician was very much enraged<lb/> by that attempt, and probably
-                    meant, when he<lb/> told <persName ref="psn:thornton_lewis">Mr.
-                        Thorton</persName> that he would not take less<lb/> than <measure
-                        type="currency">$5000</measure> - that he would not not sell them at all.
-                    <lb/> I trust however, that he may be induced to <lb/> let them go. The Dr. has
-                    enlisted <persName ref="psn:weakley">Judge Weakley's</persName>
-                    <lb/> interest in your behalf, and you need not <lb/> fear that any effort on
-                    his part will be wanting <lb/> In the mean time you must work yourself <lb/> and
-                    be careful to maintain a right spirit. <lb/> Do not cherish bitter or resentful
-                    feelings at <lb/>
+                    <lb/> interest in your success and Dr. <persName ref="psn:hargraves">Hargraves
+                    </persName>will<lb/> do all in his power to induce Maj. <persName
+                        ref="psn:mckiernan_bernard">McKiernan</persName><lb/> to let your family go.
+                    If no attempt had<lb/> been made to run them off it would not be<lb/> difficult
+                    to buy them but Maj. <persName>McKiernan</persName> being <lb/> a hot-headed
+                    politician was very much enraged<lb/> by that attempt, and probably meant, when
+                    he<lb/> told Mr. <persName ref="psn:thornton_lewis">Thorton</persName> that he
+                    would not take less<lb/> than <measure type="currency">$5000</measure> - that he
+                    would not not sell them at all. <lb/> I trust however, that he may be induced to
+                    <lb/> let them go. The Dr. has enlisted Judge <persName ref="psn:weakley"
+                        >Weakley</persName>'s <lb/> interest in your behalf, and you need not <lb/>
+                    fear that any effort on his part will be wanting <lb/> In the <choice>
+                        <orig>mean time</orig>
+                        <reg>meantime</reg>
+                    </choice> you must work yourself <lb/> and be careful to maintain a right
+                    spirit. <lb/> Do not cherish bitter or resentful feelings at <lb/>
                     <pb n="2" facs="../images/26578_2.png"/> the delay of your hopes. Trust in that
                     God<lb/> without whose notice not a sparrow falls to the <lb/> ground. These are
                     day of trial - do not let your <lb/> patience fail. </p>
-                <p rendition="#indent"> It is very hard and unkind in <persName>Maj.
-                        McKiernan</persName>
+                <p rendition="#indent"> It is very hard and unkind in Maj.
+                        <persName>McKiernan</persName>
                     <lb/> to ask such a high price for your family, and even <lb/> to be unwilling
                     to sell them at all, but you must <lb/> not speak harshly of him or even let
                     your thoughts <lb/> dwell too much on that part of the subject. <lb/> It will do
@@ -193,9 +195,9 @@
                     unkindness and injury. </p>
                 <p rendition="#indent"> Sister <persName>Julia</persName> says in her letter "Tell
                     Peter <lb/> his master young <persName ref="psn:john_hogun">John
-                        Hogan</persName> is dead and the <lb/> elder <persName>Mr. Hogan</persName>
+                        Hogan</persName> is dead and the <lb/> elder Mr. <persName>Hogan</persName>
                     and his wife have both become <lb/> Christians and united with the Presbyterian
-                    Church <lb/> in Tuscumbia. Miss <persName>Maria Cockburn</persName>
+                    Church <lb/> in <placeName>Tuscumbia</placeName>. Miss <persName>Maria Cockburn</persName>
                     <lb/> married a Mr. <persName>Lavender</persName>, a dancing master, <lb/> in
                         <placeName>Tuscumbia</placeName>, and in consequence, all the <lb/> family
                     have cast her off. They do not even <lb/> recognize her when they meet in the
@@ -216,7 +218,7 @@
                     you may have it in her own words. <lb/> When I hear from her again, or from Dr.
                         <persName>Hargraves</persName>
                     <lb/> I will write you - I should have sent you <lb/> this information earlier,
-                    but <persName ref="psn:pickard_d_l">Mr. Pickard</persName> and <lb/>
+                    but Mr. <persName ref="psn:pickard_d_l">Pickard</persName> and <lb/>
                     <persName ref="psn:willie">my little Willie</persName> have been ill and <lb/>
                     have taken all my time and care. They are better <lb/> now however. </p>
                 <p rendition="#indent"> I trust that the next letter I receive <add place="above"

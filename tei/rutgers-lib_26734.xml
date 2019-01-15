@@ -129,12 +129,12 @@
         <keywords scheme="#LCSH">
           <term>Slavery--United States--History--19th century.</term>
           <term>African Americans--Biography.</term>
-          <term><!-- put other relevant subject headings here. use http://authorities.loc.gov to verify canonical form. --></term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <change when="2018-08-11" who="#FG">Proofread. Fixed placeName values and divs.</change>
+      <change when="2019-01-15" who="#FG">Fixed sp error.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -161,7 +161,7 @@
         </p>
 
         <p rendition="#indent"> I am exceedingly desirous<lb/> to learn for the satisfaction of many
-          of Peter's<lb/> friends as well as may own, how he is succeeding<lb/> in raising money:
+          of Peter's<lb/> friends as well as my own, how he is succeeding<lb/> in raising money:
           the amount he has collected;<lb/> his propects, plans, etc., etc., would afford us
           much<lb/> satisfaction to know something about them.<lb/>
         </p>
