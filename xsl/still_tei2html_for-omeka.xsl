@@ -30,20 +30,19 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="address">
-        <xsl:for-each select="addrLine">
-            <p style="text-align: left;">
-                <xsl:apply-templates />
-            </p>
-        </xsl:for-each>
-    </xsl:template>
-    
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
         <xd:desc>
             <xd:p>Process the opener element.</xd:p>
         </xd:desc>
     </xd:doc>
     <xsl:template match="opener">
+        <xsl:if test="address">
+            <xsl:for-each select="address/addrLine">
+                <p style="text-align: right;">
+                    <xsl:apply-templates />
+                </p>
+            </xsl:for-each>
+        </xsl:if>
         <p style="text-align: right;">
             <xsl:apply-templates select="dateline/placeName"/>
         </p>
