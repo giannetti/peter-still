@@ -134,6 +134,7 @@
      </profileDesc>
      <revisionDesc>
         <change when="2018-08-12" who="#FG">Edited transcription and encoded for first time.</change>
+        <change when="2019-01-25" who="#FG">Fixed a dropped placeName tag in opener.</change>
      </revisionDesc>
   </teiHeader>
   <text>
@@ -141,7 +142,7 @@
          <div type="letter">
             <pb n="1"/>
             <opener>
-               <dateline><choice><abbr>Cin.</abbr><expan>Cincinnati</expan></choice> <date when="1854-12-20">Dec 20<hi rend="superscript">th</hi>/54</date></dateline>
+               <dateline><placeName><choice><abbr>Cin.</abbr><expan>Cincinnati</expan></choice></placeName> <date when="1854-12-20">Dec 20<hi rend="superscript">th</hi>/54</date></dateline>
                <salute><persName>N Longworth</persName> Esqr</salute>
             </opener>
             <p rendition="#indent">

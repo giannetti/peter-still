@@ -435,7 +435,7 @@
                     </persName>
                     <birth when="1854-03-11"/>
                     <bibl>
-                        <ref
+                        <ptr
                             target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051584"
                         />
                     </bibl>

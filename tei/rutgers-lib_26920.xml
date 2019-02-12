@@ -134,6 +134,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2018-09-04" who="#FG">Proofread. Added a few persName tags.</change>
+      <change when="2019-02-01" who="#FG">Changed some hyphens into en and em dashes. Fixed punctuation.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -149,22 +150,22 @@
         </opener>
 
         <p rendition="#indent"> I write you, at the<lb/> request of my <persName
-            ref="psn:pickard_kate">wife</persName>, with regard<lb/> to the book. . Arrangements
+            ref="psn:pickard_kate">wife</persName>, with regard<lb/> to the book. Arrangements
           have<lb/> been made with W<hi rend="superscript"><hi rendition="#u">m</hi></hi> T.
           Hamilton,<lb/> book-merchant of <placeName>Syracuse</placeName>, to<lb/> publish <del
             rend="strikethrough">your</del>
-          <del rend="strikethrough">book.</del> it. -- It<lb/> is now ready for the press &amp;
+          <del rend="strikethrough">book.</del> it. &#x2014; It<lb/> is now ready for the press &amp;
           <lb/> the work will probably be commenced<lb/> very soon.<lb/>
         </p>
 
         <p rendition="#indent"> Now what of the<lb/> little <persName ref="psn:peter_still_iii"
-            >child</persName>? Is there any<lb/> prospect of its being randsomed?<lb/> Must the book
+            >child</persName>? Is there any<lb/> prospect of its being ransomed?<lb/> Must the book
           be delayed any<lb/> on account of it? Please write<lb/> i<hi rendition="#u">m</hi><hi
             rendition="#u">me</hi>d<hi rendition="#u">iate</hi>ly and let us know<lb/>
         </p>
 
         <p rendition="#indent"> Our folks are all in<lb/> usual health, as are also Mr<lb/> Lyon's
-          people. The baby grows<lb/> finely. - Remember us all in<lb/> much love to Aunt <persName
+          people. The baby grows<lb/> finely.&#x2013; Remember us all in<lb/> much love to Aunt <persName
             ref="psn:vina_still">Vina</persName> and<lb/> the Children<lb/>
         </p>
 

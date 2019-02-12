@@ -3,7 +3,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml"
     version="2.0">
     
-    <xsl:output method="xhtml" encoding="UTF-8"/>
+    <xsl:output method="xhtml" encoding="UTF-8" />
     
     <xsl:template match="/">
         <xsl:variable name="first-part" select="substring-before(//idno[@xml:id='WMA'], ':')"/>
@@ -256,9 +256,9 @@
         <p style="padding-left:13em; text-indent:-2em;">
             <xsl:apply-templates select="signed"/>
         </p>
-        <xsl:if test="date | add">
+        <xsl:if test="date | add | dateline">
             <p style="padding-left:13em; text-indent:-2em;">
-                <xsl:apply-templates select="date | add"/>
+                <xsl:apply-templates select="date | add | dateline"/>
             </p>
         </xsl:if>
         <xsl:if test="address">

@@ -134,6 +134,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2018-08-11" who="#FG">Proofread. Fixed divs. Edited correspDesc.</change>
+      <change when="2019-01-25" who="#FG">Supplied a better guess for an unclear term.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -161,7 +162,7 @@
           time has not yet arrived for facing such<lb/> villains with ball and steel rather <choice>
             <orig>then</orig>
             <reg>than</reg>
-          </choice><lb/> gold, I wish you could beg him <unclear reason="illegible" extent="7" unit="chars">raise a</unclear> <lb/> <unclear>fort</unclear> of the many among those
+          </choice><lb/> gold, I wish you could help him <unclear reason="illegible" extent="7" unit="chars">raise a</unclear> <lb/> <unclear>host</unclear> of the many among those
           you know.<lb/>
         </p>
 
