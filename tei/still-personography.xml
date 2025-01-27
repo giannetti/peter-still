@@ -8,6 +8,7 @@
                     <resp>Compiled and edited by</resp>
                     <persName ref="#FG"> Francesca Giannetti </persName>
                     <persName ref="#MH"> Michelle Hwang </persName>
+                    <persName ref="#JD"> Jessica De Paola </persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -22,22 +23,32 @@
                 <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change who="#FG" when="2025-01-27">Harmonizing elements and attributes with updated profile information on which public history intern is working. Previous work dates to 2019.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
+        <front>
+            <docTitle>
+                <titlePart>Correspondents and People Mentioned in Peter Still Papers</titlePart>
+            </docTitle>
+        </front>
         <body>
             <listPerson>
-                <person xml:id="charity_still" n="1">
+                <person xml:id="charity_still" sex="2">
                     <persName>
-                        <surname type="married">Still</surname>
-                        <forename type="adopted">Charity</forename>
+                        <reg>Charity Still</reg>
+                        <surname>Still</surname>
+                        <forename>Charity</forename>
+                        <addName>Cidney</addName>
+                        <addName>Sidney</addName>
+                        <addName>Steel</addName>
                     </persName>
-                    <persName type="given">Cidney Still</persName>
-                    <persName type="alternate">Sidney Still</persName>
-                    <birth when="1772">
-                        <placeName>New Jersey</placeName>
+                    <birth notBefore="1765" notAfter="1772">
+                        <placeName>Eastern Shore, Maryland</placeName>
                     </birth>
-                    <death when="1857-04-23">Burlington, New Jersey</death>
-                    <note resp="#FG">Fradin (p.163) notes her death date.</note>
+                    <death when="1857-04-23">Shamong Township, Burlington County, New Jersey</death>
+                    <note resp="#FG"><p>Wife of <name ref="#levin_still_sr">Levin Still Sr.</name> and mother of <name ref="#peter_still">Peter Still</name>.</p></note>
                     <listBibl>
                         <bibl>
                         <title>United States Census, 1850</title>
@@ -45,17 +56,24 @@
                         </bibl>
                         <bibl>
                             <title>My Family Shall Be Free!</title>
-                            <author>Fradin</author>
+                            <author>Fradin, Dennis B.</author>
+                            <note resp="#FG">Fradin (p.163) notes her death date.</note>
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="levin_still_sr">
+                <person xml:id="levin_still_sr" sex="1">
                     <persName>
-                        <surname type="adopted">Still</surname>
+                        <reg>Levin Still Sr.</reg>
+                        <surname>Still</surname>
                         <forename>Levin</forename>
+                        <addName>Steel</addName>
                     </persName>
-                    <persName type="given">Levin Steel</persName>
+                    <birth when-iso="1750/1798">probably between 1750 and 1798</birth>
                     <death when="1842-12-24"/>
+                    <residence when="1830">
+                        <placeName>Evesham, Burlington County, New Jersey</placeName>
+                    </residence>
+                    <note resp="#FG"><p>Husband of <name ref="#charity_still">Charity Still</name> and father of <name ref="#peter_still">Peter Still</name>.</p></note>
                     <bibl>
                         <title>William Still: His Life and Work to This Time.</title>
                         <author>James P. Boyd</author>
@@ -63,7 +81,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="levin_still_jr" n="1">
+                <person xml:id="levin_still_jr" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Levin</forename>
@@ -76,7 +94,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="peter_still" n="1">
+                <person xml:id="peter_still" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Peter</forename>
@@ -126,28 +144,33 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="kitty_still">
+                <person xml:id="kitty_still" sex="2">
                     <persName>
+                        <reg>Kitturah Still</reg>
                         <surname>Still</surname>
+                        <surname>Willmore</surname>
                         <forename>Kitturah</forename>
+                        <addName>Kitty</addName>
                     </persName>
-                    <persName type="alias">Kitty Still</persName>
                     <birth when="1805-01-20"/>
-                    <note resp="#FG">Fradin in p. 11 asserts that Kitturah's name was changed to Kitty when she escaped slavery with her mother Cidney</note>
                     <bibl>
                         <title>My Family Shall Be Free!</title>
                         <author>Fradin, Dennis Brindell</author>
+                        <note resp="#FG">Fradin in p. 11 asserts that Kitturah's name was changed to Kitty when she escaped slavery with her mother Cidney.</note>
                     </bibl>
                 </person>
-                <person xml:id="mahala_still">
+                <person xml:id="mahala_still" sex="2">
                     <persName>
+                        <reg>Mahalah Still</reg>
                         <surname>Still</surname>
-                        <forename>Mahala</forename>
+                        <surname>Thompson</surname>
+                        <forename>Mahalah</forename>
+                        <addName>Mahala</addName>
                     </persName>
                     <persName type="alternate">Mahalah Still</persName>
                     <birth when="1803-12-30"/>
                 </person>
-                <person xml:id="ann_still">
+                <person xml:id="ann_still" sex="2">
                     <persName>
                         <surname>Still</surname>
                         <forename>Ann</forename>
@@ -166,31 +189,47 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="samuel_still">
+                <person xml:id="samuel_still" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Samuel</forename>
                     </persName>
                     <birth when="1807-02-26"/>
+                    <death when="1875"/>
                     <bibl>
                         <ptr
                             target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
                         />
                     </bibl>
+                    <bibl>
+                        <title>Black Abolitionist Papers, document 11, p. 59</title>
+                        <ptr target="https://heinonline.org/HOL/P?h=hein.slavery/uncaadl0004&amp;i=87"/>
+                    </bibl>
                 </person>
-                <person xml:id="mary_still">
+                <person xml:id="mary_still" sex="2">
                     <persName>
+                        <reg>Mary Still</reg>
                         <surname>Still</surname>
                         <forename>Mary</forename>
                     </persName>
                     <birth when="1808-08-31"/>
+                    <death when="1889"/>
+                    <occupation from="1865" to="1866">Teacher, American Missionary Association schools in <placeName>Beaufort, South Carolina</placeName></occupation>
                     <bibl>
                         <ptr
                             target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
                         />
                     </bibl>
+                    <bibl>
+                        <title>Black Abolitionist Papers, document 11, p. 59</title>
+                        <ptr target="https://heinonline.org/HOL/P?h=hein.slavery/uncaadl0004&amp;i=87"/>
+                    </bibl>
+                    <bibl>
+                        <title>The Role of Afro-Americans in the Origin and Work of the American Missionary Association: 1839-1877</title>
+                        <author>De Boer, Clara Merritt</author>
+                    </bibl>
                 </person>
-                <person xml:id="hannah_still">
+                <person xml:id="hannah_still" sex="2">
                     <persName>
                         <surname>Still</surname>
                         <forename>Hannah</forename>
@@ -202,20 +241,27 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="john_still">
+                <person xml:id="john_still" sex="1">
                     <persName>
+                        <reg>John N. Still</reg>
                         <surname>Still</surname>
-                        <forename>John N.</forename>
+                        <forename>John Nelson</forename>
                     </persName>
                     <!-- this is an N, rutgers-lib_26930 compare with NJ at bottom -->
                     <birth when="1815-01-08"/>
+                    <residence from="1840">Brooklyn, New York</residence>
+                    <residence from="1861">Shrewsbury, New Jersey</residence>
                     <bibl>
                         <ptr
                             target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
                         />
                     </bibl>
+                    <bibl>
+                        <title>Black Abolitionist Papers, document 21, p. 111</title>
+                        <ptr target="https://heinonline.org/HOL/P?h=hein.slavery/uncaadl0004&amp;i=139"/>
+                    </bibl>
                 </person>
-                <person xml:id="james_still">
+                <person xml:id="james_still" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>James</forename>
@@ -228,7 +274,7 @@
                     </death>
                     <occupation>Herbalist</occupation>
                     <bibl>
-                        <ptr target="http://www.medfordhistory.org/drstillcenter/index.php"/>
+                        <ptr target="http://www.drjamesstillcenter.org/drjamesstill/LifeDrStill.html"/>
                     </bibl>
                 </person>
                 <person xml:id="isaac_still">
@@ -243,10 +289,12 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="charles_still">
+                <person xml:id="charles_still" sex="1">
                     <persName>
+                        <reg>Charles W. Still</reg>
                         <surname>Still</surname>
                         <forename>Charles</forename>
+                        <forename>Wesley</forename>
                     </persName>
                     <birth when="1817-03-01"/>
                     <bibl>
@@ -255,7 +303,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="joseph_still">
+                <person xml:id="joseph_still" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Joseph</forename>
@@ -267,7 +315,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="nancy_still">
+                <person xml:id="nancy_still" sex="2">
                     <persName>
                         <surname>Still</surname>
                         <forename>Nancy</forename>
@@ -282,7 +330,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="william_still" n="1">
+                <person xml:id="william_still" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>William</forename>
@@ -320,7 +368,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="letitia_george">
+                <person xml:id="letitia_george" sex="2">
                     <persName>
                         <surname type="married">Still</surname>
                         <surname>George</surname>
@@ -329,7 +377,7 @@
                     <birth when="1821"/>
                     <death when="1906"/>
                 </person>
-                <person xml:id="caroline_still">
+                <person xml:id="caroline_still" sex="2">
                     <persName>
                         <surname>Still</surname>
                         <forename>Caroline</forename>
@@ -361,7 +409,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="vina_still" n="1">
+                <person xml:id="vina_still" sex="2">
                     <persName>
                         <surname type="married">Still</surname>
                         <surname type="given">Sisson</surname>
@@ -379,7 +427,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="catharine_still" n="1">
+                <person xml:id="catharine_still" sex="2">
                     <persName>
                         <surname>Still</surname>
                         <forename>Catharine</forename>
@@ -395,7 +443,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="sophia">
+                <person xml:id="sophia" sex="2">
                     <persName>
                         <surname>Still</surname>
                         <forename>Sophia</forename>
@@ -414,7 +462,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="peter_still_ii">
+                <person xml:id="peter_still_ii" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Peter</forename>
@@ -422,25 +470,25 @@
                     <birth when="1826-09-12">
                         <placeName>Bainbridge, Alabama</placeName>
                     </birth>
-                    <note resp="#FG">Fradin gives his date of birth (p. 39).</note>
                     <bibl>
                         <title>My Family Shall Be Free!</title>
                         <author>Fradin</author>
+                        <note resp="#FG">Fradin gives his date of birth (p. 39).</note>
                     </bibl>
                 </person>
-                <person xml:id="peter_still_iii">
+                <person xml:id="peter_still_iii" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Peter</forename>
                     </persName>
-                    <birth when="1854-03-11"/>
+                    <birth when="1854-03-11">Tuscumbia, Alabama</birth>
                     <bibl>
                         <ptr
                             target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051584"
                         />
                     </bibl>
                 </person>
-                <person xml:id="mckiernan_bernard" n="1">
+                <person xml:id="mckiernan_bernard" sex="1">
                     <persName>
                         <surname>McKiernan</surname>
                         <forename>Bernard</forename>
@@ -449,14 +497,15 @@
                         <placeName>South Florence, Alabama</placeName>
                     </residence>
                 </person>
-                <person xml:id="hargraves">
+                <person xml:id="hargraves" sex="1">
                     <persName>Hargraves, Dr.</persName>
                 </person>
-                <person xml:id="weakley">
+                <person xml:id="weakley" sex="1">
                     <persName>Weakley, Judge</persName>
                 </person>
-                <person xml:id="pickard_d_l">
+                <person xml:id="pickard_d_l" sex="1">
                     <persName>
+                        <reg>Darwin L. Pickard</reg>
                         <surname>Pickard</surname>
                         <forename>Darwin L.</forename>
                     </persName>
@@ -471,14 +520,14 @@
                         <desc>Married Kate E. Reynolds</desc>
                     </event>
                 </person>
-                <person xml:id="pickard_kate" n="1">
+                <person xml:id="pickard_kate" sex="2">
                     <persName>
-                        <surname type="married">Pickard</surname>
-                        <surname type="given">Reynolds</surname>
+                        <reg>Kate E. R. Pickard</reg>
+                        <surname>Pickard</surname>
+                        <surname>Reynolds</surname>
                         <forename>Katherine</forename>
                         <forename>Emily</forename>
                     </persName>
-                    <persName type="alias">Kate E. R. Pickard</persName>
                     <birth when="1824-08-13">
                         <placeName>Saratoga, New York</placeName>
                     </birth>
@@ -500,7 +549,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="marvin_julia" n="1">
+                <person xml:id="marvin_julia" sex="2">
                     <persName>
                         <surname type="married">Marvin</surname>
                         <surname type="given">Reynolds</surname>
@@ -527,7 +576,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="willie">
+                <person xml:id="willie" sex="1">
                     <persName>
                         <surname>Pickard</surname>
                         <forename>Darwin Willie</forename>
@@ -544,7 +593,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="thornton_lewis" n="1">
+                <person xml:id="thornton_lewis" sex="1">
                     <persName>
                         <surname>Thornton</surname>
                         <forename>Lewis B.</forename>
@@ -553,7 +602,7 @@
                         <placeName>Tuscumbia, Alabama</placeName>
                     </residence>
                 </person>
-                <person xml:id="ely_h" n="1">
+                <person xml:id="ely_h" sex="1">
                     <persName>
                         <surname>Ely</surname>
                         <forename cert="unknown">Henry P.</forename>
@@ -578,7 +627,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="samuel_may" n="1">
+                <person xml:id="samuel_may" sex="1">
                     <persName>
                         <surname>May</surname>
                         <forename>Samuel Joseph</forename>
@@ -591,7 +640,7 @@
                     </death>
                     <occupation>Minister and abolitionist</occupation>
                 </person>
-                <person xml:id="seth_conklin" n="1">
+                <person xml:id="seth_conklin" sex="1">
                     <persName>
                         <surname>Conklin</surname>
                         <forename>Seth</forename>
@@ -616,7 +665,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="joseph_parrish" n="1">
+                <person xml:id="joseph_parrish" sex="1">
                     <persName>
                         <surname>Parrish</surname>
                         <forename>Joseph</forename>
@@ -635,7 +684,7 @@
                         <title>United States Census, 1860</title>
                     </bibl>
                 </person>
-                <person xml:id="garrison" n="1">
+                <person xml:id="garrison" sex="1">
                     <persName>
                         <surname>Garrison</surname>
                         <forename>William</forename>
@@ -653,7 +702,7 @@
                         <ptr target="https://www.familysearch.org/tree/person/details/96XL-LHV"/>
                     </bibl>
                 </person>
-                <person xml:id="furness" n="1">
+                <person xml:id="furness" sex="1">
                     <persName>
                         <surname>Furness</surname>
                         <forename>William</forename>
@@ -679,7 +728,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="james_mckim" n="1">
+                <person xml:id="james_mckim" sex="1">
                     <persName>
                         <surname>McKim</surname>
                         <forename>James</forename>
@@ -699,7 +748,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="ellis_loring" n="1">
+                <person xml:id="ellis_loring" sex="1">
                     <persName>
                         <surname>Loring</surname>
                         <forename>Ellis Gray</forename>
@@ -716,7 +765,7 @@
                         <ptr target="http://oasis.lib.harvard.edu/oasis/deliver/~sch00099"/>
                     </bibl>
                 </person>
-                <person xml:id="harriet_stowe" n="1">
+                <person xml:id="harriet_stowe" sex="2">
                     <!-- rutgers-lib_26731 -->
                     <persName>
                         <surname>Stowe</surname>
@@ -728,7 +777,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="elias_boudinot">
+                <person xml:id="elias_boudinot" sex="1">
                     <!-- rutgers-lib_26728 -->
                     <persName>
                         <surname>Boudinot</surname>
@@ -740,7 +789,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="thomas_king">
+                <person xml:id="thomas_king" sex="1">
                     <!-- rutgers-lib_26733 -->
                     <persName>
                         <surname>King</surname>
@@ -752,7 +801,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="dillwyn_smith">
+                <person xml:id="dillwyn_smith" sex="1">
                     <!-- rutgers-lib_26837 -->
                     <persName>
                         <surname>Smith</surname>
@@ -764,7 +813,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="rollin_neale">
+                <person xml:id="rollin_neale" sex="1">
                     <!-- rutgers-lib_26840 -->
                     <persName>
                         <surname>Neale</surname>
@@ -776,7 +825,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="nathan_durfee">
+                <person xml:id="nathan_durfee" sex="1">
                     <!-- rutgers-lib_26845 -->
                     <persName>
                         <surname>Durfee</surname>
@@ -788,12 +837,13 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="john_simpson">
+                <person xml:id="john_simpson" sex="1">
                     <!-- rutgers-lib_26846 -->
                     <persName>
                         <surname>Simpson</surname>
                         <forename>John</forename>
                     </persName>
+                    <note resp="#FG"><p><name ref="#peter_still">Peter Still</name> worked through Simpson to complete his family's purchase and bring them north.</p></note>
                     <bibl>
                         <ptr
                             target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051516"
@@ -881,7 +931,7 @@
                         <forename>Fletcher</forename>
                     </persName>
                 </person>
-                <person xml:id="mary_buckman">
+                <person xml:id="mary_buckman" sex="2">
                     <persName>
                         <surname>Buckman</surname>
                         <forename>Mary A.</forename>
