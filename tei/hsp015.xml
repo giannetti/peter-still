@@ -64,11 +64,12 @@
       <textClass>
         <keywords scheme="#LCSH">
           <term>African Americans--Biography.</term>
+          <term>People with disabilities</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2025-05-05" who="#fg">first check, added project id and minor edits</change>
+      <change when="2025-05-05" who="#fg">first check, added project id, keyword, and minor edits</change>
     </revisionDesc>
   </teiHeader>
   <standOff> 
