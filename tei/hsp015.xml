@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Angelina Still, August 1, 1873</title>
+        <author>
+          <persName>William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd">Jessica DePaola</name>
+        </respStmt>
+        <principal xml:id="fg">Francesca Giannetti</principal>
+      </titleStmt>
+      <extent><measure unit="page" quantity="1">One page</measure></extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp015</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-08-01">August 1, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillan">Angelina Still</persName>
+          <placeName>unknown</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-05-05" who="#fg">first check, added project id and minor edits</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff> 
+    <listPerson>
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+        <person xml:id="stillan" sex="2">
+          <persName>
+            <surname>Still</surname>
+            <forename>Angelina</forename>
+          </persName>
+          <birth when-iso="1844"/>
+          <death when-iso="1896"/> 
+        </person>
+      <person xml:id="stillja" sex="1">
+        <persName>
+          <surname>Still</surname>
+          <forename>James</forename>
+        </persName>
+        <birth when="1812-04-09">
+          <placeName>Shamong, Washington Township, New Jersey</placeName>
+        </birth>
+         <death when="1882-03-09"/>       
+      </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1" />
+        <opener>
+          <dateline>
+            <date when="1873-08-01"><del rend="strikethrough">July</del> Aug. 1<hi rend="superscript">st</hi></date> 3
+          </dateline>
+          <salute>Dear <persName ref="#stillan">Angie</persName>:</salute>
+        </opener>
+        <p>
+          The only invalid chair that I can<lb/> get any tidings of is to be had in <placeName>Hartford<lb/> Connecticut</placeName>. To my astonishment I have found<lb/> none made here. So in making inquiry<lb/> today of a gentleman with whom I am<lb/> well acquainted and who had a knowledge of<lb/> the manufacturer of the desired chair, I decided<lb/> that he might order one as he kindly<lb/> offered to do so. So by Tuesday next if<lb/> it should not be exactly ready for delivery<lb/> it will be well on the way. Just <add place="above" rend="carrot">what</add> it will<lb/> cost I cannot tell as the gentleman could not<lb/> tell me but I rather think it will not be<lb/> more than twenty five dollars if that<lb/> much. Did I do right in ordering one? I<lb/> think it will be satisfactory.
+        </p>
+        <p>
+          I have been hoping for some weeks<lb/> past to be able to find time to come fulfill<lb/> my engagement with <rs ref="#stillja">your father</rs> in<lb/> making a fishing excursion to the<lb/> old country (the pines) but as yet the way<lb/> looks rather dark. On Monday I have<lb/> to serve on the jury and when the term of<lb/> the court will end I cannot tell, usually<lb/> it <sic>last</sic> 2 weeks, some times longer. As soon
+          <add place="top-left" rend="vertical">as I shall get<lb/> free from that<lb/> bondage I shall<lb/> fix the time</add>
+        </p>
+        <closer rend="top-left, vertical">
+          <salute>Your affectionate Uncle</salute>
+           <signed><persName ref="#stillwi"><choice><abbr>W.S.</abbr><expan>William Still</expan></choice></persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>
