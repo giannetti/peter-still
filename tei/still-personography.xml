@@ -945,6 +945,17 @@
                         <forename>Henry</forename>
                     </persName>
                 </person>
+                <person xml:id="hunnjo" sex="1">
+                    <persName>
+                        <reg>John Hunn</reg>
+                        <forename>John</forename>
+                        <surname>Hunn</surname>
+                    </persName>
+                    <birth when="1818-06-25"><placeName>Kent County, Delaware</placeName></birth>
+                    <death when="1894-07-06"><placeName>Camden, Delaware</placeName></death>
+                    <occupation>Farmer, abolitionist, and engineer of the Underground Railroad in Delaware</occupation>
+                    <bibl><ref target="https://en.wikipedia.org/wiki/John_Hunn_(farmer)">Wikipedia</ref></bibl>
+                </person>
                 <person xml:id="websterfl">
                     <persName>
                         <surname>Webster</surname>
