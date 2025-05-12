@@ -797,6 +797,17 @@
                         />
                     </bibl>
                 </person>
+                <person xml:id="thompsonlet" sex="1">
+                    <persName>
+                        <reg>Lewis Thompson</reg>
+                        <forename>Lewis Tappan</forename>
+                        <surname>Thompson</surname>
+                    </persName>
+                    <birth when="1838-07-25"><placeName>Philadelphia, Pennsylvania</placeName></birth>
+                    <death when="1876-07-19"><placeName>Big Horn County, Montana</placeName></death>
+                    <occupation>Captain, 2nd Cavalry</occupation>
+                    <bibl><ref target="https://www.findagrave.com/memorial/9582695/lewis-tappan-thompson">Find a Grave</ref></bibl>
+                </person>
                 <person xml:id="boudinotele" sex="1">
                     <!-- rutgers-lib_26728 -->
                     <persName>
