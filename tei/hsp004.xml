@@ -69,6 +69,9 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-05-12">first pass, clarified a few words, added project id</change>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listPerson>
