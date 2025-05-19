@@ -36,7 +36,7 @@
         </front>
         <body>
             <listPerson>
-                <person xml:id="stillc" sex="2">
+                <person xml:id="stillch" sex="2">
                     <persName>
                         <reg>Charity Still</reg>
                         <surname>Still</surname>
@@ -45,7 +45,7 @@
                         <addName>Sidney</addName>
                         <addName>Steel</addName>
                     </persName>
-                    <birth notBefore="1765" notAfter="1772">
+                    <birth notBefore="1765" notAfter="1775">
                         <placeName>Eastern Shore, Maryland</placeName>
                     </birth>
                     <death when="1857-04-23">Shamong Township, Burlington County, New Jersey</death>
@@ -62,7 +62,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="stilll1" sex="1">
+                <person xml:id="stillle1" sex="1">
                     <persName>
                         <reg>Levin Still Sr.</reg>
                         <surname>Still</surname>
@@ -82,7 +82,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="stilll2" sex="1">
+                <person xml:id="stillle2" sex="1">
                     <persName>
                         <reg>Levin Still Jr.</reg>
                         <surname>Still</surname>
@@ -96,7 +96,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="stillp" sex="1">
+                <person xml:id="stillpe1" sex="1">
                     <persName>
                         <reg>Peter Still</reg>
                         <surname>Still</surname>
@@ -147,7 +147,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="stillkw" sex="2">
+                <person xml:id="stillkiw" sex="2">
                     <persName>
                         <reg>Kitturah Still</reg>
                         <surname>Still</surname>
@@ -162,7 +162,7 @@
                         <note resp="#FG">Fradin in p. 11 asserts that Kitturah's name was changed to Kitty when she escaped slavery with her mother Cidney.</note>
                     </bibl>
                 </person>
-                <person xml:id="stillmt" sex="2">
+                <person xml:id="stillmat" sex="2">
                     <persName>
                         <reg>Mahalah Still</reg>
                         <surname>Still</surname>
@@ -173,7 +173,7 @@
                     <persName type="alternate">Mahalah Still</persName>
                     <birth when="1803-12-30"/>
                 </person>
-                <person xml:id="stilla" sex="2">
+                <person xml:id="stillann" sex="2">
                     <persName>
                         <reg>Ann Still</reg>
                         <surname>Still</surname>
@@ -193,6 +193,16 @@
                         </bibl>
                     </listBibl>
                 </person>
+                <person xml:id="stillan" sex="2">
+                    <persName>
+                        <reg>Angelina Still</reg>
+                        <surname>Still</surname>
+                        <forename>Angelina</forename>
+                    </persName>
+                    <birth when-iso="1844"/>
+                    <death when-iso="1896"/>
+                    <note resp="#FG">Daughter of <persName ref="#stillja">James Still</persName></note>
+                </person>
                 <person xml:id="stillsa" sex="1">
                     <persName>
                         <reg>Samuel Still</reg>
@@ -211,7 +221,7 @@
                         <ptr target="https://heinonline.org/HOL/P?h=hein.slavery/uncaadl0004&amp;i=87"/>
                     </bibl>
                 </person>
-                <person xml:id="stillm" sex="2">
+                <person xml:id="stillma" sex="2">
                     <persName>
                         <reg>Mary Still</reg>
                         <surname>Still</surname>
@@ -234,7 +244,7 @@
                         <author>De Boer, Clara Merritt</author>
                     </bibl>
                 </person>
-                <person xml:id="stillh" sex="2">
+                <person xml:id="stillha" sex="2">
                     <persName>
                         <surname>Still</surname>
                         <forename>Hannah</forename>
@@ -246,7 +256,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="stilljn" sex="1">
+                <person xml:id="stilljon" sex="1">
                     <persName>
                         <reg>John N. Still</reg>
                         <surname>Still</surname>
@@ -282,7 +292,7 @@
                         <ptr target="http://www.drjamesstillcenter.org/drjamesstill/LifeDrStill.html"/>
                     </bibl>
                 </person>
-                <person xml:id="stilli">
+                <person xml:id="stillis">
                     <persName>
                         <surname>Still</surname>
                         <forename>Isaac</forename>
@@ -294,7 +304,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="stillcw" sex="1">
+                <person xml:id="stillchw" sex="1">
                     <persName>
                         <reg>Charles W. Still</reg>
                         <surname>Still</surname>
@@ -308,7 +318,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="stillj" sex="1">
+                <person xml:id="stilljo" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Joseph</forename>
@@ -320,7 +330,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="stilln" sex="2">
+                <person xml:id="stillna" sex="2">
                     <persName>
                         <surname>Still</surname>
                         <forename>Nancy</forename>
@@ -335,7 +345,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="stillw" sex="1">
+                <person xml:id="stillwi" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>William</forename>
@@ -373,7 +383,17 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="stilllg" sex="2">
+                <person xml:id="stillwiw" sex="1">
+                    <persName>
+                        <reg>William Wilberforce Still</reg>
+                        <surname>Still</surname>
+                        <forename>William Wilberforce</forename>
+                    </persName>
+                    <birth when-iso="1854"/>
+                    <death when-iso="1932"/>
+                    <note resp="#fg">First son of <persName ref="#stillwi">William Still</persName>.</note>
+                </person>
+                <person xml:id="stillleg" sex="2">
                     <persName>
                         <reg>Letitia George Still</reg>
                         <surname type="married">Still</surname>
@@ -383,7 +403,7 @@
                     <birth when-iso="1821"/>
                     <death when-iso="1906"/>
                 </person>
-                <person xml:id="stillcvm" sex="2">
+                <person xml:id="stillcavm" sex="2">
                     <persName>
                         <reg>Caroline (Caddie) Still</reg>
                         <surname>Still</surname>
@@ -417,7 +437,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="stillvs" sex="2">
+                <person xml:id="stilllas" sex="2">
                     <persName>
                         <surname type="married">Still</surname>
                         <surname type="given">Sisson</surname>
@@ -443,6 +463,7 @@
                     <birth notBefore="1837" notAfter="1838">
                         <placeName>Alabama</placeName>
                     </birth>
+
                     <residence><placeName>Onondaga Valley, New York</placeName></residence>
                     <bibl>
                         <title>United States Census, 1860</title>
@@ -451,7 +472,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="stills" sex="2">
+                <person xml:id="stillso" sex="2">
                     <persName>
                         <surname>Still</surname>
                         <forename>Sophia</forename>
@@ -470,7 +491,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="stillp2" sex="1">
+                <person xml:id="stillpe2" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Peter</forename>
@@ -484,7 +505,7 @@
                         <note resp="#FG">Fradin gives his date of birth (p. 39).</note>
                     </bibl>
                 </person>
-                <person xml:id="stillp3" sex="1">
+                <person xml:id="stillpe3" sex="1">
                     <persName>
                         <surname>Still</surname>
                         <forename>Peter</forename>
@@ -496,7 +517,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="mckiernanb" sex="1">
+                <person xml:id="mckiernanbe" sex="1">
                     <persName>
                         <surname>McKiernan</surname>
                         <forename>Bernard</forename>
@@ -511,7 +532,7 @@
                 <person xml:id="weakley" sex="1">
                     <persName>Weakley, Judge</persName>
                 </person>
-                <person xml:id="pickarddl" sex="1">
+                <person xml:id="pickarddal" sex="1">
                     <persName>
                         <reg>Darwin L. Pickard</reg>
                         <surname>Pickard</surname>
@@ -528,7 +549,7 @@
                         <desc>Married Kate E. Reynolds</desc>
                     </event>
                 </person>
-                <person xml:id="pickardker" sex="2">
+                <person xml:id="pickardkaer" sex="2">
                     <persName>
                         <reg>Kate E. R. Pickard</reg>
                         <surname>Pickard</surname>
@@ -557,7 +578,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="marvinjr" sex="2">
+                <person xml:id="marvinjur" sex="2">
                     <persName>
                         <surname type="married">Marvin</surname>
                         <surname type="given">Reynolds</surname>
@@ -584,7 +605,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="pickarddw" sex="1">
+                <person xml:id="pickarddaw" sex="1">
                     <persName>
                         <reg>Darwin Willie Pickard</reg>
                         <surname>Pickard</surname>
@@ -602,7 +623,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="thorntonlb" sex="1">
+                <person xml:id="thorntonleb" sex="1">
                     <persName>
                         <surname>Thornton</surname>
                         <forename>Lewis B.</forename>
@@ -637,7 +658,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="maysj" sex="1">
+                <person xml:id="maysaj" sex="1">
                     <persName>
                         <surname>May</surname>
                         <forename>Samuel Joseph</forename>
@@ -650,7 +671,7 @@
                     </death>
                     <occupation>Minister and abolitionist</occupation>
                 </person>
-                <person xml:id="conklins" sex="1">
+                <person xml:id="conklinse" sex="1">
                     <persName>
                         <surname>Conklin</surname>
                         <forename>Seth</forename>
@@ -675,7 +696,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="parrishj" sex="1">
+                <person xml:id="parrishjo" sex="1">
                     <persName>
                         <surname>Parrish</surname>
                         <forename>Joseph</forename>
@@ -694,7 +715,7 @@
                         <title>United States Census, 1860</title>
                     </bibl>
                 </person>
-                <person xml:id="garrisonwl" sex="1">
+                <person xml:id="garrisonwil" sex="1">
                     <persName>
                         <surname>Garrison</surname>
                         <forename>William</forename>
@@ -712,7 +733,7 @@
                         <ptr target="https://www.familysearch.org/tree/person/details/96XL-LHV"/>
                     </bibl>
                 </person>
-                <person xml:id="furnesswh" sex="1">
+                <person xml:id="furnesswih" sex="1">
                     <persName>
                         <surname>Furness</surname>
                         <forename>William</forename>
@@ -738,7 +759,7 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="mckimjm" sex="1">
+                <person xml:id="mckimjam" sex="1">
                     <persName>
                         <surname>McKim</surname>
                         <forename>James</forename>
@@ -758,7 +779,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="loringeg" sex="1">
+                <person xml:id="loringelg" sex="1">
                     <persName>
                         <surname>Loring</surname>
                         <forename>Ellis Gray</forename>
@@ -775,7 +796,7 @@
                         <ptr target="http://oasis.lib.harvard.edu/oasis/deliver/~sch00099"/>
                     </bibl>
                 </person>
-                <person xml:id="stowehb" sex="2">
+                <person xml:id="stowehab" sex="2">
                     <!-- rutgers-lib_26731 -->
                     <persName>
                         <surname>Stowe</surname>
@@ -787,7 +808,18 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="boudinotee" sex="1">
+                <person xml:id="thompsonlet" sex="1">
+                    <persName>
+                        <reg>Lewis Thompson</reg>
+                        <forename>Lewis Tappan</forename>
+                        <surname>Thompson</surname>
+                    </persName>
+                    <birth when="1838-07-25"><placeName>Philadelphia, Pennsylvania</placeName></birth>
+                    <death when="1876-07-19"><placeName>Big Horn County, Montana</placeName></death>
+                    <occupation>Captain, 2nd Cavalry</occupation>
+                    <bibl><ref target="https://www.findagrave.com/memorial/9582695/lewis-tappan-thompson">Find a Grave</ref></bibl>
+                </person>
+                <person xml:id="boudinotele" sex="1">
                     <!-- rutgers-lib_26728 -->
                     <persName>
                         <surname>Boudinot</surname>
@@ -799,7 +831,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="kingts" sex="1">
+                <person xml:id="kingths" sex="1">
                     <!-- rutgers-lib_26733 -->
                     <persName>
                         <surname>King</surname>
@@ -811,7 +843,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="smithd" sex="1">
+                <person xml:id="smithdi" sex="1">
                     <!-- rutgers-lib_26837 -->
                     <persName>
                         <surname>Smith</surname>
@@ -823,7 +855,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="nealerh" sex="1">
+                <person xml:id="nealeroh" sex="1">
                     <!-- rutgers-lib_26840 -->
                     <persName>
                         <surname>Neale</surname>
@@ -835,7 +867,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="durfeen" sex="1">
+                <person xml:id="durfeena" sex="1">
                     <!-- rutgers-lib_26845 -->
                     <persName>
                         <surname>Durfee</surname>
@@ -847,7 +879,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="simpsonj" sex="1">
+                <person xml:id="simpsonjo" sex="1">
                     <!-- rutgers-lib_26846 -->
                     <persName>
                         <surname>Simpson</surname>
@@ -860,7 +892,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="greeleyh">
+                <person xml:id="greeleyho">
                     <!-- rutgers-lib_26848 -->
                     <persName>
                         <surname>Greeley</surname>
@@ -872,7 +904,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="friedmanj">
+                <person xml:id="friedmanjo">
                     <persName>
                         <surname>Friedman</surname>
                         <forename>Joseph</forename>
@@ -890,13 +922,13 @@
                         </bibl>
                     </listBibl>
                 </person>
-                <person xml:id="friedmani">
+                <person xml:id="friedmanis">
                     <persName>
                         <surname>Friedman</surname>
                         <forename>Isaac</forename>
                     </persName>
                 </person>
-                <person xml:id="hogun">
+                <person xml:id="hogunjo">
                     <persName>
                         <surname>Hogun</surname>
                         <forename>John Henry</forename>
@@ -907,7 +939,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="gistl">
+                <person xml:id="gistle">
                     <persName>
                         <surname>Gist</surname>
                         <forename>Levi</forename>
@@ -918,7 +950,7 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="chases">
+                <person xml:id="chasest">
                     <persName>
                         <surname>Chase</surname>
                         <forename>Stephen</forename>
@@ -929,25 +961,49 @@
                         />
                     </bibl>
                 </person>
-                <person xml:id="hoyth">
+                <person xml:id="hoythe">
                     <persName>
                         <surname>Hoyt</surname>
                         <forename>Henry</forename>
                     </persName>
                 </person>
-                <person xml:id="websterf">
+                <person xml:id="hunnjo" sex="1">
+                    <persName>
+                        <reg>John Hunn</reg>
+                        <forename>John</forename>
+                        <surname>Hunn</surname>
+                    </persName>
+                    <birth when="1818-06-25"><placeName>Kent County, Delaware</placeName></birth>
+                    <death when="1894-07-06"><placeName>Camden, Delaware</placeName></death>
+                    <occupation>Farmer, abolitionist, and engineer of the Underground Railroad in Delaware</occupation>
+                    <bibl><ref target="https://en.wikipedia.org/wiki/John_Hunn_(farmer)">Wikipedia</ref></bibl>
+                </person>
+                <person xml:id="websterfl">
                     <persName>
                         <surname>Webster</surname>
                         <forename>Fletcher</forename>
                     </persName>
                 </person>
+                <person xml:id="wileyeda" sex="1">
+                    <persName>
+                        <reg>Edward A. Wiley</reg>
+                        <surname>Wiley</surname>
+                        <forename>Edward A.</forename>
+                    </persName>
+                    <birth when-iso="1845"><placeName>Alabama</placeName></birth>
+                    <death when="1874-03-22"><placeName>Philadelphia, Pennsylvania</placeName></death>
+                    <listBibl>
+                        <bibl><ref target="https://exhibits.temple.edu/s/william-still/page/biography-of-caroline-still-an">Berhanu, Aslaku, "Biography of Caroline Still Anderson"</ref></bibl>
+                        <bibl><ref target="https://www.findagrave.com/memorial/195122461/edward-a-wiley">Find a Grave</ref></bibl>
+                    </listBibl>
+                </person>    
                 <person xml:id="buckmanma" sex="2">
                     <persName>
                         <surname>Buckman</surname>
                         <forename>Mary A.</forename>
                     </persName>
                 </person>
-                <person xml:id="vanrensselaerc">
+                <person xml:id="vanrensselaerco">
                     <persName>
                         <surname>Van Rensselaer</surname>
                         <forename>Cortlandt</forename>
@@ -962,7 +1018,7 @@
                         <ptr target="https://en.wikipedia.org/wiki/Cortlandt_Van_Rensselaer"/>
                     </bibl>
                 </person>
-                <person xml:id="hallowellml">
+                <person xml:id="hallowellmol">
                     <persName>
                         <surname>Hallowell</surname>
                         <forename>Morris Longstreth</forename>

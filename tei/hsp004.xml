@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Catharine Still, June 3, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg">Francesca Giannetti</principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="1">One page</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp004</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-06-03">June 3, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillca">Catharine Still</persName>
+          <placeName>unknown</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-05-12">first pass, clarified a few words, added project id</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+        <person xml:id="stillca" sex="2">
+          <persName>
+            <reg>Catharine Still</reg>
+            <forename>Catharine</forename>
+            <surname>Still</surname>
+          </persName>
+          <birth when-iso="1838"/>
+          <death><!--unknown--></death>
+        </person>
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+        <person xml:id="stillja" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>James</forename>
+          </persName>
+          <birth when="1812-04-09">
+            <placeName>Shamong, New Jersey</placeName>
+          </birth>
+          <death when="1882-03-09"/>
+        </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1" />
+        <opener>
+          <dateline>
+            <date when="1873-06-03">June 3rd 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#stillca">Katie</persName></salute>
+        </opener>
+        <p>
+          Your letter of the 30th inst<lb/> with the money order for twenty<lb/> 75/100 dollars to pay up your back <unclear reason="faded" resp="jd">orders</unclear><lb/> for the U.G.R.R. came duly to hand yesterday and let me assure you it can<lb/> not have come at a better time.<lb/> I do not wish to make you proud<lb/> but really I must say whom a <unclear reason="faded" resp="jd"/> that I have been hearing good <unclear reason="faded" resp="jd"/>from<lb/> you of late. I was up to <placeName>Cross Roads</placeName><lb/> Sunday, (went up Saturday evening and came<lb/> down Monday morning) and while <unclear reason="faded" resp="jd">there</unclear><lb/> <persName ref="#stillja">James</persName> was telling <add place="above">me</add> how a certain judge<lb/> at whose house you stopped spoke very<lb/> highly of your intelligence and bearing <unclear reason="faded" resp="jd">and</unclear><lb/> others had observed the same. Creditable <unclear reason="faded" resp="jd">marks</unclear><lb/> of character in my niece and I also<lb/> found that our uncle <persName>Jimmy</persName> was <unclear reason="faded" resp="jd">entertaining</unclear><lb/> similar ideas of Alabama’s daughter.<lb/> Like Captain <persName>Scott</persName> when you go for<lb/> them, they come down before you shoot<lb/> as they are soon convinced that it were<lb/> folly to attempt to get away from you.
+        </p>
+        <p>
+	        Well I have some <unclear reason="faded" resp="jd">clever agents</unclear> and the<lb/> orders are coming <add place="above">in</add> nicely. <unclear reason="faded" resp="jd">Love to P</unclear>
+        </p>
+        <closer>
+          <salute>Your affectionate uncle</salute>
+         <signed><persName ref="#stillwi"><choice><abbr>W</abbr><expan>William</expan></choice> Still</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from John Hunn to William Still, November 21, 1871</title>
+        <author>
+          <persName ref="#hunnjo">John Hunn</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="2">Two pages</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp002</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+          </msIdentifier>
+        </msDesc>
+        <bibl>Box 9G, Folder 11</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#hunnjo">John Hunn</persName>
+          <placeName>Beafort, South Carolina</placeName>
+          <date when="1871-11-21">November 21, 1871</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-05-09" who="#fg">first pass, minor edits, added project id and keyword</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+        <person xml:id="hunnjo" sex="1">
+          <persName>
+            <reg>John Hunn</reg>
+            <forename>John</forename>
+            <surname>Hunn</surname>
+          </persName>
+          <birth when="1818-06-25"><placeName>Kent County, Delaware</placeName></birth>
+          <death when="1894-07-06"><placeName>Camden, Delaware</placeName></death>
+          <occupation>Farmer</occupation>
+        </person>
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1" />
+        <opener>
+          <dateline>
+            <placeName>Beaufort S.C.</placeName>
+            <date when="1871-11-21">11<hi rend="superscript">th</hi> mo 21<hi rend="superscript">st</hi> 1871</date>
+          </dateline>
+          <salute><persName ref="#stillwi"><choice><abbr>W<hi rend="superscript">m</hi></abbr><expan>William</expan></choice> Still</persName><lb/> Dear Friend</salute>
+        </opener>
+        <p>
+          Thy very kind<lb/> letter was duly rec<hi rend="superscript">d</hi> and felt glad that<lb/> thee was pleased with the articles sent.<lb/> Enclosed I send another sketch; which thee<lb/> can publish or not, as seems best.
+        </p>
+        <p>
+	        <persName>Molly</persName> was the slave of <persName>Richard Blackston</persName><lb/> of Smyrna Delaware; he had a fine farm<lb/> in <placeName>Cecil County Maryland</placeName> to which he was<lb/> accustomed to resort when on a “spree”.<lb/> He is dead long since and I have left<lb/> out his name from regard to his surviving<lb/> relatives. They will know who is meant<lb/> in the account but others will not be likely<lb/> to recognize the individual except they<lb/> were intimately acquainted with the<lb/> family. I trust that thy enterprise<lb/> may be crowned with success and<lb/> that thee may receive a solid proof
+        <pb n="2"/>
+          that thy labors have not been in vain.
+        </p>
+        <p>
+	        With much love to thyself and family
+        </p>
+        <closer>
+          <salute>I remain very truly thy friend</salute>
+          <signed><persName ref="#hunnjo"><choice><abbr>Jno</abbr><expan>John</expan></choice> Hunn</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>

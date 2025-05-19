@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Lewis Thompson to William Still, May 29, 1872</title>
+        <author>
+          <persName><persName ref="#thompsonlet">Lewis Thompson</persName></persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="1">One page</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp003</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+          </msIdentifier>
+        </msDesc>
+        <bibl>Box 9G, Folder 12</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#thompsonlet">Lewis Thompson</persName>
+          <placeName>Fort Ellis, Montana</placeName>
+          <date when="1872-05-29"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-05-12">first pass, minor edits, added project id</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+        <person xml:id="thompsonlet" sex="1">
+          <persName>
+            <reg>Lewis Thompson</reg>
+            <forename>Lewis Tappan</forename>
+            <surname>Thompson</surname>
+          </persName>
+          <birth when="1838-07-25"><placeName>Philadelphia, Pennsylvania</placeName></birth>
+          <death when="1876-07-19"><placeName>Big Horn County, Montana</placeName></death>
+          <occupation>Captain, 2nd Cavalry</occupation>
+          <bibl><ref target="https://www.findagrave.com/memorial/9582695/lewis-tappan-thompson">Find a Grave</ref></bibl>
+        </person>
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1" />
+        <opener>
+          <dateline>
+            <placeName>Fort Ellis Montana</placeName>
+            <date when="1872-05-29"/>
+          </dateline>
+          <salute>Dear Friend</salute>
+        </opener>
+        <p>
+          I want you to<lb/> send me your book about<lb/> the U.G.R.R. I suppose<lb/> I could buy it although I<lb/> see it is published by subscription only.
+        </p>
+        <p>
+	      But I want you<lb/> to send me an author’s<lb/> copy and write in it<lb/> that it is to a friend<lb/> who will never forget<lb/> the old days of the<lb/> Anti Slavery Office.
+        </p>
+        <closer>
+          <salute>Yours truly</salute>
+          <signed><persName ref="#thompsonlet">Lewis Thompson</persName><lb/>Captain 2 Calvary</signed>
+          <address>
+            <addrLine><persName ref="#stillwi"><choice><abbr>W<hi rend="superscript">m</hi></abbr><expan>William</expan></choice> Still</persName> Esq</addrLine>
+            <addrLine><placeName>Philadelphia</placeName></addrLine>
+          </address>
+        </closer>
+    </body>
+  </text>
+</TEI>
