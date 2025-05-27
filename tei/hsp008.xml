@@ -69,6 +69,9 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-05-27">first pass, clarified a few words, added personography details, added project id</change>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listPerson>
@@ -169,7 +172,7 @@
 	        My hands are always full of work,<lb/> so much so that it is not always convenient<lb/> for me to write a social letter.<lb/> It seems to me that I did write to you<lb/> however in March or April and got no<lb/> answer. You know that I am<lb/> publishing my book now all alone<lb/> and I am happy to say that the sales<lb/> are daily increasing. I am decidedly<lb/> rejoiced that I have the work all<lb/> in my own hands. I have over 40<lb/> agents at work and could find <unclear reason="faded" resp="#jd">territory</unclear><lb/> for one thousand, if I could<lb/> get so many.
         </p>
         <p>
-          I will send you a copy of<lb/> the <title>New National Era</title>. (<persName ref="douglassfr">Douglass</persName> paper<supplied resp="#fg">)</supplied><lb/> in which you will find an article<lb/> on the Underground Rail Road. The<lb/> allusion to <placeName>Burlington County</placeName>, in my article<lb/> refers to “<persName ref="#stillca">Katie Still</persName>.” (She prefers <persName ref="#stillca">Katie</persName> to Catharine)<lb/> but the <unclear reason="faded" resp="#jd">types</unclear> have got her initials wrong.
+          I will send you a copy of<lb/> the <title>New National Era</title>. (<persName ref="#douglassfr">Douglass</persName> paper<supplied resp="#fg">)</supplied><lb/> in which you will find an article<lb/> on the Underground Rail Road. The<lb/> allusion to <placeName>Burlington County</placeName>, in my article<lb/> refers to “<persName ref="#stillca">Katie Still</persName>.” (She prefers <persName ref="#stillca">Katie</persName> to Catharine)<lb/> but the <unclear reason="faded" resp="#jd">types</unclear> have got her initials wrong.
     <pb n="2"/>
 	        <persName ref="#stillca">Catharine</persName> is quite <add place="above" rend="carrot">a</add> marked character<lb/> in <placeName>Burlington County</placeName>, and is highly<lb/> respected by the white people especially.<lb/> Her mother is something better <unclear reason="faded" resp="#jd">than</unclear><lb/> she was a year or two past. <persName ref="#stillpe1">Peter</persName> is<lb/> still farming and is doing about as he<lb/> formerly has been doing. I was up to <placeName>Cross<lb/> Roads</placeName> a few weeks ago and saw all the <unclear reason="faded" resp="#jd">folks there</unclear>.<lb/> <persName ref="#stillmat">Mahalah</persName> &amp; <persName>Gabriel</persName> are feeling the infirmities<lb/> of age &amp; so is <persName>Wesley</persName>. Indeed <persName ref="#stillja">James</persName> complains<lb/> also but the rest all seemed well. <persName ref="#stillja">James</persName><lb/> is full of practice and is making money.<lb/> His girls are trying to do something in their<lb/> way. <persName>Belinda</persName> was down to see us this<lb/> spring. Through the winter she has had<lb/> rheumatism pretty seriously, but was<lb/> recovering when here.
         </p>
