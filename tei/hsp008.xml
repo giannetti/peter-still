@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Mary Still, June 28, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="2">Two pages</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp008</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date>June 28, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillma">Mary Still</persName>
+          <placeName>unknown</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+        <person xml:id="stillma" sex="2">
+          <persName>
+            <reg>Mary Still</reg>
+            <forename>Mary</forename>
+            <surname>Still</surname>
+          </persName>
+          <birth when="1808-08-31"></birth>
+          <death when-iso="1889"></death>
+          <occupation>Educator</occupation>
+        </person>
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+        <person xml:id="douglassfr" sex="1">
+        <persName>
+          <reg>Frederick Douglass</reg>
+          <surname>Douglass</surname>
+          <forename>Frederick</forename>
+        </persName>
+        <birth when-iso="1818"><placeName>Cordova, Maryland</placeName></birth>
+        <death when="1895-02-20"><placeName>Washington, D.C.</placeName></death>
+        <occupation>Author</occupation>
+      </person>
+      <person xml:id="stillca" sex="2">
+          <persName>
+            <reg>Catharine Still</reg>
+            <forename>Catharine</forename>
+            <surname>Still</surname>
+            <addName>Katie</addName>
+          </persName>
+          <birth when-iso="1838"></birth>
+        <bibl><ref target="https://www.familysearch.org/ark:/61903/1:1:MFC9-4MZ?lang=en">Family Search</ref></bibl>
+        </person>
+        <person xml:id="stillja" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>James</forename>
+          </persName>
+          <birth when="1812-04-09">
+            <placeName>Shamong, New Jersey</placeName>
+          </birth>
+          <death when="1882-03-09">
+            <placeName>Medford, New Jersey</placeName>
+          </death>
+        </person>
+      <person xml:id="stillmat" sex="2">
+          <persName>
+            <surname>Still</surname>
+            <forename>Mahala</forename>
+          </persName>
+          <birth when="1803-12-30">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+        </person>
+      <person xml:id="stillpe1" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>Peter</forename>
+          </persName>
+        <birth when="1801-02-22">
+          <placeName>plantation of <persName>Saunders Griffin</persName>, Eastern
+            Shore of Maryland</placeName>
+        </birth>
+        <death when="1868-01-10"><placeName>Burlington, New Jersey</placeName></death>
+        </person>
+        <person xml:id="stillkiw" sex="2">
+          <persName>
+            <surname>Still</surname>
+            <forename>Kitturah</forename>
+          </persName>
+          <birth when="1805-01-20"/>
+        </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1" />
+        <opener>
+          <dateline>
+            <date>June 28<hi rend="superscript">th</hi> 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#stillma">Mary</persName>:</salute>
+        </opener>
+        <p>Your letter of the 13<hi rend="superscript">th</hi><lb/> inst. came duly to hand and gave me<lb/> great pleasure to hear from you, as you<lb/> had been mute for a long time.</p>
+        <p>
+	        My hands are always full of work,<lb/> so much so that it is not always convenient<lb/> for me to write a social letter.<lb/> It seems to me that I did write to you<lb/> however in March or April and got no<lb/> answer. You know that I am<lb/> publishing my book now all alone<lb/> and I am happy to say that the sales<lb/> are daily increasing. I am decidedly<lb/> rejoiced that I have the work all<lb/> in my own hands. I have over 40<lb/> agents at work and could find <unclear reason="faded" resp="#jd">territory</unclear><lb/> for one thousand, if I could<lb/> get so many.
+        </p>
+        <p>
+          I will send you a copy of<lb/> the <title>New National Era</title>. (<persName ref="douglassfr">Douglass</persName> paper<supplied resp="#fg">)</supplied><lb/> in which you will find an article<lb/> on the Underground Rail Road. The<lb/> allusion to <placeName>Burlington County</placeName>, in my article<lb/> refers to “<persName ref="#stillca">Katie Still</persName>.” (She prefers <persName ref="#stillca">Katie</persName> to Catharine)<lb/> but the <unclear reason="faded" resp="#jd">types</unclear> have got her initials wrong.
+    <pb n="2"/>
+	        <persName ref="#stillca">Catharine</persName> is quite <add place="above" rend="carrot">a</add> marked character<lb/> in <placeName>Burlington County</placeName>, and is highly<lb/> respected by the white people especially.<lb/> Her mother is something better <unclear reason="faded" resp="#jd">than</unclear><lb/> she was a year or two past. <persName ref="#stillpe1">Peter</persName> is<lb/> still farming and is doing about as he<lb/> formerly has been doing. I was up to <placeName>Cross<lb/> Roads</placeName> a few weeks ago and saw all the <unclear reason="faded" resp="#jd">folks there</unclear>.<lb/> <persName ref="#stillmat">Mahalah</persName> &amp; <persName>Gabriel</persName> are feeling the infirmities<lb/> of age &amp; so is <persName>Wesley</persName>. Indeed <persName ref="#stillja">James</persName> complains<lb/> also but the rest all seemed well. <persName ref="#stillja">James</persName><lb/> is full of practice and is making money.<lb/> His girls are trying to do something in their<lb/> way. <persName>Belinda</persName> was down to see us this<lb/> spring. Through the winter she has had<lb/> rheumatism pretty seriously, but was<lb/> recovering when here.
+        </p>
+        <p>
+	        Poor <persName ref="#stillkiw">Kitty</persName> does not see <persName ref="#stillja">James</persName> paid<lb/> one hundred and fifty to have an<lb/> <unclear reason="faded" resp="#jd">operation</unclear> performed upon her eyes but as<lb/> yet nothing has been effected nor is there<lb/> any hope in this world. Yet she is just<lb/> as cheerful as ever she was and seems to<lb/> be getting on comfortably. I offered her a home<lb/> but she declined preferring to be with her children.<lb/> I allow her $4 per month regularly.</p>
+        <p>
+          <add place="top-left" rend="vertical">My family are<lb/> all well and<lb/> all of them<lb/> join in sending<lb/> their love to<lb/> you</add>
+        </p>
+        <closer rend="top-left, vertical">
+          <salute>Your affec. Bro.</salute>
+          <signed><persName ref="#stillwi"><choice><abbr>W</abbr><expan>William </expan></choice> Still</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>

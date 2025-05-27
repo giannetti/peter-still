@@ -171,7 +171,11 @@
                         <addName>Mahala</addName>
                     </persName>
                     <persName type="alternate">Mahalah Still</persName>
-                    <birth when="1803-12-30"/>
+                    <birth when="1803-12-30">
+                        <placeName>Burlington, New Jersey</placeName>
+                    </birth>
+                    <death when="1891-12-29"><placeName>Stockton, New Jersey</placeName></death>
+                    <bibl><ref>Ancestry.com. New Jersey, U.S., Deaths and Burials Index, 1798-1971 [database on-line]. Provo, UT, USA: Ancestry.com Operations, Inc., 2011.</ref></bibl>
                 </person>
                 <person xml:id="stillann" sex="2">
                     <persName>
@@ -457,8 +461,10 @@
                 </person>
                 <person xml:id="stillca" sex="2">
                     <persName>
+                        <reg>Catharine Still</reg>
                         <surname>Still</surname>
                         <forename>Catharine</forename>
+                        <addName>Katie</addName>
                     </persName>
                     <birth notBefore="1837" notAfter="1838">
                         <placeName>Alabama</placeName>
@@ -866,6 +872,16 @@
                             target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000051504"
                         />
                     </bibl>
+                </person>
+                <person xml:id="douglassfr" sex="1">
+                    <persName>
+                        <reg>Frederick Douglass</reg>
+                        <surname>Douglass</surname>
+                        <forename>Frederick</forename>
+                    </persName>
+                    <birth when-iso="1818"><placeName>Cordova, Maryland</placeName></birth>
+                    <death when="1895-02-20"><placeName>Washington, D.C.</placeName></death>
+                    <occupation>Author</occupation>
                 </person>
                 <person xml:id="durfeena" sex="1">
                     <!-- rutgers-lib_26845 -->
