@@ -60,7 +60,7 @@
         </correspAction>
         <correspAction type="received">
           <persName ref="#stillma">Mary Still</persName>
-          <placeName>unknown</placeName>
+          <placeName cert="high" resp="#fg">Hansontown (Jacksonville), Duval County, Florida</placeName>
         </correspAction>
       </correspDesc>
       <textClass>
@@ -70,7 +70,8 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change who="#fg" when="2025-05-27">first pass, clarified a few words, added personography details, added project id</change>
+      <change who="#fg" when="2025-05-27">first pass, clarified a few words, added personography details, project id</change>
+      <change who="#fg" when="2025-05-28">Added Mary's likely location, tagged Charles Wesley Still</change>
     </revisionDesc>
   </teiHeader>
   <standOff>
@@ -117,6 +118,20 @@
           <birth when-iso="1838"></birth>
         <bibl><ref target="https://www.familysearch.org/ark:/61903/1:1:MFC9-4MZ?lang=en">Family Search</ref></bibl>
         </person>
+      <person xml:id="stillchw" sex="1">
+        <persName>
+          <reg>Charles W. Still</reg>
+          <surname>Still</surname>
+          <forename>Charles</forename>
+          <forename>Wesley</forename>
+        </persName>
+        <birth when="1817-03-01"/>
+        <bibl>
+          <ptr
+            target="http://hdl.rutgers.edu/1782.1/rucore00000002022.Manuscript.000052056"
+          />
+        </bibl>
+      </person>
         <person xml:id="stillja" sex="1">
           <persName>
             <surname>Still</surname>
@@ -174,7 +189,7 @@
         <p>
           I will send you a copy of<lb/> the <title>New National Era</title>. (<persName ref="#douglassfr">Douglass</persName> paper<supplied resp="#fg">)</supplied><lb/> in which you will find an article<lb/> on the Underground Rail Road. The<lb/> allusion to <placeName>Burlington County</placeName>, in my article<lb/> refers to “<persName ref="#stillca">Katie Still</persName>.” (She prefers <persName ref="#stillca">Katie</persName> to Catharine)<lb/> but the <unclear reason="faded" resp="#jd">types</unclear> have got her initials wrong.
     <pb n="2"/>
-	        <persName ref="#stillca">Catharine</persName> is quite <add place="above" rend="carrot">a</add> marked character<lb/> in <placeName>Burlington County</placeName>, and is highly<lb/> respected by the white people especially.<lb/> Her mother is something better <unclear reason="faded" resp="#jd">than</unclear><lb/> she was a year or two past. <persName ref="#stillpe1">Peter</persName> is<lb/> still farming and is doing about as he<lb/> formerly has been doing. I was up to <placeName>Cross<lb/> Roads</placeName> a few weeks ago and saw all the <unclear reason="faded" resp="#jd">folks there</unclear>.<lb/> <persName ref="#stillmat">Mahalah</persName> &amp; <persName>Gabriel</persName> are feeling the infirmities<lb/> of age &amp; so is <persName>Wesley</persName>. Indeed <persName ref="#stillja">James</persName> complains<lb/> also but the rest all seemed well. <persName ref="#stillja">James</persName><lb/> is full of practice and is making money.<lb/> His girls are trying to do something in their<lb/> way. <persName>Belinda</persName> was down to see us this<lb/> spring. Through the winter she has had<lb/> rheumatism pretty seriously, but was<lb/> recovering when here.
+          <persName ref="#stillca">Catharine</persName> is quite <add place="above" rend="carrot">a</add> marked character<lb/> in <placeName>Burlington County</placeName>, and is highly<lb/> respected by the white people especially.<lb/> Her mother is something better <unclear reason="faded" resp="#jd">than</unclear><lb/> she was a year or two past. <persName ref="#stillpe1">Peter</persName> is<lb/> still farming and is doing about as he<lb/> formerly has been doing. I was up to <placeName>Cross<lb/> Roads</placeName> a few weeks ago and saw all the <unclear reason="faded" resp="#jd">folks there</unclear>.<lb/> <persName ref="#stillmat">Mahalah</persName> &amp; <persName>Gabriel</persName> are feeling the infirmities<lb/> of age &amp; so is <persName ref="#stillchw" cert="medium" resp="#fg">Wesley</persName>. Indeed <persName ref="#stillja">James</persName> complains<lb/> also but the rest all seemed well. <persName ref="#stillja">James</persName><lb/> is full of practice and is making money.<lb/> His girls are trying to do something in their<lb/> way. <persName>Belinda</persName> was down to see us this<lb/> spring. Through the winter she has had<lb/> rheumatism pretty seriously, but was<lb/> recovering when here.
         </p>
         <p>
 	        Poor <persName ref="#stillkiw">Kitty</persName> does not see <persName ref="#stillja">James</persName> paid<lb/> one hundred and fifty to have an<lb/> <unclear reason="faded" resp="#jd">operation</unclear> performed upon her eyes but as<lb/> yet nothing has been effected nor is there<lb/> any hope in this world. Yet she is just<lb/> as cheerful as ever she was and seems to<lb/> be getting on comfortably. I offered her a home<lb/> but she declined preferring to be with her children.<lb/> I allow her $4 per month regularly.</p>
