@@ -68,6 +68,9 @@
         </keywords>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change resp="#fg" when="2025-06-06">first pass, clarified a few words, added project id</change>
+    </revisionDesc>
   </teiHeader>
   <standOff>
     <listPerson>    
@@ -109,8 +112,8 @@
           The mail brought me<lb/> 8 letters today and amongst them <gap reason="faded"/><lb/> very pleasant and interesting <unclear>ones.</unclear>
         </p>
         <p>
-	      I thank you for the <gap reason="faded"/><lb/> been manifesting towards my <unclear reason="faded" resp="#jd"/><lb/> especially for the young <unclear reason="faded" resp="#jd"/><lb/> <persName>Somers</persName> who has concluded to <gap reason="faded"/><lb/> agency for the U.G.R.R. Some places<lb/> had <unclear reason="faded" resp="#jd"/> I have made no <unclear reason="faded" resp="#jd"/><lb/> to get <unclear reason="faded" resp="#jd"/> agency for <placeName>Boston</placeName>. But have<lb/> rather felt that I would let the <unclear reason="faded" resp="#jd"/><lb/> a while <unclear reason="faded" resp="#jd"/> I could lead the right <unclear reason="faded" resp="#jd"/><lb/> there. I have some fine agents as <unclear reason="faded" resp="#jd"/><lb/> perceive by the article in the Era, and everyday<lb/> I am getting applications from <unclear reason="faded" resp="#jd"/><lb/> ones. Now if I thought Mr. <persName>Somers</persName><lb/> would take hold of the work with a view<lb/> of clearing $1000 before stopp<del rend="strikethrough">ped</del><add place="above">ing</add> I would<lb/> be glad to engage him. <unclear reason="faded" resp="#jd"/> if he can only<lb/> <unclear reason="faded" resp="#jd"/> his way clear to do <unclear reason="faded" resp="#jd"/> odds <unclear reason="faded" resp="#jd"/> this<lb/> time to the work I would say he had better<lb/>
-          <add place="left margin" rend="vertical"> put to <unclear reason="faded" resp="#jd"/> the <unclear reason="faded" resp="#jd"/> will <unclear reason="faded" resp="#jd"/> it righteous</add><!-- text written vertically on the side of the page -->
+	      I thank you for the <gap reason="faded"/><lb/> been manifesting towards my <unclear reason="faded" resp="#jd"/><lb/> especially for the young <unclear reason="faded" resp="#jd"/><lb/> <persName>Sumers</persName> who has concluded to <gap reason="faded"/><lb/> agency for the U.G.R.R. Some places<lb/> had <unclear reason="faded" resp="#jd">command</unclear> I have made no <unclear reason="faded" resp="#jd"/><lb/> to get <unclear reason="faded" resp="#jd">an</unclear> agency for <placeName>Boston</placeName>. But have<lb/> rather felt that I would let the <unclear reason="faded" resp="#jd"/><lb/> a while <unclear reason="faded" resp="#jd">until</unclear> I could send the right <unclear reason="faded" resp="#jd">man</unclear><lb/> there. I have some fine agents as <unclear reason="faded" resp="#jd">you may</unclear><lb/> perceive by the article in the Era, and everyday<lb/> I am getting applications from <unclear reason="faded" resp="#jd">additional</unclear><lb/> ones. Now if I thought Mr. <persName>Sumers</persName><lb/> would take hold of the work with a view<lb/> of clearing $1000 before stopp<del rend="strikethrough">ped</del><add place="above">ing</add> I would<lb/> be glad to engage him. <unclear reason="faded" resp="#jd">But</unclear> if he can only<lb/> <unclear reason="faded" resp="#jd">find</unclear> his way clear to devote odds <unclear reason="faded" resp="#jd">&amp; ends</unclear> of his<lb/> time to the work I would say he had better<lb/>
+          <add place="left margin" rend="vertical"> not to <unclear reason="faded" resp="#jd">ask</unclear> <unclear resp="#fg"/> of him, <unclear reason="faded" resp="#jd"/> will <unclear reason="faded" resp="#jd">answer</unclear> it right away</add><!-- text written vertically on the side of the page -->
         </p>
         <closer rend="top-left, vertical">
           <salute>Yours affec.</salute>
