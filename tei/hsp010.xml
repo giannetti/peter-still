@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Edward A. Wiley, July 12, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti</principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="1">One page</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp010</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-07-12">July 12, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#wileyeda">Edward A. Wiley</persName>
+          <placeName>Pittsburgh, Pennsylvania</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change resp="#fg" when="2025-06-06">first pass, clarified a few words, added project id</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff> 
+    <listPerson>
+      <person xml:id="wileyeda" sex="1">
+          <persName>
+            <surname>Wiley</surname>
+            <forename>Edward A.</forename>
+          </persName>
+          <death when="1874-03-22"/>
+        </person>      
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+      <person xml:id="stillcavm" sex="2">
+        <persName>
+          <reg>Caroline (Caddy) Still</reg>
+          <surname>Still</surname>
+          <forename>Caroline</forename>
+          <forename>Virginia</forename>
+          <forename>Matilda</forename>
+          <addName>Caddy</addName>
+          <addName>Carrie</addName>
+        </persName>
+        <birth notBefore="1847-11-01" notAfter="1848"/>
+        <death when-iso="1919"/>
+      </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1"/>
+        <opener>
+          <dateline>
+            <date when="1873-07-12">July 12<hi rend="superscript">th</hi> 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#wileyeda">Edward</persName>:</salute>
+        </opener>
+        <p>
+          Your letter arrived yesterday<lb/> and as your time is growing so short<lb/> in Pittsburg, it seems important that my<lb/> answer should not be delayed.
+        </p>
+        <p>
+          I think <persName ref="#stillcavm">Carrie</persName> has carried your<lb/> letter off as I do not find it on my desk<lb/> and she has not come down to breakfast<lb/> yet. However I will go on answering<lb/> from memory.
+        </p>
+        <p>
+	      A.G. Carroll, No 52 St. Mary St.<lb/> Baltimore is the name of the gentleman<lb/> who wrote me the 3rd of April for a copy<lb/> of the Turkey Morocco U.G.R.R.<lb/> I hope you will have the good luck<lb/> to get off all your books in <placeName><choice><sic>Pittsburg</sic><corr>Pittsburgh</corr></choice></placeName>.<lb/>
+	      I have not yet received Caugill’s letter<lb/> but am on the lookout for it. I would<lb/> be pleased to have him take an agency.<lb/> Does he mean to apply for a general agency<lb/>? When he writes I shall be ready for<lb/> him.
+        </p>
+        <p>
+	      I think very well of your intention<lb/> of coming home through Baltimore.<lb/> I had an order for Baltimore this<lb/> week but would not fill it. It came
+          <add place="top-left" rend="vertical">to me from the<lb/> friends <unclear resp="#jd">Intelligencer's</unclear><lb/> <unclear resp="#jd"/> office</add><!-- text written vertically on the top of the page -->
+        </p>
+        <closer rend="top-left, vertical">
+          <salute>Yours affec.</salute>
+          <signed><persName ref="#stillwi"><choice><abbr>W.S.</abbr><expan>William Still</expan></choice> </persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>
