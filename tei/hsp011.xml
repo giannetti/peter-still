@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Catharine Still, July 12, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="2">Two pages</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp011</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-07-12">July 12, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillca">Catharine Still</persName>
+          <placeName>unknown</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-06-12">first pass, clarified a few words, added project id</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+        <person xml:id="stillca" sex="2">
+          <persName>
+            <reg>Catharine Still</reg>
+            <surname>Still</surname>
+            <forename>Catharine</forename>
+            <addName>Katie</addName>
+          </persName>
+          <birth notBefore="1837" notAfter="1838">
+            <placeName>Alabama</placeName>
+          </birth>
+        </person>
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+      <person xml:id="stillleg" sex="2">
+        <persName>
+          <reg>Letitia George Still</reg>
+          <surname type="married">Still</surname>
+          <surname>George</surname>
+          <forename>Letitia</forename>
+        </persName>
+        <birth when-iso="1821"/>
+        <death when-iso="1906"/>
+      </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1" />
+        <opener>
+          <dateline>
+            <date when="1873-07-12">July 12<hi rend="superscript">th</hi> 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#stillca">Katie</persName></salute>
+        </opener>
+        <p>
+          Your letter of yesterday’s<lb/> date came to hand this morning together<lb/> with my tax bill and also an order for<lb/> 4 U.G.R.R. books. I thank you for looking after my tax and shall feel<lb/> still more obliged if you will in<lb/> future continue to have a <choice><sic>mindfull</sic><corr>mindful</corr></choice><lb/> eye on <placeName>Jersey</placeName>, relative to this <unclear resp="#jd">nuisance</unclear><lb/>
+        </p>
+        <p>
+	        With regard to <placeName>Syracuse</placeName>, I am glad<lb/> to hear that you would like to go there<lb/> and that you are ready to go as soon<lb/> as you can <unclear resp="#jd">command</unclear><lb/> the means to<lb/> go with. Why not let me advance it for<lb/> you? I will do it very cheerfully if you<lb/> wish it. Then you can go as soon as you<lb/> like. Also on starting I would be willing to<lb/> ship you 50 or 100 books, and let you<lb/> have a fair swing. I think you might<lb/> manage to get off 100 in six weeks by having<lb/> the books on hand to deliver straight along.<lb/> Make up your mind and say what you<lb/> will do. I am sorry to hear that your<lb/> "Mother’s health is not good." Give my <lb/>love to her and tell her I think it would<lb/> do her good if she would come and spend
+    <pb n="2"/>
+          a while with us. It has been a long<lb/> time since she has made us a visit. Do urge<lb/> her to come. <persName ref="#stillleg">Letitia</persName> sends her love to your<lb/> mother and also joins me in extending to her<lb/> a hearty welcome.
+        </p>
+        <p>
+	        I think I must try and <unclear resp="#jd">run</unclear><lb/> up to <placeName>Burlington</placeName> before the end of this<lb/> month. Your bill stands <unclear resp="#jd">thus</unclear>:<lb/>
+          <table rows="5" cols="2">
+            <row role="data">
+              <cell role="data">2 U.G.R.R. paneled @$5.</cell><cell role="data">10.00</cell></row>
+            <row role="data">
+              <cell role="data">1 Do Sheep</cell><cell role="data">5.50</cell>
+            </row>
+            <row role="data">
+              <cell role="data">1 Do Eng. Clo.</cell><cell role="data"><hi rend="underline">4.50</hi></cell>
+            </row>
+            <row role="data">
+              <cell role="data"></cell><cell role="data">$20.00</cell>
+            </row>
+            <row role="data">
+              <cell role="data">1/2 off</cell><cell role="data"><hi rend="underline">10.00</hi></cell>
+            </row>
+            <row role="data">
+              <cell role="data"></cell><cell role="data">$10.00</cell>
+            </row>
+          </table>
+          Of course in all cases where your subscribers<lb/> make choice of particular colors by<lb/> all means try and accommodate them.
+        </p>
+        <p>
+	        If you go to <placeName>Syracuse</placeName> you must<lb/> have two copies for editors and something<lb/> must be done to create a sensation to help<lb/> the cause.
+        </p>
+        <closer>
+          <salute>Your affectionate uncle</salute>
+         <signed><persName ref="#stillwi"><choice><abbr>W</abbr><expan>William </expan></choice> Still</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>
