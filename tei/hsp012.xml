@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to James Still, July 16, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent>
+      <measure unit="pages" quantity="1">One page</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp012</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-07-16">July 16, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillja">James Still</persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-06-13">first pass, added project id</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff> 
+    <listPerson>    
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+        <person xml:id="stillja" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>James</forename>
+          </persName>
+          <birth when="1812-04-09">
+            <placeName>Shamong, New Jersey</placeName>
+          </birth>
+          <death when="1882-03-09">
+          </death>
+        </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1"/>
+        <opener>
+          <dateline>
+            <date when="1873-07-16">July 16<hi rend="superscript">th</hi> 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#stillja">James</persName>:</salute>
+        </opener>
+        <p>
+          As I have concluded to give<lb/> Mr. <persName>Somers</persName> an agency and want him to have<lb/> fair sailing suppose I send to you 4 dozen<lb/> books, and let him get them from you just<lb/> as he may want them. For instance, he<lb/> might want a few today to deliver<lb/> and you could let him have them on<lb/> paying the price cash down. Will this<lb/> be asking too much of you? If the trouble<lb/> will not be too great I think the plan<lb/> will work well. If you will allow<lb/> me I will send you one box for a trial.
+        </p>
+        <closer>
+          <salute>Yours truly &amp; affectionately</salute>
+          <signed><persName ref="#stillwi"><choice><abbr>W</abbr><expan>William </expan></choice> Still</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>
