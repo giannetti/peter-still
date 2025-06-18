@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to James Still, July 23, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="1">One page</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp014</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-07-23">July 23, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillja">James Still</persName>
+          <placeName cert="medium" resp="#fg">Medford, New Jersey</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-06-18">first pass, added project id, entry for Lucretia Still, clarified some words</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>    
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+        <person xml:id="stillja" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>James</forename>
+          </persName>
+          <birth when="1812-04-09">
+            <placeName>Shamong, New Jersey</placeName>
+          </birth>
+          <death when="1882-03-09">
+          </death>
+        </person>
+        <person xml:id="wileyeda" sex="1">
+          <persName>
+            <surname>Wiley</surname>
+            <forename>Edward A.</forename>
+          </persName>
+          <birth when-iso="1845"><placeName>Alabama</placeName></birth>
+          <death when="1874-03-22"><placeName>Philadelphia, Pennsylvania</placeName></death>
+        </person>
+        <person xml:id="stillan" sex="2">
+          <persName>
+            <surname>Still</surname>
+            <forename>Angelina</forename>
+          </persName>
+          <birth when-iso="1844"/>
+          <death when-iso="1896"/>
+        </person>
+      <person xml:id="stilllu">
+        <persName>
+          <surname>Still</surname>
+          <forename>Lucretia</forename>
+          <addName>Crece</addName>
+        </persName>
+        <birth when-iso="1846"/>
+        <death when="1929-12-01"/>
+        <bibl>Evening Courier, Camden, NJ, December 2, 1929, final edition.</bibl>
+      </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1"/>
+        <opener>
+          <dateline>
+            <date when="1873-07-23">July 23<hi rend="superscript">rd</hi> 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#stillja">James</persName>:</salute>
+        </opener>
+        <p>
+          I forwarded to you yesterday<lb/> by <placeName>Boston</placeName> steamship line, one<lb/> box of books containing 20 copies of the<lb/> english <unclear reason="faded" unit="word" quantity="2" resp="#jd">cloth 18do</unclear> paneled style and 10do<lb/> of the <unclear reason="faded" resp="#jd">Morgan Library</unclear> style of bindings,<lb/> making 48 in all. <unclear reason="faded" resp="#jd">From</unclear> you therefore<lb/> Mr <persName>Somers</persName> can draw and pay as he goes.<lb/> I wrote him that I should send you a<lb/> box and that he would have the opportunity<lb/> of drawing his supply <unclear reason="faded" resp="#jd">from</unclear><lb/> you. <unclear reason="faded" resp="#jd">Also</unclear> I urged him to try and get jobs <unclear reason="faded" resp="#jd">in</unclear> to take their books immediately<lb/> as far as he can do so. The freight will<lb/> be 15 cents on the boat then the <unclear reason="faded" unit="word" quantity="2" resp="#jd">porterage from</unclear><lb/> the wharf to your house will be something-<lb/> let me know what it all comes to and<lb/> I will forward you the money or you<lb/> can deduct it from sales.
+        </p>
+        <p>
+	      Mr. <persName ref="#wileyeda">Wiley</persName> has been home for a<lb/> few days after an absence of 3 months<lb/> successful canvass in <placeName><choice><sic>Pittsburg</sic><corr>Pittsburgh</corr></choice></placeName>.<lb/> On Friday he is going to <placeName>Baltimore</placeName><lb/> to operate where doubtless he will be<lb/> very successful. I hardly think he will stop in<lb/> the coal yard this winter.
+        </p>
+        <p>
+          <add place="top-left" rend="vertical"><persName ref="#stillan">Angie</persName> &amp; <persName ref="#stilllu"><unclear resp="#jd">Crece</unclear></persName> were down Monday and reported that all were well at home<lb/> <persName ref="#stillwi"> W.S.</persName></add>
+        </p>
+        <closer>
+          <salute>Yours affectionately</salute>
+          <signed><persName ref="#stillwi"><choice><abbr>W</abbr><expan>William </expan></choice> Still</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>

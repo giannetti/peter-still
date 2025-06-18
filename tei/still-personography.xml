@@ -407,6 +407,18 @@
                     <birth when-iso="1821"/>
                     <death when-iso="1906"/>
                 </person>
+                <person xml:id="stilllu">
+                    <persName>
+                        <reg>Lucretia Still</reg>
+                        <surname>Still</surname>
+                        <forename>Lucretia</forename>
+                        <addName>Crece</addName>
+                    </persName>
+                    <birth when-iso="1846"/>
+                    <death when="1929-12-01"/>
+                    <note resp="#fg">Daughter of <persName ref="#stillja">James Still</persName></note>
+                    <bibl>Evening Courier, Camden, NJ, December 2, 1929, final edition.</bibl>
+                </person>
                 <person xml:id="stillcavm" sex="2">
                     <persName>
                         <reg>Caroline (Caddie) Still</reg>
