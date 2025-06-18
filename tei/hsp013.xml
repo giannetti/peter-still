@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Catharine Still, July 23, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="1">One page</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp013</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-07-23">July 23, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillca">Catharine Still</persName>
+          <placeName cert="medium" resp="#fg">Burlington County, New Jersey</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-06-18">first pass, clarified a few words, added Katie's location and project id</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+        <person xml:id="stillca" sex="2">
+          <persName>
+            <reg>Catharine Still</reg>
+            <forename>Catharine</forename>
+            <surname>Still</surname>
+            <addName>Katie</addName>
+          </persName>
+          <birth when-iso="1838"></birth> 
+          <death/>
+        </person>
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+      <person xml:id="wileyeda" sex="1">
+          <persName>
+            <surname>Wiley</surname>
+            <forename>Edward A.</forename>
+          </persName>
+        <birth when-iso="1845"><placeName>Alabama</placeName></birth>
+        <death when="1874-03-22"><placeName>Philadelphia, Pennsylvania</placeName></death>
+        </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1" />
+        <opener>
+          <dateline>
+            <date when="1873-07-23">July 23<hi rend="superscript">rd</hi> 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#stillca">Katie</persName>:</salute>
+        </opener>
+        <p>
+          Your letter with the<lb/> money order enclosed came<lb/> safely to hand on Monday. This<lb/> squares us up again I think.
+        </p>
+        <p>
+	        While you told me that you<lb/> felt “pretty well acquainted with<lb/> <placeName>Jersey</placeName>”, you said nothing about<lb/> <placeName>Syracuse</placeName>. Have you come to<lb/> no conclusion on this point? I refer<lb/> to my proposition  in my previous<lb/> letter. If you would like to try<lb/> more of <placeName>Jersey</placeName> I would refer you<lb/> to <placeName>Woodbury</placeName> or <placeName>Newark</placeName>. At<lb/> <placeName>Woodbury</placeName> &amp; <placeName>Mullica Hill</placeName> quite a<lb/> large number of Quakers resides and<lb/> a good number of books might be<lb/> sold I have no doubt.
+        </p>
+        <p>
+	        Mr. <persName ref="#wileyeda">Wiley</persName> has been at home<lb/> for a few days from <placeName><choice><sic>Pittsburg</sic><corr>Pittsburgh</corr></choice></placeName> where<lb/> he had been canvassing successfully<lb/> for 3 months. On Friday he will start<lb/> for <placeName>Baltimore</placeName> where I think he will<lb/> have even greater success than in <placeName><choice><sic>Pittsburg</sic><corr>Pittsburgh</corr></choice></placeName>.<lb/> Orders are coming in nicely.
+        </p>
+        <p>
+          Love to your mother. I am coming up soon.
+        </p>
+        <p>
+	      <add place="top-left" rend="vertical">I think I<lb/> will come<lb/> Tuesday<lb/> next week.<lb/> Will you be<lb/> at home?</add>
+        </p>
+        <closer>
+          <salute>Yours</salute>
+         <signed><persName ref="#stillwi"><choice><abbr>W.</abbr><expan>William </expan></choice> Still</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>
