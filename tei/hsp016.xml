@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Edward A. Wiley, August 6, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg">Francesca Giannetti</principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="2">Two pages</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp016</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-08-06">August 6, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#wileyeda">Edward A. Wiley</persName>
+          <placeName>Newport, Rhode Island</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-06-24" who="#fg">first pass, clarified a few words, added project id, removed reference to James Still as I am pretty sure "Jones" was written</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+        <person xml:id="wileyeda" sex="1">
+          <persName>
+            <surname>Wiley</surname>
+            <forename>Edward A.</forename>
+          </persName>
+          <death when="1874-03-22">March 22, 1874
+          </death>
+        </person>      
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+      <person xml:id="stillcavm" sex="2">
+        <persName>
+          <reg>Caroline (Caddy) Still</reg>
+          <surname>Still</surname>
+          <forename>Caroline</forename>
+          <forename>Virginia</forename>
+          <forename>Matilda</forename>
+          <addName>Caddy</addName>
+          <addName>Carrie</addName>
+        </persName>
+        <birth notBefore="1847-11-01" notAfter="1848"/>
+        <death when-iso="1919"/>
+      </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1"/>
+        <opener>
+          <dateline>
+            <date when="1873-08-06">Aug. 6 3</date>
+            <placeName>Newport R.I.</placeName>
+          </dateline>
+          <salute>Dear <persName ref="#wileyeda">Edward</persName>:</salute>
+        </opener>
+        <p>
+          Your letter of the 4<hi rend="superscript">th</hi> inst. <lb/> <del rend="strikethrough">came to</del> came to hand today and I was gratified<lb/> not a little to hear that your health is<lb/> “improving so nicely”. It was not altogether<lb/> gratifying however to learn that you are<lb/> feeling “<choice><sic>doubtfull</sic><corr>doubtful</corr></choice> about making a successful<lb/> canvass in <placeName>Newport</placeName>,” that “agents have been<lb/> canvassing in the place before” your <unclear>arrival</unclear> <lb/> <persName>Harvey</persName> of <del rend="strikethrough">N</del> <placeName>Providence</placeName> is the <unclear resp="#jd">man</unclear> I <unclear resp="#jd">reserve</unclear>.<lb/> I was not aware that Miss <unclear resp="#jd"/>Gainsworth<lb/> was attempting to do anything.
+        </p>
+        <p>
+	      Now as to what you have better do under<lb/> the circumstances, I can only say this,<lb/> if you see that it will not pay to <unclear resp="#jd">tarry</unclear><lb/> for a few weeks, were I in your stead<lb/> I would go to <placeName>Hartford</placeName> or <placeName>New <unclear resp="#jd">Haven</unclear></placeName> and<lb/> in this connection also I might name <unclear resp="#jd">Martha's</unclear><lb/> Vineyard, in <placeName>Mass.</placeName> 28 or 30 miles from <lb/> <placeName>New Bedford</placeName> - as a summer resort and<lb/> watering place it stands very high. As your<lb/> health is improving this is every thing. With<lb/> good health you can make money, but<lb/> not so with bad health - So you have no<lb/> right to feel discouraged with your<lb/> visit down East. It is all as Providence
+    <pb n="2"/>
+          (not Providence in R.I.) would have<lb/> it perhaps, so take it calmly and the<lb/> end will all come out right.
+        </p>
+        <p>
+	      In <placeName>Newark</placeName> &amp; <placeName>New Brunswick<lb/> N.J.</placeName> on your way home, I judge it<lb/> would pay you to stop. The rest I will<lb/> leave you to fill up.
+        </p>
+        <p>
+	      <persName ref="#stillcavm">Carrie</persName> and the baby went yesterday<lb/> to Atlantic City, to comply with <unclear cert="medium" resp="#jd">Mrs</unclear> Jones'<lb/> invitation. Jones is still there quite sick<lb/> but hopes to be well enough by Saturday<lb/> to come home.
+        </p>
+        <p>
+	      The rest of the family are<lb/> all well except I am in possession<lb/> of a desperate bad cold which I would<lb/> be pleased to get rid of very soon.<lb/> But we are not to have all sunshine<lb/> in this world. We must have clouds<lb/> and head winds occasionally. Our father<lb/> above is very good and will stand by<lb/> us faithfully if we will do right.<lb/> So let us be of good cheer.
+        </p>
+        <closer>
+          <salute>Yours affectionately</salute>
+          <signed><persName ref="#stillwi"><choice><abbr>W.</abbr><expan>William</expan></choice> </persName> Still</signed>
+        </closer>
+        <postscript>
+        <p>
+          Regards to <unclear resp="#jd">Dungee</unclear> &amp; family.
+        </p>
+        </postscript>
+    </body>
+  </text>
+</TEI>
