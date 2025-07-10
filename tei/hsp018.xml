@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Angelina Still, August 12, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent><measure unit="page" quantity="1">One page</measure></extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp018</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-08-12">August 12, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillan">Angelina Still</persName>
+          <placeName>unknown</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-07-10">first pass, clarified a few words, added project id</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+        <person xml:id="stillmat" sex="2">
+          <persName>
+            <reg>Mahalah Still</reg>
+            <surname>Still</surname>
+            <surname>Thompson</surname>
+            <forename>Mahalah</forename>
+            <addName>Mahala</addName>
+          </persName>
+          <birth when="1803-12-30">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1891-12-29"><placeName>Stockton, New Jersey</placeName></death>
+        </person>
+         <person xml:id="stillan" sex="2">
+          <persName>
+            <surname>Still</surname>
+            <forename>Angelina</forename>
+          </persName>
+          <birth when-iso="1844"/>
+          <death when-iso="1896"/>
+        </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1" />
+        <opener>
+          <dateline>
+            <date when="1873-08-12">Aug. 12<hi rend="superscript">th</hi> 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#stillan">Angie</persName></salute>
+        </opener>
+        <p>
+         On coming <add place="above">home</add> at 3 o’clock today<lb/> <unclear reason="faded" resp="#jd">I found</unclear> the invalid chair in my<lb/> office- it having arrived during the<lb/> morning. It looks well, and will<lb/> make the poor <unclear resp="#jd">unfortunate</unclear> child<lb/> rejoice. Although the price is <unclear reason="faded" resp="#jd">considerably</unclear><lb/> more than what I had expected.<lb/> The bill calls for $45. <unclear cert="high" reason="faded" resp="#jd">Does</unclear><lb/> that frighten you? As many <unclear resp="#jd">lame</unclear><lb/> people as there are it is a little strange<lb/> that <del rend="strikethrough"/> invalid chairs <damage extent="one character" quantity="1" unit="character" type="torn">should</damage> be<lb/> so scarce. This seems to be a very <damage extent="one character" quantity="1" unit="character" type="torn">substantial</damage><lb/> and perfect one in its way <damage extent="one character" quantity="1" unit="character" type="torn">however</damage>.
+        </p>
+        <p>
+        Now with regard to the <damage extent="two characters" quantity="2" unit="character" type="torn">visit</damage> contemplated,<lb/> as the matter now looks, we<lb/> may find oursel<del rend="strikethrough">f</del><add place="above">ves</add> sadly <damage extent="one character" quantity="1" unit="character" type="torn">disappointed</damage>.<lb/> In consequence of being on jury <damage extent="one character" quantity="1" unit="character" type="torn">this</damage><lb/> week of course it is uncertain <damage extent="one character" quantity="1" unit="character" type="torn">whether</damage><lb/> it will be in my power to get off<lb/> on Saturday. Even if I get off on Saturday<lb/> on Monday morning at 10 o’clock<lb/> I shall have to be on <unclear resp="#jd">hand</unclear> again.<lb/> So the matter stands just in this fashion.<lb/> Of course we could come up and back<lb/> all in time, by omitting the visit to the Pines. <add place="top-left" rend="vertical">Have the goodness<lb/> to give the<lb/> enclosed check<lb/> to your aunt<lb/> <persName ref="#stillmat">Mahalah</persName><lb/> with my love.</add><!-- text written vertically on the top of the page --> <add place="top" rend="horizontal">How shall I send chair &amp; when?</add><!-- text written horizontally on the top of the page -->
+        </p>
+        <closer rend="top-left, vertical">
+          <salute >Your affec. <lb/> uncle</salute>
+           <signed><persName ref="#stillwi"><choice><abbr>W</abbr><expan>William</expan></choice> Still</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>
