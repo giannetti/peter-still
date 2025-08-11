@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Edward A. Wiley, August 18, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent>
+      <measure unit="page" quantity="2">Two pages</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp019</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-08-18">August 18, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#wileyeda">Edward A. Wiley</persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-08-11">first pass, clarified a few words, added project id, added reference to Vina Still and removed James, as I am fairly sure "Jones" is written</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+        <person xml:id="wileyeda" sex="1">
+          <persName>
+            <surname>Wiley</surname>
+            <forename>Edward A.</forename>
+          </persName>
+          <death when="1874-03-22"/>
+        </person>      
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+      <person xml:id="stilllas" sex="2">
+        <persName>
+          <surname type="married">Still</surname>
+          <surname type="given">Sisson</surname>
+          <forename>Lavinia</forename>
+        </persName>
+        <persName type="alias">Vina Still</persName>
+        <birth when-iso="1810" cert="medium">
+          <placeName>North Carolina</placeName>
+        </birth>
+        <death when="1878-03-05"><placeName>Philadelphia, PA</placeName></death>
+      </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1"/>
+        <opener>
+          <dateline>
+            <date when="1873-08-18">Aug 18<hi rend="superscript">th</hi> 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#wileyeda">Edward</persName>:</salute>
+        </opener>
+        <p>
+          Your letter of the 15<hi rend="superscript">th</hi><lb/> inst. came safely to hand on Saturday<lb/> while I was hurrying to get off several<lb/> orders and to get out of town by a late<lb/> evening train. So it was not in my power<lb/> to do more than read it and lay it <unclear resp="#fg">by for</unclear><lb/> attention this morning.
+        </p>
+        <p>
+	      Your change of base from <placeName>Newport</placeName><lb/> to <placeName>Newark</placeName> is a wise one I think.<lb/>
+        </p>
+        <p>
+          While it is true as you say that<lb/> an agent has been in <placeName>Newark</placeName>, if <unclear reason="faded" resp="#jd">I have</unclear><lb/> been rightly informed he accomplished<lb/> nothing. Indeed it can hardly be said that<lb/> he made an effort. This I <unclear reason="faded" resp="#jd"/>learned from<lb/> the agent himself <unclear reason="faded" resp="#jd">and <gap reason="illegible" unit="word"/>thereto</unclear><lb/> Rev. Mr. <persName>Morris</persName> gave me the same<lb/> idea. The agent went under Porter Coates'<lb/> <unclear reason="faded" resp="#jd">auspices</unclear>, not mine. I shall be very<lb/> happy to present a copy to Rev. <persName>Morris</persName> +<lb/> also a copy or two to leading <unclear reason="faded" resp="#jd">papers</unclear>.<lb/> I will look over my list and see if the<lb/> papers <del rend="strikethrough">they</del> have been furnished - if they<lb/> have I do not want them to have duplicate<lb/> copies.
+	      </p>
+        <pb n="2"/>
+          <p>
+            On Saturday evening I went up<lb/> to <placeName>Burlington</placeName> to see <persName ref="#stilllas">Aunt Viney</persName> + and<lb/> passed a short visit with them most<lb/> pleasantly.
+          </p>
+          <p>
+	      Mr <persName>Jones</persName> is a little better<lb/> but fast in bed <unclear reason="faded" resp="#jd">yet</unclear> and I think <unclear reason="faded" resp="#jd">him</unclear><lb/> in a precarious condition. He seems to<lb/> feel conscious of the importance of making<lb/> peace with his god ere he departs<lb/> and I hope and trust he may.
+          </p>
+          <p>
+	      I was aware that <unclear reason="faded" resp="#jd">Duieger</unclear><lb/> entertained a good opinion of <persName>Harvey</persName>’s<lb/> ability to push the U.G.R.R. but as yet<lb/> he has not set the world on fire. “Too many<lb/> books,” I think with you, is the cause<lb/> of failure with too many agents - and<lb/> I am therefore opposed to giving agencies<lb/> to persons thus encumbered.<lb/>
+        </p>
+        <p>
+	      We are all pretty well this<lb/> morning and the rain is coming down<lb/> in good earnest.
+        </p>
+        <closer>
+          <salute>Yours affectionately</salute>
+          <signed><persName ref="#stillwi"><choice><abbr>W</abbr><expan>William </expan></choice> Still</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>

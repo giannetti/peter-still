@@ -463,13 +463,17 @@
                     <birth when-iso="1810" cert="medium">
                         <placeName>North Carolina</placeName>
                     </birth>
+                    <death when="1878-03-05"><placeName>Philadelphia, PA</placeName></death>
                     <residence><placeName>Burlington, NJ</placeName></residence>
-                    <bibl>
-                        <title>United States Census, 1860</title>
-                        <ptr
-                            target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"
-                        />
-                    </bibl>
+                    <listBibl>
+                        <bibl>Ancestry.com. Philadelphia, Pennsylvania, U.S., Death Certificates Index, 1803-1915 [database on-line]. Provo, UT, USA: Ancestry.com Operations, Inc., 2011.</bibl>
+                        <bibl>
+                            <title>United States Census, 1860</title>
+                            <ptr
+                                target="https://familysearch.org/ark:/61903/3:1:33SQ-GBSQ-D2P?cc=1473181&amp;amp;wc=7QPF-BZG%3A1589430930%2C1589430928%2C1589431303"
+                            />
+                        </bibl>
+                    </listBibl>
                 </person>
                 <person xml:id="stillca" sex="2">
                     <persName>
