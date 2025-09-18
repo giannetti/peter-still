@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from William Still to Angelina Still, August 20, 1873</title>
+        <author>
+          <persName ref="#stillwi">William Still</persName>
+        </author>
+        <respStmt>
+          <resp> Transcription and encoding by </resp>
+          <name xml:id="jd"> Jessica De Paola </name>
+        </respStmt>
+        <principal xml:id="fg"> Francesca Giannetti </principal>
+      </titleStmt>
+      <extent><measure unit="page" quantity="1">One page</measure></extent>
+      <publicationStmt>
+        <publisher>Rutgers University Libraries</publisher>
+        <availability>
+          <ab>Public domain.</ab>
+        </availability>
+        <authority>Transcribed from digital files from the Historical Society of Pennsylvania</authority>
+        <idno>hsp020</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Historical Society of Pennsylvania</repository>
+            <collection>Leon Gardiner collection of American Negro Historical Society records</collection>
+            <idno>0008</idno>
+            <msName>William Still--Letter Book [Ams .47] (1873-1874)</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, paragraph breaks, and indentations have been preserved within the 
+        transcription. The layout of the page has been preserved whenever possible. 
+        Abbreviations and spellings have been maintained within the transcriptions, 
+        and the full word and corrected or modern spellings have been provided. Images 
+        of the original letters have been provided in order to show the original page 
+        layout. Words or phrases that are deemed indecipherable have been noted as "unclear."
+        </p>
+        <hyphenation eol="none">
+          <p>Any dashes occurring in line breaks have been removed.</p>
+        </hyphenation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#stillwi">William Still</persName>
+          <placeName>Philadelphia, Pennsylvania</placeName>
+          <date when="1873-08-20">August 20, 1873</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#stillan">Angelina Still</persName>
+          <placeName cert="medium" resp="#fg">Burlington County, New Jersey</placeName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>African Americans--Biography.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="#fg" when="2025-08-13">first pass, added project id and reference to Vina Still</change>
+    </revisionDesc>
+  </teiHeader>
+  <standOff> 
+    <listPerson>
+        <person xml:id="stillwi" sex="1">
+          <persName>
+            <surname>Still</surname>
+            <forename>William</forename>
+          </persName>
+          <birth notBefore="1821-10-07" notAfter="1821-11-17">
+            <placeName>Burlington, New Jersey</placeName>
+          </birth>
+          <death when="1902-07-14">
+            <placeName>Philadelphia, Pennsylvania</placeName>
+          </death>
+        </person>
+         <person xml:id="stillan" sex="2">
+          <persName>
+            <surname>Still</surname>
+            <forename>Angelina</forename>
+          </persName>
+          <birth when-iso="1844">
+          </birth>
+          <death when-iso="1896">
+          </death>
+        </person>
+      <person xml:id="stilllas" sex="2">
+        <persName>
+          <surname type="married">Still</surname>
+          <surname type="given">Sisson</surname>
+          <forename>Lavinia</forename>
+        </persName>
+        <persName type="alias">Vina Still</persName>
+        <birth when-iso="1810" cert="medium">
+          <placeName>North Carolina</placeName>
+        </birth>
+        <death when="1878-03-05"><placeName>Philadelphia, PA</placeName></death>
+        <residence><placeName>Burlington, NJ</placeName></residence>
+      </person>
+    </listPerson>
+  </standOff>
+  <text>
+    <body>
+      <pb n="1" />
+        <opener>
+          <dateline>
+            <date when="1873-08-20">Aug. 20<hi rend="superscript">th</hi> 3</date>
+          </dateline>
+          <salute>Dear <persName ref="#stillan">Angie</persName>:</salute>
+        </opener>
+        <p>
+          Yours of the 18<hi rend="superscript">th</hi> just came<lb/> to hand this morning just as I was about<lb/> starting for the court house, and as I was<lb/> liable to be fined one hundred dollars for not<lb/> being in my place in time, I did not even<lb/> stop to read my letters before going. At an<lb/> early moment after reaching the court house<lb/> I opened my letters and was particularly interested<lb/> with yours and one other at least.<lb/> Yours relieved my mind with regard<lb/> to the chair and the other one contained<lb/> an order for 48 U.G.R.R. books.
+        </p>
+        <p>
+          Of course I should have complied<lb/> with your request with regard to sending<lb/> it today (“Wednesday”) I had been at liberty<lb/> so to do. It shall be sent Thursday (tomorrow)<lb/> however. It was out of our power to<lb/> come up Saturday last and I am almost<lb/> afraid to promise you that we will<lb/> come next Saturday, yet if it clears<lb/> up nicely before then I rather think you<lb/> will see us if we come. I went up on the<lb/> 6 o’clock boat last Saturday to <placeName>Burlington</placeName> and<lb/> passed the evening and best part of Sunday at<lb/> Aunt <persName ref="#stilllas">Vina</persName>’s and returned again Sunday eve.
+        </p>
+        <p>
+          If we shall decide to come this week<lb/> you will most likely get a letter from<lb/> me on Friday or Saturday morning.
+        </p>
+        <closer>
+          <salute >Your affectionate uncle</salute>
+           <signed><persName ref="#stillwi"><choice><abbr>W</abbr><expan>William</expan></choice> Still</persName></signed>
+        </closer>
+    </body>
+  </text>
+</TEI>
