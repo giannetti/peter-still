@@ -349,8 +349,20 @@
                         />
                     </bibl>
                 </person>
+                <person xml:id="stillrog" sex="1">
+                    <persName>
+                        <reg>Robert George Still</reg>
+                        <surname>Still</surname>
+                        <forename>Robert</forename>
+                        <forename>George</forename>
+                    </persName>
+                    <birth when-iso="1861"/>
+                    <death when-iso="1896"/>
+                    <note resp="#fg">Youngest son of <rs ref="#stillwi">William</rs> and <persName ref="#stillleg">Letitia George Still</persName>.</note>
+                </person>
                 <person xml:id="stillwi" sex="1">
                     <persName>
+                        <reg>William Still</reg>
                         <surname>Still</surname>
                         <forename>William</forename>
                     </persName>
